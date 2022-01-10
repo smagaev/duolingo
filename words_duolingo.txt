@@ -1353,4 +1353,46 @@ hole                                :   дыра
 drums                               :   барабаны
 concentrate                         :   сосредоточиться
 falling as sleep                    :   засыпает
-taps                                :   хлопает 
+taps                                :   хлопает
+embarrasing                         :   стыдно
+whisper                             :   шепчутся
+over there                          :   вон там
+walks over to                       :   подходит к
+is picking up                       :   забирает
+absolutely                          :   разумеется
+remind                              :   напомнить
+in such a long time                 :   столько времени
+scare                               :   распугать
+missed                              :   пропустил
+hang out                            :   проводить время
+it seems like                       :   кажется
+waves                               :   машет
+grabs                               :   хватает
+raises                              :   подднимает
+i don't care                        :   мне плевать
+are rained                          :   испорчены
+sprinkler                           :   распылитель
+actually                            :   вообщето
+much cooler                         :   намного круче
+firefighter                         :   пожарный
+coffee shop                         :   кофейня
+are you asleep                      :   ты спишь
+extremely tired                     :   очень устала
+is gone                             :   нет
+tight jeans                         :   узкие джинсы
+fancy car                           :   роскошная машина
+bench                               :   лавочка
+sweat                               :   пот
+olympics                            :   олимпиада
+dusty tea set                       :   пыльный чайный сервиз
+indecisive                          :   нерешительная
+researched it online                :   посмотрела в интернете
+unfair                              :   несправедливо
+does anyone want tea                :   кто нибудь хочет чая
+it's worth                          :   он стоит
+amusement park                      :   парк развлечений
+rides                               :   атракционы
+eye patch                           :   повязка на глаза
+fake beard                          :   накладная борода
+this is crazy                       :   это безумие
+babysiting                          :   присматривать
