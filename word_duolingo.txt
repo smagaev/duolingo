@@ -1,0 +1,1356 @@
+calm                                :    спокойствие                               
+cries                               :    кричит                                    
+humid                               :    влажный                                   
+sensitive                           :    чувствительный                            
+blind                               :    blind                                     
+bathe                               :    купаться                                  
+deaf                                :    мертвый                                   
+on sick leave                       :    на больничном                                
+health insurance                    :    медицинская страховка                     
+dolphin                             :    дельфин                                   
+mole                                :    крот                                      
+ache                                :    болеть, ныть                              
+mane                                :    грива                                     
+herd                                :    стадо                                     
+deer                                :    олень                                     
+rat                                 :    крыса                                     
+fly                                 :    муха                                      
+butterfly                           :    бабочка                                   
+ant                                 :    муравей                                   
+camel                               :    верблюд                                   
+donkey                              :    обезьяны                                  
+rats                                :    крысы                                     
+swans                               :    лебеди                                    
+parrot                              :    попугай                                   
+lawn                                :    газон                                     
+wild                                :    дикий                                     
+underwear                           :    нижнее белье                              
+wear                                :    носить                                    
+slippers                            :    тапочки                                   
+jaw                                 :    челюсть                                   
+get used to                         :    раньше                                    
+ironed                              :    поглаженный                                
+sleeves                             :    рукава                                    
+collar                              :    воротник                                  
+pocket                              :    карман                                    
+envelope                            :    конверт                                   
+faux                                :    искусственный                              
+legs                                :    ноги                                      
+truth                               :    правда                                    
+scissors                            :    ножницы                                   
+beverages                           :    напиток                                   
+sadness                             :    грусть                                    
+sponge                              :    губка                                     
+sad                                 :    печальный                                 
+owl                                 :    сова                                      
+surgeries                           :    операции                                         
+on maternity leave                  :    в декретный отпуск                        
+pregnant                            :    беременная                                
+pregnancy                           :    беременность                              
+midwife                             :    акушерка                                  
+gave birth                          :    родила                                    
+contractions                        :    схватки                                   
+painful                             :    болезненный                               
+gave up smoking                     :    бросить курить                            
+got pregnant                        :    забеременела                              
+quite                               :    довольно                                  
+labor                               :    роды                                      
+lasted                              :    длилось                                   
+is it true                          :    правда ли                                 
+cries                               :    кричит                                    
+each time                           :    каждый раз                                
+diaper                              :    подгузник                                 
+poop                                :    какать                                    
+pee                                 :    писать                                    
+to keep breastfeeding               :    продолжать грудное кормление              
+as soon as                          :    как только                                
+he is teething                      :    у него режутся зубки                      
+solid                               :    твердый                                   
+chew                                :    жевать                                    
+to chew on                          :    погрызть                                  
+teeth                	            :    зубы                                      
+was not old enough                  :    не был достаточно взрослый                
+swaddle                             :    пеленать                                  
+wakes me up                         :    будит меня                                
+quiet                               :    тихий
+quietly                             :    тихо                       
+calmed                              :    успокоил                                  
+calmly                              :    спокойно                                  
+pacifier                            :    соска                                     
+newborn                             :    новорожденный                             
+chew on her pacifier                :    грызть свою соску                         
+rattles                             :    погремушки                                
+is crawling                         :    ползет                                    
+starts crawling                     :    начал ползать                             
+pregnant with twins                 :    беременна двойней                         
+gain weight                         :    набирают вес                              
+crying twins                        :    плачущие близнецы                         
+give him a call                     :    позвонить ему                             
+shaved                              :    побрился                                  
+to fall in love                     :    влюбиться                                 
+before bed                          :    перед сном                                
+otherwise                           :    иначе                                     
+if there is anything else           :    если есть что ни будь еще                  
+if there is nothing else            :    ecли нет ничего другого                   
+recently                            :    недавно                                   
+hold                                :    держать                                   
+being                               :    быть                                      
+less                                :    менее                                     
+he must be hungry                   :    он должно быть голодный                   
+up to ten times a day               :    до десяти раз в день                      
+at a New Year's Eve party           :    на вечеринке по случаю Нового Года        
+date more people                    :    встречаться с большим числом людей        
+what do you mean                    :    что ты имеешь ввиду                       
+hate                                :    ненавижу                                  
+why things have to change           :    почему что то должно измениться            
+guy                                 :    парень                                    
+past them                           :    мимо них                                  
+walks away                          :    отходит                                   
+can i get you a drink               :    могу я купить тебе вина                   
+actually....                        :    вообще-то                                 
+be friends                          :    дружить                                   
+with someone                        :    с кем-то                                  
+to change                           :    меняться                                  
+hall                                :    коридор                                   
+for the last time                   :    последний раз(говорю)                     
+prefect grade                       :    отличную оценку                           
+we'll get married                   :    мы поженимся                              
+a cat named Fellini                 :    кот по кличке фелини                      
+ugly                                :    ужасный                                   
+slow                                :    медленный                                 
+going to                            :    собираться, буду                                
+leave                               :    оставлять, уходить                        
+think                               :    думать                                    
+interrupt                           :    прерывать                                 
+midnight                            :    полночь                                   
+stop talking                        :    прекрати разговаривать                    
+noon                                :    полдень                                   
+get                                 :    получать                                  
+worse                               :    хуже                                      
+shave                               :    бриться                                   
+dress                               :    одеваться                                 
+undress                             :    раздеваться                               
+behave                              :    вести себя                                
+than before                         :    чем раньше                                
+then                                :    затем, тогда, потом, в то время, ...      
+than                                :    чем, кроме, как, чтобы                    
+behave like that                    :    ведут себя так                            
+what to do next                     :    что делать дальше                         
+fever                               :    жар                                       
+give up smoking                     :    бросать курить                            
+is in pain                          :    болит                                     
+pain                                :    боль                                      
+blood pressure                      :    кровяное давление                         
+allergy                             :    аллергия                                  
+dangerous                           :    опасно                                    
+height                              :    рост                                      
+hurt                                :    болит                                     
+blind                               :    слепой                                    
+pressure                            :    давление                                  
+disease                             :    заболевание                               
+physician                           :    врач                                      
+def                                 :    глухой                                    
+vaccination                         :    прививка                                  
+services                            :    услуги                                    
+medical                             :    медицинские                               
+symptoms                            :    симптомы                                  
+cough                               :    кашель                                    
+nurse                               :    медбрат                                   
+surgeon                             :    хирург                                    
+prescribe                           :    прописал                                  
+lice                                :    вши                                       
+nausea                              :    тошнота                                   
+medicine                            :    лекарство                                 
+stretch                             :    протягивать                               
+sсratched                           :    поцарапал, почесал                        
+he had to swallow                   :    ему приходилось глотать                   
+pill                                :    таблетка                                  
+wounds                              :    раны                                      
+bruises                             :    синяк                                     
+again soon                          :    снова в ближайшее время                   
+honestly                            :    честно говоря                             
+terrible                            :    ужасный                                   
+the whole date                      :    в течении всего свидания                  
+taking care of my dog               :    присматривает за моей собакой             
+shy                                 :    застенчивый                               
+too much                            :    слишком много                             
+attractive                          :    привлекательный                           
+amazing                             :    невероятный, потрясающий, замечательными      
+fluenza                             :    грип                                      
+flu                                 :    грип                                      
+heart surgery                       :    операция на сердце                        
+never                               :    никогда                                   
+get rid of                          :    избавиться                                
+tail                                :    хвост                                     
+fox                                 :    лисица                                    
+predators                           :    хищник                                    
+wolves                              :    волки                                     
+lions                               :    львы                                      
+it give us right                    :    это дает нам право                        
+donkey                              :    осел                                      
+bull                                :    бык                                       
+horn                                :    рог                                       
+quarter                             :    четверть                                  
+goat                                :    коза                                      
+hoof                                :    копыто                                    
+hooves                              :    копыта                                    
+hamster                             :    хомяк                                     
+almost                              :    почти                                     
+rabbit                              :    кролики                                   
+mice                                :    мыши                                      
+squirrels                           :    белки                                     
+instead of                          :    вместо                                    
+get                                 :    получать                                  
+by the time                         :    к тому времени                            
+by nineteen sixty eight             :    к 1968                                    
+cook                                :    готовить                                  
+send                                :    послать                                   
+earlier                             :    раньше                                    
+come                                :    приходить                                 
+divorce                             :    развелись                                 
+could                               :    мог
+which                               :    которое                   
+oneself                             :   кто-нибудь сам
+proud                               :   гордиться
+believe                             :   верить
+trus                                :   доверять
+to be yourself                      :   быть собой 
+all of you                          :   все из вас
+being able to think for             :   быть способным думать за
+whale                               :   кит 
+raccoon                             :   енот 
+beavers                             :   бобры
+mammals                             :   млекопитающих
+hare                                :   заяц
+claws                               :   когти
+while                               :   тогда, тогда как
+only                                :   единственное
+much smaller                        :   намного меньше
+at once                             :   за раз
+once more                           :   еще раз
+has he ever seen                    :   он когда нибудь видел
+ever                                :   когда нибудь
+at least                            :   как минимум
+only once                           :   только однажды
+twice                               :   дважды
+thrice                              :   трижды
+rate                                :   курс
+it cos him his life                 :   это стоило ему его жизни
+annual profit                       :   годовая прибыль
+donate                              :   пожертвовать
+expenses                            :   расходы
+worth reading                       :   стоит прочтения
+bank account                        :   банковский счет
+horror movies                       :   ужасные фильмы	
+throws                              :   выбрасывает
+trash                               :   мусор
+extra chocolate                     :   двойной шоколад
+no until tomorrow                   :   не раньше чем завтра
+raven                               :   ворон 
+crow                                :   ворона
+throw the ball                      :   бросить мяч
+whoa                                :   эй
+feather                             :   перо 
+wings                               :   крылья
+eagle                               :   орел
+goose                               :   гусь
+beak                                :   клюв
+duck                                :   утка
+gees                                :   гуси
+mosquito                            :   комар
+spider                              :   паук
+bees                                :   пчелы
+insect                              :   насекомое
+bee                                 :   пчела
+up there                            :   там наверху
+either  or                          :   либо либо (ни ни)
+worms                               :   черви
+shark                               :   акула
+call                                :   назвать
+octopus                             :   осьминог
+snail                               :   улитка
+turtles                             :   черепахи
+early                               :   ранняя
+frogs                               :   лягушки
+sparrow                             :   воробей
+penguin                             :   пингвин
+crow                                :   ворона
+gull                                :   чайка 
+dove                                :   голубь
+ravens                              :   вороны
+berry                               :   ягода 
+stomach                             :   живот 
+punish                              :   наказывать
+care                                :   заботиться, беспокоиться
+causes                              :   причин
+supported                           :   поддержала
+drew                                :   нарисовала
+entrance                            :   вход 
+deal                                :   иметь дело
+forever                             :   вечно 
+measure                             :   измерить
+reached                             :   достигла
+elevator                            :   лифт
+unfortunately                       :   к несчастью, к сожалению
+reach                               :   добраться, достигать
+age                                 :   возраст
+suddenly                            :   вдруг 
+appeared                            :   появилась
+unfair                              :   несправедливый
+fair                                :   справедливо
+accident                            :   несчастный случай, катастрофа
+expect                              :   ожидаешь
+sudden                              :   внезапный
+it appears                          :   видно 
+suddenly                            :   внезапно, вдруг
+right in front me                   :   прямо передо мной
+ran away                            :   убежал
+late night                          :   поздно ночью
+you are late                        :   вы опоздали
+actions                             :   действия
+to take action                      :   действовать
+i feel like seeing                  :   мне хочется увидеть
+fortune                             :   состояние
+lay                                 :   лежали
+lie down                            :   ложись
+when it was hot                     :   когда бывало жарко 
+education                           :   образование
+by mistake                          :   по ошибке
+female                              :   женщины
+attempts                            :   попытки
+purpose                             :   цель
+take care of it                     :   позабочусь об этом
+per day                             :   в день
+happen                              :   происходят 
+male doctors                        :   мужчины врачи
+views on education                  :   взгляды на образование
+seeing                              :   видеть
+dish                                :   блюдо
+oven                                :   печь
+door handle                         :   дверная ручка
+whoever you are                     :   кто бы ты не был
+a cupcake to go                     :   пирожное на вынос
+the floor is wet                    :   пол мокрый 
+narrow                              :   узкая
+shallow                             :   мелкая
+wide                                :   широкая
+temple                              :   храм
+dormitory                           :   общежитие
+railroad station                    :   железнодорожная станция
+stream                              :   течение
+hill                                :   холм
+earth                               :   земле
+mosque                              :   мечеть
+tiny                                :   крошечный
+roommate                            :   сосед по квартире
+rent                                :   аренда
+sind                                :   грех
+hint                                :   намекать
+wind                                :   ветер
+moon                                :   луна
+sky                                 :   небо
+ended                               :   закончилось
+chores                              :   работу по дому
+shore                               :   берег
+groceries                           :   продукты
+clip                                :   зажим
+dirty                               :   грязная
+steal                               :   красть
+shower                              :   душ
+сheap                               :   дешевый
+mess                                :   беспорядок
+movers                              :   грузчики
+helpful                             :   готовы помочь
+aunt                                :   тетя
+uncle                               :   дядя
+hoped                               :   надеяться
+rate                                :   скорость
+sort of                             :   вроде
+totally gorgeous                    :   совершенно великолепно
+rotund belly                        :   пухлый живот
+zip                                 :   застегивать
+pointy                              :   острый
+doomed                              :   обреченная любовь
+discusses                           :   обсуждает
+risked                              :   рисковал
+recommended                         :   рекомендовал
+delay                               :   откладывать
+recall                              :   припоминаю 
+denies                              :   отрицает
+admit                               :   признавать
+somehow                             :   как-то
+kept                                :   продолжали
+mean                                :   значить                                    
+forget                              :   забывать
+law                                 :   закон
+pillow                              :   подушка
+favor                               :   одолжение
+hind                                :   задняя
+unless                              :   если только
+currency                            :   валюта
+broke up with him                   :   разошлась с ним
+profile                             :   профиль
+fell of horse                       :   упал с лошади
+line                                :   очередь 
+met                                 :   встретила
+through                             :   сквозь
+wood                                :   древесина
+found                               :   нашли
+receipt                             :   чек
+sausages                            :   сосиски
+sausage                             :   колбаса
+sauce                               :   соус
+science                             :   наука
+just like yours                     :   прямо как у тебя
+dream                               :   мечтать
+exactly terrific                    :   совершенно потрясающе
+exactly                             :   точно
+pull                                :   тянуть
+beady                               :   бусинка
+fight                               :   борьба
+mortal enemies                      :   смертные враги
+who cares                           :   какая разница
+all alone by yourself               :   в полном одиночестве 
+no one for to talk at               :   не с кем поговорить
+anyway                              :   в любом случае
+i got to ask                        :   я должен спросить
+got up                              :   встать
+got on                              :   сесть в транспорт
+got off                             :   выйти из транспорта
+got away                            :   уйти
+got it coming                       :   заслужить, получить по заслугам
+got it in for                       :   иметь зуб на кого-либо   
+got back                            :   вернуться
+got it                              :   понятно
+got you                             :   ага, попался!
+to got the knock                    :   вылететь с работы, провалиться
+dumpy place                         :   унылое место
+i be right back                     :   я скоро вернусь
+here it comes                       :   вот оно
+don't hold back                     :   не сдерживайся
+definite                            :   определенный
+improvement                         :   улучшение
+penmanship                          :   почерк
+awwed                               :   испуганный                   
+go on                               :   продолжай
+make a wish                         :   загадай желание 
+it's kind of hard                   :   это довольно сложно
+confession                          :   признание
+mower                               :   косилка
+overprotective                      :   чрезмерно опекающий
+imagine                             :   представлять
+whole life                          :   вся жизнь
+raised me                           :   вырастила меня 
+guys                                :   ребята 
+kind of like                        :   это вроде как
+promise                             :   обещаю
+caught a cold                       :   простудился
+pear                                :   груша
+lock the dor                        :   запри дверь
+trap                                :   ловушка
+soap                                :   мыло
+coins                               :   монеты
+chain                               :   цепочка
+stamps                              :   марки
+towels                              :   полотенца
+answering maсhine                   :   автоответчик
+washing machine                     :   стиральная машина
+even                                :   духовка
+spice vegetables dishes             :   пряные овощные блюда
+knives                              :   ножей
+hook                                :   крючок
+set of instruments                  :   наборы инструментов
+rope                                :   веревка
+bubbles                             :   пузыри
+backpack                            :   рюкзак
+humans                              :   люди
+king                                :   король
+naturally                           :   естественно
+gifted artist                       :   художник
+queen                               :   королева
+soldier                             :   солдат
+members                             :   членов
+stranger                            :   чужой
+deal with the prince                :   разобраться с принцем
+suspect                             :   подозреваемый
+owner                               :   хозяин, владелец
+whoever you are                     :   кто бы ты ни был
+whoever                             :   кем бы не был
+passenger                           :   пассажир
+customer                            :   покупатель
+hunter                              :   охотник
+play rehearsal                      :   репетиция пьесы
+glasses                             :   очки
+maybe                               :   может быть
+glove box                           :   перчаточный ящик
+vehicle                             :   транспортное средство
+truck                               :   грузовик
+intersection                        :   перекресток
+lanes                               :   полос
+permit                              :   пропуск
+sharp                               :   строго
+thicker                             :   толще
+thinner                             :   худее
+dear                                :   дорогая
+purest                              :   самая чистая
+smooth                              :   гладкая
+round                               :   круглые
+musical                             :   музыкальный 
+piece                               :   пьеса
+flat                                :   плоскую, спущены
+simple                              :   просто
+strangest                           :   самый странный
+difficulties                        :   сложности
+there are still                     :   до сих пор
+difficulty                          :   затруднение
+funnier                             :   забавнее
+generous                            :   щедрый
+shy                                 :   застенчивая
+safest                              :   самое безопасное
+kinder                              :   добрее
+cleaner                             :   более чистый
+useful                              :   полезный
+teach                               :   учить 
+sharp                               :   tomorrow
+luck                                :   удача
+heat                                :   жара
+at seven sharp                      :   строго в семь
+pure                                :   чистая
+funniest day                        :   самый забавный
+tinner                              :   худой
+thick                               :   толстый
+guitar                              :   гитара
+castles                             :   замки
+pool                                :   бассейн
+temple                              :   храм
+tower                               :   башня
+dormitory                           :   общежитие
+synagogue                           :   синагога
+church                              :   церковь
+stone                               :   каменный
+well                                :   колодец 
+island                              :   остров
+waves                               :   волны
+stream                              :   течение, поток
+run away                            :   убегайте
+space                               :   космос
+cloud                               :   облако
+lying                               :   лежали
+sun                                 :   солнце
+gym                                 :   тренажерный зал
+exercising                          :   заниматься, упражнения
+noise                               :   звук
+weird                               :   странный
+getting order                       :   стареешь
+forgot                              :   забыла
+walks past                          :   проходит мимо
+witch someone                       :   с кем то
+perfect                             :   не совершенна
+perfect grade                       :   отличную оценку
+scooter                             :   скутер, мопед
+texting                             :   переписывалась
+letters                             :   письма
+south                               :   юг
+east                                :   восток
+west                                :   запад 
+north                               :   север
+continents                          :   материков 
+airplane                            :   самолет
+direction                           :   направление
+in which direction                  :   в каком направлении
+surface                             :   поверхность
+was still                           :   было спокойным
+moss                                :   мох 
+rocks                               :   камни
+swamp                               :   болото 
+further                             :   дальше
+stole                               :   украл
+rejected                            :   отвергли
+accept                              :   принимать
+kick                                :   пнуть
+pet                                 :   домашняя
+hedgehog                            :   ежик 
+well                                :   ну
+definitely                          :   определенно, несомненно
+oh my gosh                          :   боже
+out of town                         :   за городом
+dramas                              :   драмы
+comedies                            :   комедии
+especially                          :   особенно
+grilled                             :   пожарили
+looking for forward                 :   предвкушают
+finally                             :   наконец 
+fried                               :   жареный
+omelet                              :   омлет
+climb                               :   подняться 
+probably                            :   наверноe
+wedding                             :   свадьба
+surprised                           :   удивлена
+bride                               :   невеста
+lazy                                :   ленивый
+stay                                :   останемся
+cost                                :   стоить
+delicious                           :   очень вкусно
+trail                               :   тропинка
+i am thirsty                        :   я хочу пить
+thirsty                             :   жаждущий
+come on                             :   давай
+one more                            :   еще одна
+pretty                              :   красивый
+won                                 :   выиграла
+is to the west of the hotel         :   на западе от этого отеля
+how blue the sky is                 :   какое небо голубое
+in which direction                  :   в каком направлении
+it started to rain                  :   пошел дождь
+unless she thinks otherwise         :   если только она не думает иначе
+recipe                              :   рецепт
+stove                               :   плита 
+it smells                           :   пахнет 
+meal                                :   блюдо
+picks up                            :   выбирает
+inside                              :   внутрь
+advice                              :   совет
+who to marry                        :   на ком жениться
+belonged to                         :   принадлежала
+grandpa                             :   дедушка
+through the city                    :   по городу
+suitcase                            :   чемодан
+excited                             :   взволнован
+drove                               :   уехали
+where driving                       :   ехали
+droff of the road                   :   съехали с дороги
+to escape                           :   сбежать
+spies                               :   шпионы
+forget i said anything              :   забудь что я сказала
+road                                :   дорога
+whose feather is it                 :   чье это перо
+offer                               :   предложение
+throat                              :   горло 
+neck                                :   шея
+scratch                             :   царапина
+nous                                :   нос
+chilly                              :   прохладно
+foggy                               :   облачно
+belongs                             :   принадлежит
+shook hands                         :   пожали руки
+pretends                            :   притворяется
+pulling                             :   тянет
+dropped                             :   уронили
+repeated                            :   повторил
+coach                               :   тренер
+treated                             :   относился
+treat                               :   относится
+belonged                            :   принадлежали
+roof                                :   крыша
+shook                               :   покачала
+smiling                             :   улыбаемся
+danger                              :   опасность
+are the red scissors yours          :   эти красные ножницы твои
+toothbrush                          :   зубная щетка
+push                                :   толкать
+stepped                             :   наступил
+step                                :   шаг
+licks                               :   лизать                    
+squeezed                            :   стиснула
+raise                               :   растить
+chew                                :   прожевывать
+bitten                              :   покусан
+key                                 :   ключ
+blink                               :   моргать
+blows                               :   дуть
+chose                               :   выбрал
+gigging                             :   копает
+dug out                             :   откапала
+stretched                           :   растянул
+stretch                             :   разминать
+workout                             :   тренировка
+chasing                             :   преследовать
+sand                                :   песок
+she pretend to be my friend         :   она притворятся моим другом
+he pushed away from him             :   он оттолкнул ее от себя
+for a long time                     :   долго
+best-known                          :   наиболее известных
+along the street                    :   вдоль по улице
+held                                :   держал
+staff                               :   персонал
+to work                             :   работать
+good job                            :   молодец
+all the messages                    :   все сообщения
+a hundred  museums                  :   сто музеев  
+hagged                              :   обнял
+kissed                              :   поцеловал      
+it was getting chilly               :   становилось прохладно
+allow                               :   позволять
+cab                                 :   такси
+placed                              :   положил
+trunk                               :   багажник
+tires                               :   покрышки
+engine                              :   двигатель
+hood                                :   капот
+replacements                        :   замена 
+wheels                              :   колес
+wheelchair                          :   инвалидное кресло
+pump                                :   насос
+rush hour                           :   час пик
+ignition                            :   зажигание
+gas                                 :   газон
+she took a detour                   :   она поехала в объезд
+fuel                                :   топливо
+traffic jam                         :   пробка 
+truck                               :   грузовик
+six-lane highway                    :   шести полосное шоссе
+dangerous                           :   опасный
+at the next intersection            :   на следующем перекрестке
+difficult                           :   затруднено
+impossible                          :   невозможно
+six cylinder engine                 :   шестицилиндровый двигатель
+replacements for wheels             :   замена колес
+whom                                :   кого
+a year ago                          :   год назад
+fasten                              :   пристигните
+seat belt                           :   ремни безопасности
+rare brakes                         :   задние тормоза
+reverse gear                        :   задняя передача
+gears                               :   передачи
+list                                :   список
+quarter of our deer                 :   четверть наших оленей
+high blood pressure                 :   высокое кровяное давление
+my back is in pain                  :   моя спина болит
+a year ago                          :   год назад
+for a long time                     :   долго
+the other side of the stree         t   :   другая сторона улицы
+last night                          :   вчера вечером
+senses                              :   чувства
+attention                           :   внимание
+compare                             :   сравни
+humor                               :   юмор
+thoughts                            :   мысли
+does not matter                     :   не имеет значения
+matter                              :   вещество, дело
+matter of time                      :   дело времени
+mind                                :   ум 
+common sense                        :   здравый смысл
+goes against                        :   противоречит
+nothing else matters                :   ничто другое не имеет значения
+real                                :   настоящая
+familiar                            :   знакомые
+point                               :   смысл, точка
+intuition                           :   интуиция
+nightmare                           :   кошмар
+reality                             :   реальность
+dream                               :   мечта
+will come true                      :   сбудется
+ignoring                            :   игнорируешь
+decided                             :   решает
+mentioned                           :   упомянула
+reminder                            :   упоминание
+obvious                             :   очевидно
+decision                            :   решение
+taught                              :   научил 
+remind                              :   напомнила
+studies                             :   занятия
+prove                               :   докажу
+explains                            :   объясняет
+blame                               :   вина, винить
+took the blame                      :   взять вину на себя
+memories                            :   воспоминания
+for their ignorance                 :   невежество
+judge                               :   cудить
+scored                              :   набрал
+opinion                             :   мнение
+point of view                       :   точкой зрения
+fans                                :   фанаты
+call it a day                       :   закончить на этом
+freedom                             :   свобода
+soсiety                             :   общество
+vote                                :   голосовать
+population                          :   население
+court                               :   суд
+mayor                               :   мэр
+election                            :   выборы
+teenagers                           :   подростки 
+poverty                             :   бедности
+wealth                              :   богатство
+state                               :   государство, штат
+progressing                         :   развивается
+progress                            :   успехи
+anthem                              :   гимн
+nature                              :   природа
+army                                :   армия
+power                               :   сила
+threat                              :   угроза
+crime                               :   преступность, преступление
+crime rate                          :   уровень преступности
+threat                              :   угроза
+war crime                           :   военное преступление
+authorities                         :   власти
+because of the                      :   из-за
+investments                         :   инвестиции
+embassy                             :   посольство
+weapon                              :   оружие
+strike                              :   забастовка
+innocent                            :   невиновен
+civil society                       :   гражданское общество
+to bribes                           :   взяткам
+sung                                :   пел 
+decreased                           :   убывающий
+debt                                :   долг
+increase                            :   увеличивать
+saving                              :   сбережения
+increasing                          :   увеличивающаяся 
+decreasing                          :   уменьшающаяся 
+at once                             :   одновременно
+taller                              :   выше 
+cooler                              :   круче 
+also                                :   также
+roommates                           :   соседи по квартире
+sunny                               :   солнечно
+windy                               :   ветрено
+amazing                             :   замечательный 
+coworker                            :   коллега
+grew                                :   выросла
+resort                              :   курорт
+rented                              :   арендовала
+trip                                :   поездка
+returned                            :   вернулся
+missed                              :   пропустили
+out of the town                     :   за городом
+on the eight                        :   восьмого
+guests                              :   гости
+shows up                            :   является
+agreed                              :   договорились
+forgive                             :   простишь
+laughing                            :   смеяться
+joke                                :   шутка
+will thank                          :   поблагодарим
+wedding                             :   свадьба
+feelings                            :   чувства
+apologizing                         :   извиняться
+apologize to her                    :   извиниться перед ней
+impression                          :   впечатление
+celebrating                         :   празднуем
+disappointed                        :   разочарован
+afraid                              :   боюсь
+doubts                              :   сомневается
+worried                             :   обеспокоен
+wish                                :   желание
+fireworks                           :   фейерверк
+decorated                           :   украсили
+wedding invitation                  :   свадебное приглашение
+praise                              :   хвалить
+praise yourself                     :   похвали себя
+deserve                             :   заслуживать
+success                             :   успех
+efforts                             :   усилия
+toward                              :   к, в сторону, ко
+goal                                :   цель 
+rewarded                            :   вознагражден
+congratulate                        :   поздравить
+achieving                           :   достижение 
+i am sorry to hear it               :   мне жаль слушать это
+i promised that i would try         :   я обещал что попробую
+a you joking                        :   вы шутите
+about something else                :   чем-то другим
+all the time                        :   все время
+drove                               :   ездил на машине
+grew up                             :   вырос
+strict                              :   строгий
+neighborhood                        :   район, окрестность
+fattest                             :   самая толстая 
+hottest                             :   самый жаркий
+beard                               :   борода
+as well                             :   тоже
+warm                                :   тепло
+isn't it                            :   не такли
+missed                              :   пропустили, скучали
+guests                              :   гости
+throwing                            :   бросает, организует
+plot                                :   сюжет
+scary                               :   страшный
+characters                          :   персонажи
+practice                            :   заниматься
+violin                              :   скрипка
+don't be late                       :   не опаздывай
+surf                                :   заниматься серфингом
+bottle                              :   бутылка
+climbed                             :   залезли
+main                                :   главный
+romantic                            :   романтично
+enjoyed                             :   понравилось
+ending                              :   конец
+popcorn                             :   попкорн
+movie theater                       :   кинотеатр
+comfortable                         :   комфортные
+on time                             :   вовремя
+luckily                             :   к счастью
+drive me                            :   отвезти меня
+drove them                          :   отвез их
+was delayed                         :   задержался
+relief                              :   облегчение
+make an appointment                 :   записаться на прием
+paint                               :   рисовать
+sit                                 :   сидеть 
+for a few hours                     :   несколько часов
+ride                                :   катаюсь
+ride horse                          :   кататься на лошади
+television                          :   телевизор
+bookstore                           :   книжный магазин
+supermarket                         :   супермаркет
+bowl                                :   тарелка
+cereal                              :   хлопья
+bowl of cereal                      :   тарелка хлопьев
+have juice for dinner               :   выпить сок на ужин
+vegetarian                          :   вегетарианец
+honey                               :   мед
+healthy                             :   полезен
+a tomato                            :   помидор
+potato                              :   картошку
+they are too hard to cook           :   ее слишком трудно готовить (potatoes)
+pork                                :   свинина
+wait for her                        :   подождать ее
+to be late                          :   опоздать
+arrived at the airport              :   приехали в аэропорт
+flight                              :   рейс
+what a relief                       :   какое облегчение
+slow down                           :   помедленнее
+met                                 :   познакомилась
+went                                :   ходила
+wore                                :   носила
+t-shirt                             :   футболка
+mom's only child                    :   единственным ребенком мамы
+sweater                             :   свитер
+anymore                             :   больше, уже
+i was seven                         :   мне было семь
+as well                             :   тоже
+long time ago                       :   давно
+the first time                      :   первый раз
+beard                               :   борода
+at what age                         :   в каком возрасте
+colorful                            :   разноцветная
+an omelet                           :   омлет
+a banana                            :   банан
+an allergy to eggs                  :   аллергия на яйца
+pork of beaf                        :   свинина или говядина
+these Russians                      :   эти русские
+these Americans                     :   эти американцы
+in the summer                       :   летом
+the only girl                       :   единственной девочкой
+prettier                            :   симпатичнее
+safer                               :   безопасней
+cheaper                             :   дешевле
+busiest                             :   оживленный
+look like                           :   похожи
+blond                               :   белокурый
+far                                 :   далеко
+away                                :   отсюда
+ready together                      :   собираться вместе
+will not come with us               :   не пойдет c нами
+get ready now                       :   собирайся сейчас
+leather                             :   кожаная
+grandparents                        :   дедушки и бабушки
+past me                             :   мимо меня
+most restaurants                    :   большинство ресторанов
+i will not get there                :   я не доберусь туда
+trendy                              :   модную
+block                               :   квартал 
+close                               :   близко
+close to the strore                 :   близко к магазину
+about two miles away                :   примерно в двух милях отсюда
+she's only block away               :   она только в квартале отсюда
+breaks                              :   перерывы
+go out                              :   гулять
+foreign                             :   иностранная 
+show                                :   представление
+exciting                            :   захватывающе
+you'll get hungry                   :   ты проголодаешься
+loud enough                         :   достаточно громко
+texts                               :   сообщения
+cracker                             :   крекер
+during                              :   во время, в течении
+autographs                          :   автографы
+let's get dessert                   :   давай съедим десерт
+DJ                                  :   ди-джей
+records                             :   пластинки
+motorcycle                          :   мотоцикл
+rode                                :   катались
+the century                         :   век
+the decade                          :   декада
+fewer                               :   меньше
+billions of rubles                  :   миллион рублей
+enough time for breakfast           :   достаточно времени для завтрака
+falling elevator                    :   падающий лифт
+die                                 :   умирать
+horoscopes                          :   гороскоп
+aren't real                         :   не настоящие
+spill                               :   пролить
+extra sweater                       :   запасной свитер
+libra                               :   весы
+thief                               :   вор
+for the past week                   :   всю прошлую неделю
+at guessing                         :   угадывать
+disgusting                          :   отвратительный
+turkey                              :   индейка
+the breakup                         :   расставание
+granddaughter                       :   внучка
+independence                        :   независимости
+exam                                :   экзамен
+magazines                           :   журналов
+waiter                              :   официант
+a lot more                          :   намного
+responsible                         :   ответственный 
+intelligent                         :   умный
+sunglasses                          :   солнцезащитные очки 
+mustache                            :   усы
+poke                                :   тыкаю
+mouth                               :   рот
+dry                                 :   сухо
+I going to lie down                 :   пойду прилягу
+dragon                              :   дракон
+groom                               :   жених
+are riding                          :   верхом на
+TV show                             :   телепередачи
+canceled                            :   отменила
+awful                               :   ужасно
+rarely                              :   редко
+bagels                              :   бублики
+athletes                            :   спортсмены
+while wearing                       :   в то время как на них
+trophy                              :   приз 
+dating                              :   романтическую 
+fighting over one woman             :   дерущихся за одну женщину 
+now that's boring                   :   вот это скучно
+spare                               :   запасной
+vacation house                      :   дом отпуска
+honeymoon                           :   медовый отпуска
+premiere                            :   премьера
+cousin                              :   двоюродный брат
+suit                                :   костюм
+limo                                :   лимузин
+mud                                 :   грязь 
+covered in mud                      :   покрыты грязью
+her date never arrived              :   ее кавалер так и не пришел
+are looking for a restaurant        :   ищут ресторан
+found out                           :   узнала
+salesperson                         :   продавщица
+walk up                             :   подходит
+at the counter                      :   возле прилавка
+this is the way                     :   таким способом
+employee                            :   работник
+tries                               :   пробует
+like art                            :   как искусство
+walks over to Oskar                 :   подходит к Оскару
+long line                           :   длинная очередь
+in long off                         :   перед
+front door                          :   входная дверь
+pick up                             :   забрать, собрать
+to the post office                  :   на почту
+points at a house                   :   показывает на дом
+miracle                             :   чудо
+a well-dressed woman                :   хорошо одетая женщина
+leaving the store                   :   уходящую из магазина
+purse                               :   сумочку
+scarf                               :   шарф
+the CEO                             :   директор
+photocopier                         :   ксерокс
+intern                              :   стажер
+guidebook                           :   путеводитель
+sidewalk                            :   тротуар
+sign                                :   знак
+straight ahead                      :   прямо напротив
+at least two hours                  :   минимум два часа
+is there any place                  :   есть какое то место
+to get to                           :   чтобы добраться
+that where                          :   вот туда
+get up                              :   вставать
+close to my house                   :   близко к моему дому
+walks over to them                  :   подходит к ним
+be quiet                            :   молчи
+noodles                             :   лапша
+one-way street                      :   улица с односторонним движением
+who's going to catch us             :   кто догонит нас
+spouse                              :   супруг
+siblings                            :   дети одного родителя (не близницы)
+cousin                              :   двоюродный(ая) брат, сестра
+relative                            :   родственники
+niece                               :   племянница
+nephew                              :   племянник
+for three dollars                   :   за три доллара
+will get there                      :   доберусь туда
+will get hungry                     :   проголодаюсь
+take the subway                     :   садись на метро
+get bored                           :   заскучать
+likewise                            :   взаимно
+go and do likewise                  :   иди и сделай тоже самое
+you can't talk loudly               :   нельзя разговаривать
+you can talk                        :   можешь разговаривать
+i want to get dessert               :   я хочу съесть десерт
+pants                               :   штаны
+the Beatles                         :   Битлз
+jackets                             :   куртки
+sang                                :   пела
+band                                :   группа
+well                                :   ну
+anyway                              :       во всяком случае, в любом случае,
+like                                :       как бы, типа
+you know                            :       знаешь…
+sort of / kind of                   :       типа…
+I mean...                           :       я имею в виду...
+you see                             :       видишь, понимаешь,
+so                                  :       так
+really                              :       действительно, серьёзно
+basically                           :       на самом деле, по сути
+in short / in a word / in brief     :       короче
+first of all / above all            :       прежде всего
+as to                               :       что касается
+what’s more                         :       кроме того
+by the way                          :       кстати
+after all                           :       в конце концов
+to say nothing of                   :       не говоря уже о…
+in other words                      :       другими словами
+on the contrary                     :       наоборот
+the thing is                        :       дело в том, что…
+in this picture                     :   на этой фотографии
+either                              :   тоже
+volcano                             :   вулкан
+festival                            :   фестиваль
+rare                                :   редкий 
+in his time here                    :   в свое время здесь 
+trips                               :   поездки
+in her live                         :   в своей жизни
+Christmas                           :   рождество
+holiday                             :   праздник
+celebrated                          :   отметил, отпраздновал
+abroad                              :   за рубежом
+ridden                              :   каталась 
+skating                             :   танцевать
+both                                :        оба
+like skiting                        :   нравится кататься на коньках
+enjoy riding                        :   нравится кататься 
+earn twice as much as               :   зарабатывать в два раза больше чем       
+that is why                         :   поэтому, оттого
+gone                                :   ушла
+lets shop                           :   давай сделае покупки
+routine                             :   распорядок дня
+to shop                             :   делать покупки
+go running                          :   ходим бегать
+arm                                 :   рука
+fast                                :   быстро
+weaker                              :   слабее
+still                               :   все равно
+feet                                :   ступни
+foot                                :   ступня
+for hours                           :   часами
+dancer                              :   танцор 
+has missed                          :   пропустил 
+is that true                        :   это правда
+yet                                 :   уже еще
+marathons                           :   марафоны
+hey                                 :   слушай 
+i bet                               :   спорим 
+bеfore                              :   раньше
+wow                                 :   уx ты
+supplies                            :   товары
+dozen                               :   дюжен
+ex wife                             :   бывшая жена
+barely                              :   еле-еле
+though                              :   хотя
+guess                               :   угадай 
+someone                             :   кто-то
+astronaut                           :   астронавт
+knocks on                           :   стучит
+enters                              :   заходит
+job application                     :   заявка о приеме на работу
+continue                            :   продолжать
+nevertheless                        :   тем не менее
+upset                               :   расстроена
+got one question                    :   ответила на один вопрос
+won't be able                       :   не смогу
+rug                                 :   ковер 
+go to a run                         :   пойти на пробежку
+improve                             :   улучшить
+try                                 :   стараться 
+spilled                             :   пролила
+alright                             :   ничего такой
+magical                             :   невероятный
+until he dies                       :   пока он не умрет
+ringing                             :   звонит
+ew                                  :   фу
+veru true                           :   совершенно верно
+lie                                 :   ложь
+more lies                           :   больше лжи
+facts                               :   факты
+thin                                :   тонкий, худой 
+сhose                               :   выбрал 
+app                                 :   приложение
+icebreaker                          :   начало разговора
+to message                          :   сигнализировать, послание
+buthtub                             :   ванна
+take out                            :   вынести
+rest                                :   отдохнуть
+to fly a plane                      :   управлять самолетом
+poor                                :   бедный
+died                                :   умер
+emperor                             :   император
+award                               :   награда
+score                               :   забил
+healthier                           :   здоровее
+diets                               :   диеты
+pray                                :   молиться
+see the play                        :   увидеть спектакль
+were fixing                         :   ремонтировали
+surfer                              :   серфер
+sunrise                             :   восход
+is rising                           :   встает 
+are you?                            :   не так ли
+seagull                             :   чайка
+this whole island                   :   на всем острове
+you are not mad                     :   вы не злитесь
+among                               :   среди
+among those letters                 :   среди этих писем
+according to this book              :   согласно этой книге
+currently                           :   в настоящее время
+cuisine                             :   кухня
+spoon                               :   ложка
+teaspoon                            :   чайная ложка
+tablespoon                          :   столовая ложка
+watermelons                         :   арбуз
+melons                              :   дыня
+seeds                               :   семена
+soil                                :   почва
+rocks                               :   камни
+sand                                :   песок
+leaves                              :   листья
+weeds                               :   сорняки
+textbook                            :   учебник
+huge                                :   огромный 
+huge nose                           :   огромный нос
+blackboard                          :   доска
+principal office                    :   кабинет директора
+pray                                :   молиться
+camp                                :   лагерь
+adult                               :   взрослый 
+vital                               :   жизненно необходима
+activity                            :   занятие
+grass                               :   трава 
+blanket                             :   одеяло
+recipe                              :   рецепт
+knife                               :   нож
+course                              :   курс
+for free                            :   бесплатно
+sentience                           :   предложение
+spell                               :   произносить по буквам
+lessons                             :   уроки
+classroom                           :   кабинет
+white board                         :   маркерная доска
+bright                              :   яркий
+conversation                        :   разговоры
+fine                                :   штраф
+translate                           :   переводить
+scream                              :   крик
+murderer                            :   убийца
+hallway                             :   коридор
+fill                                :   заполнять
+filled                              :   заполнена
+wedding ring                        :   свадебное кольцо
+realized                            :   понял 
+smoke                               :   дым
+wlole                               :   целый 
+vase                                :   ваза
+ruined                              :   испорчен
+to train lions                      :   тренировать львов
+excellent                           :   отличным
+closet                              :   шкаф
+whips                               :   петли
+elderly                             :   пожилым
+fence                               :   забор
+bell                                :   колокольчик
+doorbell                            :   дверной замок
+carpet                              :   ковер
+bricks                              :   кирпичи
+wall                                :   стена
+garage                              :   гараж
+dining room                         :   столовая
+porch                               :   крыльцо
+leaves                              :   листья 
+bush                                :   куст
+blooming                            :   цветет
+cherries                            :   вишен
+summer camp                         :   летний лагерь 
+is on the phone                     :   разговаривает по телефону
+are you comming                     :   ты придешь
+taking care                         :   заботишься
+cage                                :   клетка 
+medetation                          :   медитация
+appartment building                 :   многоэтажка
+notices                             :   замечает
+diffinetly                          :   точно
+sure                                :   не за что
+it didn't work                      :   ничего не вышло
+all over                            :   во всем
+haircut                             :   стрижка
+classmate                           :   однокласница
+just then                           :   в тот момент
+them talking                        :   их разговор
+won't mind                          :   будет непротив
+won't care                          :   будет всеравно
+i don't care                        :   мне на важно
+i don't want to be in trouble       :   я не хочу неприятностей
+it's going to cost                  :   будет стоить
+don't make me try on clothes        :   не заставляй меня мерять одежду
+fire                                :   уволить
+hang out                            :   проводить время
+fancy restaurant                    :   изысканый ресторан
+cher                                :   шеф повар
+salmon                              :   лосось
+shrimp                              :   креветка
+honest                              :   честный
+thanks for being honest             :   спасибо за честность
+get along                           :   поладим
+pretty sure                         :   почти уверена
+seem                                :   казаться
+to make sure                        :   убедиться
+stay up late                        :   поздно ложишься
+finish my degree                    :   получу мой диплом
+isn't it awesome                    :   разве это не здорово
+all the way from                    :   прямо из 
+waves his arms                      :   размахивает руками
+runs over to                        :   прибегает
+tapping his foot to the music       :   притаптывает ногой под музыку
+what is going on                    :   что происходит
+fell asleep                         :   уснула
+stage                               :   сцена
+walks onto stage                    :   выходит на сцену
+waving at them                      :   машет им
+evil                                :   злым 
+freezer                             :   морозильная камера
+yay                                 :   ура
+palace                              :   замок
+the rest of the book                :   остальные книги
+murder                              :   убийство
+they each                           :   каждый из них
+contest                             :   конкурса
+strawberry pie                      :   клубничный пирог
+i stayed up all night               :   я не спала всю ночью
+to judge                            :   судить
+to taste                            :   попробовать
+to charge                           :   заряжать
+long distance girlfriend            :   девушка на расстоянии
+how's it going                      :   как делать
+long-distance relationship          :   отношения на расстоянии
+bill                                :   счет
+refund                              :   возврат средств
+art show                            :   выставка
+chakes                              :   трясется
+lightning                           :   молния
+sounds                              :   кажется
+dies in a tragic way                :   умрет трагически
+annauncement                        :   объявление
+house party                         :   домашняя вечеринка
+come over                           :   прийти в гости
+mansion                             :   особняк
+that's so men                       :   это так грубо
+hole                                :   дыра
+drums                               :   барабаны
+concentrate                         :   сосредоточиться
+falling as sleep                    :   засыпает
+taps                                :   хлопает 
