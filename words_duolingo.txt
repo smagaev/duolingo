@@ -2,7 +2,7 @@ calm                                :    спокойствие
 cries                               :    кричит                                    
 humid                               :    влажный                                   
 sensitive                           :    чувствительный                            
-blind                               :    blind                                     
+blind                               :    слепой
 bathe                               :    купаться                                  
 deaf                                :    мертвый                                   
 on sick leave                       :    на больничном                                
@@ -18,7 +18,7 @@ fly                                 :    муха
 butterfly                           :    бабочка                                   
 ant                                 :    муравей                                   
 camel                               :    верблюд                                   
-donkey                              :    обезьяны                                  
+donkey                              :    осел
 rats                                :    крысы                                     
 swans                               :    лебеди                                    
 parrot                              :    попугай                                   
@@ -91,7 +91,7 @@ to fall in love                     :    влюбиться
 before bed                          :    перед сном                                
 otherwise                           :    иначе                                     
 if there is anything else           :    если есть что ни будь еще                  
-if there is nothing else            :    ecли нет ничего другого                   
+if there is nothing else            :    если нет ничего другого
 recently                            :    недавно                                   
 hold                                :    держать                                   
 being                               :    быть                                      
@@ -165,7 +165,7 @@ stretch                             :    протягивать
 sсratched                           :    поцарапал, почесал                        
 he had to swallow                   :    ему приходилось глотать                   
 pill                                :    таблетка                                  
-wounds                              :    раны                                      
+wounds                              :    раны
 bruises                             :    синяк                                     
 again soon                          :    снова в ближайшее время                   
 honestly                            :    честно говоря                             
@@ -323,6 +323,7 @@ take care of it                     :   позабочусь об этом
 per day                             :   в день
 happen                              :   происходят 
 male doctors                        :   мужчины врачи
+male mosquitoes                     :   комары-самцы
 views on education                  :   взгляды на образование
 seeing                              :   видеть
 dish                                :   блюдо
@@ -868,6 +869,7 @@ throwing                            :   бросает, организует
 plot                                :   сюжет
 scary                               :   страшный
 characters                          :   персонажи
+act                                 :   акт
 practice                            :   заниматься
 violin                              :   скрипка
 don't be late                       :   не опаздывай
@@ -1175,12 +1177,12 @@ magical                             :   невероятный
 until he dies                       :   пока он не умрет
 ringing                             :   звонит
 ew                                  :   фу
-veru true                           :   совершенно верно
+very true                           :   совершенно верно
 lie                                 :   ложь
 more lies                           :   больше лжи
 facts                               :   факты
 thin                                :   тонкий, худой 
-сhose                               :   выбрал 
+сhose                               :   выбрал
 app                                 :   приложение
 icebreaker                          :   начало разговора
 to message                          :   сигнализировать, послание
@@ -1395,4 +1397,19 @@ rides                               :   атракционы
 eye patch                           :   повязка на глаза
 fake beard                          :   накладная борода
 this is crazy                       :   это безумие
-babysiting                          :   присматривать
+babysitting                         :   присматривать
+carried an envelop                  :   нес конверт
+heel                                :   каблук
+porch                               :   крыльцо
+kidney                              :   почка
+hair                                :   волосы
+nails                               :   ногти
+lips                                :   губы
+forehead                            :   лоб
+wrinkles                            :   морщины
+eyebrow                             :   бровь
+waist                               :   талия
+jaw                                 :   челюсть
+scratched                           :   почесал
+wound                               :   рана
+

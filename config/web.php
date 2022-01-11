@@ -7,14 +7,13 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'defaultRoute' => 'avtotools/index',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
         'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'baseUrl' => '/',
             'cookieValidationKey' => 'jz2pjysdfdsb_yqjYZlY381N6EQR_3Q-Zyigw',
         ],
         'cache' => [
@@ -34,27 +33,13 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
- //               '' => 'home/index',
-//                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
-//                'category/search' => 'category/search',
-//                'category/<id:\d+>/page/<page:\d+>' => 'category/view',
-//                'catalog' => 'catalog/index',
-//                'catalog/toggle' => 'catalog/toggle',
-//                'catalog/search' => 'catalog/search',
-//                'catalog/<slug:.+>' => 'catalog/view',
-//                'my-account' => 'my-info',
-//                'my-info' => 'my-info',
-//                'order' => 'order',
-//
-////                'admin/yii2images/images/image-by-item-and-alias' => 'yii2images/images/image-by-item-and-alias',
-//                'admin/yii2images/images/image-by-item-and-alias' => 'yii2images/images/image-by-item-and-alias',
-//                'product/<slug:.+>' => 'product/view',
-//                'post/<slug:.+>' => 'post/view',
-//                'page/<slug:.+>' => 'page/view',
+                '/' => 'home/index',
+                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
             ],
         ],
         'log' => [
@@ -67,14 +52,6 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
     ],
     'params' => $params,
 ];
@@ -85,14 +62,14 @@ if (YII_ENV_DEV) {
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
+        'allowedIPs' => ['127.0.0.1', '::1'],
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
+        'allowedIPs' => ['127.0.0.1', '::1'],
     ];
 }
 
