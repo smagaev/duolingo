@@ -64,6 +64,20 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionWords()
+    {
+             $request = Yii::$app->request;
+             if(!$request->isPost){
+                 return $this->render('words');
+             } else {
+                 $string = $request->post('Words')['words'];
+                 $array = explode(chr(13),$string);
+                 foreach($array as $val){
+                     $arr = explode(':', $val);
+                     echo $arr[0] . "<br>";
+                 }
+             }
+    }
     /**
      * Login action.
      *

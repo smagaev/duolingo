@@ -4,7 +4,8 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'basic',
+    'id' => 'my_app',
+    'name' => 'Duolingo Words',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -13,7 +14,7 @@ $config = [
     ],
     'components' => [
         'request' => [
-            'baseUrl' => '/',
+//            'baseUrl' => 'http://duolingo',
             'cookieValidationKey' => 'jz2pjysdfdsb_yqjYZlY381N6EQR_3Q-Zyigw',
         ],
         'cache' => [
@@ -35,12 +36,12 @@ $config = [
         ],
 
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-                '/' => 'home/index',
-                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
-            ],
+//            'enablePrettyUrl' => true,
+//            'showScriptName' => false,
+//            'rules' => [
+//                '/' => 'home/index',
+//                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+//            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
