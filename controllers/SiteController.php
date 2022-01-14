@@ -9,6 +9,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Duolingo;
 
 class SiteController extends Controller
 {
@@ -66,24 +67,58 @@ class SiteController extends Controller
 
     public function actionWords()
     {
-             $request = Yii::$app->request;
-             if(!$request->isPost){
-                 return $this->render('words');
-             } else {
-                 $string = $request->post('Words')['words'];
-                 $array = explode(chr(13),$string);
-                 foreach($array as $val){
-                     $arr = explode(':', $val);
-                     echo $arr[0] . "<br>";
-                 }
-             }
+        $ok = false;
+        $request = Yii::$app->request;
+        if (!$request->isPost) {
+            return $this->render('words');
+        } else {
+            $string = $request->post('Words')['words'];
+            $array = explode(chr(13), $string);
+            foreach ($array as $val) {
+                $arr = explode(':', $val);
+                if (trim($arr[0])) {
+                    {
+                        if (isset($arr[0])) {
+                            if (trim($arr[0]) > "") {
+                                $eng = trim($arr[0]);
+                                if (isset($arr[1])) {
+                                    $ru = trim($arr[1]);
+                                    if (!Duolingo::find()->where(['word' => $eng])->one()) {
+                                        $model = new Duolingo();
+                                        $model->word = $eng;
+                                        $model->var1 = $ru;
+                                        if ($model->validate()) {
+
+                                            if ($model->save()) {
+                                                if (!$ok) {
+                                                    $ok = true;
+                                                }
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            if ($ok) {
+                Yii::$app->session->setFlash('success', "All ok, the words are added");
+            } else {
+                Yii::$app->session->setFlash('error','Please, check the format ...');
+            }
+            return $this->render('words');
+        }
     }
+
     /**
      * Login action.
      *
      * @return Response|string
      */
-    public function actionLogin()
+    public
+    function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
@@ -105,7 +140,8 @@ class SiteController extends Controller
      *
      * @return Response
      */
-    public function actionLogout()
+    public
+    function actionLogout()
     {
         Yii::$app->user->logout();
 
@@ -117,7 +153,8 @@ class SiteController extends Controller
      *
      * @return Response|string
      */
-    public function actionContact()
+    public
+    function actionContact()
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
@@ -135,7 +172,8 @@ class SiteController extends Controller
      *
      * @return string
      */
-    public function actionAbout()
+    public
+    function actionAbout()
     {
         return $this->render('about');
     }
