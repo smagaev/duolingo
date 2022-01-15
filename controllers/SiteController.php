@@ -62,7 +62,18 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+
+        $arr = Duolingo::find()->select('id')->asArray()->all();
+
+
+        for ($i = 0; $i < 5; $i++) {
+            $count = count($arr);
+            $id_rand = rand(0,$count);
+            $words[$i] = Duolingo::findOne($id_rand);
+            unset($arr[$id_rand]);
+          }
+
+        return $this->render('index', compact('words'));
     }
 
     public function actionWords()
@@ -72,6 +83,7 @@ class SiteController extends Controller
         if (!$request->isPost) {
             return $this->render('words');
         } else {
+            set_time_limit(120);
             $string = $request->post('Words')['words'];
             $array = explode(chr(13), $string);
             foreach ($array as $val) {
@@ -106,7 +118,7 @@ class SiteController extends Controller
             if ($ok) {
                 Yii::$app->session->setFlash('success', "All ok, the words are added");
             } else {
-                Yii::$app->session->setFlash('error','Please, check the format ...');
+                Yii::$app->session->setFlash('error', 'Please, check the format ...');
             }
             return $this->render('words');
         }
