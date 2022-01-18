@@ -62,18 +62,23 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-
-        $arr = Duolingo::find()->select('id')->asArray()->all();
-
-
+        $error_words = false;
+        $count_ready = 0;
+        $arr = Duolingo::find()->column();
+        $count_words = count($arr);
+        if($count_words > 5){
+        $min = min($arr);
+        $max = max($arr);
         for ($i = 0; $i < 5; $i++) {
             $count = count($arr);
-            $id_rand = rand(0,$count);
+            $id_rand = mt_rand($min, $max);
             $words[$i] = Duolingo::findOne($id_rand);
             unset($arr[$id_rand]);
           }
 
-        return $this->render('index', compact('words'));
+        } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
+
+        return $this->render('index', compact('words','count_words', 'count_ready'));
     }
 
     public function actionWords()
