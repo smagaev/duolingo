@@ -10,14 +10,14 @@ $this->title = 'My Yii Application';
             <? for ($i = 0; $i < 5; $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
-                $arr_eng[$i] = '<div class="btn my_btn btn-defult border-dark col-sm-3" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
-                $arr_tr[$i] = '<div class="btn my_btn btn-default border-dark col-sm-3" data-id="' . $k . '"><span>' . $words[$i]->var1 . '</span></div>';
+                $arr_eng[$i] = '<div class="btn btn-lg my_btn btn_act btn-defult border-dark col-5" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
+                $arr_tr[$i] = '<div class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-id="' . $k . '"><span>' . $words[$i]->var1 . '</span></div>';
             }
             shuffle($arr_tr);
             ?>
             <div class="row">
-                <div class="col-sm-8"></div>
-                <div class="col-sm-2">Progress: <span id="ready"><?= $count_ready ?></span> of <?= $count_words ?></div>
+                <div class="col"></div>
+                <div class="col-4">Progress: <span id="ready"><?= $count_ready ?></span> of <?= $count_words_db ?></div>
             </div>
             <br>
 
@@ -25,11 +25,11 @@ $this->title = 'My Yii Application';
             for ($i = 0; $i < 5; $i++) {
                 ?>
                 <div class="row">
-                    <div class="col-sm-2"></div>
+                    <div class="col"></div>
                     <?= $arr_eng[$i] ?>
-                    <div class="col-sm-2"></div>
+                    <div class="col"></div>
                     <?= $arr_tr[$i] ?>
-                    <div class="col-sm-2"></div>
+                    <div class="col"></div>
                 </div>
                 <br>
 
@@ -39,10 +39,16 @@ $this->title = 'My Yii Application';
         <br>
         <div class="row">
             <div class="col-sm-4"></div>
-            <div class="btn btn-next btn-primary col-sm-4" onclick="window.location.reload()">Next</div>
+            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled" onclick="window.location.reload()">Next</div>
             <div class="col-sm-4"></div>
         </div>
     </div>
+<style>
+    /*.my_btn{*/
+        /*font-size:1.2em;*/
+        /*fornt-weight :700;*/
+    /*}*/
+</style>
 <? $this->registerJs("
    
     $('.my_btn').click(function () {
@@ -60,6 +66,7 @@ $this->title = 'My Yii Application';
                                                            $('.btn_sel').addClass('disabled')
                                                                         .removeClass('bg-success')
                                                                         .removeClass('btn_sel')
+                                                                        .removeClass('btn_act')
                                                                         .unbind();
                                                     
                                                     },500);
@@ -73,7 +80,8 @@ $this->title = 'My Yii Application';
                                                     t2 = window.setTimeout(function(){
                                                     
                                                             $('.btn_sel').removeClass('bg-danger')
-                                                                         .removeClass('btn_sel');
+                                                                         .removeClass('btn_sel')
+                                                                         .removeClass('btn_act');
                                                     
                                                     
                                                     },500);
@@ -82,7 +90,10 @@ $this->title = 'My Yii Application';
                   
                   }
           
-                 
+                 if($('.btn_act')[0] === undefined){
+                 alert('молодцы');
+                 $('.btn-next').attr('disabled', 'disabled'); 
+                 }
          
         
     });

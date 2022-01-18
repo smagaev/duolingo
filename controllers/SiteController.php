@@ -63,22 +63,28 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $error_words = false;
-        $count_ready = 0;
-        $arr = Duolingo::find()->column();
+        $cache = Yii::$app->cache;
+        $arr = $cache->getOrSet('words', function () {
+            return Duolingo::find()->column();
+        });
+        $count_words_db = $cache->getOrSet('count_words', function(){
+            return Duolingo::find()->count();
+        });
         $count_words = count($arr);
-        if($count_words > 5){
-        $min = min($arr);
-        $max = max($arr);
-        for ($i = 0; $i < 5; $i++) {
-            $count = count($arr);
-            $id_rand = mt_rand($min, $max);
-            $words[$i] = Duolingo::findOne($id_rand);
-            unset($arr[$id_rand]);
-          }
+        $count_ready = $count_words_db - $count_words;
+        if ($count_words > 5) {
+            $min = min($arr);
+            $max = max($arr);
+            for ($i = 0; $i < 5; $i++) {
+                $count = count($arr);
+                $id_rand = mt_rand($min, $max);
+                $words[$i] = Duolingo::findOne($id_rand);
+                unset($arr[$id_rand]);
+            }
 
         } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
-
-        return $this->render('index', compact('words','count_words', 'count_ready'));
+        $cache->set('words', $arr);
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
     }
 
     public function actionWords()
