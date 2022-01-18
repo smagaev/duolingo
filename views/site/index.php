@@ -19,7 +19,7 @@ $this->title = 'My Yii Application';
                 <div class="col-sm-8"></div>
                 <div class="col-sm-2">Progress: <span id="ready"><?= $count_ready ?></span> of <?= $count_words ?></div>
             </div>
-            </br>
+            <br>
 
             <?
             for ($i = 0; $i < 5; $i++) {
@@ -36,7 +36,7 @@ $this->title = 'My Yii Application';
             <? } ?>
 
         </div>
-
+        <br>
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="btn btn-next btn-primary col-sm-4" onclick="window.location.reload()">Next</div>
