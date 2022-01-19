@@ -90,11 +90,11 @@ $this->title = 'My Yii Application';
                   
                   }
           
-                 if($('.btn_act')[0] === undefined){
-                 alert('молодцы');
-                 $('.btn-next').attr('disabled', 'disabled'); 
-                 }
-         
-        
-    });
+//                 if($('.btn_act')[0] === undefined){
+//                 alert('молодцы');
+//                 $('.btn-next').attr('disabled', 'disabled'); 
+//                 }
+//         
+//        
+//    });
     ", yii\web\View::POS_READY, 'my_btn_handler'); ?>
