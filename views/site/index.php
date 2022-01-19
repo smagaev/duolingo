@@ -47,9 +47,6 @@ $this->title = 'My Yii Application';
         </div>
     </div>
     <style>
-        /*.my_btn{*/
-        /*font-size:1.2em;*/
-        /*fornt-weight :700;*/
-        /*}*/
+
     </style>
 <? $this->registerJsFile("@web/js/duo.js", ['depends' => [\yii\web\JqueryAsset::class]]); ?>
