@@ -21,7 +21,7 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout','words'],
+                'only' => ['logout', 'words'],
                 'rules' => [
                     [
                         'actions' => ['logout'],
@@ -29,7 +29,7 @@ class SiteController extends Controller
                         'roles' => ['@'],
                     ],
                     [
-                        'actions' =>['words'],
+                        'actions' => ['words'],
                         'allow' => true,
                         'roles' => ['@']
                     ]
@@ -72,11 +72,7 @@ class SiteController extends Controller
         $arr = $cache->getOrSet('words', function () {
             return Duolingo::find()->column();
         });
-        $count_words_db = $cache->getOrSet('count_words', function(){
-            return Duolingo::find()->count();
-        });
         $count_words = count($arr);
-        $count_ready = $count_words_db - $count_words;
         if ($count_words > 5) {
             $min = min($arr);
             $max = max($arr);
@@ -89,6 +85,10 @@ class SiteController extends Controller
 
         } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
         $cache->set('words', $arr);
+        echo "<br>" . "<br>" . "<br>";
+        $count_words_db = count($words);
+        $count_ready = $count_words_db - $count_words;
+        print_r(count($cache->get('words')));
         return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
     }
 

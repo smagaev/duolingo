@@ -213,7 +213,7 @@ which                               :    которое
 oneself                             :   кто-нибудь сам
 proud                               :   гордиться
 believe                             :   верить
-trus                                :   доверять
+trust                               :   доверять
 to be yourself                      :   быть собой
 all of you                          :   все из вас
 being able to think for             :   быть способным думать за
@@ -358,7 +358,7 @@ clip                                :   зажим
 dirty                               :   грязная
 steal                               :   красть
 shower                              :   душ
-сheap                               :   дешевый
+cheap                               :   дешевый
 mess                                :   беспорядок
 movers                              :   грузчики
 helpful                             :   готовы помочь
@@ -432,7 +432,7 @@ don't hold back                     :   не сдерживайся
 definite                            :   определенный
 improvement                         :   улучшение
 penmanship                          :   почерк
-awwed                               :   испуганный
+awed                                :   испуганный
 go on                               :   продолжай
 make a wish                         :   загадай желание
 it's kind of hard                   :   это довольно сложно
@@ -454,7 +454,7 @@ coins                               :   монеты
 chain                               :   цепочка
 stamps                              :   марки
 towels                              :   полотенца
-answering maсhine                   :   автоответчик
+answering machine                   :   автоответчик
 washing machine                     :   стиральная машина
 even                                :   духовка
 spice vegetables dishes             :   пряные овощные блюда
@@ -518,7 +518,7 @@ heat                                :   жара
 at seven sharp                      :   строго в семь
 pure                                :   чистая
 funniest day                        :   самый забавный
-tinner                              :   худой
+thinner                             :   худее
 thick                               :   толстый
 guitar                              :   гитара
 castles                             :   замки
@@ -619,7 +619,7 @@ suitcase                            :   чемодан
 excited                             :   взволнован
 drove                               :   уехали
 where driving                       :   ехали
-droff of the road                   :   съехали с дороги
+drove of the road                   :   съехали с дороги
 to escape                           :   сбежать
 spies                               :   шпионы
 forget i said anything              :   забудь что я сказала
@@ -763,7 +763,7 @@ point of view                       :   точкой зрения
 fans                                :   фанаты
 call it a day                       :   закончить на этом
 freedom                             :   свобода
-soсiety                             :   общество
+society                             :   общество
 vote                                :   голосовать
 population                          :   население
 court                               :   суд
@@ -1182,11 +1182,11 @@ lie                                 :   ложь
 more lies                           :   больше лжи
 facts                               :   факты
 thin                                :   тонкий, худой
-сhose                               :   выбрал
+chose                               :   выбрал
 app                                 :   приложение
 icebreaker                          :   начало разговора
-to message                          :   сигнализировать, послание
-buthtub                             :   ванна
+to message                          :   сигнализировать, послать сообщение
+bathtub                             :   ванна
 take out                            :   вынести
 rest                                :   отдохнуть
 to fly a plane                      :   управлять самолетом
@@ -1256,7 +1256,7 @@ filled                              :   заполнена
 wedding ring                        :   свадебное кольцо
 realized                            :   понял
 smoke                               :   дым
-wlole                               :   целый
+whole                               :   целый
 vase                                :   ваза
 ruined                              :   испорчен
 to train lions                      :   тренировать львов
@@ -1279,13 +1279,13 @@ blooming                            :   цветет
 cherries                            :   вишен
 summer camp                         :   летний лагерь
 is on the phone                     :   разговаривает по телефону
-are you comming                     :   ты придешь
+are you cumming                     :   ты придешь
 taking care                         :   заботишься
 cage                                :   клетка
-medetation                          :   медитация
-appartment building                 :   многоэтажка
+meditation                          :   медитация
+apartment building                 :   многоэтажка
 notices                             :   замечает
-diffinetly                          :   точно
+diffidently                          :   точно
 sure                                :   не за что
 it didn't work                      :   ничего не вышло
 all over                            :   во всем
@@ -1342,11 +1342,11 @@ long-distance relationship          :   отношения на расстоян
 bill                                :   счет
 refund                              :   возврат средств
 art show                            :   выставка
-chakes                              :   трясется
+chokes                              :   трясется
 lightning                           :   молния
 sounds                              :   кажется
 dies in a tragic way                :   умрет трагически
-annauncement                        :   объявление
+announcement                        :   объявление
 house party                         :   домашняя вечеринка
 come over                           :   прийти в гости
 mansion                             :   особняк
@@ -1356,7 +1356,7 @@ drums                               :   барабаны
 concentrate                         :   сосредоточиться
 falling as sleep                    :   засыпает
 taps                                :   хлопает
-embarrasing                         :   стыдно
+embarrassing                        :   стыдно
 whisper                             :   шепчутся
 over there                          :   вон там
 walks over to                       :   подходит к
@@ -1412,3 +1412,12 @@ waist                               :   талия
 jaw                                 :   челюсть
 scratched                           :   почесал
 wound                               :   рана
+machine                             :   аппарат
+folder                              :   папка
+is downloading                      :   скачивает
+to improve                          :   улучшить
+software                            :   программное обеспечение
+chat                                :   болтать
+department                          :   отдел
+businesswoman                       :   деловая женщина
+these days                          :   наши дни
