@@ -673,7 +673,7 @@ for a long time                     :   долго
 best-known                          :   наиболее известных
 along the street                    :   вдоль по улице
 held                                :   держал
-staff                               :   персонал
+staff                               :   персонал, коллектив
 to work                             :   работать
 good job                            :   молодец
 all the messages                    :   все сообщения
@@ -1283,9 +1283,9 @@ are you cumming                     :   ты придешь
 taking care                         :   заботишься
 cage                                :   клетка
 meditation                          :   медитация
-apartment building                 :   многоэтажка
+apartment building                  :   многоэтажка
 notices                             :   замечает
-diffidently                          :   точно
+diffidently                         :   точно
 sure                                :   не за что
 it didn't work                      :   ничего не вышло
 all over                            :   во всем
@@ -1429,3 +1429,10 @@ tongue                              :   язык
 chew on everything                  :   грызут все
 gave birth to twins                 :   родила двойню
 to keep breastfeeding               :   продолжать грудное вскармливание
+get along                           :   ладить
+assistant                           :   асистент
+prize                               :   приз
+today is friday                     :   сегодня пятница
+break                               :   перерыв
+break room                          :   комната отдыха
+anybody                             :   кто-нибудь
