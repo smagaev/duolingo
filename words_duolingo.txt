@@ -1421,3 +1421,6 @@ chat                                :   болтать
 department                          :   отдел
 businesswoman                       :   деловая женщина
 these days                          :   наши дни
+we got into a traffic jam           :   мы попали в пробку
+stadium                             :   стадион
+i don't mind studying with you      :   я не против позаниматься с тобой
