@@ -43,7 +43,7 @@ sadness                             :    грусть
 sponge                              :    губка                                     
 sad                                 :    печальный                                 
 owl                                 :    сова                                      
-surgeries                           :    операции                                         
+surgeries                           :    операции
 on maternity leave                  :    в декретный отпуск                        
 pregnant                            :    беременная                                
 pregnancy                           :    беременность                              
@@ -1436,3 +1436,4 @@ today is friday                     :   сегодня пятница
 break                               :   перерыв
 break room                          :   комната отдыха
 anybody                             :   кто-нибудь
+naked without makeup                :   голая без макияжа
