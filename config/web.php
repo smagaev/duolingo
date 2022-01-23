@@ -7,10 +7,11 @@ $config = [
     'id' => 'my_app',
     'name' => 'Duolingo Words',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'languageSwitcher'],
+    'language' => 'ru-RU',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
     'components' => [
         'request' => [
@@ -48,6 +49,24 @@ $config = [
 //                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
 //            ],
         ],
+        'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    'fileMap' => [
+                        'basePath' => '@app/messages',
+                        'sourceLanguage' => ['ru-RU','en-US'],
+                        'app' => 'app.php',
+                        'app/error' => 'error.php',
+
+                    ],
+                ],
+            ],
+        ],
+        'languageSwitcher' => [
+            'class' => 'app\components\languageSwitcher',
+        ],
+
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [

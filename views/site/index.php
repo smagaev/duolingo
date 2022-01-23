@@ -42,7 +42,7 @@ $this->title = 'My Yii Application';
         <br>
         <div class="row">
             <div class="col-sm-4"></div>
-            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled">Next</div>
+            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled"><?=yii::t('app','Next');?></div>
             <div class="col-sm-4"></div>
         </div>
     </div>
