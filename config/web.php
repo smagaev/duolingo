@@ -8,6 +8,7 @@ $config = [
     'name' => 'Duolingo Words',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'languageSwitcher'],
+    'defaultRoute' => 'site/index',
     'language' => 'ru-RU',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -42,12 +43,13 @@ $config = [
         ],
 
         'urlManager' => [
-//            'enablePrettyUrl' => true,
-//            'showScriptName' => false,
-//            'rules' => [
-//                '/' => 'home/index',
-//                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
-//            ],
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                   'site' => 'site/index',
+                   'about' => 'site/about',
+                   'login' => 'site/login',			  
+            ],
         ],
         'i18n' => [
             'translations' => [
