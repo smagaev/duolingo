@@ -24,7 +24,7 @@ $('.my_btn').click(function () {
                if(document.querySelectorAll('.btn_act').length === 2){
                   $('.btn-next').removeClass('disabled')
                       .bind('click',function () {
-                          location = "/web/";
+                          location = "/";
                       })
                }
             } else {

@@ -726,7 +726,7 @@ attention                           :   внимание
 compare                             :   сравни
 humor                               :   юмор
 thoughts                            :   мысли
-does not matter                     :   не имеет значения
+it does not matter                  :   это не имеет значения
 matter                              :   вещество, дело
 matter of time                      :   дело времени
 mind                                :   ум
@@ -1437,3 +1437,8 @@ break                               :   перерыв
 break room                          :   комната отдыха
 anybody                             :   кто-нибудь
 naked without makeup                :   голая без макияжа
+which only proves                   :   что только доказывает
+her point of view                   :   ее точка зрения
+at that point                       :   в этом момент
+unless he ask here                  :   пока он не попросит ее
+i'm using this computer later       :   я буду использовать этот компьютер позже
