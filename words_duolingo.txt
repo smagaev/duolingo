@@ -1442,3 +1442,6 @@ her point of view                   :   ее точка зрения
 at that point                       :   в этом момент
 unless he ask here                  :   пока он не попросит ее
 i'm using this computer later       :   я буду использовать этот компьютер позже
+habit                               :   привычка
+average                             :   средний
+average exchange rate               :   средний обменный курс
