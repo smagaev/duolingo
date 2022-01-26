@@ -12,7 +12,7 @@ class m220126_080700_add_user_words_tablw extends Migration
      */
     public function Up()
     {
-        $this->createTable('duolingo_', [
+        $this->createTable('duolingo_user', [
 
             'id' => $this->primaryKey(),
             'words' => $this->string(),
@@ -26,24 +26,9 @@ class m220126_080700_add_user_words_tablw extends Migration
      */
     public function Down()
     {
-        $this->dropTable('duolingo_');
-        echo "m220126_080700_add_user_words_tablw reverted.\n";
+        $this->dropTable('duolingo_user');
 
-        return false;
+        return true;
     }
 
-    /*
-    // Use up()/down() to run migration code without a transaction.
-    public function up()
-    {
-
-    }
-
-    public function down()
-    {
-        echo "m220126_080700_add_user_words_tablw cannot be reverted.\n";
-
-        return false;
-    }
-    */
 }
