@@ -38,17 +38,17 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Words', 'url' => ['/site/words']],
+            ['label' => 'Startseite', 'url' => ['/site/index']],
+            ['label' => 'über', 'url' => ['/site/about']],
+            ['label' => 'Kontakt', 'url' => ['/site/contact']],
+            ['label' => 'Wort', 'url' => ['/site/words']],
             Yii::$app->user->isGuest ? (
             ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
                 '<li>'
                 . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])
                 . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
+                    'Abmelden (' . Yii::$app->user->identity->username . ')',
                     ['class' => 'btn btn-link logout']
                 )
                 . Html::endForm()
@@ -74,7 +74,7 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; <?=yii::t("app","My Company")?> <?= date('Y') ?></p>
+        <p class="float-left">&copy; <?=yii::t("app","Mein Büro")?> <?= date('Y') ?></p>
         <p class="float-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
