@@ -1450,3 +1450,7 @@ the cutest boy                      :   самый красивый мальчи
 graduate from school                :   закончпить школу
 it was an accident                  :   это было случайно
 doesn't recognize                   :   не узнает
+habit                               :   привычка
+average                             :   средний
+average exchange rate               :   средний обменный курс
+
