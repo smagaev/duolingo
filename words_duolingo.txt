@@ -1356,7 +1356,7 @@ drums                               :   барабаны
 concentrate                         :   сосредоточиться
 falling as sleep                    :   засыпает
 taps                                :   хлопает
-embarrassing                        :   стыдно
+embarrassing                        :   стыдный, стыдно
 whisper                             :   шепчутся
 over there                          :   вон там
 walks over to                       :   подходит к
@@ -1442,3 +1442,11 @@ her point of view                   :   ее точка зрения
 at that point                       :   в этом момент
 unless he ask here                  :   пока он не попросит ее
 i'm using this computer later       :   я буду использовать этот компьютер позже
+an emergency                        :   чрезвычайная ситуация
+are you hurt                        :   ты ранена
+are you bleeding                    :   у тебя кровотечение
+accidentally                        :   случайно
+the cutest boy                      :   самый красивый мальчик
+graduate from school                :   закончпить школу
+it was an accident                  :   это было случайно
+doesn't recognize                   :   не узнает
