@@ -9,6 +9,7 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log', 'languageSwitcher'],
     'defaultRoute' => 'site/index',
+ //   'vendorPath' => '/home/srv68348/vendor/',
 //    'language' => 'ru-RU',
     'language' => 'ru',
     'aliases' => [

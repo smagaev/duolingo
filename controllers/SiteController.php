@@ -68,13 +68,18 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $error_words = false;
+        $session = Yii::$app->session;
+        if (!$session->isActive) {
+            $session->open();
+        }
+
         $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
-        $count_words_db = $cache->getOrSet('count_words_db', function(){
+        $count_words_db = $cache->getOrSet('count_words_in_db', function () {
             return Duolingo::find()->count();
         });
 
-        $arr = $cache->getOrSet('words_'.$session_id, function () {
+        $arr = $cache->getOrSet('words_' . $session_id, function () {
             return Duolingo::find()->column();
         });
         $count_words = count($arr);
@@ -91,7 +96,7 @@ class SiteController extends Controller
 
         } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
 
-        $cache->set('words_'.$session_id, $arr);
+        $cache->set('words_' . $session_id, $arr);
         return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
     }
 
