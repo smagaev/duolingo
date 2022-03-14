@@ -1453,4 +1453,8 @@ doesn't recognize                   :   не узнает
 habit                               :   привычка
 average                             :   средний
 average exchange rate               :   средний обменный курс
-
+share                               :   делиться
+hiking                              :   походы
+adventures                          :   приключения
+sightseeing                         :   осмотривать достопримечательности
+downtown                            :   центр города
