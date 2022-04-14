@@ -1088,29 +1088,29 @@ you can talk                        :   можешь разговаривать
 i want to get dessert               :   я хочу съесть десерт
 pants                               :   штаны
 the Beatles                         :   Битлз
-jackets                             :   куртки
+jacket                              :   куртка
 sang                                :   пела
 band                                :   группа
 well                                :   ну
-anyway                              :       во всяком случае, в любом случае,
-like                                :       как бы, типа
-you know                            :       знаешь…
-sort of / kind of                   :       типа…
-I mean...                           :       я имею в виду...
-you see                             :       видишь, понимаешь,
-so                                  :       так
-really                              :       действительно, серьёзно
-basically                           :       на самом деле, по сути
-in short / in a word / in brief     :       короче
-first of all / above all            :       прежде всего
-as to                               :       что касается
-what’s more                         :       кроме того
-by the way                          :       кстати
-after all                           :       в конце концов
-to say nothing of                   :       не говоря уже о…
-in other words                      :       другими словами
-on the contrary                     :       наоборот
-the thing is                        :       дело в том, что…
+anyway                              :   во всяком случае, в любом случае,
+like                                :   как бы, типа
+you know                            :   знаешь…
+sort of / kind of                   :   типа…
+I mean...                           :   я имею в виду...
+you see                             :   видишь, понимаешь,
+so                                  :   так
+really                              :   действительно, серьёзно
+basically                           :   на самом деле, по сути
+in short / in a word / in brief     :   короче
+first of all / above all            :   прежде всего
+as to                               :   что касается
+what’s more                         :   кроме того
+by the way                          :   кстати
+after all                           :   в конце концов
+to say nothing of                   :   не говоря уже о…
+in other words                      :   другими словами
+on the contrary                     :   наоборот
+the thing is                        :   дело в том, что…
 in this picture                     :   на этой фотографии
 either                              :   тоже
 volcano                             :   вулкан
@@ -1125,7 +1125,7 @@ celebrated                          :   отметил, отпраздновал
 abroad                              :   за рубежом
 ridden                              :   каталась
 skating                             :   танцевать
-both                                :        оба
+both                                :   оба
 like skiting                        :   нравится кататься на коньках
 enjoy riding                        :   нравится кататься
 earn twice as much as               :   зарабатывать в два раза больше чем
@@ -1472,4 +1472,26 @@ diary                               :   дневник
 turn                                :   очередь
 board game                          :   настольная игра
 wilder                              :   более дикий
+takes her work                      :   отвозит ее на работу
+hiking                              :   походы
+adventure                           :   приключение
+mug                                 :   кружка
+toast                               :   завтрак
+except one                          :   кроме одного
+easter                              :   пасха
+brushes her hair                    :   расчесывала свои волосы
+put on a jacket                     :   надеть куртку
+final game                          :   финальный матч
+soccer players                      :   футболисты
+tennis player                       :   теннисистка
+racket                              :   ракетка
+shouted loudly                      :   кричал громко
+lost the game                       :   проиграли матч
+hit ball                            :   бить мяч
+shout                               :   кричать
+so loud                             :   такой громкий
+helicopter                          :   вертолет
+
+
+
 
