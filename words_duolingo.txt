@@ -1491,7 +1491,7 @@ hit ball                            :   бить мяч
 shout                               :   кричать
 so loud                             :   такой громкий
 helicopter                          :   вертолет
-
+dinosaur                            :   динозавр
 
 
 
