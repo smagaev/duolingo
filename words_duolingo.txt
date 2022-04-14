@@ -1458,3 +1458,18 @@ hiking                              :   походы
 adventures                          :   приключения
 sightseeing                         :   осмотривать достопримечательности
 downtown                            :   центр города
+kinds                               :   виды
+kinds of sports                     :   виды спорта
+final goal                          :   последний гол
+screen                              :   экран
+hit                                 :   бить
+racket                              :   ракетка
+shout                               :   кричать
+against                             :   против
+heard                               :   услышала
+magic                               :   волшебное
+diary                               :   дневник
+turn                                :   очередь
+board game                          :   настольная игра
+wilder                              :   более дикий
+
