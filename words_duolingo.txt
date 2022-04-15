@@ -398,7 +398,7 @@ through                             :   сквозь
 wood                                :   древесина
 found                               :   нашли
 receipt                             :   чек
-sausages                            :   сосиски
+sages                            :   сосиски
 sausage                             :   колбаса
 sauce                               :   соус
 science                             :   наука
@@ -1050,7 +1050,7 @@ points at a house                   :   показывает на дом
 miracle                             :   чудо
 a well-dressed woman                :   хорошо одетая женщина
 leaving the store                   :   уходящую из магазина
-purse                               :   сумочку
+purse                               :   сумочка
 scarf                               :   шарф
 the CEO                             :   директор
 photocopier                         :   ксерокс
@@ -1492,6 +1492,51 @@ shout                               :   кричать
 so loud                             :   такой громкий
 helicopter                          :   вертолет
 dinosaur                            :   динозавр
-
-
-
+i get on  the train                 :   сажусь на трамвай
+i got on the bus                    :   села на автобус
+diary                               :   дневник
+pajamas                             :   пижама
+flour                               :   мука
+cans                                :   банки
+what else                           :   что еще нужно
+soft drinks                         :   прохладительные напитки
+something else                      :   что-то еще
+cans of soda                        :   банки газировки
+kilogram of rice                    :   килограмм риса
+batteries                           :   батарейки
+half-price                          :   вдвое дешевле
+next to the entrance                :   рядом со входом
+gum                                 :   жевачка
+lighters                            :   зажигалки
+is over a liter of wine             :   больше литра вина
+over a pound of nuts                :   больше фунта орехов
+over a hundred dollars              :   больше ста долларов
+plastic bags                        :   пластиковые пакеты
+you learned so easily               :   ты научился так легко
+happily                             :   радостно
+scores                              :   забьет
+teammates                           :   товарищи по команде
+boy's turn                          :   очередь мальчика
+upstairs                            :   наверху
+a bed upstairs                      :   кровать наверху
+followed for him                    :   следили за ним
+a safe place                        :   безопасное место
+from the window upstairs            :   из окна наверху
+delayed                             :   отложить
+heat                                :   отопление
+burned                              :   сжег
+burned herself                      :   обожглась
+cut yourself                        :   порезаться
+till                                :   до
+i'd love to                         :   я бы с удовольствием
+i'd love to visit you               :   я бы с удовольствием навестил тебя
+maybe next time                     :   возможно в следующий раз
+don't worry, that's all right       :   не волнуйся, ничего страшного
+make sure                           :   убедиться
+i want to make sure                 :   я хочу убедиться
+don't mind                          :   не против
+extra                               :   дополнительные
+that's all right                    :   ничего страшного
+teke care and see you on monday     :   береги себя и увидимся в понедельник
+i call you back                     :   я перезвоню тебе
+i can't wait to see you             :   я не могу дождаться чтобы увидеть тебя
