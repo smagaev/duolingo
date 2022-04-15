@@ -1540,3 +1540,13 @@ that's all right                    :   ничего страшного
 teke care and see you on monday     :   береги себя и увидимся в понедельник
 i call you back                     :   я перезвоню тебе
 i can't wait to see you             :   я не могу дождаться чтобы увидеть тебя
+famous for his book                 :   известен благодаря своей книге
+around                              :   вокруг
+path                                :   тропа
+which                               :   которые
+go north to find the path           :   иди на север чтобы найти тропу
+failed exams                        :   завалила экзамен
+clear answers                       :   понятные ответы
+exercise were clear                 :   упражнения были понятными
+fail                                :   завалить
+
