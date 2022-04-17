@@ -13,7 +13,7 @@ if (YII_ENV_DEV !== true) {
         'class' => 'yii\db\Connection',
         'dsn' => 'mysql:host=localhost; dbname=duolingo; port=3306',
         'username' => 'root',
-        'password' => '',
+        'password' => 'password',
         'charset' => 'utf8',
     ];
 }

@@ -72,32 +72,43 @@ class SiteController extends Controller
         if (!$session->isActive) {
             $session->open();
         }
-
-        $session_id = Yii::$app->session->getId();
+          $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
+        if ($cache->get('count_words_in_db') == 5) {
+            $cache->delete('words_' . $session_id);
+        }
         $count_words_db = $cache->getOrSet('count_words_in_db', function () {
             return Duolingo::find()->count();
         });
-
-        $arr = $cache->getOrSet('words_' . $session_id, function () {
-            return Duolingo::find()->column();
-        });
-        $count_words = count($arr);
-        $count_ready = $count_words_db - $count_words;
-        if ($count_words > 5) {
-            $min = min($arr);
-            $max = max($arr);
-            for ($i = 0; $i < 5; $i++) {
-                $count = count($arr);
-                $id_rand = mt_rand($min, $max);
-                $words[$i] = Duolingo::findOne($id_rand);
-                unset($arr[$id_rand]);
+        if ($count_words_db > 0) {
+            $arr = $cache->getOrSet('words_' . $session_id, function () {
+                return Duolingo::find()->column();
+            });
+            $count_words = count($arr);
+            $count_ready = $count_words_db - $count_words;
+            if ($count_words > 5) {
+                $min = min($arr);
+                $max = max($arr);
+                for ($i = 0; $i < 5; $i++) {
+                    $count = count($arr);
+                    $id_rand = mt_rand($min, $max);
+                    $words[$i] = Duolingo::findOne($id_rand);
+                    unset($arr[$id_rand]);
+                }
+            } else {
+                $min = min($arr);
+                $max = max($arr);
+                for ($i = 0; $i < count($arr)-1; $i++) {
+                    $count = count($arr);
+                    $id_rand = mt_rand($min, $max);
+                    $words[$i] = Duolingo::findOne($id_rand);
+                    unset($arr[$id_rand]);
+                }
             }
-
+            $cache->set('words_' . $session_id, $arr);
+            return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
         } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
 
-        $cache->set('words_' . $session_id, $arr);
-        return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
     }
 
     public function actionWords()
@@ -107,7 +118,7 @@ class SiteController extends Controller
         if (!$request->isPost) {
             return $this->render('words');
         } else {
-            set_time_limit(120);
+            set_time_limit(180);
             $string = $request->post('Words')['words'];
             $array = explode(chr(13), $string);
             foreach ($array as $val) {
@@ -141,6 +152,7 @@ class SiteController extends Controller
             }
             if ($ok) {
                 Yii::$app->session->setFlash('success', "All ok, the words are added");
+                Yii::$app->cache->flush();
             } else {
                 Yii::$app->session->setFlash('error', 'Please, check the format ...');
             }

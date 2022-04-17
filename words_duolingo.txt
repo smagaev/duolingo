@@ -7,7 +7,7 @@ bathe                               :    купаться
 deaf                                :    мертвый                                   
 on sick leave                       :    на больничном                                
 health insurance                    :    медицинская страховка                     
-dolphin                             :    дельфин                                   
+dolphin                             :    дельфин
 mole                                :    крот                                      
 ache                                :    болеть, ныть                              
 mane                                :    грива                                     
@@ -18,7 +18,13 @@ fly                                 :    муха
 butterfly                           :    бабочка                                   
 ant                                 :    муравей                                   
 camel                               :    верблюд                                   
-donkey                              :    осел
+herd                                :    стадо
+deer                                :    олень
+rat                                 :    крыса
+fly                                 :    муха
+butterfly                           :    бабочка
+ant                                 :    муравей
+camel                               :    верблюд
 rats                                :    крысы                                     
 swans                               :    лебеди                                    
 parrot                              :    попугай                                   
