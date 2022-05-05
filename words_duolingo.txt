@@ -1543,7 +1543,7 @@ i want to make sure                 :   я хочу убедиться
 don't mind                          :   не против
 extra                               :   дополнительные
 that's all right                    :   ничего страшного
-teke care and see you on monday     :   береги себя и увидимся в понедельник
+take care and see you on monday     :   береги себя и увидимся в понедельник
 i call you back                     :   я перезвоню тебе
 i can't wait to see you             :   я не могу дождаться чтобы увидеть тебя
 famous for his book                 :   известен благодаря своей книге
@@ -1555,4 +1555,12 @@ failed exams                        :   завалила экзамен
 clear answers                       :   понятные ответы
 exercise were clear                 :   упражнения были понятными
 fail                                :   завалить
+shout                               :   кричать
+shouted                             :   кричал
+racket                              :   ракетка
+against                             :   против
+who are they playing against        :   против кого они играют
+easily                              :   легко
+happily                             :   радостно
+loses                               :   проиграет
 
