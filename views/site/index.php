@@ -4,6 +4,7 @@
 
 $this->title = 'My Yii Application';
 ?>
+<? var_dump($_SESSION);?>
     <div class="site-index">
         <br>
         <div class="body-content text-center">

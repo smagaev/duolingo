@@ -72,7 +72,7 @@ class SiteController extends Controller
         if (!$session->isActive) {
             $session->open();
         }
-          $session_id = Yii::$app->session->getId();
+        $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
         if ($cache->get('count_words_in_db') == 5) {
             $cache->delete('words_' . $session_id);
@@ -98,7 +98,7 @@ class SiteController extends Controller
             } else {
                 $min = min($arr);
                 $max = max($arr);
-                for ($i = 0; $i < count($arr)-1; $i++) {
+                for ($i = 0; $i < count($arr) - 1; $i++) {
                     $count = count($arr);
                     $id_rand = mt_rand($min, $max);
                     $words[$i] = Duolingo::findOne($id_rand);
@@ -158,6 +158,12 @@ class SiteController extends Controller
             }
             return $this->render('words');
         }
+    }
+
+    public function actionClear()
+    {
+        Yii::$app->cache->flush();
+        return $this->goBack();
     }
 
     /**

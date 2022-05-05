@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use app\models\Words;
+use yii\helpers\Url;
 
 $model = new Words();
 
@@ -33,6 +34,11 @@ $model = new Words();
     <div class="form-group">
         <?= Html::submitButton('Submit', [
             'class' => 'btn btn-primary'
+        ]) ?>
+        <?= Html::Button('Clear Cache', [
+            'class' => 'btn btn-secondary',
+            'onClick' => 'window.location.href="'. Url::toRoute(['site/clear']) . '"'
+
         ]) ?>
     </div>
     <?php ActiveForm::end(); ?>

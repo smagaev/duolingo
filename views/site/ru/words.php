@@ -1,6 +1,7 @@
 <?php
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 use app\models\Words;
 
@@ -33,6 +34,11 @@ $model = new Words();
     <div class="form-group">
         <?= Html::submitButton('Отправить', [
             'class' => 'btn btn-primary'
+        ]) ?>
+        <?= Html::Button('Очистить кеш', [
+            'class' => 'btn btn-secondary',
+            'onClick' => 'window.location.href="'. Url::toRoute(['site/clear']) . '"'
+
         ]) ?>
     </div>
     <?php ActiveForm::end(); ?>

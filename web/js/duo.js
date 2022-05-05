@@ -20,7 +20,7 @@ $('.my_btn').click(function () {
                         .removeClass('btn_act')
                         .unbind();
 
-                }, 500);
+                }, 300);
                if(document.querySelectorAll('.btn_act').length === 2){
                   $('.btn-next').removeClass('disabled')
                       .bind('click',function () {
@@ -44,7 +44,7 @@ $('.my_btn').click(function () {
                     .removeClass('btn_sel');
 
 
-            }, 500);
+            }, 300);
 
         }
 
