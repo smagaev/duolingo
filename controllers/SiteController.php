@@ -67,6 +67,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        set_time_limit(1200);
         $error_words = false;
         $session = Yii::$app->session;
         if (!$session->isActive) {
@@ -87,31 +88,30 @@ class SiteController extends Controller
             $count_words = count($arr);
             $count_ready = $count_words_db - $count_words;
             if ($count_words > 5) {
-                $min = min($arr);
-                $max = max($arr);
                 for ($i = 0; $i < 5; $i++) {
-                    $count = count($arr);
-                    $id_rand = mt_rand($min, $max);
-                    $words[$i] = Duolingo::findOne($id_rand);
+                    $id_rand = array_rand($arr, 1);
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
                     unset($arr[$id_rand]);
+                    sort($arr);
                 }
             } else {
-                $min = min($arr);
-                $max = max($arr);
-                for ($i = 0; $i < count($arr) - 1; $i++) {
-                    $count = count($arr);
-                    $id_rand = mt_rand($min, $max);
-                    $words[$i] = Duolingo::findOne($id_rand);
+                $count = count($arr);
+                for ($i = 0; $i < $count; $i++) {
+                    $id_rand = array_rand($arr, 1);
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
                     unset($arr[$id_rand]);
+                    sort($arr);
                 }
             }
             $cache->set('words_' . $session_id, $arr);
+            if (!isset($words)) return "<a href='/clear'> вы прошли курс</a>";
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
         } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
 
     }
 
-    public function actionWords()
+    public
+    function actionWords()
     {
         $ok = false;
         $request = Yii::$app->request;
@@ -160,7 +160,8 @@ class SiteController extends Controller
         }
     }
 
-    public function actionClear()
+    public
+    function actionClear()
     {
         Yii::$app->cache->flush();
         return $this->goBack();

@@ -1565,4 +1565,3 @@ happily                             :   радостно
 loses                               :   проиграет
 pirate                              :   пират
 returned                            :   вернуться
-

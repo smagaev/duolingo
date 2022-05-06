@@ -8,7 +8,7 @@ $this->title = 'My Yii Application';
         <br>
         <div class="body-content text-center">
             <? $n = 1;
-            for ($i = 0; $i < 5; $i++) {
+            for ($i = 0; $i < count($words); $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
                 $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-defult border-dark col-5" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
@@ -16,7 +16,7 @@ $this->title = 'My Yii Application';
                 $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-id="' . $k . '"><span>' . $words[$i]->var1 . '</span></div>';
                 $n++;
             }
-            shuffle($arr_tr);
+            if(isset($arr_tr)) shuffle($arr_tr);
             ?>
             <div class="row">
                 <div class="col"></div>
@@ -25,7 +25,7 @@ $this->title = 'My Yii Application';
             <br>
 
             <?
-            for ($i = 0; $i < 5; $i++) {
+            for ($i = 0; $i < count($words); $i++) {
                 ?>
                 <div class="row">
                     <div class="col"></div>
