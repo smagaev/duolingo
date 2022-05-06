@@ -67,7 +67,6 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        set_time_limit(1200);
         $error_words = false;
         $session = Yii::$app->session;
         if (!$session->isActive) {
