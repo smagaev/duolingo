@@ -1565,3 +1565,29 @@ happily                             :   радостно
 loses                               :   проиграет
 pirate                              :   пират
 returned                            :   вернуться
+except                              :   кроме
+take the subway                     :   ездят на метро
+put on                              :   надеть
+don't forget to put on              :   не забудь одеть свои штаны
+brush                               :   расчесывать
+get on the bus                      :   садишься на автобус
+i got on the wrong bus              :   сел на неправильный автобус
+seats                               :   сиденья
+list                                :   список
+my coworkers' friends               :   друзья моих коллег
+are the same                        :   одинаковые
+the boss's computer                 :   компьютер моего босса
+channels                            :   каналы
+diary                               :   дневник
+my kids' pajamas                    :   пижама моих детей
+lay down                            :   легла
+hockey player                       :   хоккеист
+if i see you i will kiss you        :   если я увижу тебя я поцелую тебя
+hit the ball                        :   ударил по мячу
+as badly as my son                  :   также плохо как мой сын
+he doesn't throw as badly as i      :   он не бросает также плохо как я
+why was that game so quiet          :   почему тот матч был такой спокойный
+to gets to the park                 :   добраться в парк
+refregerator                        :   холодильник
+boy's turn                          :   очередь мальчика
+
