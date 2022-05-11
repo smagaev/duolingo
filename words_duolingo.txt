@@ -370,7 +370,7 @@ movers                              :   грузчики
 helpful                             :   готовы помочь
 aunt                                :   тетя
 uncle                               :   дядя
-hoped                               :   надеяться
+hope                                :   надеяться
 rate                                :   скорость
 sort of                             :   вроде
 totally gorgeous                    :   совершенно великолепно
@@ -1284,6 +1284,7 @@ bush                                :   куст
 blooming                            :   цветет
 cherries                            :   вишен
 summer camp                         :   летний лагерь
+to camp                             :   разбить лагерь
 is on the phone                     :   разговаривает по телефону
 are you cumming                     :   ты придешь
 taking care                         :   заботишься
@@ -1588,6 +1589,44 @@ as badly as my son                  :   также плохо как мой сы
 he doesn't throw as badly as i      :   он не бросает также плохо как я
 why was that game so quiet          :   почему тот матч был такой спокойный
 to gets to the park                 :   добраться в парк
-refregerator                        :   холодильник
+refrigerator                        :   холодильник
 boy's turn                          :   очередь мальчика
-
+you've lived all over Europe        :   ты пожил во всей Европе
+record                              :   записать
+album                               :   альбом
+chef                                :   шеф-повар
+international                       :   международный
+who did you record that song with   :   с кем ты записал ту песню
+I am home                           :   я дома
+dark                                :   темно
+did you have a good time            :   ты хорошо провел время
+I've always been interested in      :   я всегда интерисовался
+Are you having a good time?         :   ты хорошо проводишь время?
+So, can i call you tomorrow         :   То есть, могу я позвонить завтра?
+Anna, who works with me             :   Анна, которая работает со мной
+to follow                           :   следовать
+is tying to the tree                :   привязывает к дереву
+guide                               :   гид
+anna, who works as a guide here     :   анна, которая работает гидом здесь
+can't come with us today            :   не может пойти с нами
+Can you tie my boot                 :   можешь ты завязать мой ботинок
+socks                               :   носки
+cafeteria                           :   столовая
+physics                             :   физика
+english textbook                    :   учебник английского
+geography textbook                  :   учебник географии
+took notes                          :   делал записи
+playground                          :   детская площадка
+he passed tests                     :   он сдал тесты
+biology                             :   биология
+spanish notebooks                   :   тетради по испанскому
+principal                           :   директор
+she was good at running             :   она была сильна в беге
+old math notebook                   :   старая тетрадь по математике
+was just good at writing in spanish :   была просто сильна в письме на испанском
+Mom's old math notebook             :   мамина старая тетрадь по математике
+chemistry                           :   химия
+childhood                           :   детсво
+quizzes                             :   самостоятельных работ
+workbooks                           :   рабочие тетради
+She failed every quiz               :   она завалила каждую самостоятельную работу
