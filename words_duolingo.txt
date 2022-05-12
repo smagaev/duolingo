@@ -182,22 +182,22 @@ flu                                 :    грипп
 heart surgery                       :    операция на сердце
 never                               :    никогда
 get rid of                          :    избавиться
-tail                                :    хвост
-fox                                 :    лисица
-predators                           :    хищник
+a tail                              :    хвост
+a fox                               :    лисица
+a predator                          :    хищник
 wolves                              :    волки
 lions                               :    львы
 it give us right                    :    это дает нам право
-donkey                              :    осел
-bull                                :    бык
-horn                                :    рог
-quarter                             :    четверть
-goat                                :    коза
-hoof                                :    копыто
+a donkey                            :    осел
+a bull                              :    бык
+a horn                              :    рог
+a quarter                           :    четверть
+a goat                              :    коза
+a hoof                              :    копыто
 hooves                              :    копыта
-hamster                             :    хомяк
+a hamster                           :    хомяк
 almost                              :    почти
-rabbit                              :    кролики
+a rabbit                            :    кролик
 mice                                :    мыши
 squirrels                           :    белки
 instead of                          :    вместо
@@ -205,7 +205,7 @@ get                                 :    получать
 by the time                         :    к тому времени
 by nineteen sixty eight             :    к 1968
 to cook                             :    готовить
-to sen                              :    послать
+to send                             :    послать
 earlier                             :    раньше
 to come                             :    приходить
 to divorce                          :    разводиться
@@ -247,8 +247,8 @@ throws                              :   выбрасывает
 trash                               :   мусор
 extra chocolate                     :   двойной шоколад
 no until tomorrow                   :   не раньше чем завтра
-raven                               :   ворон
-crow                                :   ворона
+a raven                             :   ворон
+a crow                              :   ворона
 throw the ball                      :   бросить мяч
 whoa                                :   эй
 a feather                           :   перо
@@ -273,23 +273,23 @@ a snail                             :   улитка
 turtles                             :   черепахи
 early                               :   ранняя
 frogs                               :   лягушки
-sparrow                             :   воробей
-penguin                             :   пингвин
-crow                                :   ворона
-gull                                :   чайка
-dove                                :   голубь
+a sparrow                           :   воробей
+a penguin                           :   пингвин
+a crow                              :   ворона
+a gull                              :   чайка
+a dove                              :   голубь
 ravens                              :   вороны
 berry                               :   ягода
-stomach                             :   живот
-punish                              :   наказывать
-care                                :   заботиться, беспокоиться
+a stomach                           :   живот
+to punish                           :   наказывать
+to care                             :   заботиться, беспокоиться
 causes                              :   причин
 supported                           :   поддержала
 drew                                :   нарисовала
 entrance                            :   вход
 deal                                :   иметь дело
 forever                             :   вечно
-measure                             :   измерить
+to measure                          :   измерить
 reached                             :   достигла
 elevator                            :   лифт
 unfortunately                       :   к несчастью, к сожалению
@@ -322,13 +322,13 @@ attempts                            :   попытки
 purpose                             :   цель
 take care of it                     :   позабочусь об этом
 per day                             :   в день
-happen                              :   происходят
+to happen                           :   происходит
 male doctors                        :   мужчины врачи
 male mosquitoes                     :   комары-самцы
 views on education                  :   взгляды на образование
 seeing                              :   видеть
 dish                                :   блюдо
-oven                                :   печь
+an oven                             :   печь
 door handle                         :   дверная ручка
 whoever you are                     :   кто бы ты не был
 a cupcake to go                     :   пирожное на вынос
@@ -337,19 +337,19 @@ narrow                              :   узкая
 shallow                             :   мелкая
 wide                                :   широкая
 temple                              :   храм
-dormitory                           :   общежитие
+a dormitory                         :   общежитие
 railroad station                    :   железнодорожная станция
 stream                              :   течение
 hill                                :   холм
 earth                               :   земле
-mosque                              :   мечеть
+a mosque                            :   мечеть
 tiny                                :   крошечный
-roommate                            :   сосед по квартире
+a roommate                          :   сосед по квартире
 rent                                :   аренда
 sind                                :   грех
 hint                                :   намекать
 wind                                :   ветер
-moon                                :   луна
+a moon                              :   луна
 sky                                 :   небо
 ended                               :   закончилось
 chores                              :   работу по дому
@@ -399,7 +399,7 @@ through                             :   сквозь
 wood                                :   древесина
 found                               :   нашли
 receipt                             :   чек
-sages                            :   сосиски
+sages                               :   сосиски
 sausage                             :   колбаса
 sauce                               :   соус
 science                             :   наука
@@ -415,7 +415,7 @@ who cares                           :   какая разница
 all alone by yourself               :   в полном одиночестве
 no one for to talk at               :   не с кем поговорить
 anyway                              :   в любом случае
-i got to ask                        :   я должен спросить
+i get to ask                        :   я должен спросить
 got up                              :   встать
 got on                              :   сесть в транспорт
 got off                             :   выйти из транспорта
@@ -438,12 +438,12 @@ go on                               :   продолжай
 make a wish                         :   загадай желание
 it's kind of hard                   :   это довольно сложно
 confession                          :   признание
-mower                               :   косилка
+a mower                             :   косилка
 overprotective                      :   чрезмерно опекающий
-imagine                             :   представлять
+to imagine                          :   представлять, воображать
 whole life                          :   вся жизнь
 raised me                           :   вырастила меня
-guys                                :   ребята
+guys                                :   ребята, парни
 kind of like                        :   это вроде как
 promise                             :   обещаю
 caught a cold                       :   простудился
@@ -459,7 +459,7 @@ answering machine                   :   автоответчик
 washing machine                     :   стиральная машина
 even                                :   духовка
 spice vegetables dishes             :   пряные овощные блюда
-knives                              :   ножей
+knives                              :   ножи
 hook                                :   крючок
 set of instruments                  :   наборы инструментов
 rope                                :   веревка
@@ -469,8 +469,8 @@ humans                              :   люди
 king                                :   король
 naturally                           :   естественно
 gifted artist                       :   художник
-queen                               :   королева
-soldier                             :   солдат
+a queen                             :   королева
+a soldier                           :   солдат
 members                             :   членов
 stranger                            :   чужой
 deal with the prince                :   разобраться с принцем
@@ -1633,3 +1633,10 @@ the heat was broken                 :   отопление было сломан
 How are you doing today             :   как у тебя дела сегодня
 This sounds fun                     :   это звучит весело
 How are you doing friends           :   как дела, друзья?
+Would you mind                      :   ты не против?
+Would you mind checking this email  :   Ты не против проверить эту почту?
+if i come will somebody play cards  :   Если я приду, кто-то поиграет в карты?
+will you get bored                  :   Ты заскучаешь?
+i'd love                            :   Я бы с удовольствием
+I'm working till seven              :   Я работаю до семи
+I would love to come but i ...      :   Я бы с удовольствием пришел, но я
