@@ -3,71 +3,66 @@ cries                               :    кричит
 humid                               :    влажный                                   
 sensitive                           :    чувствительный                            
 blind                               :    слепой
-bathe                               :    купаться                                  
+to bathe                            :    купаться
 deaf                                :    мертвый                                   
 on sick leave                       :    на больничном                                
 health insurance                    :    медицинская страховка                     
-dolphin                             :    дельфин
-mole                                :    крот                                      
-ache                                :    болеть, ныть                              
-mane                                :    грива                                     
-herd                                :    стадо                                     
-deer                                :    олень                                     
-rat                                 :    крыса                                     
-fly                                 :    муха                                      
-butterfly                           :    бабочка                                   
-ant                                 :    муравей                                   
-camel                               :    верблюд                                   
-herd                                :    стадо
-deer                                :    олень
-rat                                 :    крыса
-fly                                 :    муха
-butterfly                           :    бабочка
-ant                                 :    муравей
-camel                               :    верблюд
-rats                                :    крысы                                     
+a dolphin                           :    дельфин
+a mole                              :    крот
+to ache                             :    болеть, ныть
+a mane                              :    грива
+a herd                              :    стадо
+a deer                              :    олень
+a rat                               :    крыса
+a fly                               :    муха
+a butterfly                         :    бабочка
+an ant                              :    муравей
+a camel                             :    верблюд
+a deer                              :    олень
+a rat                               :    крыса
+rats                                :    крысы
 swans                               :    лебеди                                    
-parrot                              :    попугай                                   
-lawn                                :    газон                                     
+a parrot                            :    попугай
+a lawn                              :    газон
 wild                                :    дикий                                     
 underwear                           :    нижнее белье                              
-wear                                :    носить                                    
+to wear                             :    носить
 slippers                            :    тапочки                                   
-jaw                                 :    челюсть                                   
+a jaw                               :    челюсть
 get used to                         :    раньше                                    
 ironed                              :    поглаженный                                
 sleeves                             :    рукава                                    
-collar                              :    воротник                                  
-pocket                              :    карман                                    
-envelope                            :    конверт                                   
+a collar                            :    воротник
+a pocket                            :    карман
+an envelope                         :    конверт
 faux                                :    искусственный                              
 legs                                :    ноги                                      
 truth                               :    правда                                    
 scissors                            :    ножницы                                   
-beverages                           :    напиток                                   
+beverages                           :    напитки
 sadness                             :    грусть                                    
-sponge                              :    губка                                     
+a sponge                            :    губка
 sad                                 :    печальный                                 
-owl                                 :    сова                                      
+an owl                              :    сова
 surgeries                           :    операции
 on maternity leave                  :    в декретный отпуск                        
 pregnant                            :    беременная                                
 pregnancy                           :    беременность                              
-midwife                             :    акушерка                                  
-gave birth                          :    родила                                    
+a midwife                           :    акушерка
+gave birth                          :    родила
 contractions                        :    схватки                                   
 painful                             :    болезненный                               
-gave up smoking                     :    бросить курить                            
-got pregnant                        :    забеременела                              
+to gave up smoking                  :    бросить курить
+to got pregnant                     :    забеременела
 quite                               :    довольно                                  
 labor                               :    роды                                      
-lasted                              :    длилось                                   
+lasted                              :    длилось
 is it true                          :    правда ли                                 
-cries                               :    кричит                                    
+cries                               :    кричит
 each time                           :    каждый раз                                
-diaper                              :    подгузник                                 
-poop                                :    какать                                    
-pee                                 :    писать                                    
+a diaper                            :    подгузник
+to poop                             :    какать
+to pee                              :    писать
 to keep breastfeeding               :    продолжать грудное кормление              
 as soon as                          :    как только                                
 he is teething                      :    у него режутся зубки                      
@@ -105,11 +100,11 @@ less                                :    менее
 he must be hungry                   :    он должно быть голодный                   
 up to ten times a day               :    до десяти раз в день                      
 at a New Year's Eve party           :    на вечеринке по случаю Нового Года        
-date more people                    :    встречаться с большим числом людей        
+to date more people                 :    встречаться с большим числом людей
 what do you mean                    :    что ты имеешь ввиду                       
-hate                                :    ненавижу                                  
+to hate                             :    ненавидеть
 why things have to change           :    почему что то должно измениться            
-guy                                 :    парень                                    
+a guy                               :    парень
 past them                           :    мимо них                                  
 walks away                          :    отходит                                   
 can i get you a drink               :    могу я купить тебе вина                   
@@ -131,12 +126,12 @@ interrupt                           :    прерывать
 midnight                            :    полночь
 stop talking                        :    прекрати разговаривать
 noon                                :    полдень
-get                                 :    получать
+to get                              :    получать
 worse                               :    хуже
-shave                               :    бриться
-dress                               :    одеваться
-undress                             :    раздеваться
-behave                              :    вести себя
+to shave                            :    бриться
+to dress                            :    одеваться
+to undress                          :    раздеваться
+to behave                           :    вести себя
 than before                         :    чем раньше
 then                                :    затем, тогда, потом, в то время, ...
 than                                :    чем, кроме, как, чтобы
@@ -147,22 +142,22 @@ give up smoking                     :    бросать курить
 is in pain                          :    болит
 pain                                :    боль
 blood pressure                      :    кровяное давление
-allergy                             :    аллергия
-dangerous                           :    опасно
+an allergy                          :    аллергия
+dangerous                           :    опасный
 height                              :    рост
-hurt                                :    болит
+to hurt                             :    болеть, ранить
 blind                               :    слепой
 pressure                            :    давление
 disease                             :    заболевание
-physician                           :    врач
+a physician                         :    врач
 def                                 :    глухой
-vaccination                         :    прививка
+a vaccination                       :    прививка
 services                            :    услуги
 medical                             :    медицинские
 symptoms                            :    симптомы
 cough                               :    кашель
-nurse                               :    медбрат
-surgeon                             :    хирург
+a nurse                             :    медбрат
+a surgeon                           :    хирург
 prescribe                           :    прописал
 lice                                :    вши
 nausea                              :    тошнота
@@ -170,9 +165,9 @@ medicine                            :    лекарство
 stretch                             :    протягивать
 sсratched                           :    поцарапал, почесал
 he had to swallow                   :    ему приходилось глотать
-pill                                :    таблетка
+a pill                              :    таблетка
 wounds                              :    раны
-bruises                             :    синяк
+a bruises                           :    синяк
 again soon                          :    снова в ближайшее время
 honestly                            :    честно говоря
 terrible                            :    ужасный
@@ -209,25 +204,25 @@ instead of                          :    вместо
 get                                 :    получать
 by the time                         :    к тому времени
 by nineteen sixty eight             :    к 1968
-cook                                :    готовить
-send                                :    послать
+to cook                             :    готовить
+to sen                              :    послать
 earlier                             :    раньше
-come                                :    приходить
-divorce                             :    развелись
+to come                             :    приходить
+to divorce                          :    разводиться
 could                               :    мог
 which                               :    которое
 oneself                             :   кто-нибудь сам
-proud                               :   гордиться
-believe                             :   верить
-trust                               :   доверять
+to proud                            :   гордиться
+to believe                          :   верить
+to trust                            :   доверять
 to be yourself                      :   быть собой
 all of you                          :   все из вас
 being able to think for             :   быть способным думать за
-whale                               :   кит
-raccoon                             :   енот
+a whale                             :   кит
+a raccoon                           :   енот
 beavers                             :   бобры
-mammals                             :   млекопитающих
-hare                                :   заяц
+mammals                             :   млекопитающие
+a hare                              :   заяц
 claws                               :   когти
 while                               :   тогда, тогда как
 only                                :   единственное
@@ -256,25 +251,25 @@ raven                               :   ворон
 crow                                :   ворона
 throw the ball                      :   бросить мяч
 whoa                                :   эй
-feather                             :   перо
+a feather                           :   перо
 wings                               :   крылья
-eagle                               :   орел
-goose                               :   гусь
-beak                                :   клюв
-duck                                :   утка
-gees                                :   гуси
-mosquito                            :   комар
-spider                              :   паук
+an eagle                            :   орел
+a goose                             :   гусь
+a beak                              :   клюв
+a duck                              :   утка
+a gees                              :   гуси
+a mosquito                          :   комар
+a spider                            :   паук
 bees                                :   пчелы
-insect                              :   насекомое
-bee                                 :   пчела
+an insect                           :   насекомое
+a bee                               :   пчела
 up there                            :   там наверху
 either  or                          :   либо либо (ни ни)
 worms                               :   черви
-shark                               :   акула
-call                                :   назвать
-octopus                             :   осьминог
-snail                               :   улитка
+a shark                             :   акула
+to call                             :   назвать
+an octopus                          :   осьминог
+a snail                             :   улитка
 turtles                             :   черепахи
 early                               :   ранняя
 frogs                               :   лягушки
@@ -1630,3 +1625,11 @@ childhood                           :   детсво
 quizzes                             :   самостоятельных работ
 workbooks                           :   рабочие тетради
 She failed every quiz               :   она завалила каждую самостоятельную работу
+I burned the chicken                :   я сожгла курицу
+problem with our heat               :   проблема с нашим отоплением
+My son burns                        :   мой сын обжигается
+awful dinner                        :   ужасный ужин
+the heat was broken                 :   отопление было сломано
+How are you doing today             :   как у тебя дела сегодня
+This sounds fun                     :   это звучит весело
+How are you doing friends           :   как дела, друзья?
