@@ -376,22 +376,22 @@ doomed                              :   обреченная любовь
 discusses                           :   обсуждает
 risked                              :   рисковал
 recommended                         :   рекомендовал
-delay                               :   откладывать
-recall                              :   припоминаю
+to delay                            :   откладывать
+to recall                           :   припоминаю
 denies                              :   отрицает
-admit                               :   признавать
+to admit                            :   признавать
 somehow                             :   как-то
 kept                                :   продолжали
 mean                                :   значить
-forget                              :   забывать
-law                                 :   закон
-pillow                              :   подушка
+to forget                           :   забывать
+a law                               :   закон
+a pillow                            :   подушка
 favor                               :   одолжение
 hind                                :   задняя
 unless                              :   если только
-currency                            :   валюта
+a currency                          :   валюта
 broke up with him                   :   разошлась с ним
-profile                             :   профиль
+a profile                           :   профиль
 fell of horse                       :   упал с лошади
 line                                :   очередь
 met                                 :   встретила
@@ -404,7 +404,7 @@ sausage                             :   колбаса
 sauce                               :   соус
 science                             :   наука
 just like yours                     :   прямо как у тебя
-dream                               :   мечтать
+to dream                            :   мечтать
 exactly terrific                    :   совершенно потрясающе
 exactly                             :   точно
 pull                                :   тянуть
@@ -1292,7 +1292,7 @@ sure                                :   не за что
 it didn't work                      :   ничего не вышло
 all over                            :   во всем
 haircut                             :   стрижка
-classmate                           :   одноклассница
+classmate                           :   одноклассник
 just then                           :   в тот момент
 them talking                        :   их разговор
 won't mind                          :   будет не против
@@ -1640,3 +1640,23 @@ will you get bored                  :   Ты заскучаешь?
 i'd love                            :   Я бы с удовольствием
 I'm working till seven              :   Я работаю до семи
 I would love to come but i ...      :   Я бы с удовольствием пришел, но я
+graduates                           :   выпускники
+classroom                           :   кабинет
+occupation                          :   профессия
+high school                         :   старшие классы
+he is now famous for his book       :   он известен сейчас благодаря своей книге
+in the country                      :   за городом
+of average height and weight        :   среднего роста и веса
+Are you having a good time?         :   ты хорошо проводишь время?
+I am usually home at this time      :   я обычно дома в это время
+He has always been interesting in   :   он всегда интересовался мной
+Follow the path south               :   Следуй по тропе на юг
+Go North, no South                  :   Иди на юг, не на север
+full of food                        :   Полон еды
+farmers                             :   фермеры
+subjects                            :   предметы
+diploma                             :   атестат
+uniform                             :   униформа
+very clear pictures                 :   очень понятные картины
+she sometimes failed exams          :   она иногда заваливала экзамены
+I didn't have a business textbook   :   У меня не было учебника бизнеса
