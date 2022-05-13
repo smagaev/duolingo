@@ -5,6 +5,9 @@ use yii\widgets\ActiveForm;
 use app\models\Words;
 use yii\helpers\Url;
 
+$this->title = 'Words';
+$this->params['breadcrumbs'][] = $this->title;
+
 $model = new Words();
 
 /* @var $this yii\web\View */

@@ -41,6 +41,7 @@ AppAsset::register($this);
             ['label' => 'Startseite', 'url' => ['/site/index']],
             ['label' => 'über', 'url' => ['/site/about']],
             ['label' => 'Kontakt', 'url' => ['/site/contact']],
+            ['label' => 'Stufe', 'url' => ['/site/level']],
             ['label' => 'Wort', 'url' => ['/site/words']],
             Yii::$app->user->isGuest ? (
             ['label' => 'Login', 'url' => ['/site/login']]

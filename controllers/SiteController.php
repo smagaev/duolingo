@@ -77,6 +77,9 @@ class SiteController extends Controller
         if ($cache->get('count_words_in_db') == 5) {
             $cache->delete('words_' . $session_id);
         }
+        $level = $cache->get('level_' . $session_id);
+        if(!isset($level)){}
+
         $count_words_db = $cache->getOrSet('count_words_in_db', function () {
             return Duolingo::find()->count();
         });
@@ -84,6 +87,7 @@ class SiteController extends Controller
             $arr = $cache->getOrSet('words_' . $session_id, function () {
                 return Duolingo::find()->column();
             });
+
             $count_words = count($arr);
             $count_ready = $count_words_db - $count_words;
             if ($count_words > 5) {
@@ -109,6 +113,26 @@ class SiteController extends Controller
 
     }
 
+    public function actionSetlevel(){
+        $error_words = false;
+        $session = Yii::$app->session;
+        if (!$session->isActive) {
+            $session->open();
+        }
+        $session_id = Yii::$app->session->getId();
+        $cache = Yii::$app->cache;
+        $cache->set('level_' . $session_id, $_GET['level']);
+        Yii::$app->getResponse()->redirect('/index');
+    }
+
+    public function actionLevel()
+    {
+        for ($i = 1; $i < 7; $i++) {
+            $i<6? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->count(): $countL[$i] = Duolingo::find()->where(['>','count_words', $i-1])->count();
+        }
+        return $this->render('level', compact('countL'));
+    }
+
     public
     function actionWords()
     {
@@ -132,6 +156,7 @@ class SiteController extends Controller
                                     if (!Duolingo::find()->where(['word' => $eng])->one()) {
                                         $model = new Duolingo();
                                         $model->word = $eng;
+                                        $model->count_words = str_word_count($eng);
                                         $model->var1 = $ru;
                                         if ($model->validate()) {
 

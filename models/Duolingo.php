@@ -9,6 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string $word
+ * @property string $count_words
  * @property string $var1
  * @property string $var2
  * @property string $var3
@@ -32,8 +33,9 @@ class Duolingo extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['word', 'var1'], 'required'],
+            [['word', 'var1', 'count_words'], 'required'],
             [['word', 'var1', 'var2', 'var3', 'var4', 'var5', 'var6'], 'string', 'max' => 128],
+            [['count_words'], 'integer']
         ];
     }
 
