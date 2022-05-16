@@ -1660,3 +1660,32 @@ uniform                             :   униформа
 very clear pictures                 :   очень понятные картины
 she sometimes failed exams          :   она иногда заваливала экзамены
 I didn't have a business textbook   :   У меня не было учебника бизнеса
+borrowed                            :   взял в долг
+ben borrowed money from me          :   бен взял в долг деньги у меня
+do you need to borrow some money    :   тебе нужно взять в долг деньги
+necklace                            :   ожерелье
+This bank is closer than that one.  :   Этот банк ближе чем тот.
+bracelet                            :   браслет
+silver                              :   серебрянный
+a lottery                           :   лотерея
+million                             :   миллион
+first of all                        :   в первую очередь
+He is going to quit his job         :   Он бросит свою работу.
+to lend                             :   дать в долг
+Don't quit the University.          :   Не бросай университет.
+You can' talk to the driver.        :   Тебе нельзя говорить с водителем
+a driver                            :   водитель
+gave his sit                        :   уступил свое место
+your child's backpack               :   рюкзак своего ребенка
+How long have you been an actor?    :   Как долго он был актером?
+Who is making noise?                :   Кто шумит?
+Don't take your shoes.              :   Не снимай свою обувь.
+to book seats                       :   бронировать места
+You don't have to book seats.       :   Тебе не обязательно бронировать места.
+a play                              :   Пьеса, игра
+Take of your hat                    :   Снимите свою шляпу
+a statue                            :   статуя
+a painter                           :   художник
+you don't have to                   :   тебе не обязательно
+
+
