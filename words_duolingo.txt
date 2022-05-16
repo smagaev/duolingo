@@ -1708,3 +1708,4 @@ makeup                              :   макияж
 her makeup will be terrible         :   ее макияж будет ужасным
 sunglasses                          :   солнцезащитные очки
 showered                            :   принял душ
+Don't worry that's all right        :   Не волнуйся, ничего страшного.

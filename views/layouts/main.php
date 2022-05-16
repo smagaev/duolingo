@@ -38,16 +38,16 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Settings', 'url' => ['/site/setting']],
-            ['label' => 'Words', 'url' => ['/site/words']],
+            ['label' => 'Home', 'url' => ['/site/index', 'language'=>'en']],
+            ['label' => 'About', 'url' => ['/site/about','language'=>'en']],
+            ['label' => 'Contact', 'url' => ['/site/contact','language'=>'en']],
+            ['label' => 'Settings', 'url' => ['/site/setting','language'=>'en']],
+            ['label' => 'Words', 'url' => ['/site/words','language'=>'en']],
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
+                ['label' => 'Login', 'url' => ['/site/login','language'=>'en']]
             ) : (
                 '<li>'
-                . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])
+                . Html::beginForm(['/site/logout','language'=>'en'], 'post', ['class' => 'form-inline'])
                 . Html::submitButton(
                     'Logout (' . Yii::$app->user->identity->username . ')',
                     ['class' => 'btn btn-link logout']

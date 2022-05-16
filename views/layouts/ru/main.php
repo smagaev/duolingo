@@ -38,13 +38,13 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Главная', 'url' => ['/site/index']],
-            ['label' => 'О нас', 'url' => ['/site/about']],
-            ['label' => 'Контакты', 'url' => ['/site/contact']],
-            ['label' => 'Уровень', 'url' => ['/site/level']],
-            ['label' => 'Слова', 'url' => ['/site/words']],
+            ['label' => 'Главная', 'url' => ['/site/index', 'language'=>'ru']],
+            ['label' => 'О нас', 'url' => ['/site/about', 'language'=>'ru']],
+            ['label' => 'Контакты', 'url' => ['/site/contact', 'language'=>'ru']],
+            ['label' => 'Уровень', 'url' => ['/site/level', 'language'=>'ru']],
+            ['label' => 'Слова', 'url' => ['/site/words', 'language'=>'ru']],
             Yii::$app->user->isGuest ? (
-                ['label' => 'Войти', 'url' => ['/site/login']]
+                ['label' => 'Войти', 'url' => ['/site/login', 'language'=>'ru']]
             ) : (
                 '<li>'
                 . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])

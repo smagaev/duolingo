@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <row text-center>
         <? foreach ($countL as $key => $val) { ?>
 
-            <a href="/setlevel?level=<?=$key ?>"
+            <a href="/setlevel?level=<?=$key?>&language=en"
                class="d-inline-block round bg-warning border-dark text-center col-3 border border-primary text-decoration-none m-3 p-4" style="border-radius: 50%; box-shadow: 10px 12px #343a40">
                 <div class="level text-dark h4">Level <?= $key ?>
                 </div>
