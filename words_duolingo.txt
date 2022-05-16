@@ -1687,5 +1687,24 @@ Take of your hat                    :   Снимите свою шляпу
 a statue                            :   статуя
 a painter                           :   художник
 you don't have to                   :   тебе не обязательно
-
-
+I didn't have a business textbook   :   у меня не было учебника бизнеса
+I was walking home in the storm     :   я шла домой в шторм
+I neve break anything               :   я никогда ничего не ломаю
+I was getting on the bus            :   я садилась на автобус
+ten percent                         :   десять процентов
+my check was 20 dollars             :   мой чек был 20 долларов
+a tip                               :   чаевые
+polite                              :   вежливый
+20 percent of the check is OK       :   20 процентов счета нормально
+is this tip big enough              :   эти чаевые достаточно большие
+electricity                         :   электричество
+bill                                :   счет
+doesn't lend me money               :   не даст мне в долг денег
+lend дать в долг                    :   дать в долг
+I already lent you                  :   я уже давал тебе в долг
+towel                               :   полотенце
+bathing suit                        :   купальник
+makeup                              :   макияж
+her makeup will be terrible         :   ее макияж будет ужасным
+sunglasses                          :   солнцезащитные очки
+showered                            :   принял душ
