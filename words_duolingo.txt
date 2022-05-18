@@ -1701,11 +1701,25 @@ electricity                         :   электричество
 bill                                :   счет
 doesn't lend me money               :   не даст мне в долг денег
 lend дать в долг                    :   дать в долг
-I already lent you                  :   я уже давал тебе в долг
+I already lent you.                 :   я уже давал тебе в долг.
 towel                               :   полотенце
 bathing suit                        :   купальник
 makeup                              :   макияж
-her makeup will be terrible         :   ее макияж будет ужасным
+Her makeup will be terrible.        :   Ее макияж будет ужасным
 sunglasses                          :   солнцезащитные очки
 showered                            :   принял душ
-Don't worry that's all right        :   Не волнуйся, ничего страшного.
+Don't worry that's all right.       :   Не волнуйся, ничего страшного.
+Let's camp here.                    :   Давай разобьем палатки здесь.
+You should hold my hand             :   Тебе следует держать мою руку.
+You shouldn't listen to loud music  :   Тебе не следует слушать громкую музыку.
+You can't give your ticket them     :   Нельзя давать им свой билет
+is making noise                     :   шумит
+Your phone is making noise          :   Твой телефон шумит
+How long have you been an actor     :   Как долго ты был актером
+You can't take things home          :   Ты не можешь брать вещи домой
+I won't tell anybody                :   Я не расскажу никому
+by the way                          :   К стати
+shh                                 :   тсс
+to gossip                           :   сплетничать
+I don't gossip                      :   я не сплетничаю
+a secret                            :   a secret
