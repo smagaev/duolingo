@@ -74,11 +74,15 @@ class SiteController extends Controller
         }
         $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
+
+        $level =  Yii::$app->request->get('level');
+        $level_cache = $cache->get('level_' . $session_id);
+        echo ($level); echo "<br>";
+        echo $level_cache; die;
+
         if ($cache->get('count_words_in_db') == 5) {
             $cache->delete('words_' . $session_id);
         }
-        $level = $cache->get('level_' . $session_id);
-        if(!isset($level)){}
 
         $count_words_db = $cache->getOrSet('count_words_in_db', function () {
             return Duolingo::find()->count();

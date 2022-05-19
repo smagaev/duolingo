@@ -1723,3 +1723,45 @@ shh                                 :   тсс
 to gossip                           :   сплетничать
 I don't gossip                      :   я не сплетничаю
 a secret                            :   a secret
+single                              :   холост
+Ben is single again                 :   Максим холост снова
+crazy about Anna                    :   без ума от Анны
+cricket                             :   крикет
+somewhere                           :   куда-то
+She was going somewhere at two ...  :   Она шла куда-то в 2
+was posting                         :   выкладывала (постила)
+Anna was posting something online   :   Анна выкладывала что-то онлайн.
+curtain                             :   шторы
+grandson                            :   внук
+was painting                        :   красила
+hurryring                           :   торопиться
+grandchildren                       :   внуки
+fixing                              :   чинить
+Where they fixing the computer?     :   Они чинили компьютер?
+jewelry                             :   драгоценности
+were covering                       :   прикрывали
+advertisement                       :   реклама
+plan a vacation                     :   планировать отпуск
+information                         :   информация
+Let's take a trip.                  :   Давай съездим в путешествие.
+Work was so busy.                   :   Работа была такой напряженной.
+Why didn't they go shopping?        :   Почему бы им не пойти за покупками.
+unusial                             :   необычное
+center                              :   центр
+he needs to get off                 :   ему нужно выйти
+bus station                         :   автобусная станция
+platform                            :   платформа
+something light                     :   что-то легкое
+track                               :   путь (железнодорожный)
+I can't find right track            :   Я не могу найти правильный путь.
+luggage                             :   багаж
+I need four more tickets.           :   Мне нужно еще четыре билета.
+gas station                         :   заправка
+comic                               :   комикс
+if you like                         :   если хочешь
+quick lunch                         :   быстрый обед
+receptionist                        :   администратор
+How many guests are here?           :   Сколько постояльцев здесь?
+postcard                            :   почтовая открытка
+Parking is for guests of hotel.     :   Стоянка для постояльцев отеля.
+corner                              :   угол
