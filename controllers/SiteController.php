@@ -75,11 +75,6 @@ class SiteController extends Controller
         $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
 
-        $level =  Yii::$app->request->get('level');
-        $level_cache = $cache->get('level_' . $session_id);
-        echo ($level); echo "<br>";
-        echo $level_cache; die;
-
         if ($cache->get('count_words_in_db') == 5) {
             $cache->delete('words_' . $session_id);
         }
@@ -117,7 +112,11 @@ class SiteController extends Controller
 
     }
 
-    public function actionSetlevel(){
+    /**
+     *
+     */
+    public function actionSetlevel()
+    {
         $error_words = false;
         $session = Yii::$app->session;
         if (!$session->isActive) {
@@ -125,14 +124,27 @@ class SiteController extends Controller
         }
         $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
-        $cache->set('level_' . $session_id, $_GET['level']);
+        //set vars
+        $level = Yii::$app->request->get('level');
+        $models = Duolingo::find()->where(['=', 'count_words', $level]);
+        $count = $models->count();
+        if ($count > 0) {
+            $arr = $models->column();
+
+        }
+        //set cache
+        $cache->set('level_' . $session_id, $level); //set level
+        $cache->set('count_words_in_db' . $session_id, $count); //set count words in db
+        $cache->set('words_' . $session_id, $arr); //array of id of words
+
         Yii::$app->getResponse()->redirect('/index');
     }
 
-    public function actionLevel()
+    public
+    function actionLevel()
     {
         for ($i = 1; $i < 7; $i++) {
-            $i<6? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->count(): $countL[$i] = Duolingo::find()->where(['>','count_words', $i-1])->count();
+            $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->count() : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->count();
         }
         return $this->render('level', compact('countL'));
     }
