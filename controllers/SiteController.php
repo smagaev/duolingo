@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use Yii;
+use yii\db\Expression;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\Response;
@@ -10,6 +11,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Duolingo;
+use app\models\Statistika;
 
 class SiteController extends Controller
 {
@@ -67,7 +69,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $quantity = Yii::$app->request->get('quantity');
+
         $user_id = Yii::$app->getUser()->id;
+
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
@@ -77,6 +82,21 @@ class SiteController extends Controller
 
         } else {
             $session_id = $user_id;
+
+            if (isset($quantity)) {
+                $data = date('Y-m-d');
+                $stat = Statistika::find()->where(['=', 'user_id', $user_id])->andWhere(['=', 'data', $data])->one();
+                if(isset($stat)) {
+                    $stat->quantity += $quantity;
+                    $stat->save();
+                } else {
+                    $stat = new Statistika();
+                    $stat->user_id = $user_id;
+                    $stat->data = $data;
+                    $stat->quantity = $quantity;
+                    $stat->save();
+                }
+            }
         }
 
 
@@ -117,7 +137,7 @@ class SiteController extends Controller
             $cache->set('words_' . $session_id, $arr);
             if (!isset($words)) return "<a href='/clear'> вы прошли курс</a>";
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
-        } else return "Error: In Data Base has not enough words for correct work. Please insert words on tab words";
+        } else return "Error: In Data Base has not enough words for correct work. Please insert words and press on the tab words";
 
     }
 

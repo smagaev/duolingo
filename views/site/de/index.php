@@ -3,6 +3,7 @@
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';
+$quantity = count($words);
 ?>
     <div class="site-index">
         <br>
@@ -42,7 +43,7 @@ $this->title = 'My Yii Application';
         <br>
         <div class="row">
             <div class="col-sm-4"></div>
-            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled"><?=yii::t('app','Next');?></div>
+            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled"  data-quantity="<?=$quantity?>"><?=yii::t('app','Next');?></div>
             <div class="col-sm-4"></div>
         </div>
     </div>

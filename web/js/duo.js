@@ -3,13 +3,12 @@ $('.my_btn').click(function () {
     but_select = $('.btn_sel');
     if (!but_select.hasClass('bg-success')) {
         button.addClass('btn_sel')
-              .addClass('bg-success');
+            .addClass('bg-success');
         id = button.data('id');
         n = button.attr('id')
-    }
-    else {
+    } else {
         if (button.data('id') == id) {
-            if(button.attr('id')!== n ) {
+            if (button.attr('id') !== n) {
                 button.addClass('bg-success')
                     .addClass('btn_sel');
                 t1 = window.setTimeout(function () {
@@ -21,18 +20,18 @@ $('.my_btn').click(function () {
                         .unbind();
 
                 }, 300);
-               if(document.querySelectorAll('.btn_act').length === 2){
-                  $('.btn-next').removeClass('disabled')
-                      .bind('click',function () {
-                          location = "/";
-                      })
-               }
+                if (document.querySelectorAll('.btn_act').length === 2) {
+                    let _link = "/index?quantity=" + $('.btn-next').data('quantity');
+                    $('.btn-next').removeClass('disabled')
+                        .bind('click', function (_link) {
+                            location = _link;
+                        })
+                }
             } else {
                 button.removeClass('bg-success')
-                      .removeClass('btn_sel');
+                    .removeClass('btn_sel');
             }
-        }
-        else {
+        } else {
 
             $('.btn_sel').removeClass('bg-success')
                 .addClass('bg-danger');

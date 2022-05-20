@@ -236,7 +236,7 @@ only once                           :   только однажды
 twice                               :   дважды
 thrice                              :   трижды
 rate                                :   курс
-it cos him his life                 :   это стоило ему его жизни
+it cost him his life                :   это стоило ему его жизни
 annual profit                       :   годовая прибыль
 donate                              :   пожертвовать
 expenses                            :   расходы
