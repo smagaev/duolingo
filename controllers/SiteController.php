@@ -67,19 +67,28 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $error_words = false;
-        $session = Yii::$app->session;
-        if (!$session->isActive) {
-            $session->open();
+        $user_id = Yii::$app->getUser()->id;
+        if (!isset($user_id)) {
+            $session = Yii::$app->session;
+            if (!$session->isActive) {
+                $session->open();
+            }
+            $session_id = Yii::$app->session->getId();
+
+        } else {
+            $session_id = $user_id;
         }
-        $session_id = Yii::$app->session->getId();
+
+
         $cache = Yii::$app->cache;
 
-        if ($cache->get('count_words_in_db') == 5) {
+        /*Clear cache after achieved of end*/
+        if ($cache->get('count_words_in_db' . $session_id) == 5) {
+            $cache->delete('count_words_in_db' . $session_id);
             $cache->delete('words_' . $session_id);
         }
 
-        $count_words_db = $cache->getOrSet('count_words_in_db', function () {
+        $count_words_db = $cache->getOrSet('count_words_in_db' . $session_id, function () {
             return Duolingo::find()->count();
         });
         if ($count_words_db > 0) {
@@ -117,16 +126,25 @@ class SiteController extends Controller
      */
     public function actionSetlevel()
     {
-        $error_words = false;
-        $session = Yii::$app->session;
-        if (!$session->isActive) {
-            $session->open();
+        $user_id = Yii::$app->getUser()->id;
+        if (!isset($user_id)) {
+            $session = Yii::$app->session;
+            if (!$session->isActive) {
+                $session->open();
+            }
+            $session_id = Yii::$app->session->getId();
+
+        } else {
+            $session_id = $user_id;
         }
-        $session_id = Yii::$app->session->getId();
         $cache = Yii::$app->cache;
         //set vars
         $level = Yii::$app->request->get('level');
-        $models = Duolingo::find()->where(['=', 'count_words', $level]);
+        if ($level == 6) {
+            $models = Duolingo::find()->where(['>', 'count_words', 5]);
+        } else {
+            $models = Duolingo::find()->where(['=', 'count_words', $level]);
+        }
         $count = $models->count();
         if ($count > 0) {
             $arr = $models->column();
