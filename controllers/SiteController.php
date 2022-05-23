@@ -179,7 +179,9 @@ class SiteController extends Controller
     }
 
     public function actionStat(){
-        return $this->render('stat');
+        $userId = yii::$app->user->getId();
+        $countStadied = Statistika::find()->where(['=','user_id', $userId])->sum('quantity');
+        return $this->render('stat', compact('countStadied'));
     }
     public
     function actionLevel()

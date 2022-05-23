@@ -11,8 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        This is the Statistics page. You may modify the following file to customize its content:
+        Кол-во пройденных слов за все время: <span class="text-success font-weight-bold h3"><?=$countStadied?></span>
     </p>
 
-    <code><?= __FILE__ ?></code>
 </div>
