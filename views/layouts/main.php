@@ -43,9 +43,11 @@ AppAsset::register($this);
             ['label' => 'Contact', 'url' => ['/site/contact','language'=>'en']],
             ['label' => 'Settings', 'url' => ['/site/setting','language'=>'en']],
             ['label' => 'Words', 'url' => ['/site/words','language'=>'en']],
+            Yii::$app->user->isGuest ? (''):( ['label' => 'Statistics', 'url' => ['/site/stat','language'=>'en']]),
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login','language'=>'en']]
             ) : (
+
                 '<li>'
                 . Html::beginForm(['/site/logout','language'=>'en'], 'post', ['class' => 'form-inline'])
                 . Html::submitButton(

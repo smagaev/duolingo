@@ -178,6 +178,9 @@ class SiteController extends Controller
         Yii::$app->getResponse()->redirect('/index');
     }
 
+    public function actionStat(){
+        return $this->render('stat');
+    }
     public
     function actionLevel()
     {

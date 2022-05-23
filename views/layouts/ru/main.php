@@ -43,6 +43,7 @@ AppAsset::register($this);
             ['label' => 'Контакты', 'url' => ['/site/contact', 'language'=>'ru']],
             ['label' => 'Уровень', 'url' => ['/site/level', 'language'=>'ru']],
             ['label' => 'Слова', 'url' => ['/site/words', 'language'=>'ru']],
+            Yii::$app->user->isGuest ? (''):( ['label' => 'Статистика', 'url' => ['/site/stat','language'=>'ru']]),
             Yii::$app->user->isGuest ? (
                 ['label' => 'Войти', 'url' => ['/site/login', 'language'=>'ru']]
             ) : (
