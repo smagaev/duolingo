@@ -1765,3 +1765,6 @@ How many guests are here?           :   Сколько постояльцев з
 postcard                            :   почтовая открытка
 Parking is for guests of hotel.     :   Стоянка для постояльцев отеля.
 corner                              :   угол
+sports center                       :   спортивный центр
+a garage sale                       :   гаражный кооператив
+water bill                          :   счет за воду

@@ -22,10 +22,9 @@ $('.my_btn').click(function () {
                 }, 300);
                 if (document.querySelectorAll('.btn_act').length === 2) {
                     let _link = "/index?quantity=" + $('.btn-next').data('quantity');
+                    let _href = "javascript:location.href ='" + _link + "'";
                     $('.btn-next').removeClass('disabled')
-                        .bind('click', function (_link) {
-                            location = _link;
-                        })
+                        .attr('onclick', _href );
                 }
             } else {
                 button.removeClass('bg-success')
