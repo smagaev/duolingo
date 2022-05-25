@@ -1768,3 +1768,4 @@ corner                              :   угол
 sports center                       :   спортивный центр
 a garage sale                       :   гаражный кооператив
 water bill                          :   счет за воду
+sidewalk                            :   тротуар
