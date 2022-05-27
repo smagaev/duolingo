@@ -5,12 +5,22 @@ $('.my_btn').click(function () {
         button.addClass('btn_sel')
             .addClass('bg-success');
         id = button.data('id');
+        id_w = button.data('i');
         n = button.attr('id')
+        startTime = new Date().getTime();
+        // button.attr('data-time', startTime);
     } else {
         if (button.data('id') == id) {
             if (button.attr('id') !== n) {
                 button.addClass('bg-success')
                     .addClass('btn_sel');
+                time = new Date().getTime() - startTime;
+
+                if (typeof(times) == 'undefined') {
+                    times = "t_" + id_w + "=" + time;
+                } else {
+                    times = times+ "&t_" + id_w + "=" + time;
+                }
                 t1 = window.setTimeout(function () {
 
                     $('.btn_sel').addClass('disabled')
@@ -22,9 +32,9 @@ $('.my_btn').click(function () {
                 }, 300);
                 if (document.querySelectorAll('.btn_act').length === 2) {
                     let _link = "/index?quantity=" + $('.btn-next').data('quantity');
-                    let _href = "javascript:location.href ='" + _link + "'";
+                    let _href = "javascript:location.href ='" + _link +"&" + times + "'";
                     $('.btn-next').removeClass('disabled')
-                        .attr('onclick', _href );
+                        .attr('onclick', _href);
                 }
             } else {
                 button.removeClass('bg-success')
