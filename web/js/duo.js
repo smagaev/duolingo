@@ -8,7 +8,6 @@ $('.my_btn').click(function () {
         id_w = button.data('i');
         n = button.attr('id')
         startTime = new Date().getTime();
-        // button.attr('data-time', startTime);
     } else {
         if (button.data('id') == id) {
             if (button.attr('id') !== n) {

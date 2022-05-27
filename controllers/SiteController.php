@@ -12,6 +12,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Duolingo;
 use app\models\Statistika;
+use app\models\Exclude;
 
 class SiteController extends Controller
 {
@@ -70,8 +71,28 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $quantity = Yii::$app->request->get('quantity');
-
+        $parms = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
+
+
+        //insert times in table "excluding"
+        if (isset($user_id)) {
+            foreach ($parms as $key => $val) {
+                if (strpos($key, 't_') === 0) {
+                    $key = explode('_',$key)[1];
+                    if ($model = Exclude::find()->where(['=', 'word_id', $key])->andWhere(['=', 'user_id', $user_id])->one()) {
+                        $model->time = $val;
+                        $model->save();
+                    } else {
+                        $model = new Exclude();
+                        $model->user_id = $user_id;
+                        $model->word_id = $key;
+                        $model->time = $val;
+                        $model->save();
+                    }
+                }
+            }
+        }
 
         if (!isset($user_id)) {
             $session = Yii::$app->session;
@@ -86,7 +107,7 @@ class SiteController extends Controller
             if (isset($quantity)) {
                 $data = date('Y-m-d');
                 $stat = Statistika::find()->where(['=', 'user_id', $user_id])->andWhere(['=', 'data', $data])->one();
-                if(isset($stat)) {
+                if (isset($stat)) {
                     $stat->quantity += $quantity;
                     $stat->save();
                 } else {
@@ -178,11 +199,13 @@ class SiteController extends Controller
         Yii::$app->getResponse()->redirect('/index');
     }
 
-    public function actionStat(){
+    public function actionStat()
+    {
         $userId = yii::$app->user->getId();
-        $countStadied = Statistika::find()->where(['=','user_id', $userId])->sum('quantity');
+        $countStadied = Statistika::find()->where(['=', 'user_id', $userId])->sum('quantity');
         return $this->render('stat', compact('countStadied'));
     }
+
     public
     function actionLevel()
     {
