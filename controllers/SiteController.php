@@ -191,6 +191,21 @@ class SiteController extends Controller
             $arr = $models->column();
 
         }
+        //exclude
+        switch ($level){
+            case 1 : $limit = 100; break;
+            case 2 : $limit = 100; break;
+            case 3 : $limit = 100; break;
+            case 4 : $limit = 100; break;
+            case 5 : $limit = 200; break;
+            case 6 : $limit = 300; break;
+            case 7 : $limit = 400; break;
+        }
+        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['>','time', $limit])->asArray()->column();
+     //   var_dump ($excl_models);
+        $arr = array_diff( $arr, $excl_models);
+     //   var_dump($arr); die;
+
         //set cache
         $cache->set('level_' . $session_id, $level); //set level
         $cache->set('count_words_in_db' . $session_id, $count); //set count words in db
