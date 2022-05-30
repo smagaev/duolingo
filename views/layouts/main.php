@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use app\assets\AppAsset;
@@ -22,6 +23,7 @@ AppAsset::register($this);
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <? include_once(__DIR__ . '/counts/yandex.php'); ?>
 </head>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
@@ -38,18 +40,18 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index', 'language'=>'en']],
-            ['label' => 'About', 'url' => ['/site/about','language'=>'en']],
-            ['label' => 'Contact', 'url' => ['/site/contact','language'=>'en']],
-            ['label' => 'Settings', 'url' => ['/site/setting','language'=>'en']],
-            ['label' => 'Words', 'url' => ['/site/words','language'=>'en']],
-            Yii::$app->user->isGuest ? (''):( ['label' => 'Statistics', 'url' => ['/site/stat','language'=>'en']]),
+            ['label' => 'Home', 'url' => ['/site/index', 'language' => 'en']],
+            ['label' => 'About', 'url' => ['/site/about', 'language' => 'en']],
+            ['label' => 'Contact', 'url' => ['/site/contact', 'language' => 'en']],
+            ['label' => 'Settings', 'url' => ['/site/setting', 'language' => 'en']],
+            ['label' => 'Words', 'url' => ['/site/words', 'language' => 'en']],
+            Yii::$app->user->isGuest ? ('') : (['label' => 'Statistics', 'url' => ['/site/stat', 'language' => 'en']]),
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login','language'=>'en']]
+            ['label' => 'Login', 'url' => ['/site/login', 'language' => 'en']]
             ) : (
 
                 '<li>'
-                . Html::beginForm(['/site/logout','language'=>'en'], 'post', ['class' => 'form-inline'])
+                . Html::beginForm(['/site/logout', 'language' => 'en'], 'post', ['class' => 'form-inline'])
                 . Html::submitButton(
                     'Logout (' . Yii::$app->user->identity->username . ')',
                     ['class' => 'btn btn-link logout']
@@ -77,7 +79,7 @@ AppAsset::register($this);
 
 <footer class="footer mt-auto py-3 text-muted">
     <div class="container">
-        <p class="float-left">&copy; <?=yii::t("app","My Company")?> <?= date('Y') ?></p>
+        <p class="float-left">&copy; <?= yii::t("app", "My Company") ?> <?= date('Y') ?></p>
         <p class="float-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
