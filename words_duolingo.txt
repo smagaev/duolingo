@@ -690,7 +690,7 @@ tires                               :   покрышки
 engine                              :   двигатель
 hood                                :   капот
 replacements                        :   замена
-wheels                              :   колес
+wheels                              :   колеса
 wheelchair                          :   инвалидное кресло
 pump                                :   насос
 rush hour                           :   час пик
@@ -1261,7 +1261,7 @@ whole                               :   целый
 a vase                              :   ваза
 ruined                              :   испорчен
 to train lions                      :   тренировать львов
-excellent                           :   отличным
+excellent                           :   отличный
 closet                              :   шкаф
 whips                               :   петли
 elderly                             :   пожилым
@@ -1768,7 +1768,7 @@ corner                              :   угол
 sports center                       :   спортивный центр
 a garage sale                       :   гаражный кооператив
 water bill                          :   счет за воду
-sidewalk                            :   тротуар
+a sidewalk                          :   тротуар
 alarm clock                         :   будильник
 vintage                             :   старинный
 posters                             :   плакат
@@ -1781,3 +1781,70 @@ a comb                              :   гребень
 earrings                            :   сережки
 Who will pay water bill?            :   Кто оплатит счет за воду?
 We won't be friends anymore.        :   Мы больше не будем друзьями.
+all right                           :   ладно
+Ben is a bit nervous.               :   Бен слегка нервничает.
+to pack                             :   упаковывать
+a wheel                             :   колесо
+a long time                         :   очень долго
+yeah                                :   ну да
+bottom                              :   дно
+at the bottom of the bag            :   на дне своей сумки
+a raincoat                          :   дождевик
+sneakers                            :   кросовки
+a drawer                            :   ящик
+to fold                             :   сладывать
+a dresser                           :   комод
+as usual                            :   обычно
+They already finished boarding.     :   Они уже закончили посадку.
+a gate                              :   выход
+a shampoo                           :   шампунь
+to harry                            :   торопиться
+Our plane is taking off now.        :   Наш самолет взлетает сейчас.
+boarding                            :   посадка
+The plane has taken off.            :   Самолет взлетел.
+They serve great desserts here.     :   Здесь подают отличные десерты.
+a cocktail                          :   коктель
+grilled chicken                     :   курица на гриле
+in that area                        :   в той части города
+You can't find better fish here.    :   Ты не можешь найти рыбу получше здесь.
+What's the soup of the day?         :   Какой суп дня?
+a appetizer                         :   закуска
+Your check includes the tip.        :   Ваш счет включает чаевые.
+We had five courses.                :   Мы съели пять блюд.
+roast vegetables                    :   запеченные овощи
+as a side dish                      :   на гарнир
+As a side dish, I would like rice.  :   На гарнир, я бы хотел рис.
+a mango                             :   манго
+slice of lemon                      :   кусочек лимона
+grape                               :   виноград
+espresso                            :   экспрессо
+I checked my umbrella.              :   Я сдала мой зонтик.
+It's on me.                         :   Я заплачу.
+It's on me because i invited you!   :   Я заплачу, потому что я приласила тебя
+bother                              :   беспокоить
+bother me                           :   беспокоят меня
+correct phone number                :   правильный телефонный номер
+Don't you want to hear about me?    :   Разве ты не хочешь услышать обо мне?
+don't you want                      :   разве ты не хочешь
+around five o'clock                 :   около пяти часов
+Is the manager available?           :   Менеджер свободен?
+Hello, Maria  speaking.             :   Здравствуйте, Мария у телефона.
+Isn't she in the office now?        :   Разве она не в офисе сейчас?
+rang                                :   зазвонил
+my phone is ringing                 :   мой телефон звонит
+to mad                              :   злиться
+these days                          :   в последнее время
+Aren't you on vacation?             :   Разве ты не в отпуске?
+The phone rang but nobody answer.   :   Телефон зазвонил но никто не ответил.
+I'm made at you.                    :   Я злюсь на тебя.
+Aren't your coworker busy?          :   Разве твои соседи не заняты?
+Please, hold on.                    :   Пожалуйста, подождите.
+What's up, Ben?                     :   Как ты Бен?
+bald                                :   лысый
+hangs up                            :   вешает трубку
+to keep in touch                    :   оставаться на связи
+Don't forget to keep in touch.      :   Не забудь оставаться на связи.
+I'm  handing up.                    :   Я вешаю трубку.
+
+
+
