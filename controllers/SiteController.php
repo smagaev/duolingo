@@ -218,7 +218,8 @@ class SiteController extends Controller
     {
         $userId = yii::$app->user->getId();
         $countStadied = Statistika::find()->where(['=', 'user_id', $userId])->sum('quantity');
-        return $this->render('stat', compact('countStadied'));
+        $grafic_data = Statistika::find()->select('data, quantity')->where(['user_id'=>$userId])->andWhere(['>=', 'data', date("Y-m", time()) . "-01"])->asArray()->all();
+        return $this->render('stat', compact('countStadied','grafic_data'));
     }
 
     public
