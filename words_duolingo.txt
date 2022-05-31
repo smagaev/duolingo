@@ -1,128 +1,128 @@
 calm                                :    спокойствие                               
 cries                               :    кричит                                    
-humid                               :    влажный                                   
+humid                               :    влажный
 sensitive                           :    чувствительный                            
 blind                               :    слепой
 to bathe                            :    купаться
 deaf                                :    мертвый                                   
 on sick leave                       :    на больничном                                
 health insurance                    :    медицинская страховка                     
-a dolphin                           :    дельфин
-a mole                              :    крот
+dolphin                             :    дельфин
+mole                                :    крот
 to ache                             :    болеть, ныть
-a mane                              :    грива
-a herd                              :    стадо
-a deer                              :    олень
-a rat                               :    крыса
-a fly                               :    муха
-a butterfly                         :    бабочка
-an ant                              :    муравей
-a camel                             :    верблюд
-a deer                              :    олень
-a rat                               :    крыса
+mane                                :    грива
+herd                                :    стадо
+deer                                :    олень
+rat                                 :    крыса
+fly                                 :    муха
+butterfly                           :    бабочка
+ant                              :    муравей
+camel                               :    верблюд
+deer                                :    олень
+rat                                 :    крыса
 rats                                :    крысы
-swans                               :    лебеди                                    
-a parrot                            :    попугай
-a lawn                              :    газон
-wild                                :    дикий                                     
-underwear                           :    нижнее белье                              
+swans                               :    лебеди
+parrot                              :    попугай
+lawn                                :    газон
+wild                                :    дикий
+underwear                           :    нижнее белье
 to wear                             :    носить
-slippers                            :    тапочки                                   
-a jaw                               :    челюсть
-get used to                         :    раньше                                    
-ironed                              :    поглаженный                                
-sleeves                             :    рукава                                    
-a collar                            :    воротник
-a pocket                            :    карман
-an envelope                         :    конверт
-faux                                :    искусственный                              
-legs                                :    ноги                                      
-truth                               :    правда                                    
-scissors                            :    ножницы                                   
+slippers                            :    тапочки
+jaw                                 :    челюсть
+get used to                         :    раньше
+ironed                              :    поглаженный
+sleeves                             :    рукава
+collar                              :    воротник
+pocket                              :    карман
+envelope                         :    конверт
+faux                                :    искусственный
+legs                                :    ноги
+truth                               :    правда
+scissors                            :    ножницы
 beverages                           :    напитки
-sadness                             :    грусть                                    
-a sponge                            :    губка
-sad                                 :    печальный                                 
-an owl                              :    сова
+sadness                             :    грусть
+sponge                              :    губка
+sad                                 :    печальный
+owl                              :    сова
 surgeries                           :    операции
-on maternity leave                  :    в декретный отпуск                        
-pregnant                            :    беременная                                
-pregnancy                           :    беременность                              
-a midwife                           :    акушерка
+on maternity leave                  :    в декретный отпуск
+pregnant                            :    беременная
+pregnancy                           :    беременность
+midwife                             :    акушерка
 gave birth                          :    родила
-contractions                        :    схватки                                   
-painful                             :    болезненный                               
+contractions                        :    схватки
+painful                             :    болезненный
 to gave up smoking                  :    бросить курить
 to got pregnant                     :    забеременела
-quite                               :    довольно                                  
-labor                               :    роды                                      
+quite                               :    довольно
+labor                               :    роды
 lasted                              :    длилось
-is it true                          :    правда ли                                 
+is it true                          :    правда ли
 cries                               :    кричит
-each time                           :    каждый раз                                
-a diaper                            :    подгузник
+each time                           :    каждый раз
+diaper                              :    подгузник
 to poop                             :    какать
 to pee                              :    писать
-to keep breastfeeding               :    продолжать грудное кормление              
-as soon as                          :    как только                                
-he is teething                      :    у него режутся зубки                      
-solid                               :    твердый                                   
-chew                                :    жевать                                    
-to chew on                          :    погрызть                                  
-teeth                	            :    зубы                                      
-was not old enough                  :    не был достаточно взрослый                
-swaddle                             :    пеленать                                  
-wakes me up                         :    будит меня                                
+to keep breastfeeding               :    продолжать грудное кормление
+as soon as                          :    как только
+he is teething                      :    у него режутся зубки
+solid                               :    твердый
+to chew                             :    жевать
+to chew on                          :    погрызть
+teeth                	            :    зубы
+was not old enough                  :    не был достаточно взрослый
+to swaddle                          :    пеленать
+wakes me up                         :    будит меня
 quiet                               :    тихий
-quietly                             :    тихо                       
-calmed                              :    успокоил                                  
-calmly                              :    спокойно                                  
-pacifier                            :    соска                                     
-newborn                             :    новорожденный                             
-chew on her pacifier                :    грызть свою соску                         
-rattles                             :    погремушки                                
-is crawling                         :    ползет                                    
-starts crawling                     :    начал ползать                             
-pregnant with twins                 :    беременна двойней                         
-gain weight                         :    набирают вес                              
-crying twins                        :    плачущие близнецы                         
-give him a call                     :    позвонить ему                             
-shaved                              :    побрился                                  
-to fall in love                     :    влюбиться                                 
-before bed                          :    перед сном                                
-otherwise                           :    иначе                                     
-if there is anything else           :    если есть что ни будь еще                  
+quietly                             :    тихо
+calmed                              :    успокоил
+calmly                              :    спокойно
+pacifier                            :    соска
+newborn                             :    новорожденный
+chew on her pacifier                :    грызть свою соску
+rattles                             :    погремушки
+is crawling                         :    ползет
+starts crawling                     :    начал ползать
+pregnant with twins                 :    беременна двойней
+gain weight                         :    набирают вес
+crying twins                        :    плачущие близнецы
+give him a call                     :    позвонить ему
+shaved                              :    побрился
+to fall in love                     :    влюбиться
+before bed                          :    перед сном
+otherwise                           :    иначе
+if there is anything else           :    если есть что ни будь еще
 if there is nothing else            :    если нет ничего другого
-recently                            :    недавно                                   
-hold                                :    держать                                   
-being                               :    быть                                      
-less                                :    менее                                     
-he must be hungry                   :    он должно быть голодный                   
-up to ten times a day               :    до десяти раз в день                      
-at a New Year's Eve party           :    на вечеринке по случаю Нового Года        
+recently                            :    недавно
+to hold                             :    держать
+being                               :    быть
+less                                :    менее
+he must be hungry                   :    он должно быть голодный
+up to ten times a day               :    до десяти раз в день
+at a New Year's Eve party           :    на вечеринке по случаю Нового Года
 to date more people                 :    встречаться с большим числом людей
-what do you mean                    :    что ты имеешь ввиду                       
+what do you mean                    :    что ты имеешь ввиду
 to hate                             :    ненавидеть
-why things have to change           :    почему что то должно измениться            
-a guy                               :    парень
-past them                           :    мимо них                                  
-walks away                          :    отходит                                   
-can i get you a drink               :    могу я купить тебе вина                   
-actually....                        :    вообще-то                                 
-be friends                          :    дружить                                   
-with someone                        :    с кем-то                                  
-to change                           :    меняться                                  
-hall                                :    коридор                                   
-for the last time                   :    последний раз(говорю)                     
-prefect grade                       :    отличную оценку                           
-we'll get married                   :    мы поженимся                              
-a cat named Fellini                 :    кот по кличке Феллини
+why things have to change           :    почему что то должно измениться
+guy                                 :    парень
+past them                           :    мимо них
+walks away                          :    отходит
+can i get you a drink               :    могу я купить тебе вина
+actually....                        :    вообще-то
+be friends                          :    дружить
+with someone                        :    с кем-то
+to change                           :    меняться
+hall                                :    коридор
+for the last time                   :    последний раз
+prefect grade                       :    отличная оценка
+we'll get married                   :    мы поженимся
+cat named Fellini                   :    кот по кличке Феллини
 ugly                                :    ужасный
 slow                                :    медленный
 going to                            :    собираться, буду
-leave                               :    оставлять, уходить
-think                               :    думать
-interrupt                           :    прерывать
+to leave                            :    оставлять, уходить
+to think                            :    думать
+to interrupt                        :    прерывать
 midnight                            :    полночь
 stop talking                        :    прекрати разговаривать
 noon                                :    полдень
@@ -142,32 +142,32 @@ give up smoking                     :    бросать курить
 is in pain                          :    болит
 pain                                :    боль
 blood pressure                      :    кровяное давление
-an allergy                          :    аллергия
+allergy                             :    аллергия
 dangerous                           :    опасный
 height                              :    рост
 to hurt                             :    болеть, ранить
 blind                               :    слепой
 pressure                            :    давление
 disease                             :    заболевание
-a physician                         :    врач
+physician                           :    врач
 def                                 :    глухой
-a vaccination                       :    прививка
+vaccination                         :    прививка
 services                            :    услуги
 medical                             :    медицинские
 symptoms                            :    симптомы
 cough                               :    кашель
-a nurse                             :    медбрат
-a surgeon                           :    хирург
-prescribe                           :    прописал
+nurse                               :    медбрат
+surgeon                             :    хирург
+prescribe                           :    прописывать
 lice                                :    вши
 nausea                              :    тошнота
 medicine                            :    лекарство
-stretch                             :    протягивать
+to stretch                          :    протягивать
 sсratched                           :    поцарапал, почесал
 he had to swallow                   :    ему приходилось глотать
-a pill                              :    таблетка
+pill                                :    таблетка
 wounds                              :    раны
-a bruises                           :    синяк
+bruises                             :    синяк
 again soon                          :    снова в ближайшее время
 honestly                            :    честно говоря
 terrible                            :    ужасный
@@ -177,27 +177,26 @@ shy                                 :    застенчивый
 too much                            :    слишком много
 attractive                          :    привлекательный
 amazing                             :    невероятный, потрясающий, замечательными
-fluenza                             :    грипп
-flu                                 :    грипп
+fluenza, flu                        :    грипп
 heart surgery                       :    операция на сердце
 never                               :    никогда
 get rid of                          :    избавиться
-a tail                              :    хвост
-a fox                               :    лисица
-a predator                          :    хищник
+tail                                :    хвост
+fox                                 :    лисица
+predator                            :    хищник
 wolves                              :    волки
 lions                               :    львы
 it give us right                    :    это дает нам право
-a donkey                            :    осел
-a bull                              :    бык
-a horn                              :    рог
-a quarter                           :    четверть
-a goat                              :    коза
-a hoof                              :    копыто
+donkey                              :    осел
+bull                                :    бык
+horn                                :    рог
+quarter                             :    четверть
+goat                                :    коза
+hoof                                :    копыто
 hooves                              :    копыта
-a hamster                           :    хомяк
+hamster                             :    хомяк
 almost                              :    почти
-a rabbit                            :    кролик
+rabbit                              :    кролик
 mice                                :    мыши
 squirrels                           :    белки
 instead of                          :    вместо
@@ -210,7 +209,7 @@ earlier                             :    раньше
 to come                             :    приходить
 to divorce                          :    разводиться
 could                               :    мог
-which                               :    которое
+which                               :    который
 oneself                             :   кто-нибудь сам
 to proud                            :   гордиться
 to believe                          :   верить
@@ -218,11 +217,11 @@ to trust                            :   доверять
 to be yourself                      :   быть собой
 all of you                          :   все из вас
 being able to think for             :   быть способным думать за
-a whale                             :   кит
-a raccoon                           :   енот
+whale                               :   кит
+raccoon                             :   енот
 beavers                             :   бобры
 mammals                             :   млекопитающие
-a hare                              :   заяц
+hare                                :   заяц
 claws                               :   когти
 while                               :   тогда, тогда как
 only                                :   единственное
@@ -235,7 +234,7 @@ at least                            :   как минимум
 only once                           :   только однажды
 twice                               :   дважды
 thrice                              :   трижды
-rate                                :   курс
+current rate                        :   текущий курс
 it cost him his life                :   это стоило ему его жизни
 annual profit                       :   годовая прибыль
 donate                              :   пожертвовать
@@ -247,60 +246,61 @@ throws                              :   выбрасывает
 trash                               :   мусор
 extra chocolate                     :   двойной шоколад
 no until tomorrow                   :   не раньше чем завтра
-a raven                             :   ворон
-a crow                              :   ворона
+raven                               :   ворон
+crow                                :   ворона
 throw the ball                      :   бросить мяч
 whoa                                :   эй
-a feather                           :   перо
+feather                             :   перо
 wings                               :   крылья
-an eagle                            :   орел
-a goose                             :   гусь
-a beak                              :   клюв
-a duck                              :   утка
-a gees                              :   гуси
-a mosquito                          :   комар
-a spider                            :   паук
+eagle                            :   орел
+goose                               :   гусь
+beak                                :   клюв
+duck                                :   утка
+gees                                :   гуси
+mosquito                            :   комар
+spider                              :   паук
 bees                                :   пчелы
-an insect                           :   насекомое
-a bee                               :   пчела
+insect                           :   насекомое
+bee                                 :   пчела
 up there                            :   там наверху
-either  or                          :   либо либо (ни ни)
+either or                           :   либо либо (ни ни)
 worms                               :   черви
-a shark                             :   акула
+shark                               :   акула
 to call                             :   назвать
-an octopus                          :   осьминог
-a snail                             :   улитка
+call                                :   вызов
+octopus                          :   осьминог
+snail                               :   улитка
 turtles                             :   черепахи
 early                               :   ранняя
 frogs                               :   лягушки
-a sparrow                           :   воробей
-a penguin                           :   пингвин
-a crow                              :   ворона
-a gull                              :   чайка
-a dove                              :   голубь
+sparrow                             :   воробей
+penguin                             :   пингвин
+crow                                :   ворона
+gull                                :   чайка
+dove                                :   голубь
 ravens                              :   вороны
 berry                               :   ягода
-a stomach                           :   живот
+stomach                             :   живот
 to punish                           :   наказывать
 to care                             :   заботиться, беспокоиться
 causes                              :   причин
 supported                           :   поддержала
 drew                                :   нарисовала
-entrance                            :   вход
-deal                                :   иметь дело
+entrance                         :   вход
+to deal                             :   иметь дело
 forever                             :   вечно
 to measure                          :   измерить
 reached                             :   достигла
-elevator                            :   лифт
+elevator                         :   лифт
 unfortunately                       :   к несчастью, к сожалению
-reach                               :   добраться, достигать
+to reach                            :   добраться, достигать
 age                                 :   возраст
 suddenly                            :   вдруг
 appeared                            :   появилась
 unfair                              :   несправедливый
 fair                                :   справедливо
 accident                            :   несчастный случай, катастрофа
-expect                              :   ожидаешь
+to expect                           :   ожидать
 sudden                              :   внезапный
 it appears                          :   видно
 suddenly                            :   внезапно, вдруг
@@ -317,7 +317,7 @@ lie down                            :   ложись
 when it was hot                     :   когда бывало жарко
 education                           :   образование
 by mistake                          :   по ошибке
-female                              :   женщины
+female doctors                      :   женщины врачи
 attempts                            :   попытки
 purpose                             :   цель
 take care of it                     :   позабочусь об этом
@@ -328,28 +328,28 @@ male mosquitoes                     :   комары-самцы
 views on education                  :   взгляды на образование
 seeing                              :   видеть
 dish                                :   блюдо
-an oven                             :   печь
+oven                             :   печь
 door handle                         :   дверная ручка
 whoever you are                     :   кто бы ты не был
-a cupcake to go                     :   пирожное на вынос
+cupcake to go                       :   пирожное на вынос
 the floor is wet                    :   пол мокрый
 narrow                              :   узкая
 shallow                             :   мелкая
 wide                                :   широкая
 temple                              :   храм
-a dormitory                         :   общежитие
+dormitory                           :   общежитие
 railroad station                    :   железнодорожная станция
 stream                              :   течение
 hill                                :   холм
-earth                               :   земле
-a mosque                            :   мечеть
+earth                            :   земля
+mosque                            :   мечеть
 tiny                                :   крошечный
-a roommate                          :   сосед по квартире
+roommate                          :   сосед по квартире
 rent                                :   аренда
 sind                                :   грех
-hint                                :   намекать
+to hint                                :   намекать
 wind                                :   ветер
-a moon                              :   луна
+moon                              :   луна
 sky                                 :   небо
 ended                               :   закончилось
 chores                              :   работу по дому
@@ -357,7 +357,7 @@ shore                               :   берег
 groceries                           :   продукты
 clip                                :   зажим
 dirty                               :   грязная
-steal                               :   красть
+to steal                               :   красть
 shower                              :   душ
 cheap                               :   дешевый
 mess                                :   беспорядок
@@ -365,12 +365,12 @@ movers                              :   грузчики
 helpful                             :   готовы помочь
 aunt                                :   тетя
 uncle                               :   дядя
-hope                                :   надеяться
+to hope                                :   надеяться
 rate                                :   скорость
 sort of                             :   вроде
 totally gorgeous                    :   совершенно великолепно
 rotund belly                        :   пухлый живот
-zip                                 :   застегивать
+to zip                                 :   застегивать
 pointy                              :   острый
 doomed                              :   обреченная любовь
 discusses                           :   обсуждает
@@ -381,24 +381,24 @@ to recall                           :   припоминаю
 denies                              :   отрицает
 to admit                            :   признавать
 somehow                             :   как-то
-kept                                :   продолжали
+to kept                                :   продолжать
 mean                                :   значить
 to forget                           :   забывать
-a law                               :   закон
-a pillow                            :   подушка
+law                               :   закон
+pillow                            :   подушка
 favor                               :   одолжение
 hind                                :   задняя
 unless                              :   если только
-a currency                          :   валюта
+currency                          :   валюта
 broke up with him                   :   разошлась с ним
-a profile                           :   профиль
+profile                           :   профиль
 fell of horse                       :   упал с лошади
 line                                :   очередь
 met                                 :   встретила
 through                             :   сквозь
 wood                                :   древесина
 found                               :   нашли
-receipt                             :   чек
+receipt                           :   чек
 sages                               :   сосиски
 sausage                             :   колбаса
 sauce                               :   соус
@@ -407,7 +407,7 @@ just like yours                     :   прямо как у тебя
 to dream                            :   мечтать
 exactly terrific                    :   совершенно потрясающе
 exactly                             :   точно
-pull                                :   тянуть
+to pull                             :   тянуть
 beady                               :   бусинка
 fight                               :   борьба
 mortal enemies                      :   смертные враги
@@ -438,7 +438,7 @@ go on                               :   продолжай
 make a wish                         :   загадай желание
 it's kind of hard                   :   это довольно сложно
 confession                          :   признание
-a mower                             :   косилка
+mower                             :   косилка
 overprotective                      :   чрезмерно опекающий
 to imagine                          :   представлять, воображать
 whole life                          :   вся жизнь
@@ -460,7 +460,7 @@ washing machine                     :   стиральная машина
 even                                :   духовка
 spice vegetables dishes             :   пряные овощные блюда
 knives                              :   ножи
-hook                                :   крючок
+hook                              :   крючок
 set of instruments                  :   наборы инструментов
 rope                                :   веревка
 bubbles                             :   пузыри
@@ -469,8 +469,8 @@ humans                              :   люди
 king                                :   король
 naturally                           :   естественно
 gifted artist                       :   художник
-a queen                             :   королева
-a soldier                           :   солдат
+queen                             :   королева
+soldier                           :   солдат
 members                             :   членов
 stranger                            :   чужой
 deal with the prince                :   разобраться с принцем
@@ -498,7 +498,7 @@ purest                              :   самая чистая
 smooth                              :   гладкая
 round                               :   круглые
 musical                             :   музыкальный
-piece                               :   пьеса
+piece                               :   пьеса, кусок
 flat                                :   плоскую, спущены
 simple                              :   просто
 strangest                           :   самый странный
@@ -512,7 +512,7 @@ safest                              :   самое безопасное
 kinder                              :   добрее
 cleaner                             :   более чистый
 useful                              :   полезный
-teach                               :   учить
+to teach                            :   учить
 sharp                               :   tomorrow
 luck                                :   удача
 heat                                :   жара
@@ -547,7 +547,7 @@ getting order                       :   стареешь
 forgot                              :   забыла
 walks past                          :   проходит мимо
 witch someone                       :   с кем то
-perfect                             :   не совершенна
+not perfect                         :   не совершенна
 perfect grade                       :   отличную оценку
 scooter                             :   скутер, мопед
 texting                             :   переписывалась
@@ -558,7 +558,7 @@ west                                :   запад
 north                               :   север
 continents                          :   материков
 airplane                            :   самолет
-direction                           :   направление
+direction                         :   направление
 in which direction                  :   в каком направлении
 surface                             :   поверхность
 was still                           :   было спокойным
@@ -591,7 +591,7 @@ surprised                           :   удивлена
 bride                               :   невеста
 lazy                                :   ленивый
 stay                                :   останемся
-cost                                :   стоить
+to cost                             :   стоит
 delicious                           :   очень вкусно
 trail                               :   тропинка
 i am thirsty                        :   я хочу пить
@@ -605,8 +605,8 @@ how blue the sky is                 :   какое небо голубое
 in which direction                  :   в каком направлении
 it started to rain                  :   пошел дождь
 unless she thinks otherwise         :   если только она не думает иначе
-recipe                              :   рецепт
-stove                               :   плита
+recipe                            :   рецепт
+stove                             :   плита
 it smells                           :   пахнет
 meal                                :   блюдо
 picks up                            :   выбирает
@@ -630,7 +630,7 @@ offer                               :   предложение
 throat                              :   горло
 neck                                :   шея
 scratch                             :   царапина
-nous                                :   нос
+nous                              :   нос
 chilly                              :   прохладно
 foggy                               :   облачно
 belongs                             :   принадлежит
@@ -639,7 +639,7 @@ pretends                            :   притворяется
 pulling                             :   тянет
 dropped                             :   уронили
 repeated                            :   повторил
-coach                               :   тренер
+coach                             :   тренер
 treated                             :   относился
 treat                               :   относится
 belonged                            :   принадлежали
@@ -649,27 +649,27 @@ smiling                             :   улыбаемся
 danger                              :   опасность
 are the red scissors yours          :   эти красные ножницы твои
 toothbrush                          :   зубная щетка
-push                                :   толкать
+to push                                :   толкать
 stepped                             :   наступил
-step                                :   шаг
-licks                               :   лизать
+step                              :   шаг
+to lick                             :   лизать
 squeezed                            :   стиснула
-raise                               :   растить
-chew                                :   прожевывать
+to raise                               :   растить
+to chew                                :   прожевывать
 bitten                              :   покусан
 key                                 :   ключ
-blink                               :   моргать
-blows                               :   дуть
+to blink                            :   моргать
+to blow                               :   дуть
 chose                               :   выбрал
-gigging                             :   копает
+digging                             :   копает
 dug out                             :   откапала
 stretched                           :   растянул
-stretch                             :   разминать
+to stretch                             :   разминать
 workout                             :   тренировка
 chasing                             :   преследовать
 sand                                :   песок
-she pretend to be my friend         :   она притворятся моим другом
-he pushed away from him             :   он оттолкнул ее от себя
+She pretend to be my friend.         :   Она притворятся моим другом.
+He pushed away from him.             :   Он оттолкнул ее от себя.
 for a long time                     :   долго
 best-known                          :   наиболее известных
 along the street                    :   вдоль по улице
@@ -678,7 +678,7 @@ staff                               :   персонал, коллектив
 to work                             :   работать
 good job                            :   молодец
 all the messages                    :   все сообщения
-a hundred  museums                  :   сто музеев
+hundred  museums                  :   сто музеев
 hagged                              :   обнял
 kissed                              :   поцеловал
 it was getting chilly               :   становилось прохладно
@@ -708,7 +708,7 @@ impossible                          :   невозможно
 six cylinder engine                 :   шестицилиндровый двигатель
 replacements for wheels             :   замена колес
 whom                                :   кого
-a year ago                          :   год назад
+year ago                          :   год назад
 fasten                              :   пристигните
 seat belt                           :   ремни безопасности
 rare brakes                         :   задние тормоза
@@ -718,7 +718,7 @@ list                                :   список
 quarter of our deer                 :   четверть наших оленей
 high blood pressure                 :   высокое кровяное давление
 my back is in pain                  :   моя спина болит
-a year ago                          :   год назад
+year ago                          :   год назад
 for a long time                     :   долго
 the other side of the street   :   другая сторона улицы
 last night                          :   вчера вечером
@@ -751,7 +751,7 @@ decision                            :   решение
 taught                              :   научил
 remind                              :   напомнила
 studies                             :   занятия
-prove                               :   докажу
+to prove                            :   докажу
 explains                            :   объясняет
 blame                               :   вина, винить
 took the blame                      :   взять вину на себя
@@ -767,7 +767,7 @@ freedom                             :   свобода
 society                             :   общество
 vote                                :   голосовать
 population                          :   население
-court                               :   суд
+court                             :   суд
 mayor                               :   мэр
 election                            :   выборы
 teenagers                           :   подростки
@@ -788,7 +788,7 @@ war crime                           :   военное преступление
 authorities                         :   власти
 because of the                      :   из-за
 investments                         :   инвестиции
-embassy                             :   посольство
+embassy                          :   посольство
 weapon                              :   оружие
 strike                              :   забастовка
 innocent                            :   невиновен
@@ -809,11 +809,11 @@ roommates                           :   соседи по квартире
 sunny                               :   солнечно
 windy                               :   ветрено
 amazing                             :   замечательный
-a coworker                          :   коллега
+coworker                          :   коллега
 grew                                :   выросла
-a resort                            :   курорт
+resort                            :   курорт
 rented                              :   арендовала
-a trip                              :   поездка
+trip                              :   поездка
 returned                            :   вернулся
 missed                              :   пропустили
 out of the town                     :   за городом
@@ -823,31 +823,31 @@ shows up                            :   является
 agreed                              :   договорились
 forgive                             :   простишь
 laughing                            :   смеяться
-a joke                              :   шутка
+joke                              :   шутка
 will thank                          :   поблагодарим
-a wedding                           :   свадьба
+wedding                           :   свадьба
 feelings                            :   чувства
 apologizing                         :   извиняться
 apologize to her                    :   извиниться перед ней
-an impression                       :   впечатление
+impression                       :   впечатление
 celebrating                         :   празднуем
 disappointed                        :   разочарован
 afraid                              :   боюсь
 doubts                              :   сомневается
 worried                             :   обеспокоен
-a wish                              :   желание
+wish                              :   желание
 fireworks                           :   фейерверк
 decorated                           :   украсили
 wedding invitation                  :   свадебное приглашение
 praise                              :   хвалить
 praise yourself                     :   похвали себя
 deserve                             :   заслуживать
-a success                           :   успех
+success                           :   успех
 efforts                             :   усилия
 toward                              :   к, в сторону, ко
-a goal                              :   цель
+goal                              :   цель
 rewarded                            :   вознагражден
-congratulate                        :   поздравить
+to congratulate                     :   поздравлять
 achieving                           :   достижение
 I am sorry to hear it.              :   Мне жаль слушать это.
 I promised that i would try.        :   Я обещал что попробую.
@@ -857,30 +857,30 @@ all the time                        :   все время
 drove                               :   ездил на машине
 grew up                             :   вырос
 strict                              :   строгий
-a neighborhood                      :   район, окрестность
+neighborhood                      :   район, окрестность
 fattest                             :   самая толстая
 hottest                             :   самый жаркий
-a beard                             :   борода
+beard                             :   борода
 as well                             :   тоже
 warm                                :   тепло
 isn't it                            :   нетакли
 missed                              :   пропустили, скучали
 guests                              :   гости
 throwing                            :   бросает, организует
-a plot                              :   сюжет
+plot                              :   сюжет
 scary                               :   страшный
 characters                          :   персонажи
-an act                              :   акт
+act                              :   акт
 practice                            :   заниматься
-a violin                            :   скрипка
+violin                            :   скрипка
 don't be late                       :   не опаздывай
 surf                                :   заниматься серфингом
-a bottle                            :   бутылка
+bottle                            :   бутылка
 climbed                             :   залезли
 main                                :   главный
 romantic                            :   романтично
 enjoyed                             :   понравилось
-an ending                           :   конец
+ending                           :   конец
 popcorn                             :   попкорн
 movie theater                       :   кинотеатр
 comfortable                         :   комфортные
@@ -896,43 +896,43 @@ sit                                 :   сидеть
 for a few hours                     :   несколько часов
 ride                                :   катаюсь
 ride horse                          :   кататься на лошади
-a television                        :   телевизор
-a bookstore                         :   книжный магазин
-a supermarket                       :   супермаркет
-a bowl                              :   тарелка
+television                        :   телевизор
+bookstore                         :   книжный магазин
+supermarket                       :   супермаркет
+bowl                              :   тарелка
 cereal                              :   хлопья
 bowl of cereal                      :   тарелка хлопьев
 have juice for dinner               :   выпить сок на ужин
-a vegetarian                        :   вегетарианец
+vegetarian                        :   вегетарианец
 honey                               :   мед
 healthy                             :   полезен
-a tomato                            :   помидор
+tomato                            :   помидор
 potato                              :   картошка
 they are too hard to cook           :   ее слишком трудно готовить (potatoes)
 pork                                :   свинина
 wait for her                        :   подождать ее
 to be late                          :   опоздать
 arrived at the airport              :   приехали в аэропорт
-a flight                            :   рейс
+flight                            :   рейс
 what a relief                       :   какое облегчение
 slow down                           :   помедленнее
 met                                 :   познакомилась
 went                                :   ходила
 wore                                :   носила
-a t-shirt                           :   футболка
+t-shirt                           :   футболка
 mom's only child                    :   единственным ребенком мамы
-a sweater                           :   свитер
+sweater                           :   свитер
 anymore                             :   больше, уже
 i was seven                         :   мне было семь
 as well                             :   тоже
 long time ago                       :   давно
 the first time                      :   первый раз
-a beard                             :   борода
+beard                             :   борода
 at what age                         :   в каком возрасте
 colorful                            :   разноцветная
-an omelet                           :   омлет
-a banana                            :   банан
-an allergy to eggs                  :   аллергия на яйца
+omelet                           :   омлет
+banana                            :   банан
+allergy to eggs                  :   аллергия на яйца
 pork of beef                        :   свинина или говядина
 these Russians                      :   эти русские
 these Americans                     :   эти американцы
@@ -941,7 +941,7 @@ the only girl                       :   единственной девочко�
 prettier                            :   симпатичнее
 safer                               :   безопасней
 cheaper                             :   дешевле
-busiest                             :   оживленный
+busiest                             :   самый занятый
 look like                           :   похожи
 blond                               :   белокурый
 far                                 :   далеко
@@ -955,7 +955,7 @@ past me                             :   мимо меня
 most restaurants                    :   большинство ресторанов
 i will not get there                :   я не доберусь туда
 trendy                              :   модную
-a block                             :   квартал
+block                             :   квартал
 close                               :   близко
 close to the store                  :   близко к магазину
 about two miles away                :   примерно в двух милях отсюда
@@ -968,13 +968,13 @@ exciting                            :   захватывающе
 you'll get hungry                   :   ты проголодаешься
 loud enough                         :   достаточно громко
 texts                               :   сообщения
-a cracker                           :   крекер
+cracker                           :   крекер
 during                              :   во время, в течении
 autographs                          :   автографы
 let's get dessert                   :   давай съедим десерт
 DJ                                  :   ди-джей
 records                             :   пластинки
-a motorcycle                        :   мотоцикл
+motorcycle                        :   мотоцикл
 rode                                :   катались
 the century                         :   век
 the decade                          :   декада
@@ -983,33 +983,33 @@ billions of rubles                  :   миллиард рублей
 enough time for breakfast           :   достаточно времени для завтрака
 falling elevator                    :   падающий лифт
 die                                 :   умирать
-a horoscope                         :   гороскоп
+horoscope                         :   гороскоп
 aren't real                         :   не настоящие
-spill                               :   пролить
+to spill                               :   пролить
 extra sweater                       :   запасной свитер
 libra                               :   весы
-a thief                             :   вор
+thief                             :   вор
 for the past week                   :   всю прошлую неделю
 at guessing                         :   угадывать
 disgusting                          :   отвратительный
-a turkey                            :   индейка
+turkey                            :   индейка
 the breakup                         :   расставание
-a granddaughter                     :   внучка
+granddaughter                     :   внучка
 independence                        :   независимости
-an exam                             :   экзамен
+exam                             :   экзамен
 magazines                           :   журналов
-a waiter                            :   официант
-a lot more                          :   намного
+waiter                            :   официант
+lot more                          :   намного
 responsible                         :   ответственный
 intelligent                         :   умный
 sunglasses                          :   солнцезащитные очки
 mustache                            :   усы
 poke                                :   тыкаю
-a mouth                             :   рот
+mouth                             :   рот
 dry                                 :   сухо
 I going to lie down                 :   пойду прилягу
-a dragon                            :   дракон
-a groom                             :   жених
+dragon                            :   дракон
+groom                             :   жених
 are riding                          :   верхом на
 TV show                             :   телепередачи
 canceled                            :   отменила
@@ -1018,7 +1018,7 @@ rarely                              :   редко
 bagels                              :   бублики
 athletes                            :   спортсмены
 while wearing                       :   в то время как на них
-a trophy                            :   приз
+trophy                            :   приз
 dating                              :   романтическую
 fighting over one woman             :   дерущихся за одну женщину
 now that's boring                   :   теперь это скучно
@@ -1038,7 +1038,7 @@ salesperson                         :   продавщица
 walk up                             :   подходит
 at the counter                      :   возле прилавка
 this is the way                     :   таким способом
-an employee                         :   работник
+employee                         :   работник
 tries                               :   пробует
 like art                            :   как искусство
 walks over to Oskar                 :   подходит к Оскару
@@ -1048,17 +1048,17 @@ front door                          :   входная дверь
 pick up                             :   забрать, собрать
 to the post office                  :   на почту
 points at a house                   :   показывает на дом
-a miracle                           :   чудо
-a well-dressed woman                :   хорошо одетая женщина
+miracle                           :   чудо
+well-dressed woman                :   хорошо одетая женщина
 leaving the store                   :   уходящую из магазина
-a purse                             :   сумочка
-a scarf                             :   шарф
+purse                             :   сумочка
+scarf                             :   шарф
 the CEO                             :   директор
-a photocopier                       :   ксерокс
-an intern                           :   стажер
-a guidebook                         :   путеводитель
-a sidewalk                          :   тротуар
-a sign                              :   знак
+photocopier                       :   ксерокс
+intern                           :   стажер
+guidebook                         :   путеводитель
+sidewalk                          :   тротуар
+sign                              :   знак
 straight ahead                      :   прямо напротив
 at least two hours                  :   минимум два часа
 is there any place                  :   есть какое то место
@@ -1071,12 +1071,12 @@ be quiet                            :   молчи
 noodles                             :   лапша
 one-way street                      :   улица с односторонним движением
 who's going to catch us             :   кто догонит нас
-a spouse                            :   супруг
+spouse                            :   супруг
 siblings                            :   дети одного родителя (не близнецы)
-a cousin                            :   двоюродный(-ая) брат, сестра
+cousin                            :   двоюродный(-ая) брат, сестра
 relative                            :   родственники
-a niece                             :   племянница
-a nephew                            :   племянник
+niece                             :   племянница
+nephew                            :   племянник
 for three dollars                   :   за три доллара
 will get there                      :   доберусь туда
 will get hungry                     :   проголодаюсь
@@ -1089,9 +1089,9 @@ you can talk                        :   можешь разговаривать
 i want to get dessert               :   я хочу съесть десерт
 pants                               :   штаны
 the Beatles                         :   Битлз
-a jacket                            :   куртка
+jacket                            :   куртка
 sang                                :   пела
-a band                              :   группа
+band                              :   группа
 well                                :   ну
 anyway                              :   во всяком случае, в любом случае,
 like                                :   как бы, типа
@@ -1114,8 +1114,8 @@ on the contrary                     :   наоборот
 the thing is                        :   дело в том, что…
 in this picture                     :   на этой фотографии
 either                              :   тоже
-a volcano                           :   вулкан
-a festival                          :   фестиваль
+volcano                           :   вулкан
+festival                          :   фестиваль
 rare                                :   редкий
 in his time here                    :   в свое время здесь
 trips                               :   поездки
@@ -1136,14 +1136,14 @@ lets shop                           :   давай сделаем покупки
 routine                             :   распорядок дня
 to shop                             :   делать покупки
 go running                          :   ходим бегать
-an arm                              :   рука
+arm                              :   рука
 fast                                :   быстро
 weaker                              :   слабее
 still                               :   все равно
 feet                                :   ступни
-a foot                              :   ступня
+foot                              :   ступня
 for hours                           :   часами
-a dancer                            :   танцор
+dancer                            :   танцор
 has missed                          :   пропустил
 is that true                        :   это правда
 yet                                 :   уже еще
@@ -1159,7 +1159,7 @@ barely                              :   еле-еле
 though                              :   хотя
 guess                               :   угадай
 someone                             :   кто-то
-an astronaut                        :   астронавт
+astronaut                        :   астронавт
 knocks on                           :   стучит
 enters                              :   заходит
 job application                     :   заявка о приеме на работу
@@ -1168,7 +1168,7 @@ nevertheless                        :   тем не менее
 upset                               :   расстроена
 got one question                    :   ответила на один вопрос
 won't be able                       :   не смогу
-rug                                 :   ковер
+rug                               :   ковер
 go to a run                         :   пойти на пробежку
 improve                             :   улучшить
 try                                 :   стараться
@@ -1187,21 +1187,21 @@ chose                               :   выбрал
 app                                 :   приложение
 icebreaker                          :   начало разговора
 to message                          :   сигнализировать, послать сообщение
-a bathtub                           :   ванна
+bathtub                           :   ванна
 take out                            :   вынести
 rest                                :   отдохнуть
 to fly a plane                      :   управлять самолетом
 poor                                :   бедный
 died                                :   умер
-an emperor                          :   император
-an award                            :   награда
+emperor                          :   император
+award                            :   награда
 score                               :   забил
 healthier                           :   здоровее
 diets                               :   диеты
 pray                                :   молиться
 see the play                        :   увидеть спектакль
 were fixing                         :   ремонтировали
-surfer                              :   сёрфер
+surfer                            :   сёрфер
 sunrise                             :   восход
 is rising                           :   встает
 are you?                            :   не так ли
@@ -1212,70 +1212,69 @@ among                               :   среди
 among those letters                 :   среди этих писем
 according to this book              :   согласно этой книге
 currently                           :   в настоящее время
-a cuisine                           :   кухня
-a spoon                             :   ложка
-a teaspoon                          :   чайная ложка
-a tablespoon                        :   столовая ложка
+cuisine                           :   кухня
+spoon                             :   ложка
+teaspoon                          :   чайная ложка
+tablespoon                        :   столовая ложка
 watermelons                         :   арбуз
-a melons                            :   дыня
+melons                            :   дыня
 seeds                               :   семена
 soil                                :   почва
 rocks                               :   камни
 sand                                :   песок
 leaves                              :   листья
 weeds                               :   сорняки
-a textbook                          :   учебник
+textbook                          :   учебник
 huge                                :   огромный
 huge nose                           :   огромный нос
-a blackboard                        :   доска
+blackboard                        :   доска
 principal office                    :   кабинет директора
 pray                                :   молиться
-a camp                              :   лагерь
+camp                              :   лагерь
 adult                               :   взрослый
 vital                               :   жизненно необходима
 activity                            :   занятие
 grass                               :   трава
-a blanket                           :   одеяло
-a recipe                            :   рецепт
-a knife                             :   нож
-a course                            :   курс
+blanket                           :   одеяло
+knife                             :   нож
+course                            :   курс
 for free                            :   бесплатно
-a sentience                         :   предложение
+sentience                         :   предложение
 spell                               :   произносить по буквам
 lessons                             :   уроки
-a classroom                         :   кабинет
+classroom                         :   кабинет
 white board                         :   маркерная доска
 bright                              :   яркий
 conversation                        :   разговоры
-a fine                              :   штраф
+fine                              :   штраф
 translate                           :   переводить
-a scream                            :   крик
-a murderer                          :   убийца
-a hallway                           :   коридор
+scream                            :   крик
+murderer                          :   убийца
+hallway                           :   коридор
 fill                                :   заполнять
 filled                              :   заполнена
-a wedding ring                      :   свадебное кольцо
+wedding ring                      :   свадебное кольцо
 realized                            :   понял
 smoke                               :   дым
 whole                               :   целый
-a vase                              :   ваза
+vase                              :   ваза
 ruined                              :   испорчен
 to train lions                      :   тренировать львов
 excellent                           :   отличный
 closet                              :   шкаф
 whips                               :   петли
 elderly                             :   пожилым
-a fence                             :   забор
-a bell                              :   колокольчик
-a doorbell                          :   дверной замок
-a carpet                            :   ковер
+fence                             :   забор
+bell                              :   колокольчик
+doorbell                          :   дверной замок
+carpet                            :   ковер
 bricks                              :   кирпичи
-a wall                              :   стена
-a garage                            :   гараж
+wall                              :   стена
+garage                            :   гараж
 dining room                         :   столовая
-a porch                             :   крыльцо
+porch                             :   крыльцо
 leaves                              :   листья
-a bush                              :   куст
+bush                              :   куст
 blooming                            :   цветет
 cherries                            :   вишен
 summer camp                         :   летний лагерь
@@ -1283,7 +1282,7 @@ to camp                             :   разбить лагерь
 is on the phone                     :   разговаривает по телефону
 are you cumming                     :   ты придешь
 taking care                         :   заботишься
-a cage                              :   клетка
+cage                              :   клетка
 meditation                          :   медитация
 apartment building                  :   многоэтажка
 notices                             :   замечает
@@ -1292,7 +1291,7 @@ sure                                :   не за что
 it didn't work                      :   ничего не вышло
 all over                            :   во всем
 haircut                             :   стрижка
-a classmate                         :   одноклассник
+classmate                         :   одноклассник
 just then                           :   в тот момент
 them talking                        :   их разговор
 won't mind                          :   будет не против
@@ -1304,9 +1303,9 @@ don't make me try on clothes        :   не заставляй меня мер�
 fire                                :   уволить
 hang out                            :   проводить время
 fancy restaurant                    :   изысканный ресторан
-a chef                              :   шеф повар
-a salmon                            :   лосось
-a shrimp                            :   креветка
+chef                              :   шеф повар
+salmon                            :   лосось
+shrimp                            :   креветка
 honest                              :   честный
 thanks for being honest             :   спасибо за честность
 get along                           :   поладим
@@ -1322,17 +1321,17 @@ runs over to                        :   прибегает
 tapping his foot to the music       :   притаптывает ногой под музыку
 what is going on                    :   что происходит
 fell asleep                         :   уснула
-a stage                             :   сцена
+stage                             :   сцена
 walks onto stage                    :   выходит на сцену
 waving at them                      :   машет им
 evil                                :   злым
 freezer                             :   морозильная камера
 yay                                 :   ура
-a palace                            :   дворец
+palace                            :   дворец
 the rest of the book                :   остальные книги
 murder                              :   убийство
 they each                           :   каждый из них
-contest                             :   конкурса
+contest                           :   конкурс
 strawberry pie                      :   клубничный пирог
 i stayed up all night               :   я не спала всю ночью
 to judge                            :   судить
@@ -1345,7 +1344,7 @@ bill                                :   счет
 refund                              :   возврат средств
 art show                            :   выставка
 chokes                              :   трясется
-lightning                           :   молния
+lightning                         :   молния
 sounds                              :   кажется
 dies in a tragic way                :   умрет трагически
 announcement                        :   объявление
@@ -1403,14 +1402,14 @@ babysitting                         :   присматривать
 carried an envelop                  :   нес конверт
 heel                                :   каблук
 porch                               :   крыльцо
-kidney                              :   почка
+kidney                            :   почка
 hair                                :   волосы
 nails                               :   ногти
 lips                                :   губы
 forehead                            :   лоб
 wrinkles                            :   морщины
 eyebrow                             :   бровь
-waist                               :   талия
+waist                             :   талия
 jaw                                 :   челюсть
 scratched                           :   почесал
 wound                               :   рана
@@ -1420,7 +1419,7 @@ is downloading                      :   скачивает
 to improve                          :   улучшить
 software                            :   программное обеспечение
 chat                                :   болтать
-department                          :   отдел
+department                        :   отдел
 businesswoman                       :   деловая женщина
 these days                          :   наши дни
 we got into a traffic jam           :   мы попали в пробку
@@ -1444,7 +1443,7 @@ her point of view                   :   ее точка зрения
 at that point                       :   в этом момент
 unless he ask here                  :   пока он не попросит ее
 i'm using this computer later       :   я буду использовать этот компьютер позже
-an emergency                        :   чрезвычайная ситуация
+emergency                        :   чрезвычайная ситуация
 are you hurt                        :   ты ранена
 are you bleeding                    :   у тебя кровотечение
 accidentally                        :   случайно
@@ -1456,7 +1455,7 @@ habit                               :   привычка
 average                             :   средний
 average exchange rate               :   средний обменный курс
 share                               :   делиться
-hiking                              :   походы
+hiking                            :   поход
 adventures                          :   приключения
 sightseeing                         :   осмотривать достопримечательности
 downtown                            :   центр города
@@ -1466,18 +1465,18 @@ final goal                          :   последний гол
 screen                              :   экран
 hit                                 :   бить
 racket                              :   ракетка
-shout                               :   кричать
+to shout                            :   кричать
 against                             :   против
 heard                               :   услышала
 magic                               :   волшебное
-diary                               :   дневник
+diary                             :   дневник
 turn                                :   очередь
 board game                          :   настольная игра
 wilder                              :   более дикий
 takes her work                      :   отвозит ее на работу
 hiking                              :   походы
 adventure                           :   приключение
-mug                                 :   кружка
+mug                               :   кружка
 toast                               :   завтрак
 except one                          :   кроме одного
 easter                              :   пасха
@@ -1520,9 +1519,9 @@ scores                              :   забьет
 teammates                           :   товарищи по команде
 boy's turn                          :   очередь мальчика
 upstairs                            :   наверху
-a bed upstairs                      :   кровать наверху
+bed upstairs                        :   кровать наверху
 followed for him                    :   следили за ним
-a safe place                        :   безопасное место
+safe place                          :   безопасное место
 from the window upstairs            :   из окна наверху
 delayed                             :   отложить
 heat                                :   отопление
@@ -1588,7 +1587,7 @@ refrigerator                        :   холодильник
 boy's turn                          :   очередь мальчика
 you've lived all over Europe        :   ты пожил во всей Европе
 record                              :   записать
-album                               :   альбом
+album                            :   альбом
 chef                                :   шеф-повар
 international                       :   международный
 who did you record that song with   :   с кем ты записал ту песню
@@ -1641,8 +1640,7 @@ i'd love                            :   Я бы с удовольствием
 I'm working till seven              :   Я работаю до семи
 I would love to come but i ...      :   Я бы с удовольствием пришел, но я
 graduates                           :   выпускники
-classroom                           :   кабинет
-occupation                          :   профессия
+occupation                       :   профессия
 high school                         :   старшие классы
 he is now famous for his book       :   он известен сейчас благодаря своей книге
 in the country                      :   за городом
@@ -1665,16 +1663,16 @@ ben borrowed money from me          :   бен взял в долг деньги
 do you need to borrow some money    :   тебе нужно взять в долг деньги
 necklace                            :   ожерелье
 This bank is closer than that one.  :   Этот банк ближе чем тот.
-bracelet                            :   браслет
+bracelet                          :   браслет
 silver                              :   серебрянный
-a lottery                           :   лотерея
+lottery                           :   лотерея
 million                             :   миллион
 first of all                        :   в первую очередь
 He is going to quit his job         :   Он бросит свою работу.
 to lend                             :   дать в долг
 Don't quit the University.          :   Не бросай университет.
 You can' talk to the driver.        :   Тебе нельзя говорить с водителем
-a driver                            :   водитель
+driver                            :   водитель
 gave his sit                        :   уступил свое место
 your child's backpack               :   рюкзак своего ребенка
 How long have you been an actor?    :   Как долго он был актером?
@@ -1682,10 +1680,10 @@ Who is making noise?                :   Кто шумит?
 Don't take your shoes.              :   Не снимай свою обувь.
 to book seats                       :   бронировать места
 You don't have to book seats.       :   Тебе не обязательно бронировать места.
-a play                              :   Пьеса, игра
+play                              :   Пьеса, игра
 Take of your hat                    :   Снимите свою шляпу
-a statue                            :   статуя
-a painter                           :   художник
+statue                            :   статуя
+painter                           :   художник
 you don't have to                   :   тебе не обязательно
 I didn't have a business textbook   :   у меня не было учебника бизнеса
 I was walking home in the storm     :   я шла домой в шторм
@@ -1693,7 +1691,7 @@ I neve break anything               :   я никогда ничего не ло
 I was getting on the bus            :   я садилась на автобус
 ten percent                         :   десять процентов
 my check was 20 dollars             :   мой чек был 20 долларов
-a tip                               :   чаевые
+tip                               :   чаевые
 polite                              :   вежливый
 20 percent of the check is OK       :   20 процентов счета нормально
 is this tip big enough              :   эти чаевые достаточно большие
@@ -1722,7 +1720,7 @@ by the way                          :   К стати
 shh                                 :   тсс
 to gossip                           :   сплетничать
 I don't gossip                      :   я не сплетничаю
-a secret                            :   a secret
+secret                            :   a secret
 single                              :   холост
 Ben is single again                 :   Максим холост снова
 crazy about Anna                    :   без ума от Анны
@@ -1766,9 +1764,9 @@ postcard                            :   почтовая открытка
 Parking is for guests of hotel.     :   Стоянка для постояльцев отеля.
 corner                              :   угол
 sports center                       :   спортивный центр
-a garage sale                       :   гаражный кооператив
+garage sale                       :   гаражный кооператив
 water bill                          :   счет за воду
-a sidewalk                          :   тротуар
+sidewalk                          :   тротуар
 alarm clock                         :   будильник
 vintage                             :   старинный
 posters                             :   плакат
@@ -1777,44 +1775,44 @@ garage sale                         :   гаражная распродажа
 Sorry, these toys hers now.         :   Прости, эти играшки ее сейчас.
 guitar case                         :   чехол для гитары
 violin case                         :   чехол для скрипки
-a comb                              :   гребень
+comb                              :   гребень
 earrings                            :   сережки
 Who will pay water bill?            :   Кто оплатит счет за воду?
 We won't be friends anymore.        :   Мы больше не будем друзьями.
 all right                           :   ладно
 Ben is a bit nervous.               :   Бен слегка нервничает.
 to pack                             :   упаковывать
-a wheel                             :   колесо
-a long time                         :   очень долго
+wheel                             :   колесо
+long time                         :   очень долго
 yeah                                :   ну да
 bottom                              :   дно
 at the bottom of the bag            :   на дне своей сумки
-a raincoat                          :   дождевик
+raincoat                          :   дождевик
 sneakers                            :   кросовки
-a drawer                            :   ящик
+drawer                            :   ящик
 to fold                             :   сладывать
-a dresser                           :   комод
+dresser                           :   комод
 as usual                            :   обычно
 They already finished boarding.     :   Они уже закончили посадку.
-a gate                              :   выход
-a shampoo                           :   шампунь
+gate                              :   выход
+shampoo                           :   шампунь
 to harry                            :   торопиться
 Our plane is taking off now.        :   Наш самолет взлетает сейчас.
 boarding                            :   посадка
 The plane has taken off.            :   Самолет взлетел.
 They serve great desserts here.     :   Здесь подают отличные десерты.
-a cocktail                          :   коктель
+cocktail                          :   коктель
 grilled chicken                     :   курица на гриле
 in that area                        :   в той части города
 You can't find better fish here.    :   Ты не можешь найти рыбу получше здесь.
 What's the soup of the day?         :   Какой суп дня?
-a appetizer                         :   закуска
+appetizer                         :   закуска
 Your check includes the tip.        :   Ваш счет включает чаевые.
 We had five courses.                :   Мы съели пять блюд.
 roast vegetables                    :   запеченные овощи
 as a side dish                      :   на гарнир
 As a side dish, I would like rice.  :   На гарнир, я бы хотел рис.
-a mango                             :   манго
+mango                             :   манго
 slice of lemon                      :   кусочек лимона
 grape                               :   виноград
 espresso                            :   экспрессо
