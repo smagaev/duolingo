@@ -79,7 +79,7 @@ class SiteController extends Controller
         if (isset($user_id)) {
             foreach ($parms as $key => $val) {
                 if (strpos($key, 't_') === 0) {
-                    $key = explode('_',$key)[1];
+                    $key = explode('_', $key)[1];
                     if ($model = Exclude::find()->where(['=', 'word_id', $key])->andWhere(['=', 'user_id', $user_id])->one()) {
                         $model->time = $val;
                         $model->save();
@@ -157,6 +157,17 @@ class SiteController extends Controller
             }
             $cache->set('words_' . $session_id, $arr);
             if (!isset($words)) return "<a href='/clear'> вы прошли курс</a>";
+
+            //revert source and destination (word <>translate)
+            $revert = rand(1,2);
+            if ($revert == 1 ) {
+                foreach ($words as $val) {
+                    $temp = $val['var1'];
+                    $val['var1'] = $val['word'];
+                    $val['word'] = $temp;
+                }
+            }
+
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
         } else return "Error: In Data Base has not enough words for correct work. Please insert words and press on the tab words";
 
@@ -192,19 +203,33 @@ class SiteController extends Controller
 
         }
         //exclude
-        switch ($level){
-            case 1 : $limit = 100; break;
-            case 2 : $limit = 100; break;
-            case 3 : $limit = 100; break;
-            case 4 : $limit = 100; break;
-            case 5 : $limit = 200; break;
-            case 6 : $limit = 300; break;
-            case 7 : $limit = 400; break;
+        switch ($level) {
+            case 1 :
+                $limit = 100;
+                break;
+            case 2 :
+                $limit = 120;
+                break;
+            case 3 :
+                $limit = 140;
+                break;
+            case 4 :
+                $limit = 160;
+                break;
+            case 5 :
+                $limit = 180;
+                break;
+            case 6 :
+                $limit = 300;
+                break;
+            case 7 :
+                $limit = 400;
+                break;
         }
-        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['>','time', $limit])->asArray()->column();
-     //   var_dump ($excl_models);
-        $arr = array_diff( $arr, $excl_models);
-     //   var_dump($arr); die;
+        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['>', 'time', $limit])->asArray()->column();
+        //   var_dump ($excl_models);
+        $arr = array_diff($arr, $excl_models);
+        //   var_dump($arr); die;
 
         //set cache
         $cache->set('level_' . $session_id, $level); //set level
@@ -218,8 +243,8 @@ class SiteController extends Controller
     {
         $userId = yii::$app->user->getId();
         $countStadied = Statistika::find()->where(['=', 'user_id', $userId])->sum('quantity');
-        $grafic_data = Statistika::find()->select('data, quantity')->where(['user_id'=>$userId])->andWhere(['>=', 'data', date("Y-m", time()) . "-01"])->asArray()->all();
-        return $this->render('stat', compact('countStadied','grafic_data'));
+        $grafic_data = Statistika::find()->select('data, quantity')->where(['user_id' => $userId])->andWhere(['>=', 'data', date("Y-m", time()) . "-01"])->asArray()->all();
+        return $this->render('stat', compact('countStadied', 'grafic_data'));
     }
 
     public
