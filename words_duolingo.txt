@@ -1840,6 +1840,7 @@ Please, hold on.                    :   Пожалуйста, подождите
 What's up, Ben?                     :   Как ты Бен?
 bald                                :   лысый
 hangs up                            :   вешает трубку
+hang up                             :   повесить трубку
 to keep in touch                    :   оставаться на связи
 Don't forget to keep in touch.      :   Не забудь оставаться на связи.
 I'm  handing up.                    :   Я вешаю трубку.
@@ -1850,7 +1851,6 @@ Boarding begins in ten minutes.     :   Посадка начинается че
 She's gone to mexico for the summer.:   Она уехала в Мексику на лето.
 roast                               :   запеченный
 to share the roast potatoes         :   поделиться запеченой картошкой
-
-
-
-
+Aren't your kids at school?         :   Разве твои дети не в школе?
+Hold on and I'll call him.          :   Подоэдите и я позвоню ему.
+He isn't answering his' mom's calls.:   Он не отвечает на звонки своей мамы.
