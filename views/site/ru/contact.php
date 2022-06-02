@@ -8,7 +8,7 @@ use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Html;
 use yii\captcha\Captcha;
 
-$this->title = 'Контакты';
+$this->title = 'Наши контакты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
@@ -34,8 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php else: ?>
 
         <p>
-            Если у вас есть деловые запросы или другие вопросы, пожалуйста, заполните следующую форму, чтобы связаться с нами.
-            Спасибо.
+          Здесь вы можете оставить ваше сообщение для администратора сайта.
         </p>
 
         <div class="row">

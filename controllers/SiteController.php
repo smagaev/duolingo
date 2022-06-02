@@ -74,6 +74,8 @@ class SiteController extends Controller
         $parms = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
 
+        //meta tags
+        Yii::$app-> view->registerMetaTag(['name'=>"description", "content"=>"Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
 
         //insert times in table "excluding"
         if (isset($user_id)) {
@@ -377,6 +379,6 @@ class SiteController extends Controller
     public
     function actionAbout()
     {
-        return $this->render('about');
+      return $this->render('about');
     }
 }
