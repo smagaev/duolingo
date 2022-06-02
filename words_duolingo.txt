@@ -1186,7 +1186,7 @@ facts                               :   факты
 thin                                :   тонкий, худой
 chose                               :   выбрал
 app                                 :   приложение
-icebreaker                          :   начало разговора
+icebreaker                          :   ледокол
 to message                          :   сигнализировать, послать сообщение
 bathtub                             :   ванна
 take out                            :   вынести
@@ -1870,5 +1870,30 @@ opposite                            :   напротив
 police station                      :   полицеский участок
 various                             :   разнообразные
 is still small                      :   все равно маленькая
-
-
+wide                                :   ширина
+scarf                               :   шарф
+refund                              :   вернуть деньги
+turn on                             :   включить
+speakers                            :   колонки
+brash                               :   расческа
+perfume                             :   духи
+more pleased                        :   довольнее
+pleased                             :   доволен
+I almost forgot the book.           :   Я почти забыл книгу
+resume                              :   резьме
+advanced level                      :   продвинутый уровень
+completed his studies               :   закончил свое обучение
+since then                          :   с тех пор
+I've been the driver since then.    :   Я была водителем с тех пор.
+experience                          :   опыт
+built your business by yourself     :   построили свой бизнес самостоятельно
+by yourself                         :   самостоятельно
+bring your partner                  :   приведите своего партнера
+certainly                           :   безусловно
+photographer                        :   фотограф
+I was bad at math                   :   Я был слаб в математике.
+interview                           :   собеседование
+for about five years                :   примерно 5 лет
+benefits                            :   социальный пакет
+Everybody emails each other often.  :   Все отправляют имейлы часто.
+daily                               :   Ежедневный
