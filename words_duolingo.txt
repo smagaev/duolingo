@@ -1897,3 +1897,11 @@ for about five years                :   примерно 5 лет
 benefits                            :   социальный пакет
 Everybody emails each other often.  :   Все отправляют имейлы часто.
 daily                               :   Ежедневный
+Doesn't he have his phone?          :   Разве у него нет его телефона?
+Can i try on this shirt?            :   Могу я примерить эту рубашку?
+Could you look for a smaller size?  :   Могли бы вы поискать размер поменьше?
+Does this store have shorts?        :   Есть шорты в этом магазине?
+Come on, everything will be great?  :   Да ладно, все будет отлично?
+Just put the boxes near those stove.:   Просто поставь те коробки рядом с плитой.
+grocery store                       :   продуктовый магазин
+
