@@ -1904,4 +1904,25 @@ Does this store have shorts?        :   Есть шорты в этом мага
 Come on, everything will be great?  :   Да ладно, все будет отлично?
 Just put the boxes near those stove.:   Просто поставь те коробки рядом с плитой.
 grocery store                       :   продуктовый магазин
+Does this tv still have a sound?    :   У этого телевизора еще есть звук?
+You can find videos in this section.:   Ты можешь найти видео в этой секции.
+air conditioning                    :   кондиционер
+sunscreen                           :   солнцезацитный крем
+boat tour                           :   путешествие на лодке
+climbing                            :   скалалазание
+chatting                            :   переписываться
+immediately                         :   сразу же
+deep                                :   глубокий
+all alone                           :   совершенно один
+once a year                         :   раз в год
+fought                              :   сразился
+fighting                            :   сражались
+once a night                        :   один раз за ночь
+get married                         :   пожениться
+as soon as possible                 :   как можно скорее
+the end                             :   конец
+in fairy tales                      :   в сказках
+point at him                        :   укажи на него
+
+
 

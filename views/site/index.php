@@ -12,7 +12,7 @@ $quantity = count($words);
             for ($i = 0; $i < 5; $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-defult border-dark col-5" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
+                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
                 $n++;
                 $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-id="' . $k . '"><span>' . $words[$i]->var1 . '</span></div>';
                 $n++;
