@@ -16,6 +16,7 @@ use Yii;
  * @property string $var4
  * @property string $var5
  * @property string $var6
+ * @property string $user_id
  */
 class Duolingo extends \yii\db\ActiveRecord
 {
@@ -35,7 +36,7 @@ class Duolingo extends \yii\db\ActiveRecord
         return [
             [['word', 'var1', 'count_words'], 'required'],
             [['word', 'var1', 'var2', 'var3', 'var4', 'var5', 'var6'], 'string', 'max' => 128],
-            [['count_words'], 'integer']
+            [['count_words', 'user_id'], 'integer']
         ];
     }
 
@@ -53,6 +54,7 @@ class Duolingo extends \yii\db\ActiveRecord
             'var4' => 'Var4',
             'var5' => 'Var5',
             'var6' => 'Var6',
+            'user_id' => 'UserID'
         ];
     }
 }

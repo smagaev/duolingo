@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\ActiveForm;
 use app\models\Words;
+use app\widgets\Alert;
 
 $model = new Words();
 
@@ -11,6 +12,8 @@ $model = new Words();
 /* @var $model app\models\Words */
 /* @var $form ActiveForm */
 ?>
+
+
 <h2>Здесь вы можете добавить изучаемые слова в базу ...</h2>
 
 <ul class="list-unstyled small"><strong>Формат добавляемых слов:</strong>
@@ -32,7 +35,7 @@ $model = new Words();
     <?= $form->field($model, 'words')->textarea(['rows' => '20']) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Отправить', [
+        <?= Html::submitButton('Добавить слова', [
             'class' => 'btn btn-primary'
         ]) ?>
         <?= Html::Button('Очистить кеш', [
@@ -43,4 +46,23 @@ $model = new Words();
     </div>
     <?php ActiveForm::end(); ?>
 
+    <?= Html::Button ( 'Удалить мои слова из базы', [
+            'class' => 'btn btn-danger',
+            'onClick'=> 'removeWords()',
+        ]
+    
+    )?>
+
 </div><!-- words -->
+
+
+<?  $myJS = <<< JS
+        function removeWords(){
+            var res = window.confirm ("Вы хорошо подумали?");
+            if (res == true){
+                window.location.href = "/delete-words"
+            }
+        }
+        JS;
+$this->registerJS($myJS, \yii\web\View::POS_HEAD);
+?>

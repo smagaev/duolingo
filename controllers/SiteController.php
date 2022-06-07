@@ -283,6 +283,7 @@ class SiteController extends Controller
                                         $model->word = $eng;
                                         $model->count_words = str_word_count($eng);
                                         $model->var1 = $ru;
+                                        $model->user_id = Yii::$app->getUser()->id;
                                         if ($model->validate()) {
 
                                             if ($model->save()) {
@@ -307,6 +308,13 @@ class SiteController extends Controller
             }
             return $this->render('words');
         }
+    }
+
+    public function actionDeleteWords(){
+        $userId = Yii::$app->getUser()->id;
+        Duolingo::deleteAll(['user_id'=>$userId]);
+        Yii::$app->session->setFlash('success', 'All words delete from data base');
+        return $this->goBack();
     }
 
     public
