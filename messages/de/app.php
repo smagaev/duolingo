@@ -11,10 +11,11 @@
  * @version $Id: $
  */
 return array (
-    'Uploader'=>'Загрузить',
-    'This gallery is empty.'=>'Фотографии не присоединены.',
+    'Uploader'=>'Download',
+    'This gallery is empty.'=>'Fotos sind nicht beigefügt.',
     'My Company'=>'Meine Firma',
     'Next'=>'Waiter',
+    'Error empty db' =>'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
 );
 
 ?>

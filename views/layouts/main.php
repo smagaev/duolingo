@@ -31,8 +31,8 @@ AppAsset::register($this);
 <header>
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandLabel' => "DUO",
+        'brandUrl' => ['/site/index', 'language' =>'en'],
         'options' => [
             'class' => 'navbar navbar-expand-md navbar-dark bg-info fixed-top',
         ],

@@ -1923,6 +1923,21 @@ as soon as possible                 :   как можно скорее
 the end                             :   конец
 in fairy tales                      :   в сказках
 point at him                        :   укажи на него
-
-
+to collect                          :   собирать
+along the beach                     :   вдоль пляжа
+almost here                         :   почти здесь
+go away                             :   уходи
+I am not ready yet, so go away.     :   Я еще не готов, поэтому уходи!
+as soon as possible                 :   как можно скорее
+volleyball                          :   волейбол
+business                            :   дело
+instrument                          :   инструмент
+kangaroos                           :   кенгуру
+winner                              :   победитель
+scooter                             :   скутер
+ping pong                           :   настольный теннис
+stories                             :   истории
+It's time for bed.                  :   Время для сна
+race                                :   гонка
+spare time                          :   свободное время
 

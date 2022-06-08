@@ -171,7 +171,10 @@ class SiteController extends Controller
             }
 
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
-        } else return "Error: In Data Base has not enough words for correct work. Please insert words and press on the tab words";
+        } else {
+            Yii::$app->session->setFlash('warning', Yii::t('app', 'Error empty db'));
+            return $this->redirect(['/words', 'language'=> Yii::$app->request->get('language')]);
+        }
 
     }
 
@@ -313,6 +316,7 @@ class SiteController extends Controller
     public function actionDeleteWords(){
         $userId = Yii::$app->getUser()->id;
         Duolingo::deleteAll(['user_id'=>$userId]);
+        Statistika::deleteAll(['user_id'=>$userId]);
         Yii::$app->session->setFlash('success', 'All words delete from data base');
         return $this->goBack();
     }
