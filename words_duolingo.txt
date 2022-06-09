@@ -1954,3 +1954,5 @@ We got along in the beginning.      :   Мы поладили вначале.
 such as fruit or vegetables         :   такая как фрукты и овощи
 lunchtime                           :   обеденный перерыв
 show me around                      :   проведи мне экскурсию
+city tour                           :   тур по городу
+classical music                     :   классическая музыка
