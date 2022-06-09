@@ -78,7 +78,7 @@ class SiteController extends Controller
         //meta tags
         Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
 
-        //insert times in table "excluding"
+        /*Insert times in table "excluding"*/
         if (isset($user_id)) {
             foreach ($parms as $key => $val) {
                 if (strpos($key, 't_') === 0) {
@@ -96,14 +96,12 @@ class SiteController extends Controller
                 }
             }
         }
-
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
                 $session->open();
             }
             $session_id = Yii::$app->session->getId();
-
         } else {
             $session_id = $user_id;
 
@@ -122,27 +120,42 @@ class SiteController extends Controller
                 }
             }
         }
-
+        /*End insert times in table "excluding" */
 
         $cache = Yii::$app->cache;
 
         /*Clear cache after achieved of end*/
-        if ($cache->get('count_words_in_db' . $session_id) == 5) {
+
+        if ($cache->get('count_words_in_db' . $session_id) == 0) {
             $cache->delete('count_words_in_db' . $session_id);
             $cache->delete('words_' . $session_id);
         }
 
-        $count_words_db = $cache->getOrSet('count_words_in_db' . $session_id, function () {
-            if (!isset($user_id)) {
+
+        /*Set cache*/
+        if (!isset($user_id)) {
+            $count_words_db = $cache->getOrSet('count_words_in_db' . $session_id, function () {
                 return Duolingo::find()->count();
-            } else {
-                return Duolingo::find()->where(['=', 'user_id', $user_id])->count();
+            });
+        } else {
+            if (!$count_words_db = $cache->get('count_words_in_db' . $session_id)) {
+                $count_words_db = Duolingo::find()->where(['user_id' => $user_id])->count();
+                $cache->set('count_words_in_db' . $session_id, $count_words_db);
             }
-        });
+        };
+        /*End set cache*/
+
         if ($count_words_db > 0) {
+            if (!isset($user_id)) {
             $arr = $cache->getOrSet('words_' . $session_id, function () {
                 return Duolingo::find()->column();
             });
+            } else {
+                if (!$arr= $cache->get('words_' . $session_id)){
+                    $arr =  Duolingo::find()->where(['user_id' => $user_id])->column();
+                    $cache->set('words_' . $session_id, $arr);
+                }
+            }
 
             $count_words = count($arr);
             $count_ready = $count_words_db - $count_words;
@@ -202,10 +215,18 @@ class SiteController extends Controller
         $cache = Yii::$app->cache;
         //set vars
         $level = Yii::$app->request->get('level');
-        if ($level == 6) {
-            $models = Duolingo::find()->where(['>', 'count_words', 5]);
+        if ($user_id) {
+            if ($level == 6) {
+                $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
+            } else {
+                $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
+            }
         } else {
-            $models = Duolingo::find()->where(['=', 'count_words', $level]);
+            if ($level == 6) {
+                $models = Duolingo::find()->where(['>', 'count_words', 5]);
+            } else {
+                $models = Duolingo::find()->where(['=', 'count_words', $level]);
+            }
         }
         $count = $models->count();
         if ($count > 0) {
@@ -263,8 +284,8 @@ class SiteController extends Controller
         $userId = Yii::$app->getUser()->id;
         if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
             for ($i = 1; $i < 7; $i++) {
-                $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id'=>$userId])->count()
-                    : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->andWhere(['user_id'=>$userId])->count();
+                $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id' => $userId])->count()
+                    : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->andWhere(['user_id' => $userId])->count();
             }
         } else {
             for ($i = 1; $i < 7; $i++) {
