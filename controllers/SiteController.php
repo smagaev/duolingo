@@ -70,12 +70,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+
+
         $quantity = Yii::$app->request->get('quantity');
         $parms = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
-
         //meta tags
-        Yii::$app-> view->registerMetaTag(['name'=>"description", "content"=>"Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
+        Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
 
         //insert times in table "excluding"
         if (isset($user_id)) {
@@ -132,7 +133,11 @@ class SiteController extends Controller
         }
 
         $count_words_db = $cache->getOrSet('count_words_in_db' . $session_id, function () {
-            return Duolingo::find()->count();
+            if (!isset($user_id)) {
+                return Duolingo::find()->count();
+            } else {
+                return Duolingo::find()->where(['=', 'user_id', $user_id])->count();
+            }
         });
         if ($count_words_db > 0) {
             $arr = $cache->getOrSet('words_' . $session_id, function () {
@@ -161,8 +166,8 @@ class SiteController extends Controller
             if (!isset($words)) return "<a href='/clear'> вы прошли курс</a>";
 
             //revert source and destination (word <>translate)
-            $revert = rand(1,2);
-            if ($revert == 1 ) {
+            $revert = rand(1, 2);
+            if ($revert == 1) {
                 foreach ($words as $val) {
                     $temp = $val['var1'];
                     $val['var1'] = $val['word'];
@@ -173,7 +178,7 @@ class SiteController extends Controller
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
         } else {
             Yii::$app->session->setFlash('warning', Yii::t('app', 'Error empty db'));
-            return $this->redirect(['/words', 'language'=> Yii::$app->request->get('language')]);
+            return $this->redirect(['/words', 'language' => Yii::$app->request->get('language')]);
         }
 
     }
@@ -255,9 +260,19 @@ class SiteController extends Controller
     public
     function actionLevel()
     {
-        for ($i = 1; $i < 7; $i++) {
-            $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->count() : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->count();
+        $userId = Yii::$app->getUser()->id;
+        if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
+            for ($i = 1; $i < 7; $i++) {
+                $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id'=>$userId])->count()
+                    : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->andWhere(['user_id'=>$userId])->count();
+            }
+        } else {
+            for ($i = 1; $i < 7; $i++) {
+                $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->count()
+                    : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->count();
+            }
         }
+
         return $this->render('level', compact('countL'));
     }
 
@@ -281,12 +296,13 @@ class SiteController extends Controller
                                 $eng = trim($arr[0]);
                                 if (isset($arr[1])) {
                                     $ru = trim($arr[1]);
-                                    if (!Duolingo::find()->where(['word' => $eng])->one()) {
+                                    $userId = Yii::$app->getUser()->id;
+                                    if (!Duolingo::find()->where(['word' => $eng, 'user_id' => $userId])->one()) {
                                         $model = new Duolingo();
                                         $model->word = $eng;
                                         $model->count_words = str_word_count($eng);
                                         $model->var1 = $ru;
-                                        $model->user_id = Yii::$app->getUser()->id;
+                                        $model->user_id = $userId;
                                         if ($model->validate()) {
 
                                             if ($model->save()) {
@@ -313,10 +329,12 @@ class SiteController extends Controller
         }
     }
 
-    public function actionDeleteWords(){
+    public
+    function actionDeleteWords()
+    {
         $userId = Yii::$app->getUser()->id;
-        Duolingo::deleteAll(['user_id'=>$userId]);
-        Statistika::deleteAll(['user_id'=>$userId]);
+        Duolingo::deleteAll(['user_id' => $userId]);
+        Statistika::deleteAll(['user_id' => $userId]);
         Yii::$app->session->setFlash('success', 'All words delete from data base');
         return $this->goBack();
     }
@@ -391,6 +409,6 @@ class SiteController extends Controller
     public
     function actionAbout()
     {
-      return $this->render('about');
+        return $this->render('about');
     }
 }
