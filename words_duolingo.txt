@@ -1940,4 +1940,17 @@ stories                             :   истории
 It's time for bed.                  :   Время для сна
 race                                :   гонка
 spare time                          :   свободное время
-
+difference                          :   разница
+close with their neighbors          :   близки со своими соседями
+What are the average people like?   :   Какие среднестатичтические люди?
+Ben showed me around.               :   Бен провел мне экскурсию.
+national                            :   национальный
+wrong way                           :   неправильный способ
+fast food                           :   фастфуд
+curry                               :   карри
+toothpaste                          :   зубная паста
+in the beginning                    :   вначале
+We got along in the beginning.      :   Мы поладили вначале.
+such as fruit or vegetables         :   такая как фрукты и овощи
+lunchtime                           :   обеденный перерыв
+show me around                      :   проведи мне экскурсию
