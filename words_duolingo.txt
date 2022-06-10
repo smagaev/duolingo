@@ -1956,3 +1956,32 @@ lunchtime                           :   обеденный перерыв
 show me around                      :   проведи мне экскурсию
 city tour                           :   тур по городу
 classical music                     :   классическая музыка
+Tonight is very special.            :   Сегодняшний вечер очень особенный.
+In the beginning i liked him.       :   Вначале он мне понравился.
+My hobby is sleeping.               :   Мое хобби спать.
+change of clothes                   :   сменная одежда
+My daughter wakes up in seconds.    :   Моя дочь просыпается за секунды.
+beginner actors                     :   начинающие актеры
+Beginner classes start next week.   :   Занятия для начинающих начинаются на следующей неделе.
+beginner classes                    :   занятия для ничинающих
+he runs up these stairs             :   он бегает вверх по этой лестнице
+hiking club                         :   походный клуб
+Guess what                          :   представь
+I'll join the class for beginners.  :   Я запишусь на занятие для начинающих.
+fit                                 :   хорошей форме
+to be fit                           :   быть в хорошей форме
+middle                              :   посреди
+in the middle of the path           :   посреди тропы
+jump over it                        :   перепрыгни через нее
+national park                       :   заповедник
+if i have nothing to do             :   если мне нечего будет делать
+White House                         :   Белый дом
+Is it Ok to take pictures?          :   Можно фотографировать?
+I'll you around tomorrow.           :   Я проведу экскурсию завтра.
+stages                              :   сцены
+somewhere                           :   где то
+Hollywood                           :   Голливуд
+unhappy                             :   несчастным
+a variety of                        :   множество
+the bridge which i used most        :   мост который я использовал больше всего
+What is the city tour like?         :   Какая по городу экскурсия?
