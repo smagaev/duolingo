@@ -47,19 +47,11 @@ class MyFunctions
         }
     }
     static function initCacheWithExcludingWords($user_id, $level , $session_id){
-        if ($user_id) {
             if ($level == 6) {
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
             } else {
                 $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
             }
-        } else {
-            if ($level == 6) {
-                $models = Duolingo::find()->where(['>', 'count_words', 5]);
-            } else {
-                $models = Duolingo::find()->where(['=', 'count_words', $level]);
-            }
-        }
         $count = $models->count();
         if ($count > 0) {
             $arr = $models->column();
@@ -71,7 +63,7 @@ class MyFunctions
                 $limit = 100;
                 break;
             case 2 :
-                $limit = 120;
+                $limit = 1200;
                 break;
             case 3 :
                 $limit = 140;
@@ -80,18 +72,24 @@ class MyFunctions
                 $limit = 160;
                 break;
             case 5 :
-                $limit = 180;
+                $limit = 300;
                 break;
             case 6 :
-                $limit = 300;
+                $limit = 1250;
                 break;
             case 7 :
                 $limit = 400;
                 break;
         }
-        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['>', 'time', $limit])->asArray()->column();
+
+        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['<', 'time', $limit])->asArray()->column();
         //   var_dump ($excl_models);
-        $arr = array_diff($arr, $excl_models);
+        $_arr = array_diff($arr, $excl_models);
+        if (count($_arr)!==0) {
+            $arr = $_arr; //if all words are studied begin again once zero
+            Exclude::find()->where(['=', 'user_id', $user_id]); //Нужно доработать эту функцию - удалять не все таймеры
+            //Yii::$app->session->setFlash('success', 'Вы изучили все слова! Пройдите еще раз или выберите другой уровень!');
+        }
         //   var_dump($arr); die;
 
         //set cache

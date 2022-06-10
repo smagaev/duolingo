@@ -80,9 +80,9 @@ class SiteController extends Controller
         //meta tags
         Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
 
-        MyFunctions::addExcludingWords($user_id,$params);
+        MyFunctions::addExcludingWords($user_id, $params);
 
-        MyFunctions::addTableStat($user_id,$quantity);
+        MyFunctions::addTableStat($user_id, $quantity);
 
         if (!isset($user_id)) {
             $session = Yii::$app->session;
@@ -96,39 +96,15 @@ class SiteController extends Controller
 
         $cache = Yii::$app->cache;
 
-        /*Clear cache after achieved of end*/
 
-        if ($cache->get('count_words_in_db' . $session_id) == 0) {
-//            $cache->delete('count_words_in_db' . $session_id);
-//            $cache->delete('words_' . $session_id);
-            return $this->redirect([$this->actionSetlevel()]);
-        }
-
-
-        /*Set cache*/
-        if (!isset($user_id)) {
-            $count_words_db = $cache->getOrSet('count_words_in_db' . $session_id, function () {
-                return Duolingo::find()->count();
-            });
-        } else {
-            if (!$count_words_db = $cache->get('count_words_in_db' . $session_id)) {
-                $count_words_db = Duolingo::find()->where(['user_id' => $user_id])->count();
-                $cache->set('count_words_in_db' . $session_id, $count_words_db);
+        /*get cache*/
+            $count_words_db = $cache->get('count_words_in_db' . $session_id);
+            if ($count_words_db > 0) {
+                $arr = $cache->get('words_' . $session_id);
             }
-        };
-        /*End set cache*/
 
-        if ($count_words_db > 0) {
-            if (!isset($user_id)) {
-            $arr = $cache->getOrSet('words_' . $session_id, function () {
-                return Duolingo::find()->column();
-            });
-            } else {
-                if (!$arr= $cache->get('words_' . $session_id)){
-                    $arr =  Duolingo::find()->where(['user_id' => $user_id])->column();
-                    $cache->set('words_' . $session_id, $arr);
-                }
-            }
+            /*End set cache*/
+
 
             $count_words = count($arr);
             $count_ready = $count_words_db - $count_words;
@@ -149,7 +125,10 @@ class SiteController extends Controller
                 }
             }
             $cache->set('words_' . $session_id, $arr);
-            if (!isset($words)) return "<a href='/clear'> вы прошли курс</a>";
+            if (!isset($words)) {
+             //   Yii::$app->session->setFlash('success', "Вы выучили все слова на этом уровне, выберите другой или этот еще раз!");
+                return $this->redirect(['/setlevel']);
+            }
 
             //revert source and destination (word <>translate)
             $revert = rand(1, 2);
@@ -162,10 +141,7 @@ class SiteController extends Controller
             }
 
             return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
-        } else {
-            Yii::$app->session->setFlash('warning', Yii::t('app', 'Error empty db'));
-            return $this->redirect(['/words', 'language' => Yii::$app->request->get('language')]);
-        }
+
 
     }
 
@@ -178,9 +154,9 @@ class SiteController extends Controller
 
         $session_id = MyFunctions::initSession($user_id);
 
-               if(!$level = Yii::$app->request->get('level')){
-                   $level = Yii::$app->cache->get('level');
-               }
+        if (!$level = Yii::$app->request->get('level')) {
+            $level = Yii::$app->cache->get('level_' . $session_id);
+        }
 
         MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id);
 
