@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\components\MyFunctions;
 use Yii;
 use yii\db\Expression;
 use yii\filters\AccessControl;
@@ -13,6 +14,7 @@ use app\models\ContactForm;
 use app\models\Duolingo;
 use app\models\Statistika;
 use app\models\Exclude;
+
 
 class SiteController extends Controller
 {
@@ -73,29 +75,15 @@ class SiteController extends Controller
 
 
         $quantity = Yii::$app->request->get('quantity');
-        $parms = Yii::$app->request->get();
+        $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
         Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
 
-        /*Insert times in table "excluding"*/
-        if (isset($user_id)) {
-            foreach ($parms as $key => $val) {
-                if (strpos($key, 't_') === 0) {
-                    $key = explode('_', $key)[1];
-                    if ($model = Exclude::find()->where(['=', 'word_id', $key])->andWhere(['=', 'user_id', $user_id])->one()) {
-                        $model->time = $val;
-                        $model->save();
-                    } else {
-                        $model = new Exclude();
-                        $model->user_id = $user_id;
-                        $model->word_id = $key;
-                        $model->time = $val;
-                        $model->save();
-                    }
-                }
-            }
-        }
+        MyFunctions::addExcludingWords($user_id,$params);
+
+        MyFunctions::addTableStat($user_id,$quantity);
+
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
@@ -104,31 +92,16 @@ class SiteController extends Controller
             $session_id = Yii::$app->session->getId();
         } else {
             $session_id = $user_id;
-
-            if (isset($quantity)) {
-                $data = date('Y-m-d');
-                $stat = Statistika::find()->where(['=', 'user_id', $user_id])->andWhere(['=', 'data', $data])->one();
-                if (isset($stat)) {
-                    $stat->quantity += $quantity;
-                    $stat->save();
-                } else {
-                    $stat = new Statistika();
-                    $stat->user_id = $user_id;
-                    $stat->data = $data;
-                    $stat->quantity = $quantity;
-                    $stat->save();
-                }
-            }
         }
-        /*End insert times in table "excluding" */
 
         $cache = Yii::$app->cache;
 
         /*Clear cache after achieved of end*/
 
         if ($cache->get('count_words_in_db' . $session_id) == 0) {
-            $cache->delete('count_words_in_db' . $session_id);
-            $cache->delete('words_' . $session_id);
+//            $cache->delete('count_words_in_db' . $session_id);
+//            $cache->delete('words_' . $session_id);
+            return $this->redirect([$this->actionSetlevel()]);
         }
 
 
@@ -202,72 +175,16 @@ class SiteController extends Controller
     public function actionSetlevel()
     {
         $user_id = Yii::$app->getUser()->id;
-        if (!isset($user_id)) {
-            $session = Yii::$app->session;
-            if (!$session->isActive) {
-                $session->open();
-            }
-            $session_id = Yii::$app->session->getId();
 
-        } else {
-            $session_id = $user_id;
-        }
-        $cache = Yii::$app->cache;
-        //set vars
-        $level = Yii::$app->request->get('level');
-        if ($user_id) {
-            if ($level == 6) {
-                $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
-            } else {
-                $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
-            }
-        } else {
-            if ($level == 6) {
-                $models = Duolingo::find()->where(['>', 'count_words', 5]);
-            } else {
-                $models = Duolingo::find()->where(['=', 'count_words', $level]);
-            }
-        }
-        $count = $models->count();
-        if ($count > 0) {
-            $arr = $models->column();
+        $session_id = MyFunctions::initSession($user_id);
 
-        }
-        //exclude
-        switch ($level) {
-            case 1 :
-                $limit = 100;
-                break;
-            case 2 :
-                $limit = 120;
-                break;
-            case 3 :
-                $limit = 140;
-                break;
-            case 4 :
-                $limit = 160;
-                break;
-            case 5 :
-                $limit = 180;
-                break;
-            case 6 :
-                $limit = 300;
-                break;
-            case 7 :
-                $limit = 400;
-                break;
-        }
-        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['>', 'time', $limit])->asArray()->column();
-        //   var_dump ($excl_models);
-        $arr = array_diff($arr, $excl_models);
-        //   var_dump($arr); die;
+               if(!$level = Yii::$app->request->get('level')){
+                   $level = Yii::$app->cache->get('level');
+               }
 
-        //set cache
-        $cache->set('level_' . $session_id, $level); //set level
-        $cache->set('count_words_in_db' . $session_id, $count); //set count words in db
-        $cache->set('words_' . $session_id, $arr); //array of id of words
+        MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id);
 
-        Yii::$app->getResponse()->redirect('/index');
+        Yii::$app->getResponse()->redirect(['/']);
     }
 
     public function actionStat()
