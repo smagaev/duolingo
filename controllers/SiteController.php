@@ -72,18 +72,16 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-
-
         $quantity = Yii::$app->request->get('quantity');
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
         Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
+        if ($user_id) {
+            MyFunctions::addExcludingWords($user_id, $params);
 
-        MyFunctions::addExcludingWords($user_id, $params);
-
-        MyFunctions::addTableStat($user_id, $quantity);
-
+            MyFunctions::addTableStat($user_id, $quantity);
+        }
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
@@ -95,52 +93,53 @@ class SiteController extends Controller
         }
 
         $cache = Yii::$app->cache;
-
+        if (!$level = Yii::$app->cache->get('level_' . $session_id))
+            return $this->redirect(['/setlevel', 'level' => 1]);
 
         /*get cache*/
-            $count_words_db = $cache->get('count_words_in_db' . $session_id);
-            if ($count_words_db > 0) {
-                $arr = $cache->get('words_' . $session_id);
+        $count_words_db = $cache->get('count_words_in_db' . $session_id);
+        if ($count_words_db > 0) {
+            $arr = $cache->get('words_' . $session_id);
+        }
+
+        /*End set cache*/
+
+
+        $count_words = count($arr);
+        $count_ready = $count_words_db - $count_words;
+        if ($count_words > 5) {
+            for ($i = 0; $i < 5; $i++) {
+                $id_rand = array_rand($arr, 1);
+                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                unset($arr[$id_rand]);
+                sort($arr);
             }
-
-            /*End set cache*/
-
-
-            $count_words = count($arr);
-            $count_ready = $count_words_db - $count_words;
-            if ($count_words > 5) {
-                for ($i = 0; $i < 5; $i++) {
-                    $id_rand = array_rand($arr, 1);
-                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
-                    unset($arr[$id_rand]);
-                    sort($arr);
-                }
-            } else {
-                $count = count($arr);
-                for ($i = 0; $i < $count; $i++) {
-                    $id_rand = array_rand($arr, 1);
-                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
-                    unset($arr[$id_rand]);
-                    sort($arr);
-                }
+        } else {
+            $count = count($arr);
+            for ($i = 0; $i < $count; $i++) {
+                $id_rand = array_rand($arr, 1);
+                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                unset($arr[$id_rand]);
+                sort($arr);
             }
-            $cache->set('words_' . $session_id, $arr);
-            if (!isset($words)) {
-             //   Yii::$app->session->setFlash('success', "Вы выучили все слова на этом уровне, выберите другой или этот еще раз!");
-                return $this->redirect(['/setlevel']);
-            }
+        }
+        $cache->set('words_' . $session_id, $arr);
+        if (!isset($words)) {
+            //   Yii::$app->session->setFlash('success', "Вы выучили все слова на этом уровне, выберите другой или этот еще раз!");
+            return $this->redirect(['/setlevel']);
+        }
 
-            //revert source and destination (word <>translate)
-            $revert = rand(1, 2);
-            if ($revert == 1) {
-                foreach ($words as $val) {
-                    $temp = $val['var1'];
-                    $val['var1'] = $val['word'];
-                    $val['word'] = $temp;
-                }
+        //revert source and destination (word <>translate)
+        $revert = rand(1, 2);
+        if ($revert == 1) {
+            foreach ($words as $val) {
+                $temp = $val['var1'];
+                $val['var1'] = $val['word'];
+                $val['word'] = $temp;
             }
+        }
 
-            return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
 
 
     }
@@ -155,7 +154,10 @@ class SiteController extends Controller
         $session_id = MyFunctions::initSession($user_id);
 
         if (!$level = Yii::$app->request->get('level')) {
+
             $level = Yii::$app->cache->get('level_' . $session_id);
+        } else {
+            $level = Yii::$app->cache->set('level_' . $session_id, $level); /*if level came through get request save it to cache */
         }
 
         MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id);
@@ -174,7 +176,9 @@ class SiteController extends Controller
     public
     function actionLevel()
     {
-        $userId = Yii::$app->getUser()->id;
+
+        $userId = Yii::$app->getUser()->id; //for unregistered user
+        if (!$userId) $userId = 100;
         if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
             for ($i = 1; $i < 7; $i++) {
                 $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id' => $userId])->count()

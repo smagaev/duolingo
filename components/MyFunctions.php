@@ -29,8 +29,10 @@ class MyFunctions
             }
         }
     }
-    static function addTableStat($user_id, $quantity){
 
+    static function addTableStat($user_id, $quantity)
+    {
+        if ($user_id) {
             if (isset($quantity)) {
                 $data = date('Y-m-d');
                 $stat = Statistika::find()->where(['=', 'user_id', $user_id])->andWhere(['=', 'data', $data])->one();
@@ -43,15 +45,23 @@ class MyFunctions
                     $stat->data = $data;
                     $stat->quantity = $quantity;
                     $stat->save();
+                }
             }
         }
     }
-    static function initCacheWithExcludingWords($user_id, $level , $session_id){
-            if ($level == 6) {
+
+    static function initCacheWithExcludingWords($user_id, $level, $session_id)
+    {
+        if ($level == 6) {
+            if ($user_id)
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
-            } else {
+            else $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => 100]); /*for unregistered user*/
+
+        } else {
+            if ($user_id)
                 $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
-            }
+            else $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
+        }
         $count = $models->count();
         if ($count > 0) {
             $arr = $models->column();
@@ -82,15 +92,16 @@ class MyFunctions
                 break;
         }
 
-        $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['<', 'time', $limit])->asArray()->column();
-        //   var_dump ($excl_models);
-        $_arr = array_diff($arr, $excl_models);
-        if (count($_arr)!==0) {
-            $arr = $_arr; //if all words are studied begin again once zero
-            Exclude::find()->where(['=', 'user_id', $user_id]); //Нужно доработать эту функцию - удалять не все таймеры
-            //Yii::$app->session->setFlash('success', 'Вы изучили все слова! Пройдите еще раз или выберите другой уровень!');
+        if ($user_id) { /*for registered user*/
+            $excl_models = Exclude::find()->select('word_id')->where(['=', 'user_id', $user_id])->andWhere(['<', 'time', $limit])->asArray()->column();
+            //   var_dump ($excl_models);
+            $_arr = array_diff($arr, $excl_models);
+            if (count($_arr) !== 0) {
+                $arr = $_arr; //if all words are studied begin again once zero
+                Exclude::find()->where(['=', 'user_id', $user_id]); //Нужно доработать эту функцию - удалять не все таймеры
+                //Yii::$app->session->setFlash('success', 'Вы изучили все слова! Пройдите еще раз или выберите другой уровень!');
+            }
         }
-        //   var_dump($arr); die;
 
         //set cache
         $cache = Yii::$app->cache;
@@ -100,7 +111,9 @@ class MyFunctions
 
 
     }
-    static function initSession($user_id){
+
+    static function initSession($user_id)
+    {
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
