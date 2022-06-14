@@ -157,7 +157,7 @@ class SiteController extends Controller
 
             $level = Yii::$app->cache->get('level_' . $session_id);
         } else {
-            $level = Yii::$app->cache->set('level_' . $session_id, $level); /*if level came through get request save it to cache */
+            Yii::$app->cache->set('level_' . $session_id, $level); /*if level came through get request save it to cache */
         }
 
         MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id);
