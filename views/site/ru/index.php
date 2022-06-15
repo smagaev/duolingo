@@ -12,9 +12,9 @@ $quantity = count($words);
             for ($i = 0; $i < count($words); $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span class="display">' . $words[$i]->word . '</span></div>';
+                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
                 $n++;
-                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark col-5" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span>' . $words[$i]->var1 . '</span></div>';
+                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
                 $n++;
             }
             if(isset($arr_tr)) shuffle($arr_tr);
@@ -29,11 +29,12 @@ $quantity = count($words);
             for ($i = 0; $i < count($words); $i++) {
                 ?>
                 <div class="row">
-                    <div class="col"></div>
+                    <div style="width:2%"></div>
                     <?= $arr_eng[$i] ?>
-                    <div class="col"></div>
+                    <div style="width:6%"></div>
                     <?= $arr_tr[$i] ?>
-                    <div class="col"></div>
+                    <div style="width:2%"></div>
+
                 </div>
                 <br>
 
