@@ -93,11 +93,11 @@ class SiteController extends Controller
         }
 
         $cache = Yii::$app->cache;
-        if (!$level = Yii::$app->cache->get('level_' . $session_id))
+        if (!$level = Yii::$app->cache->get('level_' . $session_id) or !$count_words_db = $cache->get('count_words_in_db' . $session_id))
             return $this->redirect(['/setlevel', 'level' => 1]);
 
         /*get cache*/
-        $count_words_db = $cache->get('count_words_in_db' . $session_id);
+
         if ($count_words_db > 0) {
             $arr = $cache->get('words_' . $session_id);
         }

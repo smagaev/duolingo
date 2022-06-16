@@ -66,6 +66,12 @@ class MyFunctions
         if ($count > 0) {
             $arr = $models->column();
 
+        } else {
+            /* block for users, who don't have any words in db */
+            $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
+            $count = $models->count();
+            $arr = $models->column();
+            /* end of block for users, who don't have any words in db */
         }
         //exclude
         switch ($level) {
