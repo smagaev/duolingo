@@ -70,6 +70,7 @@ class MyFunctions
             /* block for users, who don't have any words in db */
             $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
             $count = $models->count();
+            if($count == 0) return false;
             $arr = $models->column();
             /* end of block for users, who don't have any words in db */
         }
@@ -114,7 +115,7 @@ class MyFunctions
         $cache->set('level_' . $session_id, $level); //set level
         $cache->set('count_words_in_db' . $session_id, $count); //set count words in db
         $cache->set('words_' . $session_id, $arr); //array of id of words
-
+        return true;
 
     }
 
