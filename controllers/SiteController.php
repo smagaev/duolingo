@@ -73,6 +73,10 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $quantity = Yii::$app->request->get('quantity');
+        if (Yii::$app->request->get('err_db')) {
+            yii::$app->session->setFlash('danger', '*** НЕТ СЛОВ В БАЗЕ ДАННЫХ ***');
+            return  $this->redirect('/words');
+        }
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
@@ -160,9 +164,12 @@ class SiteController extends Controller
             Yii::$app->cache->set('level_' . $session_id, $level); /*if level came through get request save it to cache */
         }
 
-        MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id);
+        if (MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id)) {
 
-        Yii::$app->getResponse()->redirect(['/']);
+            Yii::$app->getResponse()->redirect(['/']);
+        } else {
+            Yii::$app->getResponse()->redirect(['/', 'err_db' => 'no_words']);
+        }
     }
 
     public function actionStat()
