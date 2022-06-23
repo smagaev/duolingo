@@ -39,7 +39,6 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Главная', 'url' => ['/site/index', 'language'=>'ru']],
             ['label' => 'О нас', 'url' => ['/site/about', 'language'=>'ru']],
             ['label' => 'Контакты', 'url' => ['/site/contact', 'language'=>'ru']],
             ['label' => 'Уровень', 'url' => ['/site/level', 'language'=>'ru']],
