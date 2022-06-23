@@ -39,11 +39,11 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Startseite', 'url' => ['/site/index', 'language' => 'en']],
             ['label' => 'über', 'url' => ['/site/about', 'language'=>'de']],
             ['label' => 'Kontakt', 'url' => ['/site/contact', 'language'=>'de']],
             ['label' => 'Level', 'url' => ['/site/level', 'language'=>'de']],
             ['label' => 'Wort', 'url' => ['/site/words', 'language'=>'de']],
+            Yii::$app->user->isGuest ? (''):( ['label' => 'Optionen', 'url' => ['/site/options','language'=>'de']]),
             Yii::$app->user->isGuest ? (''):( ['label' => 'Statistiken', 'url' => ['/site/stat','language'=>'de']]),
             Yii::$app->user->isGuest ? (
             ['label' => 'Login', 'url' => ['/site/login', 'language'=>'de']]

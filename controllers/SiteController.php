@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\components\MyFunctions;
+use app\models\Verbs;
 use Yii;
 use yii\db\Expression;
 use yii\filters\AccessControl;
@@ -13,6 +14,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Duolingo;
 use app\models\Statistika;
+use app\models\Options;
 use app\models\Exclude;
 
 
@@ -70,30 +72,33 @@ class SiteController extends Controller
      *
      * @return string
      */
+
+
     public function actionIndex()
     {
         $quantity = Yii::$app->request->get('quantity');
         if (Yii::$app->request->get('err_db')) {
             yii::$app->session->setFlash('danger', '*** НЕТ СЛОВ В БАЗЕ ДАННЫХ ***');
-            return  $this->redirect('/words');
+            return $this->redirect('/words');
         }
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
-        Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
-        if ($user_id) {
-            MyFunctions::addExcludingWords($user_id, $params);
 
-            MyFunctions::addTableStat($user_id, $quantity);
-        }
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
                 $session->open();
             }
             $session_id = Yii::$app->session->getId();
+            $show_btn_next = Yii::$app->params['show_btn_next'];
         } else {
             $session_id = $user_id;
+            if ($show_btn_next = Options::find()->where(['user_id' => $user_id])->select('show_btn_next')->one()) {
+                $show_btn_next = $show_btn_next->show_btn_next;
+            } else {
+                $show_btn_next = Yii::$app->params['show_btn_next'];
+            }
         }
 
         $cache = Yii::$app->cache;
@@ -108,13 +113,22 @@ class SiteController extends Controller
 
         /*End set cache*/
 
+        /*Will add words in excluding and add statistika */
+        if ($user_id and $level < 7) {
+            MyFunctions::addExcludingWords($user_id, $params);
+            MyFunctions::addTableStat($user_id, $quantity);
+        }
 
         $count_words = count($arr);
         $count_ready = $count_words_db - $count_words;
         if ($count_words > 5) {
             for ($i = 0; $i < 5; $i++) {
                 $id_rand = array_rand($arr, 1);
-                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                if ($level < 7) {
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                } else {
+                    $words[$i] = Verbs::findOne($arr[$id_rand]);
+                }
                 unset($arr[$id_rand]);
                 sort($arr);
             }
@@ -122,7 +136,11 @@ class SiteController extends Controller
             $count = count($arr);
             for ($i = 0; $i < $count; $i++) {
                 $id_rand = array_rand($arr, 1);
-                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                if ($level < 7) {
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                } else {
+                    $words[$i] = Verbs::findOne($arr[$id_rand]);
+                }
                 unset($arr[$id_rand]);
                 sort($arr);
             }
@@ -137,13 +155,21 @@ class SiteController extends Controller
         $revert = rand(1, 2);
         if ($revert == 1) {
             foreach ($words as $val) {
-                $temp = $val['var1'];
-                $val['var1'] = $val['word'];
-                $val['word'] = $temp;
+                /*for table duolingo*/
+                if ($level < 7) {
+                    $temp = $val['var1'];
+                    $val['var1'] = $val['word'];
+                    $val['word'] = $temp;
+                } else {
+                    /*for table verbs*/
+                    $temp = $val['form1'];
+                    $val['form1'] = $val['meaning'];
+                    $val['meaning'] = $temp;
+                }
             }
         }
 
-        return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level', 'show_btn_next'));
 
 
     }
@@ -184,8 +210,16 @@ class SiteController extends Controller
     function actionLevel()
     {
 
-        $userId = Yii::$app->getUser()->id; //for unregistered user
-        if (!$userId) $userId = 100;
+        $userId = Yii::$app->getUser()->id;
+        /*for unregistered user*/
+         if (!$userId) {
+             $userId = 100;
+         } else {
+             if ($sourceWords = Options::getOption($userId, 'sourceWords')){
+                 if ($sourceWords == 1) $userId = 100;
+             }
+         }
+
         if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
             for ($i = 1; $i < 7; $i++) {
                 $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id' => $userId])->count()
@@ -197,7 +231,13 @@ class SiteController extends Controller
                     : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->count();
             }
         }
-
+        /* will add levels for verbs */
+        /* 45 the most used words */
+        /* 100 the most used words */
+        /* all the most used words */
+        $countL[7] = Verbs::find()->where(['>', '45', 0])->count();
+        $countL[8] = Verbs::find()->where(['>', '100', 0])->count();
+        $countL[9] = Verbs::find()->count();
         return $this->render('level', compact('countL'));
     }
 
@@ -252,6 +292,43 @@ class SiteController extends Controller
             }
             return $this->render('words');
         }
+    }
+
+    public function actionOptions()
+    {
+        $userID = Yii::$app->getUser()->identity->id;
+        if (!$model = Options::find()->where(['user_id' => $userID])->one()) {
+            $model = new Options([
+                'user_id' => $userID,
+                'timer1' => Yii::$app->params['timer1'],
+                'timer2' => Yii::$app->params['timer2'],
+                'timer3' => Yii::$app->params['timer3'],
+                'timer4' => Yii::$app->params['timer4'],
+                'timer5' => Yii::$app->params['timer5'],
+                'timer6' => Yii::$app->params['timer6'],
+                'timer7' => Yii::$app->params['timer7'],
+                'timer8' => Yii::$app->params['timer8'],
+                'timer9' => Yii::$app->params['timer9'],
+                'show_btn_next' => Yii::$app->params['show_btn_next'],
+                'sourceWords' => 0
+            ]);
+        }
+
+        if ($model->load(Yii::$app->request->post())) {
+            if ($model->validate()) {
+
+                if($model->save()){
+                    yii::$app->session->setFlash('success', yii::t('app', 'All settings saved'));
+                } else {
+                    yii::$app->session->setFlash('warning', yii::t('app', 'Something is wrong. Call to admin, please!'));
+                }
+
+            }
+        }
+
+        return $this->render('options', [
+            'model' => $model,
+        ]);
     }
 
     public

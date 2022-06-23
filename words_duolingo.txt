@@ -52,13 +52,14 @@ midwife                             :    акушерка
 gave birth                          :    родила
 contractions                        :    схватки
 painful                             :    болезненный
-to gave up smoking                  :    бросить курить
+to gave up smoking                  :    бросил курить
 to got pregnant                     :    забеременела
 quite                               :    довольно
 labor                               :    роды
 lasted                              :    длилось
 is it true                          :    правда ли
 cries                               :    кричит
+each time                           :    каждый раз
 each time                           :    каждый раз
 diaper                              :    подгузник
 to poop                             :    какать
@@ -102,6 +103,7 @@ up to ten times a day               :    до десяти раз в день
 at a New Year's Eve party           :    на вечеринке по случаю Нового Года
 to date more people                 :    встречаться с большим числом людей
 what do you mean                    :    что ты имеешь ввиду
+do you maybe                        :    может ты
 to hate                             :    ненавидеть
 why things have to change           :    почему что то должно измениться
 guy                                 :    парень
@@ -151,6 +153,7 @@ pressure                            :    давление
 disease                             :    заболевание
 physician                           :    врач
 def                                 :    глухой
+accidentally                        :    случайно
 vaccination                         :    прививка
 services                            :    услуги
 medical                             :    медицинские
@@ -376,6 +379,7 @@ doomed                              :   обреченная любовь
 discusses                           :   обсуждает
 risked                              :   рисковал
 recommended                         :   рекомендовал
+she smiles at me                    :   она улыбается мне
 to delay                            :   откладывать
 to recall                           :   припоминаю
 denies                              :   отрицает
@@ -425,7 +429,6 @@ got it in for                       :   иметь зуб на кого-либо
 got back                            :   вернуться
 got it                              :   понятно
 got you                             :   ага, попался!
-to got the knock                    :   вылететь с работы, провалиться
 dumpy place                         :   унылое место
 i be right back                     :   я скоро вернусь
 here it comes                       :   вот оно
@@ -585,12 +588,13 @@ finally                             :   наконец
 fried                               :   жареный
 omelet                              :   омлет
 climb                               :   подняться
-probably                            :   наверноe
+probably                            :   наверное
 wedding                             :   свадьба
 surprised                           :   удивлена
 bride                               :   невеста
 lazy                                :   ленивый
 stay                                :   останемся
+stand                               :   стоять
 to cost                             :   стоит
 delicious                           :   очень вкусно
 trail                               :   тропинка
@@ -599,6 +603,7 @@ thirsty                             :   жаждущий
 come on                             :   давай
 one more                            :   еще одна
 pretty                              :   красивый
+pretty cool                         :   очень крутой
 won                                 :   выиграла
 is to the west of the hotel         :   на западе от этого отеля
 how blue the sky is                 :   какое небо голубое
@@ -635,7 +640,7 @@ chilly                              :   прохладно
 foggy                               :   облачно
 belongs                             :   принадлежит
 shook hands                         :   пожали руки
-pretends                            :   притворяется
+pretends                            :   притворяется, делает вид
 pulling                             :   тянет
 dropped                             :   уронили
 repeated                            :   повторил
@@ -756,13 +761,12 @@ explains                            :   объясняет
 blame                               :   вина, винить
 took the blame                      :   взять вину на себя
 memories                            :   воспоминания
-for their ignorance                 :   невежество
-judge                               :   cудить
+for their ignorance                 :   за их невежество
+judge                               :   судить
 scored                              :   набрал
 opinion                             :   мнение
 point of view                       :   точкой зрения
 fans                                :   фанаты
-call it a day                       :   закончить на этом
 freedom                             :   свобода
 society                             :   общество
 vote                                :   голосовать
@@ -1043,7 +1047,7 @@ tries                               :   пробует
 like art                            :   как искусство
 walks over to Oskar                 :   подходит к Оскару
 long line                           :   длинная очередь
-in long off                         :   перед
+in long off                         :   перед (в далеком прошлом)
 front door                          :   входная дверь
 pick up                             :   забрать, собрать
 to the post office                  :   на почту
@@ -1149,6 +1153,7 @@ has missed                          :   пропустил
 is that true                        :   это правда
 yet                                 :   уже еще
 marathons                           :   марафоны
+marathon runner                     :   марафонец
 hey                                 :   слушай
 i bet                               :   спорим
 bеfore                              :   раньше
@@ -1341,12 +1346,14 @@ to charge                           :   заряжать
 long distance girlfriend            :   девушка на расстоянии
 how's it going                      :   как делать
 long-distance relationship          :   отношения на расстоянии
+relationship                        :   отношения
 bill                                :   счет
 refund                              :   возврат средств
 art show                            :   выставка
 chokes                              :   трясется
 lightning                           :   молния
-sounds                              :   кажется
+sounds                              :   звуки
+to sounds                           :   звучит
 dies in a tragic way                :   умрет трагически
 announcement                        :   объявление
 house party                         :   домашняя вечеринка
@@ -1359,6 +1366,7 @@ concentrate                         :   сосредоточиться
 falling as sleep                    :   засыпает
 taps                                :   хлопает
 embarrassing                        :   стыдный, стыдно
+I'm so embarrassed                  :   мне так неловко
 whisper                             :   шепчутся
 over there                          :   вон там
 walks over to                       :   подходит к
@@ -1425,6 +1433,7 @@ businesswoman                       :   деловая женщина
 these days                          :   наши дни
 we got into a traffic jam           :   мы попали в пробку
 stadium                             :   стадион
+I don't mind.                       :   Я не против.
 i don't mind studying with you      :   я не против позаниматься с тобой
 from my hand to my elbow            :   от моей кисти до моего логтя
 tongue                              :   язык
@@ -1478,7 +1487,8 @@ takes her work                      :   отвозит ее на работу
 hiking                              :   походы
 adventure                           :   приключение
 mug                                 :   кружка
-toast                               :   завтрак
+toast                               :   тост
+to toast                            :   поджаривать
 except one                          :   кроме одного
 easter                              :   пасха
 brushes her hair                    :   расчесывала свои волосы
@@ -1985,3 +1995,131 @@ unhappy                             :   несчастным
 a variety of                        :   множество
 the bridge which i used most        :   мост который я использовал больше всего
 What is the city tour like?         :   Какая по городу экскурсия?
+They kissed every five minutes.     :   Они целовались каждые пять минут.
+Feed the turtle with the watermelon.:   Покорми черепаху арбузом.
+How do we begin?                    :   Как мы начинаем?
+Teaching others is not always easy. :   Учить других не всегда легко.
+My father taught me to read.        :   Мой отец научил меня читать.
+is shopping for a pink dress        :   ищет в магазине розовое платье
+get ready                           :   собираться
+it tastes                           :   на вкус
+I like being a kid.                 :   Мне нравится быть ребенком.
+walks by                            :   проходит мимо
+to fire you                         :   уволить тебя
+walks back                          :   проходит обратно
+hang out                            :   проводить время
+I can't wait                        :   мне не терпиться
+I'm pretty sure                     :   я почти уверена
+degree                              :   диплом
+per                                 :   в
+they were able to reach             :   они были способны добраться
+the band signed my shirt            :   группа подписала мои шорты
+is visiting all the way from        :   приехала прямо из
+what's going on?                    :   что происходит?
+We sat in the back of the theater.  :   Мы  сидели на задних рядах театра.
+flood                               :   наводнение
+were coming                         :   собирались
+it's sad                            :   грустно
+modern                              :   современный
+avenue                              :   проспект
+mansion                             :   особняк
+You said I could came over.         :   Ты сказала я могу прийти в гости
+make huge mess                      :   развести жуткий беспорядок
+Will be done very soon.             :   Мы закончим очень скоро.
+That so mean.                       :   Это так грубо.
+besides you                         :   кроме тебя
+let's hurry                         :   давай поторопимся
+hurry                               :   торопиться
+regular people                      :   обычные люди
+regular people like us              :   обычные люди как мы
+do that staff                       :   с этими вещами
+be my campaign manager              :   быть моей управляющей избирательным штабом
+realised                            :   поняла
+care so much                        :   переживаешь так сильно
+followers                           :   подписчики
+social media                        :   соцсети
+dance floor                         :   танцевальный пол
+pose                                :   позировать
+I am having fun                     :   Я веселюсь
+is probably no                      :   вероятнее всего нет
+It seems like                       :   кажется
+bunch                               :   куча
+social media team                   :   команда по соцсетям
+that's wy                           :   поэтому
+where only visiting for two days    :   приедешь навестить на два дня
+annoyed                             :   недоволен
+Uh oh                               :   ой-ёй
+to enjoy it                         :   наслаждаться
+lands                               :   приземляться
+splashes                            :   брызгает
+got ocean water                     :   брызгнул водой из океана
+because of traffic                  :   из за пробок
+does it look like                   :   похоже что
+now that it's summer                :   раз теперь лето
+it's much worse                     :   это намного хуже
+non-profit company                  :   комерческая организация
+environment                         :   окружающая среда
+clearly                             :   безусловно
+straw                               :   трубочка
+plastic straw                       :   пластиковая трубочка
+recycled paper                      :   переработання бумага
+the rudest person                   :   самый невоспитанный человек
+interviewer                         :   рекрутер
+You're arguing rally loudly.        :   Вы ругаетесь очень громко.
+dusty                               :   пыльный
+dusty tea set                       :   пыльный чайный набор
+I want you to have it.              :   Я хочу чтобы он был у тебя.
+a pirate costume                    :   костюм пирата
+i am performing                     :   я выступаю
+for the past week                   :   всю следующую неделю
+Say hello to Sam for me.            :   Передай привет Сэму от меня.
+the rest of the book                :   остальные книги
+the rest of                         :   остальные
+later that week                     :   позже на той неделе
+extremely                           :   очень сильно
+extremely tired                     :   очень сильно устала
+boxing                              :   бокс
+Are you new to this class?          :   Ты новая на этом занятии?
+is like                             :   похож
+to scare                            :   распугать
+hang out                            :   проводить время
+to get in trouble                   :   попадать в неприятности
+going away party                    :   вечеринка на пращание
+to everyone else to the party       :   ко всем остальным на вечеринке
+everyone                            :   (слушайте) все
+Everyone cheers.                    :   Все радуются.
+I'm so lucky                        :   Мне так повезло
+greet                               :   приветствовать
+greets them                         :   приветствует их
+look around                         :   осматривать
+look around the kitchen             :   осматривать кухню
+complaining                         :   жаловаться
+stop complaining                    :   прекратить жаловаться
+Can you please stop complaining?    :   Ты можешь прекратить жаловаться?
+It's just the two of us             :   Нас всего двое.
+you preferred doing dishes by hand  :   ты предпочитаешь мыть посуду руками
+He only had one ear.                :   У него было только одно ухо.
+What were his letters about?        :   О чем были его письма?
+prank                               :   розыгрыш
+funny prank                         :   смешной розыгрыш
+brave                               :   храбро
+I can do anything.                  :   Я могу что угодно.
+a change                            :   перемена (в жизни)
+Did you catch that?                 :   Вы поняли это?
+a new haircut                       :   новая стрижка
+hairstylist                         :   парикмахер
+looks closely                       :   смотрит пристально
+Turn your head the other way.       :   Поверни голову в другую сторону.
+from every angle                    :   с каждого ракурса
+angle                               :   угол
+career                              :   карьера
+you have to cancel your date        :   ты должен отменить свое свидание
+picture frame                       :   рамка для фотографий
+it sounds like                      :   кажется
+ha                                  :   ха
+It's my anniversary                 :   моя годовщина
+i hired a musician                  :   я наняла музыканта
+at a table by herself               :   за столом в одиночестве
+Have I told you                     :   Я говорил тебе
+a very long race                    :   очень длинный забег
+in any kind of weather              :   в любую погоду

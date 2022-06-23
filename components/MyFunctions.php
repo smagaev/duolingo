@@ -4,7 +4,9 @@ namespace app\components;
 
 use app\models\Duolingo;
 use app\models\Exclude;
+use app\models\Options;
 use app\models\Statistika;
+use app\models\Verbs;
 use yii;
 
 class MyFunctions
@@ -52,15 +54,26 @@ class MyFunctions
 
     static function initCacheWithExcludingWords($user_id, $level, $session_id)
     {
+       if($user_id) $sourceWords = Options::getOption($user_id,'sourceWords');
         if ($level == 6) {
-            if ($user_id)
+            if ($user_id && $sourceWords != 1)
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
             else $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => 100]); /*for unregistered user*/
 
-        } else {
-            if ($user_id)
+        } else if ($level < 6) {
+            if ($user_id  && $sourceWords != 1)
                 $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
             else $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
+            /* 45 most used verbs */
+        } else if($level == 7){
+            $models = Verbs::find()->where(['>', '45', 1]);
+
+            /* 100 most used verbs */
+        }else if ($level == 8){
+            $models = Verbs::find()->where(['>', '100', 1]);
+            /* all most used verbs */
+        }else if($level == 9){
+            $models = Verbs::find();
         }
         $count = $models->count();
         if ($count > 0) {
@@ -75,28 +88,9 @@ class MyFunctions
             /* end of block for users, who don't have any words in db */
         }
         //exclude
-        switch ($level) {
-            case 1 :
-                $limit = 100;
-                break;
-            case 2 :
-                $limit = 1200;
-                break;
-            case 3 :
-                $limit = 140;
-                break;
-            case 4 :
-                $limit = 160;
-                break;
-            case 5 :
-                $limit = 300;
-                break;
-            case 6 :
-                $limit = 1250;
-                break;
-            case 7 :
-                $limit = 400;
-                break;
+
+        if (!(isset($user_id) and $limit = Options::getOption($user_id, 'timer'.$level))){
+            $limit = Yii::$app->params['timer'.$level];
         }
 
         if ($user_id) { /*for registered user*/
@@ -109,7 +103,6 @@ class MyFunctions
                 //Yii::$app->session->setFlash('success', 'Вы изучили все слова! Пройдите еще раз или выберите другой уровень!');
             }
         }
-
         //set cache
         $cache = Yii::$app->cache;
         $cache->set('level_' . $session_id, $level); //set level
