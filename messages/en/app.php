@@ -16,6 +16,12 @@ return array (
     'My Company'=>'Моя компания',
     'Next'=>'Дальше',
     'Error empty db' =>"Data Base hasn't enough words. Please, insert words!",
+    'sourceWords' => "Select defaults words",
+    'timer' => "Timer for level: ",
+    'msec' => "Note: Timers are set in milliseconds",
+    'options'=>"Settings",
+    'btn_send'=>'Send',
+    'btn_reset' =>'Reset timers'
 );
 
 ?>

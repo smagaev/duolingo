@@ -13,6 +13,7 @@ use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Duolingo;
 use app\models\Statistika;
+use app\models\Options;
 use app\models\Exclude;
 
 
@@ -70,12 +71,14 @@ class SiteController extends Controller
      *
      * @return string
      */
+
+
     public function actionIndex()
     {
         $quantity = Yii::$app->request->get('quantity');
         if (Yii::$app->request->get('err_db')) {
             yii::$app->session->setFlash('danger', '*** НЕТ СЛОВ В БАЗЕ ДАННЫХ ***');
-            return  $this->redirect('/words');
+            return $this->redirect('/words');
         }
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
@@ -252,6 +255,33 @@ class SiteController extends Controller
             }
             return $this->render('words');
         }
+    }
+
+    public function actionOptions()
+    {
+        $userID= Yii::$app->getUser()->identity->id;
+       if(!$model = Options::find() -> where(['user_id'=>$userID])-> one()){
+           $model = new Options([
+               'user_id' => $userID,
+               'timer1' => Yii::$app->params['timer1'],
+               'timer2' => Yii::$app->params['timer2'],
+               'timer3' => Yii::$app->params['timer3'],
+               'timer4' => Yii::$app->params['timer4'],
+               'timer5' => Yii::$app->params['timer5'],
+               'timer6' => Yii::$app->params['timer6'],
+               'sourceWords' => 0
+           ]);
+       }
+
+        if ($model->load(Yii::$app->request->post())) {
+            if ($model->validate()) {
+                   $model->save();
+            }
+        }
+
+        return $this->render('options', [
+            'model' => $model,
+        ]);
     }
 
     public

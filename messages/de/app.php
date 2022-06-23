@@ -16,6 +16,12 @@ return array (
     'My Company'=>'Meine Firma',
     'Next'=>'Waiter',
     'Error empty db' =>'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
+    'sourceWords' => "Select defaults words",
+    'timer' => "Level-Timer: ",
+    'msec' => "Hinweis: Timer werden in Millisekunden eingestellt",
+    'options'=>"Optionen",
+    'btn_send'=>'Senden',
+    'btn_reset' =>'Timer zurücksetzen'
 );
 
 ?>
