@@ -10,18 +10,21 @@
  *
  * @version $Id: $
  */
-return array (
-    'Uploader'=>'Download',
-    'This gallery is empty.'=>'Fotos sind nicht beigefügt.',
-    'My Company'=>'Meine Firma',
-    'Next'=>'Waiter',
-    'Error empty db' =>'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
+return array(
+    'Uploader' => 'Download',
+    'This gallery is empty.' => 'Fotos sind nicht beigefügt.',
+    'My Company' => 'Meine Firma',
+    'Next' => 'Waiter',
+    'Progress' => 'Fortschritt',
+    'Error empty db' => 'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
     'sourceWords' => "Select defaults words",
     'timer' => "Level-Timer: ",
     'msec' => "Hinweis: Timer werden in Millisekunden eingestellt",
-    'options'=>"Optionen",
-    'btn_send'=>'Senden',
-    'btn_reset' =>'Timer zurücksetzen'
+    'options' => "Optionen",
+    'btn_send' => 'Senden',
+    'btn_reset' => 'Timer zurücksetzen',
+    'home_title' => 'Englisch - einfach!',
+    'home_description' => 'Hier lernen oder wiederholen Sie schnell englische Wörter und Ausdrücke.'
 );
 
 ?>

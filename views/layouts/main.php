@@ -44,7 +44,7 @@ AppAsset::register($this);
             ['label' => 'Contact', 'url' => ['/site/contact', 'language' => 'en']],
             ['label' => 'Level', 'url' => ['/site/level', 'language' => 'en']],
             ['label' => 'Words', 'url' => ['/site/words', 'language' => 'en']],
-            Yii::$app->user->isGuest ? (''):( ['label' => 'Settings', 'url' => ['/site/options','language'=>'ru']]),
+            Yii::$app->user->isGuest ? (''):( ['label' => 'Settings', 'url' => ['/site/options','language'=>'en']]),
             Yii::$app->user->isGuest ? ('') : (['label' => 'Statistics', 'url' => ['/site/stat', 'language' => 'en']]),
             Yii::$app->user->isGuest ? (
             ['label' => 'Login', 'url' => ['/site/login', 'language' => 'en']]

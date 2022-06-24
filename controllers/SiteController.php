@@ -83,8 +83,7 @@ class SiteController extends Controller
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
-        Yii::$app->view->registerMetaTag(['name' => "description", "content" => "Этот сайт поможет вам быстро изучить английский, немецкий и другие языки"]);
-        if ($user_id) {
+       if ($user_id) {
             MyFunctions::addExcludingWords($user_id, $params);
 
             MyFunctions::addTableStat($user_id, $quantity);

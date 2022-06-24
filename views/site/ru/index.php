@@ -2,7 +2,8 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = yii::t('app', 'home_title');
+$this->registerMetaTag(['name'=>'description', 'content' => yii::t('app', 'home_description')]);
 $quantity = count($words);
 ?>
     <div class="site-index">
@@ -21,7 +22,7 @@ $quantity = count($words);
             ?>
             <div class="row">
                 <div class="col"></div>
-                <div class="col-4">Progress: <span id="ready"><?= $count_ready ?></span> of <?= $count_words_db ?></div>
+                <div class="col-4"><?=yii::t('app', 'Progress')?>: <span id="ready"><?= $count_ready ?></span> of <?= $count_words_db ?></div>
             </div>
             <br>
 

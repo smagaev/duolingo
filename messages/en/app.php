@@ -10,18 +10,21 @@
  *
  * @version $Id: $
  */
-return array (
-    'Uploader'=>'Download',
-    'This gallery is empty.'=>'Фотографии не присоединены.',
-    'My Company'=>'Моя компания',
-    'Next'=>'Дальше',
-    'Error empty db' =>"Data Base hasn't enough words. Please, insert words!",
+return array(
+    'Uploader' => 'Download',
+    'This gallery is empty.' => 'Фотографии не присоединены.',
+    'My Company' => 'Duo languages',
+    'Next' => 'Next',
+    'Progress' => 'Progress',
+    'Error empty db' => "Data Base hasn't enough words. Please, insert words!",
     'sourceWords' => "Select defaults words",
     'timer' => "Timer for level: ",
     'msec' => "Note: Timers are set in milliseconds",
-    'options'=>"Settings",
-    'btn_send'=>'Send',
-    'btn_reset' =>'Reset timers'
+    'options' => "Settings",
+    'btn_send' => 'Send',
+    'btn_reset' => 'Reset timers',
+    'home_title' => 'English - easy!',
+    'home_description' => 'Here you can easily learn English words and sentences.'
 );
 
 ?>
