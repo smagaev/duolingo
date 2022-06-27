@@ -24,7 +24,8 @@ return array(
     'btn_send' => 'Send',
     'btn_reset' => 'Reset timers',
     'home_title' => 'English - easy!',
-    'home_description' => 'Here you can easily learn English words and sentences.'
+    'home_description' => 'Here you can easily learn English words and sentences.',
+    'btn_default' => 'Default timers'
 );
 
 ?>

@@ -24,7 +24,8 @@ return array(
     'btn_send' => 'Senden',
     'btn_reset' => 'Timer zurücksetzen',
     'home_title' => 'Englisch - einfach!',
-    'home_description' => 'Hier lernen oder wiederholen Sie schnell englische Wörter und Ausdrücke.'
+    'home_description' => 'Hier lernen oder wiederholen Sie schnell englische Wörter und Ausdrücke.',
+    'btn_default' => 'Standard-Timer'
 );
 
 ?>

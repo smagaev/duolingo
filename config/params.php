@@ -11,4 +11,5 @@ return [
     'timer4' => 800,
     'timer5' => 1200,
     'timer6' => 1500,
+    'sourceWords' => 0,
 ];
