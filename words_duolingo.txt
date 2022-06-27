@@ -1985,3 +1985,9 @@ unhappy                             :   несчастным
 a variety of                        :   множество
 the bridge which i used most        :   мост который я использовал больше всего
 What is the city tour like?         :   Какая по городу экскурсия?
+They kissed every five minutes.     :   Они целовались каждые пять минут.
+Feed the turtle with the watermelon.:   Покорми черепаху арбузом.
+How do we begin?                    :   Как мы начинаем?
+Teaching others is not always easy. :   Учить других не всегда легко.
+My father taught me to read.        :   Мой отец научил меня читать.
+
