@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= $form->field($model, 'timer6')->label(Yii::t('app', 'timer') . 6)->textInput(['class' => ['text-center'], 'style' => ['margin-left' => '20px'], 'size' => '8', 'placeholder' => '0']) ?>
         <div class="form-group form-vertical">
             <?= Html::resetButton(yii::t('app', 'btn_reset'), ['class' => 'btn btn-secondary btn-sm']) ?>
-            <?= Html::Button(yii::t('app', 'btn_default'), ['class' => 'btn btn-dark btn-sm', 'id' =>'default_value']) ?>
+            <?= Html::Button(yii::t('app', 'btn_default'), ['class' => 'btn btn-dark btn-sm', 'id' => 'default_value']) ?>
         </div>
         <div class="div" style="height: 1px ; border: 1px solid #999; margin: 20px 0"></div>
 
@@ -52,15 +52,24 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     </div><!-- options -->
+<?=
+$t1 = YII::$app->params['timer1'];
+$t2 = YII::$app->params['timer2'];
+$t3 = YII::$app->params['timer3'];
+$t4 = YII::$app->params['timer4'];
+$t5 = YII::$app->params['timer5'];
+$t6 = YII::$app->params['timer6'];
 
-<?php $this->registerJs("
-$('#default_falue').click(function(){
-var inputs = document.getElementById('my-form').elements;
+$this->registerJs("
+$('#default_value').click(function(){
 
-for (i = 0; i < inputs.length; i++) {
-  if (inputs[i].nodeName === 'INPUT' && inputs[i].type === 'text') {
-    inputs[i].value = '21'
-  }
-}
+    document.forms['my-form'].elements['options-timer1'].value = $t1;
+    document.forms['my-form'].elements['options-timer2'].value = $t2;
+    document.forms['my-form'].elements['options-timer3'].value = $t3;
+    document.forms['my-form'].elements['options-timer4'].value = $t4;
+    document.forms['my-form'].elements['options-timer5'].value = $t5;
+    document.forms['my-form'].elements['options-timer6'].value = $t6;
+
 
 })", 4);
+?>

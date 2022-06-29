@@ -50,3 +50,24 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 </div><!-- options -->
+<?=
+$t1 = YII::$app->params['timer1'];
+$t2 = YII::$app->params['timer2'];
+$t3 = YII::$app->params['timer3'];
+$t4 = YII::$app->params['timer4'];
+$t5 = YII::$app->params['timer5'];
+$t6 = YII::$app->params['timer6'];
+
+$this->registerJs("
+$('#default_value').click(function(){
+
+    document.forms['my-form'].elements['options-timer1'].value = $t1;
+    document.forms['my-form'].elements['options-timer2'].value = $t2;
+    document.forms['my-form'].elements['options-timer3'].value = $t3;
+    document.forms['my-form'].elements['options-timer4'].value = $t4;
+    document.forms['my-form'].elements['options-timer5'].value = $t5;
+    document.forms['my-form'].elements['options-timer6'].value = $t6;
+
+
+})", 4);
+?>
