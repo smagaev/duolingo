@@ -4,6 +4,7 @@ namespace app\components;
 
 use app\models\Duolingo;
 use app\models\Exclude;
+use app\models\Options;
 use app\models\Statistika;
 use yii;
 
@@ -75,28 +76,10 @@ class MyFunctions
             /* end of block for users, who don't have any words in db */
         }
         //exclude
-        switch ($level) {
-            case 1 :
-                $limit = 100;
-                break;
-            case 2 :
-                $limit = 1200;
-                break;
-            case 3 :
-                $limit = 140;
-                break;
-            case 4 :
-                $limit = 160;
-                break;
-            case 5 :
-                $limit = 300;
-                break;
-            case 6 :
-                $limit = 1250;
-                break;
-            case 7 :
-                $limit = 400;
-                break;
+        if (isset($user_id)) {
+            $limit = Options::find()->where(['user_id' => $user_id])->one()['timer'.$level];
+        } else {
+            $limit = Yii::$app->params['timer'.$level];
         }
 
         if ($user_id) { /*for registered user*/
