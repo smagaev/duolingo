@@ -1990,4 +1990,14 @@ Feed the turtle with the watermelon.:   Покорми черепаху арбу
 How do we begin?                    :   Как мы начинаем?
 Teaching others is not always easy. :   Учить других не всегда легко.
 My father taught me to read.        :   Мой отец научил меня читать.
-
+is shopping for a pink dress        :   ищет в магазине розовое платье
+get ready                           :   собираться
+it tastes                           :   на вкус
+I like being a kid.                 :   Мне нравится быть ребенком.
+walks by                            :   проходит мимо
+to fire you                         :   уволить тебя
+walks back                          :   проходит обратно
+hang out                            :   проводить время
+I can't wait                        :   мне не терпиться
+I'm pretty sure                     :   я почти уверена
+degree                              :   диплом
