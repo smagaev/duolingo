@@ -635,7 +635,7 @@ chilly                              :   прохладно
 foggy                               :   облачно
 belongs                             :   принадлежит
 shook hands                         :   пожали руки
-pretends                            :   притворяется
+pretends                            :   притворяется, делает вид
 pulling                             :   тянет
 dropped                             :   уронили
 repeated                            :   повторил
@@ -2020,3 +2020,45 @@ That so mean.                       :   Это так грубо.
 besides you                         :   кроме тебя
 let's hurry                         :   давай поторопимся
 hurry                               :   торопиться
+regular people                      :   обычные люди
+regular people like us              :   обычные люди как мы
+do that staff                       :   с этими вещами
+be my campaign manager              :   быть моей управляющей избирательным штабом
+realised                            :   поняла
+care so much                        :   переживаешь так сильно
+followers                           :   подписчики
+social media                        :   соцсети
+dance floor                         :   танцевальный пол
+pose                                :   позировать
+I am having fun                     :   Я веселюсь
+is probably no                      :   вероятнее всего нет
+It seems like                       :   кажется
+bunch                               :   куча
+social media team                   :   команда по соцсетям
+that's wy                           :   поэтому
+where only visiting for two days    :   приедешь навестить на два дня
+annoyed                             :   недоволен
+Uh oh                               :   ой-ёй
+to enjoy it                         :   наслаждаться
+lands                               :   приземляться
+splashes                            :   брызгает
+got ocean water                     :   брызгнул водой из океана
+because of traffic                  :   из за пробок
+does it look like                   :   похоже что
+now that it's summer                :   раз теперь лето
+it's much worse                     :   это намного хуже
+non-profit company                  :   комерческая организация
+environment                         :   окружающая среда
+clearly                             :   безусловно
+straw                               :   трубочка
+plastic straw                       :   пластиковая трубочка
+recycled paper                      :   переработання бумага
+the rudest person                   :   самый невоспитанный человек
+interviewer                         :   рекрутер
+You're arguing rally loudly.        :   Вы ругаетесь очень громко.
+dusty                               :   пыльный
+dusty tea set                       :   пыльный чайный набор
+I want you to have it.              :   Я хочу чтобы он был у тебя.
+a pirate costume                    :   костюм пирата
+i am performing                     :   я выступаю
+
