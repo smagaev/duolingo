@@ -2061,4 +2061,16 @@ dusty tea set                       :   пыльный чайный набор
 I want you to have it.              :   Я хочу чтобы он был у тебя.
 a pirate costume                    :   костюм пирата
 i am performing                     :   я выступаю
-
+for the past week                   :   всю следующую неделю
+Say hello to Sam for me.            :   Передай привет Сэму от меня.
+the rest of the book                :   остальные книги
+the rest of                         :   остальные
+later that week                     :   позже на той неделе
+extremely                           :   очень сильно
+extremely tired                     :   очень сильно устала
+boxing                              :   бокс
+Are you new to this class?          :   Ты новая на этом занятии?
+is like                             :   похож
+to scare                            :   распугать
+hang out                            :   проводить время
+to get in trouble                   :   попадать в неприятности
