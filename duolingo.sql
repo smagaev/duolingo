@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost
--- Время создания: Авг 16 2022 г., 11:59
+-- Время создания: Авг 17 2022 г., 07:42
 -- Версия сервера: 5.6.50
 -- Версия PHP: 7.4.5
 
@@ -2354,7 +2354,51 @@ INSERT INTO `verbs` (`id`, `form1`, `form2`, `form3`, `meaning`) VALUES
 (255, 'string', 'strung', 'strung', 'нанизать; натянуть'),
 (256, 'stive', 'strove', 'striven', 'стараться'),
 (257, 'sublet', 'sublet', 'sublet', 'передавать в субаренду'),
-(258, 'swear', 'swore', 'sworn', '(по)клясться; присегнуть');
+(258, 'swear', 'swore', 'sworn', '(по)клясться; присегнуть'),
+(259, 'sweep', 'swept', 'swept', 'мести; промчаться'),
+(260, 'swell', 'swelled', 'swollen; swelled', 'вздуться'),
+(261, 'swim', 'swam', 'swum', 'плыть'),
+(262, 'swing', 'swung', 'swung', 'качаться'),
+(263, 'take', 'took ', 'taken', 'взять; брать'),
+(264, 'teach', 'taught', 'taught', ' учить'),
+(265, 'tear', 'tore', 'torn', 'рвать'),
+(266, 'tell ', 'told', 'told', 'рассказывать; сказать'),
+(267, 'think', 'thought', 'thought', 'думать'),
+(268, 'thrive ', 'throve; trived', 'triven; trived', 'процветать'),
+(269, 'throw', 'threw', 'thrown', 'бросить'),
+(270, 'thrust', 'thrust', 'thrust', 'толкнуть; сунуть'),
+(271, 'tread', 'trod ', 'trod; trodden', 'ступать'),
+(272, 'unbend', 'unbent', 'unbent', 'разогнуть(ся)'),
+(273, 'unberbid', 'underbid', 'underbid', 'снижать цену'),
+(274, 'undercut ', 'undercut', 'undercut', 'сбивать цены'),
+(275, 'undergo', 'underwent', 'undergone', 'проходить; подвергаться'),
+(276, 'underlie', 'underlay', 'underlain', 'лежать в основе'),
+(277, 'underpay', 'underpaid', 'underpaid', 'лежать в основе'),
+(278, 'undersell', 'undersoold', 'undersold', 'продавать дешевле'),
+(279, 'understand', 'understood', 'understood', 'понимать'),
+(280, 'undertook', 'undertook ', 'undertook', 'понимать'),
+(281, 'underwrite', 'underwrote', 'underwritten', 'подписыва(ть)ся'),
+(282, 'undo', 'undid', 'undone ', 'уничтожать сделанное'),
+(283, 'unfreeze', 'unfroze', 'unfrozen', 'размораживать'),
+(284, 'unsay', 'unsaid', 'unsaid', 'брать назад свои слова'),
+(285, 'unwind', 'unwound', 'unwound', 'развертываыть'),
+(286, 'uphold', 'upheld', 'upheld', 'поддерживать'),
+(287, 'upset', 'upset', 'upset', 'опрокинуться'),
+(288, 'wake', 'woke; waked', 'woken; waked', 'просыпаться; будить'),
+(289, 'waylay ', 'waylaid', 'waylaid ', 'подстерегать'),
+(290, 'wear', 'wore', 'worn', 'носить(одежду)'),
+(291, 'weave', 'wove; weaved', 'woven; weawed', 'ткать'),
+(292, 'wed', 'wed; wedded', 'wed; wedded', 'выдавать замуж'),
+(293, 'weep ', 'wept', 'wept', 'плакать'),
+(294, 'wet', 'wet; wetted', 'wet; wetted', 'мочить; увлажнять'),
+(295, 'win', 'won', 'won', 'выигрывать'),
+(296, 'wind ', 'wound', 'wound', 'заводить (механизм)'),
+(297, 'withdraw', 'withdrew', 'withdrawn', 'взять назад; отозвать'),
+(298, 'withold', 'withheld', 'witheld', 'удерживать'),
+(299, 'withstand', 'withstood', 'withstood', 'противиться'),
+(300, 'work', 'worked; wrought', 'worked; wrought ', 'работать'),
+(301, 'wring', 'wrung', 'wrung', 'скрутить; сжать'),
+(302, 'write', 'wrote', 'written', 'писать');
 
 --
 -- Индексы сохранённых таблиц
@@ -2428,7 +2472,7 @@ ALTER TABLE `statistika`
 -- AUTO_INCREMENT для таблицы `verbs`
 --
 ALTER TABLE `verbs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=259;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=303;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
