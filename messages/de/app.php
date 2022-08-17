@@ -25,7 +25,8 @@ return array(
     'btn_reset' => 'Timer zurücksetzen',
     'home_title' => 'Englisch - einfach!',
     'home_description' => 'Hier lernen oder wiederholen Sie schnell englische Wörter und Ausdrücke.',
-    'btn_default' => 'Standard-Timer'
+    'btn_default' => 'Standard-Timer',
+    'Verbs' => 'unregelmäßige Verben'
 );
 
 ?>

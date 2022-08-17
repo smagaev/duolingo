@@ -25,7 +25,8 @@ return array(
     'btn_reset' => 'Reset timers',
     'home_title' => 'English - easy!',
     'home_description' => 'Here you can easily learn English words and sentences.',
-    'btn_default' => 'Default timers'
+    'btn_default' => 'Default timers',
+    'Verbs' => 'Irregular Verbs'
 );
 
 ?>
