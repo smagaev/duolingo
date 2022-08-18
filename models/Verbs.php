@@ -40,10 +40,10 @@ class Verbs extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'form1' => 'Form1',
-            'form2' => 'Form2',
-            'form3' => 'Form3',
-            'meaning' => 'Meaning',
+            'form1' => Yii::t('app','Infinitive'),
+            'form2' => Yii::t('app','PastSimple'),
+            'form3' => Yii::t('app','Participle'),
+            'meaning' => 'Translate',
         ];
     }
 }

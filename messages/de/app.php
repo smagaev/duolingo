@@ -26,7 +26,10 @@ return array(
     'home_title' => 'Englisch - einfach!',
     'home_description' => 'Hier lernen oder wiederholen Sie schnell englische Wörter und Ausdrücke.',
     'btn_default' => 'Standard-Timer',
-    'Verbs' => 'unregelmäßige Verben'
+    'Verbs' => 'Unregelmäßige Verben',
+    'Infinitive' => 'Infinitiv',
+    'PastSimple' => 'Einfache Vergangenheit (V2)',
+    'Participle' => 'Partizip II (V3)'
 );
 
 ?>

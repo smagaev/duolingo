@@ -26,7 +26,10 @@ return array(
     'home_title' => 'English - easy!',
     'home_description' => 'Here you can easily learn English words and sentences.',
     'btn_default' => 'Default timers',
-    'Verbs' => 'Irregular Verbs'
-);
+    'Verbs' => 'Irregular Verbs',
+    'Infinitive' => 'Infinitive',
+    'PastSimple' => 'Past Simple (V2)',
+    'Participle' => 'Participle II (V3)'
+ );
 
 ?>

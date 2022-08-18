@@ -16,9 +16,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
 
-
+    <? $dataProvider->sort = false;?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'layout' => '<div class="float-right">{summary}</div>{items}',
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             'form1:ntext',
