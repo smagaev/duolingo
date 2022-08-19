@@ -13,9 +13,17 @@ $quantity = count($words);
             for ($i = 0; $i < count($words); $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
+                if ($level < 7) {
+                    $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
+                } else {
+                    $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->meaning . '</span></div>';
+                }
                 $n++;
-                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
+                if ($level < 7) {
+                    $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
+                } else {
+                    $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->form1 . '</span></div>';
+                }
                 $n++;
             }
             if(isset($arr_tr)) shuffle($arr_tr);
