@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 
 $this->title = yii::t('app', 'home_title');
-$this->registerMetaTag(['name'=>'description', 'content' => yii::t('app', 'home_description')]);
+$this->registerMetaTag(['name' => 'description', 'content' => yii::t('app', 'home_description')]);
 $quantity = count($words);
 ?>
     <div class="site-index">
@@ -13,16 +13,25 @@ $quantity = count($words);
             for ($i = 0; $i < count($words); $i++) {
                 $k = $i + 1;
                 $id_rand = count($words);
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
+                if ($level < 7) {
+                    $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
+                } else {
+                    $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->meaning . '</span></div>';
+                }
                 $n++;
-                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="'. $words[$i]->id .'" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
+                if ($level < 7) {
+                    $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
+                } else {
+                    $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->form1 . '</span></div>';
+                }
                 $n++;
             }
-            if(isset($arr_tr)) shuffle($arr_tr);
+            if (isset($arr_tr)) shuffle($arr_tr);
             ?>
             <div class="row">
                 <div class="col"></div>
-                <div class="col-4"><?=yii::t('app', 'Progress')?>: <span id="ready"><?= $count_ready ?></span> of <?= $count_words_db ?></div>
+                <div class="col-4"><?= yii::t('app', 'Progress') ?>: <span id="ready"><?= $count_ready ?></span>
+                    of <?= $count_words_db ?></div>
             </div>
             <br>
 
@@ -45,7 +54,8 @@ $quantity = count($words);
         <br>
         <div class="row">
             <div class="col-sm-4"></div>
-            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled" data-quantity="<?=$quantity?>"><?=yii::t('app','Next');?></div>
+            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled"
+                 data-quantity="<?= $quantity ?>"><?= yii::t('app', 'Next'); ?></div>
             <div class="col-sm-4"></div>
         </div>
     </div>

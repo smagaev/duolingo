@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\components\MyFunctions;
+use app\models\Verbs;
 use Yii;
 use yii\db\Expression;
 use yii\filters\AccessControl;
@@ -83,11 +84,7 @@ class SiteController extends Controller
         $params = Yii::$app->request->get();
         $user_id = Yii::$app->getUser()->id;
         //meta tags
-       if ($user_id) {
-            MyFunctions::addExcludingWords($user_id, $params);
 
-            MyFunctions::addTableStat($user_id, $quantity);
-        }
         if (!isset($user_id)) {
             $session = Yii::$app->session;
             if (!$session->isActive) {
@@ -110,13 +107,22 @@ class SiteController extends Controller
 
         /*End set cache*/
 
+        /*Will add words in excluding and add statistika */
+        if ($user_id and $level < 7) {
+            MyFunctions::addExcludingWords($user_id, $params);
+            MyFunctions::addTableStat($user_id, $quantity);
+        }
 
         $count_words = count($arr);
         $count_ready = $count_words_db - $count_words;
         if ($count_words > 5) {
             for ($i = 0; $i < 5; $i++) {
                 $id_rand = array_rand($arr, 1);
-                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                if ($level < 7) {
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                } else {
+                    $words[$i] = Verbs::findOne($arr[$id_rand]);
+                }
                 unset($arr[$id_rand]);
                 sort($arr);
             }
@@ -124,7 +130,11 @@ class SiteController extends Controller
             $count = count($arr);
             for ($i = 0; $i < $count; $i++) {
                 $id_rand = array_rand($arr, 1);
-                $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                if ($level < 7) {
+                    $words[$i] = Duolingo::findOne($arr[$id_rand]);
+                } else {
+                    $words[$i] = Verbs::findOne($arr[$id_rand]);
+                }
                 unset($arr[$id_rand]);
                 sort($arr);
             }
@@ -139,13 +149,21 @@ class SiteController extends Controller
         $revert = rand(1, 2);
         if ($revert == 1) {
             foreach ($words as $val) {
-                $temp = $val['var1'];
-                $val['var1'] = $val['word'];
-                $val['word'] = $temp;
+                /*for table duolingo*/
+                if ($level < 7) {
+                    $temp = $val['var1'];
+                    $val['var1'] = $val['word'];
+                    $val['word'] = $temp;
+                } else {
+                    /*for table verbs*/
+                    $temp = $val['form1'];
+                    $val['form1'] = $val['meaning'];
+                    $val['meaning'] = $temp;
+                }
             }
         }
 
-        return $this->render('index', compact('words', 'count_words_db', 'count_ready'));
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level'));
 
 
     }
@@ -199,7 +217,13 @@ class SiteController extends Controller
                     : $countL[$i] = Duolingo::find()->where(['>', 'count_words', $i - 1])->count();
             }
         }
-
+        /* will add levels for verbs */
+        /* 45 the most used words */
+        /* 100 the most used words */
+        /* all the most used words */
+        $countL[7] = Verbs::find()->where(['>', '45', 1])->count();
+        $countL[8] = Verbs::find()->where(['>', '100', 1])->count();
+        $countL[9] = Verbs::find()->count();
         return $this->render('level', compact('countL'));
     }
 
@@ -258,23 +282,26 @@ class SiteController extends Controller
 
     public function actionOptions()
     {
-        $userID= Yii::$app->getUser()->identity->id;
-       if(!$model = Options::find() -> where(['user_id'=>$userID])-> one()){
-           $model = new Options([
-               'user_id' => $userID,
-               'timer1' => Yii::$app->params['timer1'],
-               'timer2' => Yii::$app->params['timer2'],
-               'timer3' => Yii::$app->params['timer3'],
-               'timer4' => Yii::$app->params['timer4'],
-               'timer5' => Yii::$app->params['timer5'],
-               'timer6' => Yii::$app->params['timer6'],
-               'sourceWords' => 0
-           ]);
-       }
+        $userID = Yii::$app->getUser()->identity->id;
+        if (!$model = Options::find()->where(['user_id' => $userID])->one()) {
+            $model = new Options([
+                'user_id' => $userID,
+                'timer1' => Yii::$app->params['timer1'],
+                'timer2' => Yii::$app->params['timer2'],
+                'timer3' => Yii::$app->params['timer3'],
+                'timer4' => Yii::$app->params['timer4'],
+                'timer5' => Yii::$app->params['timer5'],
+                'timer6' => Yii::$app->params['timer6'],
+                'timer7' => Yii::$app->params['timer7'],
+                'timer8' => Yii::$app->params['timer8'],
+                'timer9' => Yii::$app->params['timer9'],
+                'sourceWords' => 0
+            ]);
+        }
 
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {
-                   $model->save();
+                $model->save();
             }
         }
 

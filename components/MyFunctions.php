@@ -6,6 +6,7 @@ use app\models\Duolingo;
 use app\models\Exclude;
 use app\models\Options;
 use app\models\Statistika;
+use app\models\Verbs;
 use yii;
 
 class MyFunctions
@@ -58,10 +59,20 @@ class MyFunctions
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
             else $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => 100]); /*for unregistered user*/
 
-        } else {
+        } else if ($level < 6) {
             if ($user_id)
                 $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
             else $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
+            /* 45 most used verbs */
+        } else if($level == 7){
+            $models = Verbs::find()->where(['>', '45', 1]);
+
+            /* 100 most used verbs */
+        }else if ($level == 8){
+            $models = Verbs::find()->where(['>', '100', 1]);
+            /* all most used verbs */
+        }else if($level == 9){
+            $models = Verbs::find();
         }
         $count = $models->count();
         if ($count > 0) {
@@ -76,9 +87,7 @@ class MyFunctions
             /* end of block for users, who don't have any words in db */
         }
         //exclude
-        if (isset($user_id)) {
-            $limit = Options::find()->where(['user_id' => $user_id])->one()['timer'.$level];
-        } else {
+        if (!(isset($user_id) and $limit = Options::find()->where(['user_id' => $user_id])->one())){
             $limit = Yii::$app->params['timer'.$level];
         }
 
@@ -92,7 +101,6 @@ class MyFunctions
                 //Yii::$app->session->setFlash('success', 'Вы изучили все слова! Пройдите еще раз или выберите другой уровень!');
             }
         }
-
         //set cache
         $cache = Yii::$app->cache;
         $cache->set('level_' . $session_id, $level); //set level
