@@ -32,8 +32,13 @@ $('.my_btn').click(function () {
                 if (document.querySelectorAll('.btn_act').length === 2) {
                     let _link = "/index?quantity=" + $('.btn-next').data('quantity');
                     let _href = "javascript:location.href ='" + _link +"&" + times + "'";
-                    $('.btn-next').removeClass('disabled')
-                        .attr('onclick', _href);
+                    let button_next = $('.btn-next');
+                    if (button_next.hasClass('d-none')) {
+                        window.location = _href;
+                    } else {
+                        button_next.removeClass('disabled')
+                            .attr('onclick', _href);
+                    }
                 }
             } else {
                 button.removeClass('bg-success')

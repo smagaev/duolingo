@@ -91,8 +91,10 @@ class SiteController extends Controller
                 $session->open();
             }
             $session_id = Yii::$app->session->getId();
+            $show_btn_next = Yii::$app->params['show_btn_next'];
         } else {
             $session_id = $user_id;
+            $show_btn_next = Options::findOne(['user_id'=>$user_id])->show_btn_next;
         }
 
         $cache = Yii::$app->cache;
@@ -163,7 +165,7 @@ class SiteController extends Controller
             }
         }
 
-        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level'));
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level', 'show_btn_next'));
 
 
     }
@@ -295,6 +297,7 @@ class SiteController extends Controller
                 'timer7' => Yii::$app->params['timer7'],
                 'timer8' => Yii::$app->params['timer8'],
                 'timer9' => Yii::$app->params['timer9'],
+                'show_btn_next' => Yii::$app->params['show_btn_next'],
                 'sourceWords' => 0
             ]);
         }

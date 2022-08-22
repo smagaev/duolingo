@@ -87,7 +87,8 @@ class MyFunctions
             /* end of block for users, who don't have any words in db */
         }
         //exclude
-        if (!(isset($user_id) and $limit = Options::find()->where(['user_id' => $user_id])->one())){
+
+        if (!(isset($user_id) and $limit = Options::find()->where(['user_id' => $user_id])->select('timer'.$level)->asArray()->column()->one()[0])){
             $limit = Yii::$app->params['timer'.$level];
         }
 

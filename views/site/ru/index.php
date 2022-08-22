@@ -54,8 +54,7 @@ $quantity = count($words);
         <br>
         <div class="row">
             <div class="col-sm-4"></div>
-            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled"
-                 data-quantity="<?= $quantity ?>"><?= yii::t('app', 'Next'); ?></div>
+            <div class="btn btn-lg btn-next btn-primary col-sm-4 disabled <?= $show_btn_next?'':'d-none'?> data-quantity="<?= $quantity ?>"><?= yii::t('app', 'Next'); ?></div>
             <div class="col-sm-4"></div>
         </div>
     </div>
