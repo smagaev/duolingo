@@ -15,5 +15,5 @@ return [
     'timer8' => 800,
     'timer9' => 800,
     'sourceWords' => 0,
-    'show_btn_next' => false,
+    'show_btn_next' => 0,
 ];

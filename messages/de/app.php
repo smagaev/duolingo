@@ -17,7 +17,7 @@ return array(
     'Next' => 'Waiter',
     'Progress' => 'Fortschritt',
     'Error empty db' => 'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
-    'sourceWords' => "Select defaults words",
+    'sourceWords' => "Lernen Sie standardmäßig eine Reihe von Wörtern",
     'timer' => "Level-Timer: ",
     'msec' => "Hinweis: Timer werden in Millisekunden eingestellt",
     'options' => "Optionen",
@@ -29,7 +29,8 @@ return array(
     'Verbs' => 'Unregelmäßige Verben',
     'Infinitive' => 'Infinitiv',
     'PastSimple' => 'Einfache Vergangenheit (V2)',
-    'Participle' => 'Partizip II (V3)'
+    'Participle' => 'Partizip II (V3)',
+    'showButtonNext' => 'Schaltfläche „Weiter“ auf der Ticketseite anzeigen'
 );
 
 ?>

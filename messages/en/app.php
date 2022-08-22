@@ -17,7 +17,7 @@ return array(
     'Next' => 'Next',
     'Progress' => 'Progress',
     'Error empty db' => "Data Base hasn't enough words. Please, insert words!",
-    'sourceWords' => "Select defaults words",
+    'sourceWords' => "Learn a set of words by default",
     'timer' => "Timer for level: ",
     'msec' => "Note: Timers are set in milliseconds",
     'options' => "Settings",
@@ -29,7 +29,8 @@ return array(
     'Verbs' => 'Irregular Verbs',
     'Infinitive' => 'Infinitive',
     'PastSimple' => 'Past Simple (V2)',
-    'Participle' => 'Participle II (V3)'
+    'Participle' => 'Participle II (V3)',
+    'showButtonNext' => 'Show "Next" button on ticket page'
  );
 
 ?>

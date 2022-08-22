@@ -34,7 +34,7 @@ class Options extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'timer0', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'sourceWords'], 'integer'],
+            [['user_id', 'timer0', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'timer7', 'timer8', 'timer9', 'sourceWords', 'show_btn_next'], 'integer'],
         ];
     }
 
@@ -53,7 +53,11 @@ class Options extends \yii\db\ActiveRecord
             'timer4' => 'Timer4',
             'timer5' => 'Timer5',
             'timer6' => 'Timer6',
+            'timer7' => 'Timer7',
+            'timer8' => 'Timer8',
+            'timer9' => 'Timer9',
             'sourceWords' => Yii::t('app', 'sourceWords'),
+            'show_btn_next' => Yii::t('app', 'showButtonNext'),
         ];
     }
 }
