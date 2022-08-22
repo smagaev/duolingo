@@ -94,7 +94,11 @@ class SiteController extends Controller
             $show_btn_next = Yii::$app->params['show_btn_next'];
         } else {
             $session_id = $user_id;
-            $show_btn_next = Options::findOne(['user_id'=>$user_id])->show_btn_next;
+            if ($show_btn_next = Options::find()->where(['user_id' => $user_id])->select('show_btn_next')->one()) {
+                $show_btn_next = $show_btn_next->show_btn_next;
+            } else {
+                $show_btn_next = Yii::$app->params['show_btn_next'];
+            }
         }
 
         $cache = Yii::$app->cache;
