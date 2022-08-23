@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Хост: localhost
--- Время создания: Авг 19 2022 г., 08:33
--- Версия сервера: 5.6.50
--- Версия PHP: 7.4.5
+-- Хост: mysql-srv68348.ht-systems.ru
+-- Время создания: Авг 23 2022 г., 10:13
+-- Версия сервера: 5.7.29-32
+-- Версия PHP: 7.3.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -18,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `duolingo`
+-- База данных: `srv68348_duolingo`
 --
 
 -- --------------------------------------------------------
@@ -3939,7 +3940,16 @@ INSERT INTO `duolingo` (`id`, `word`, `count_words`, `var1`, `var2`, `var3`, `va
 (3916, 'Are you new to this class?', 6, 'Ты новая на этом занятии?', NULL, NULL, NULL, NULL, NULL, 100),
 (3917, 'is like', 2, 'похож', NULL, NULL, NULL, NULL, NULL, 100),
 (3918, 'to scare', 2, 'распугать', NULL, NULL, NULL, NULL, NULL, 100),
-(3919, 'to get in trouble', 4, 'попадать в неприятности', NULL, NULL, NULL, NULL, NULL, 100);
+(3919, 'to get in trouble', 4, 'попадать в неприятности', NULL, NULL, NULL, NULL, NULL, 100),
+(3920, 'I\'m as serious as a heart attack', 7, 'Я серьезен как инфаркт', NULL, NULL, NULL, NULL, NULL, 103),
+(3921, 'May the Force be with you', 6, 'Да пребудет с тобой сила', NULL, NULL, NULL, NULL, NULL, 103),
+(3922, 'Easy peasy, lemon squeezy', 4, 'Также легко, как выжать лимон', NULL, NULL, NULL, NULL, NULL, 103),
+(3923, 'I\'m curvy and i like it', 6, 'Я не тощий и мне это нравится', NULL, NULL, NULL, NULL, NULL, 103),
+(3924, 'That is so fetch', 4, 'Это так круто/клево/здорово', NULL, NULL, NULL, NULL, NULL, 103),
+(3925, 'Seize the day, boys', 4, 'Ловите момент, мальчики', NULL, NULL, NULL, NULL, NULL, 103),
+(3926, 'You talkin\' to me?!', 4, 'Ты мне это сказал', NULL, NULL, NULL, NULL, NULL, 103),
+(3927, 'It\'s nothing personal, it\'s strictly business', 6, 'Ничего личного, просто бизнес', NULL, NULL, NULL, NULL, NULL, 103),
+(3928, 'Stupid is as stupisd does', 5, 'Глупый тот, кто ведет себя глупо', NULL, NULL, NULL, NULL, NULL, 103);
 
 -- --------------------------------------------------------
 
@@ -3975,7 +3985,22 @@ INSERT INTO `exclude` (`id`, `user_id`, `word_id`, `time`) VALUES
 (14, 100, 1910, 534),
 (15, 100, 1914, 712),
 (16, 100, 1915, 1181),
-(17, 101, 1912, 671);
+(17, 101, 1912, 671),
+(18, 100, 3622, 838),
+(19, 100, 2051, 1104),
+(20, 100, 3142, 903),
+(21, 100, 3106, 1145),
+(22, 100, 3411, 744),
+(23, 100, 1973, 646),
+(24, 100, 2486, 1176),
+(25, 100, 3055, 1145),
+(26, 100, 3115, 997),
+(27, 100, 3306, 1319),
+(28, 100, 3040, 1532),
+(29, 100, 3098, 1512),
+(30, 100, 2023, 953),
+(31, 100, 2995, 2384),
+(32, 100, 2201, 671);
 
 -- --------------------------------------------------------
 
@@ -4019,16 +4044,18 @@ CREATE TABLE `options` (
   `timer8` int(4) DEFAULT NULL,
   `timer7` int(4) DEFAULT NULL,
   `timer9` int(4) DEFAULT NULL,
-  `sourceWords` int(1) DEFAULT NULL
+  `sourceWords` int(1) DEFAULT NULL,
+  `show_btn_next` int(11) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Дамп данных таблицы `options`
 --
 
-INSERT INTO `options` (`id`, `user_id`, `timer0`, `timer1`, `timer2`, `timer3`, `timer4`, `timer5`, `timer6`, `timer8`, `timer7`, `timer9`, `sourceWords`) VALUES
-(1, 100, NULL, 800, 1200, 1300, 1500, 1700, 1900, NULL, NULL, NULL, 1),
-(2, 101, NULL, 500, 600, 700, 800, 1200, 1500, NULL, NULL, NULL, 0);
+INSERT INTO `options` (`id`, `user_id`, `timer0`, `timer1`, `timer2`, `timer3`, `timer4`, `timer5`, `timer6`, `timer8`, `timer7`, `timer9`, `sourceWords`, `show_btn_next`) VALUES
+(1, 100, NULL, 800, 1200, 1300, 1500, 1700, 800, 111, 111, 111, 1, 1),
+(2, 101, NULL, 500, 600, 700, 800, 1200, 1500, NULL, NULL, NULL, 0, 1),
+(3, 103, NULL, 800, 1200, 1300, 1500, 1700, 1900, 800, 800, 800, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -4422,19 +4449,19 @@ ALTER TABLE `verbs`
 -- AUTO_INCREMENT для таблицы `duolingo`
 --
 ALTER TABLE `duolingo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3920;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3929;
 
 --
 -- AUTO_INCREMENT для таблицы `exclude`
 --
 ALTER TABLE `exclude`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT для таблицы `options`
 --
 ALTER TABLE `options`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT для таблицы `statistika`

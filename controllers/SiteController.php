@@ -210,8 +210,16 @@ class SiteController extends Controller
     function actionLevel()
     {
 
-        $userId = Yii::$app->getUser()->id; //for unregistered user
-        if (!$userId) $userId = 100;
+        $userId = Yii::$app->getUser()->id;
+        /*for unregistered user*/
+         if (!$userId) {
+             $userId = 100;
+         } else {
+             if ($userOptions = Options::find()->where(['user_id'=>$userId])->one()){
+                 if ($userOptions->sourceWords == 1) $userId = 100;
+             }
+         }
+
         if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
             for ($i = 1; $i < 7; $i++) {
                 $i < 6 ? $countL[$i] = Duolingo::find()->where(['count_words' => $i])->andWhere(['user_id' => $userId])->count()
