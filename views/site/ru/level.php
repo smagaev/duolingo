@@ -15,9 +15,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <row text-center>
         <? foreach ($countL as $key => $val) { ?>
 
-            <a href="/setlevel?level=<?=$key?>&language=ru"
-               class="d-inline-block round bg-warning border-dark text-center col-4 col-md-3 border border-primary text-decoration-none m-3 p-4" style="border-radius: 50%; box-shadow: 10px 12px #343a40">
-                <div class="level text-dark h4">Уровень <?= $key ?>
+            <a href="/setlevel?level=<?=$key?>&language=en"
+               class="d-inline-block round bg-warning border-dark text-center col-4 col-md-3 border border-primary text-decoration-none m-3 p-4" style="border-radius: 50%; box-shadow: 10px 12px #343a40"
+               data-toggle="tooltip" data-placement="top" title="<?=Yii::t('app', 'level'.$key)?>">
+                <div class="level text-dark h6"><?=Yii::t('app', 'level'.$key)?>
                 </div>
                 <div class="badge badge-secondary "><?= $val ?>
                 </div>
@@ -26,3 +27,11 @@ $this->params['breadcrumbs'][] = $this->title;
         <? } ?>
     </row>
 </div>
+<?php
+$this->registerJs(<<<JS
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+JS
+);
+?>

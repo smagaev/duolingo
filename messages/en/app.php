@@ -30,7 +30,16 @@ return array(
     'Infinitive' => 'Infinitive',
     'PastSimple' => 'Past Simple (V2)',
     'Participle' => 'Participle II (V3)',
-    'showButtonNext' => 'Show "Next" button on ticket page'
+    'showButtonNext' => 'Show "Next" button on ticket page',
+    'level1' => 'One word expression',
+    'level2' => 'Two word expression',
+    'level3' => 'Three word expression',
+    'level4' => 'Four word expression',
+    'level5' => 'Five word expression',
+    'level6' => 'Expression of 6 or more words',
+    'level7' => '45 irregular verbs',
+    'level8' => '90 irregular verbs',
+    'level9' => 'All irregular verbs',
  );
 
 ?>

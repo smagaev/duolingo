@@ -30,7 +30,16 @@ return array(
     'Infinitive' => 'Infinitiv',
     'PastSimple' => 'Einfache Vergangenheit (V2)',
     'Participle' => 'Partizip II (V3)',
-    'showButtonNext' => 'Schaltfläche „Weiter“ auf der Ticketseite anzeigen'
+    'showButtonNext' => 'Schaltfläche „Weiter“ auf der Ticketseite anzeigen',
+    'level1' => 'Ein-Wort-Ausdruck',
+    'level2' => 'Zwei-Wort-Ausdruck',
+    'level3' => 'Drei-Wort-Ausdruck',
+    'level4' => 'Ausdruck aus vier Wörtern',
+    'level5' => 'Fünf-Wort-Ausdruck',
+    'level6' => 'Ausdruck von 6 oder mehr Wörtern',
+    'level7' => '45 unregelmäßige Verben',
+    'level8' => '90 unregelmäßige Verben',
+    'level9' => 'Alle unregelmäßigen Verben',
 );
 
 ?>
