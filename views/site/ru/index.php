@@ -6,6 +6,7 @@ $this->title = yii::t('app', 'home_title');
 $this->registerMetaTag(['name' => 'description', 'content' => yii::t('app', 'home_description')]);
 $quantity = count($words);
 ?>
+<?php \yii\widgets\Pjax::begin(); ?>
     <div class="site-index">
         <br>
         <div class="body-content text-center">
@@ -58,7 +59,6 @@ $quantity = count($words);
             <div class="col-sm-4"></div>
         </div>
     </div>
-    <style>
+<?php \yii\widgets\Pjax::end(); ?>
 
-    </style>
 <? $this->registerJsFile("@web/js/duo.js", ['depends' => [\yii\web\JqueryAsset::class]]); ?>
