@@ -2087,12 +2087,12 @@ to everyone else to the party       :   ко всем остальным на в
 everyone                            :   (слушайте) все
 Everyone cheers.                    :   Все радуются.
 I'm so lucky                        :   Мне так повезло
-greet                               :   приветсвоват
-greets them                         :   приветсвует их
+greet                               :   приветствовать
+greets them                         :   приветствует их
 look around                         :   осматривать
 look around the kitchen             :   осматривать кухню
 complaining                         :   жаловаться
-stop complaining                    :   прекратить жаловатья
+stop complaining                    :   прекратить жаловаться
 Can you please stop complaining?    :   Ты можешь прекратить жаловаться?
 It's just the two of us             :   Нас всего двое.
 you preferred doing dishes by hand  :   ты предпочитаешь мыть посуду руками
