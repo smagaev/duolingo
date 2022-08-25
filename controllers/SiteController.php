@@ -215,8 +215,8 @@ class SiteController extends Controller
          if (!$userId) {
              $userId = 100;
          } else {
-             if ($userOptions = Options::find()->where(['user_id'=>$userId])->one()){
-                 if ($userOptions->sourceWords == 1) $userId = 100;
+             if ($sourceWords = Options::getOption($userId, 'sourceWords')){
+                 if ($sourceWords == 1) $userId = 100;
              }
          }
 

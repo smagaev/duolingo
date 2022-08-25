@@ -63,6 +63,10 @@ class Options extends \yii\db\ActiveRecord
 
 
         public static function getOption($userId, $option){
-            return self::find()->where(['user_id' =>$userId])->one()->$option;
+            if(!$options = self::find()->where(['user_id' =>$userId])->one())  {
+                return 1;}
+            else {
+                return $options->sourceWords;
+            }
         }
 }

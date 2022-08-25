@@ -54,7 +54,7 @@ class MyFunctions
 
     static function initCacheWithExcludingWords($user_id, $level, $session_id)
     {
-        $sourceWords = Options::getOption($user_id,'sourceWords');
+       if($user_id) $sourceWords = Options::getOption($user_id,'sourceWords');
         if ($level == 6) {
             if ($user_id && $sourceWords != 1)
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
