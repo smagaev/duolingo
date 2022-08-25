@@ -60,4 +60,9 @@ class Options extends \yii\db\ActiveRecord
             'show_btn_next' => Yii::t('app', 'showButtonNext'),
         ];
     }
+
+
+        public static function getOption($userId, $option){
+            return self::find()->where(['user_id' =>$userId])->one()->$option;
+        }
 }

@@ -54,13 +54,14 @@ class MyFunctions
 
     static function initCacheWithExcludingWords($user_id, $level, $session_id)
     {
+        $sourceWords = Options::getOption($user_id,'sourceWords');
         if ($level == 6) {
-            if ($user_id)
+            if ($user_id && $sourceWords != 1)
                 $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => $user_id]);
             else $models = Duolingo::find()->where(['>', 'count_words', 5])->andWhere(['user_id' => 100]); /*for unregistered user*/
 
         } else if ($level < 6) {
-            if ($user_id)
+            if ($user_id  && $sourceWords != 1)
                 $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => $user_id]);
             else $models = Duolingo::find()->where(['count_words' => $level, 'user_id' => 100]);
             /* 45 most used verbs */
@@ -88,7 +89,7 @@ class MyFunctions
         }
         //exclude
 
-        if (!(isset($user_id) and $limit = Options::find()->where(['user_id' => $user_id])->select('timer'.$level)->asArray()->column()[0])){
+        if (!(isset($user_id) and $limit = Options::getOption($user_id, 'timer'.$level))){
             $limit = Yii::$app->params['timer'.$level];
         }
 
