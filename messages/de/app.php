@@ -40,6 +40,8 @@ return array(
     'level7' => '45 unregelmäßige Verben',
     'level8' => '100 unregelmäßige Verben',
     'level9' => 'Alle unregelmäßigen Verben',
+    'All settings saved' => 'Alle Einstellungen gespeichert!',
+    'Something is wrong. Message to admin, please!' => 'Something is wrong. Message to admin, please!'
 );
 
 ?>

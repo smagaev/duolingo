@@ -40,6 +40,8 @@ return array(
     'level7' => '45 irregular verbs',
     'level8' => '100 irregular verbs',
     'level9' => 'All irregular verbs',
+    'All settings saved' => 'All settings saved',
+    'Something is wrong. Message to admin, please!' => 'Something is wrong. Message to admin, please!'
  );
 
 ?>

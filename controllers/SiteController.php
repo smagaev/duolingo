@@ -316,7 +316,13 @@ class SiteController extends Controller
 
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {
-                $model->save();
+
+                if(!$model->save()){
+                    yii::$app->session->setFlash('success', yii::t('app', 'All settings saved'));
+                } else {
+                    yii::$app->session->setFlash('warning', yii::t('app', 'Something is wrong. Call to admin, please!'));
+                }
+
             }
         }
 
