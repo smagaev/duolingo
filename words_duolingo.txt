@@ -1153,6 +1153,7 @@ has missed                          :   пропустил
 is that true                        :   это правда
 yet                                 :   уже еще
 marathons                           :   марафоны
+marathon runner                     :   марафонец
 hey                                 :   слушай
 i bet                               :   спорим
 bеfore                              :   раньше
@@ -1345,12 +1346,14 @@ to charge                           :   заряжать
 long distance girlfriend            :   девушка на расстоянии
 how's it going                      :   как делать
 long-distance relationship          :   отношения на расстоянии
+relationship                        :   отношения
 bill                                :   счет
 refund                              :   возврат средств
 art show                            :   выставка
 chokes                              :   трясется
 lightning                           :   молния
 sounds                              :   звуки
+to sounds                           :   звучит
 dies in a tragic way                :   умрет трагически
 announcement                        :   объявление
 house party                         :   домашняя вечеринка
@@ -2111,3 +2114,12 @@ from every angle                    :   с каждого ракурса
 angle                               :   угол
 career                              :   карьера
 you have to cancel your date        :   ты должен отменить свое свидание
+picture frame                       :   рамка для фотографий
+it sounds like                      :   кажется
+ha                                  :   ха
+It's my anniversary                 :   моя годовщина
+i hired a musician                  :   я наняла музыканта
+at a table by herself               :   за столом в одиночестве
+Have I told you                     :   Я говорил тебе
+a very long race                    :   очень длинный забег
+in any kind of weather              :   в любую погоду
