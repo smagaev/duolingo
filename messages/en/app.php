@@ -38,7 +38,7 @@ return array(
     'level5' => 'Five word expression',
     'level6' => 'Expression of 6 or more words',
     'level7' => '45 irregular verbs',
-    'level8' => '90 irregular verbs',
+    'level8' => '100 irregular verbs',
     'level9' => 'All irregular verbs',
  );
 

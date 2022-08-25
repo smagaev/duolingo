@@ -52,7 +52,7 @@ midwife                             :    акушерка
 gave birth                          :    родила
 contractions                        :    схватки
 painful                             :    болезненный
-to gave up smoking                  :    бросить курить
+to gave up smoking                  :    бросил курить
 to got pregnant                     :    забеременела
 quite                               :    довольно
 labor                               :    роды
@@ -428,7 +428,6 @@ got it in for                       :   иметь зуб на кого-либо
 got back                            :   вернуться
 got it                              :   понятно
 got you                             :   ага, попался!
-to got the knock                    :   вылететь с работы, провалиться
 dumpy place                         :   унылое место
 i be right back                     :   я скоро вернусь
 here it comes                       :   вот оно
@@ -767,7 +766,6 @@ scored                              :   набрал
 opinion                             :   мнение
 point of view                       :   точкой зрения
 fans                                :   фанаты
-call it a day                       :   закончить на этом
 freedom                             :   свобода
 society                             :   общество
 vote                                :   голосовать

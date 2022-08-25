@@ -38,7 +38,7 @@ return array(
     'level5' => 'Fünf-Wort-Ausdruck',
     'level6' => 'Ausdruck von 6 oder mehr Wörtern',
     'level7' => '45 unregelmäßige Verben',
-    'level8' => '90 unregelmäßige Verben',
+    'level8' => '100 unregelmäßige Verben',
     'level9' => 'Alle unregelmäßigen Verben',
 );
 

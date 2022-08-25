@@ -235,8 +235,8 @@ class SiteController extends Controller
         /* 45 the most used words */
         /* 100 the most used words */
         /* all the most used words */
-        $countL[7] = Verbs::find()->where(['>', '45', 1])->count();
-        $countL[8] = Verbs::find()->where(['>', '100', 1])->count();
+        $countL[7] = Verbs::find()->where(['>', '45', 0])->count();
+        $countL[8] = Verbs::find()->where(['>', '100', 0])->count();
         $countL[9] = Verbs::find()->count();
         return $this->render('level', compact('countL'));
     }
