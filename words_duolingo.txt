@@ -153,6 +153,7 @@ pressure                            :    давление
 disease                             :    заболевание
 physician                           :    врач
 def                                 :    глухой
+accidentally                        :    случайно
 vaccination                         :    прививка
 services                            :    услуги
 medical                             :    медицинские
@@ -2099,5 +2100,14 @@ What were his letters about?        :   О чем были его письма?
 prank                               :   розыгрыш
 funny prank                         :   смешной розыгрыш
 brave                               :   храбро
-
-
+I can do anything.                  :   Я могу что угодно.
+a change                            :   перемена (в жизни)
+Did you catch that?                 :   Вы поняли это?
+a new haircut                       :   новая стрижка
+hairstylist                         :   парикмахер
+looks closely                       :   смотрит пристально
+Turn your head the other way.       :   Поверни голову в другую сторону.
+from every angle                    :   с каждого ракурса
+angle                               :   угол
+career                              :   карьера
+you have to cancel your date        :   ты должен отменить свое свидание
