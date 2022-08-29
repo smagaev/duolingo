@@ -1937,6 +1937,9 @@ once a night                        :   один раз за ночь
 get married                         :   пожениться
 as soon as possible                 :   как можно скорее
 the end                             :   конец
+fairy tale                          :   сказка
+tales                               :   росказни
+fairy                               :   сказочный
 in fairy tales                      :   в сказках
 point at him                        :   укажи на него
 to collect                          :   собирать
