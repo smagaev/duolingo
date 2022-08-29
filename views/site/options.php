@@ -29,7 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class="h2"><?= yii::t('app', "options") ?>:</div>
 
     <?= $form->field($model, 'user_id')->label(false)->hiddenInput() ?>
-    <?= $form->field($model, 'timer0')->label(false)->hiddenInput() ?>
     <?= $form->field($model, 'timer1')->label(Yii::t('app', 'timer') . 1)->textInput(['class' => ['text-center'], 'style' => ['margin-left' => '20px'], 'size' => '8', 'placeholder' => '0']) ?>
     <?= $form->field($model, 'timer2')->label(Yii::t('app', 'timer') . 2)->textInput(['class' => ['text-center'], 'style' => ['margin-left' => '20px'], 'size' => '8', 'placeholder' => '0']) ?>
     <?= $form->field($model, 'timer3')->label(Yii::t('app', 'timer') . 3)->textInput(['class' => ['text-center'], 'style' => ['margin-left' => '20px'], 'size' => '8', 'placeholder' => '0']) ?>

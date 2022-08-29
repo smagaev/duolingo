@@ -34,7 +34,7 @@ class Options extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'timer0', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'timer7', 'timer8', 'timer9', 'sourceWords', 'show_btn_next'], 'integer'],
+            [['user_id', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'timer7', 'timer8', 'timer9', 'sourceWords', 'show_btn_next'], 'integer'],
         ];
     }
 
@@ -46,7 +46,6 @@ class Options extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'user_id' => 'User ID',
-            'timer0' => 'Timer0',
             'timer1' => 'Timer1',
             'timer2' => 'Timer2',
             'timer3' => 'Timer3',
@@ -62,11 +61,12 @@ class Options extends \yii\db\ActiveRecord
     }
 
 
-        public static function getOption($userId, $option){
-            if(!$options = self::find()->where(['user_id' =>$userId])->one())  {
-                return 1;}
-            else {
-                return $options->sourceWords;
-            }
+    public static function getOption($userId, $option)
+    {
+        if (!$options = self::find()->where(['user_id' => $userId])->one()) {
+            return yii::$app->params[$option];
+        } else {
+            return $options->$option;
         }
+    }
 }
