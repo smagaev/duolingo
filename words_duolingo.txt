@@ -288,6 +288,7 @@ to punish                           :   наказывать
 to care                             :   заботиться, беспокоиться
 causes                              :   причин
 supported                           :   поддержала
+support                             :   поддерживать
 drew                                :   нарисовала
 entrance                            :   вход
 to deal                             :   иметь дело
@@ -890,6 +891,7 @@ enjoyed                             :   понравилось
 ending                              :   конец
 popcorn                             :   попкорн
 movie theater                       :   кинотеатр
+movie stars                         :   кинозвезды
 comfortable                         :   комфортные
 on time                             :   вовремя
 luckily                             :   к счастью
@@ -1030,7 +1032,7 @@ dating                              :   романтическую
 fighting over one woman             :   дерущихся за одну женщину
 now that's boring                   :   теперь это скучно
 spare                               :   запасной
-vacation house                      :   дом отпуска
+vacation house                      :   дом отдыха
 honeymoon                           :   медовый отпуска
 premiere                            :   премьера
 cousin                              :   двоюродный брат
@@ -2152,3 +2154,4 @@ paddle                              :   весло
 Did you do that on purpose          :   Ты сделала это специально?
 went for                            :   отправились в
 a boat ride                         :   прогулка на лодке
+This is the worst vacation ever!    :   Это худший отпуск из всех!
