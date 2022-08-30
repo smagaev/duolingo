@@ -631,6 +631,7 @@ where driving                       :   ехали
 drove of the road                   :   съехали с дороги
 to escape                           :   сбежать
 spies                               :   шпионы
+capital                             :   столица
 forget i said anything              :   забудь что я сказала
 road                                :   дорога
 whose feather is it                 :   чье это перо
@@ -878,6 +879,7 @@ fattest                             :   самая толстая
 hottest                             :   самый жаркий
 beard                               :   борода
 as well                             :   тоже
+well known                          :   известный
 warm                                :   тепло
 isn't it                            :   не такли
 missed                              :   пропустили, скучали
@@ -1762,7 +1764,16 @@ hurryring                           :   торопиться
 grandchildren                       :   внуки
 fixing                              :   чинить
 Where they fixing the computer?     :   Они чинили компьютер?
+something very special              :   кое что очень особенное
 jewelry                             :   драгоценности
+sunset                              :   закат
+napkin                              :   салфетка
+front window                        :   окно на улицу
+sandwich shop                       :   бутербродная
+We don't care about fancy presents. :   Нам не важны изысканные подарки.
+jewelry story                       :   магазин драгоценностей
+diamond earrings                    :   серьги с бриллиантами
+a piece of jewelry                  :   ювелирное украшение
 were covering                       :   прикрывали
 advertisement                       :   реклама
 plan a vacation                     :   планировать отпуск
@@ -1794,7 +1805,12 @@ garage sale                         :   гаражный кооператив
 water bill                          :   счет за воду
 sidewalk                            :   тротуар
 alarm clock                         :   будильник
+garbage                             :   мусор
+bag of garbage                      :   мещок с мусором
+garbage bag                         :   мусорный пакет
+is taking good care                 :   хорошо заботится (о)
 vintage                             :   старинный
+surprised to learn                  :   удивились когда узнали
 posters                             :   плакат
 valuable                            :   ценный
 garage sale                         :   гаражная распродажа
