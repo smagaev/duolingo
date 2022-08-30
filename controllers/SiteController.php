@@ -212,13 +212,13 @@ class SiteController extends Controller
 
         $userId = Yii::$app->getUser()->id;
         /*for unregistered user*/
-         if (!$userId) {
-             $userId = 100;
-         } else {
-             if ($sourceWords = Options::getOption($userId, 'sourceWords')){
-                 if ($sourceWords == 1) $userId = 100;
-             }
-         }
+        if (!$userId) {
+            $userId = 100;
+        } else {
+            $sourceWords = Options::getOption($userId, 'sourceWords');
+            if ($sourceWords == 1) $userId = 100;
+        }
+
 
         if (Duolingo::find()->where(['user_id' => $userId])->count() > 0) {
             for ($i = 1; $i < 7; $i++) {
@@ -317,7 +317,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {
 
-                if($model->save()){
+                if ($model->save()) {
                     yii::$app->session->setFlash('success', yii::t('app', 'All settings saved'));
                 } else {
                     yii::$app->session->setFlash('warning', yii::t('app', 'Something is wrong. Call to admin, please!'));
@@ -336,7 +336,8 @@ class SiteController extends Controller
     {
         $userId = Yii::$app->getUser()->id;
         Duolingo::deleteAll(['user_id' => $userId]);
-        Statistika::deleteAll(['user_id' => $userId]);
+        //Statistika::deleteAll(['user_id' => $userId]);
+        MyFunctions::removeCache($userId);
         Yii::$app->session->setFlash('success', 'All words delete from data base');
         return $this->goBack();
     }

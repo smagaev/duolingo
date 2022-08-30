@@ -111,6 +111,13 @@ class MyFunctions
         return true;
 
     }
+    static function removeCache($userId){
+        $session_id = $userId;
+        $cache = Yii::$app->cache;
+        $cache->delete('level_' . $session_id);
+        $cache->delete('count_words_in_db' . $session_id);
+        $cache->delete('words_' . $session_id);
+    }
 
     static function initSession($user_id)
     {
