@@ -288,7 +288,7 @@ class SiteController extends Controller
                 Yii::$app->session->setFlash('success', "All ok, the words are added");
                 Yii::$app->cache->flush();
             } else {
-                Yii::$app->session->setFlash('error', 'Please, check the format ...');
+                Yii::$app->session->setFlash('error', 'Please check the format... or all these words have already been added before');
             }
             return $this->render('words');
         }
