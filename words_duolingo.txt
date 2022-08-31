@@ -720,6 +720,10 @@ truck                               :   грузовик
 six-lane highway                    :   шести полосное шоссе
 dangerous                           :   опасный
 at the next intersection            :   на следующем перекрестке
+at the time                         :   в то время
+type                                :   печатать
+named                               :   по имени
+we spent day taking                 :   мы разговаривали целыми днями
 difficult                           :   затруднено
 impossible                          :   невозможно
 six cylinder engine                 :   шестицилиндровый двигатель
@@ -2184,4 +2188,7 @@ went for                            :   отправились в
 a boat ride                         :   прогулка на лодке
 This is the worst vacation ever!    :   Это худший отпуск из всех!
 you were going to hate it           :   оно тебе не понравится
+the password hint                   :   подсказка пароля
+board                               :   граница
+
 
