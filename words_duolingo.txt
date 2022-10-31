@@ -2190,5 +2190,8 @@ This is the worst vacation ever!    :   Это худший отпуск из в
 you were going to hate it           :   оно тебе не понравится
 the password hint                   :   подсказка пароля
 board                               :   граница
-
-
+briefcase                           :   портфель
+would like to apply for a job       :   хотел бы предложить свою кондидатуру для работы
+to apply for                        :   предложить свою кондидатуру
+with a crayon                       :   цветным карандошом
+they shake hands                    :   они пожимают руки
