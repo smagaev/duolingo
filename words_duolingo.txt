@@ -2228,7 +2228,7 @@ late for the movie                  :   опоздание на фильм
 It's been a long time.              :   давно не виделись
 How have you been?                  :   Как у вас дела?
 animal                              :   животное
-groups animals right                :   группы по провам животных
+groups animals right                :   группы по правам животных
 I hear the girl through the wall.   :   Я слышу девочку сквозь стены.
 from here                           :   отсюда
 wrists                              :   запястья
