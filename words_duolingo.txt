@@ -116,6 +116,7 @@ with someone                        :    с кем-то
 to change                           :    меняться
 hall                                :    коридор
 for the last time                   :    последний раз
+for the first time                  :    впервые
 prefect grade                       :    отличная оценка
 we'll get married                   :    мы поженимся
 cat named Fellini                   :    кот по кличке Феллини
@@ -387,7 +388,8 @@ to recall                           :   припоминаю
 denies                              :   отрицает
 to admit                            :   признавать
 somehow                             :   как-то
-to kept                             :   продолжать
+to kept                             :   хранить
+they kept running                   :   они продолжали бегать
 mean                                :   значить
 to forget                           :   забывать
 law                                 :   закон
@@ -497,6 +499,7 @@ intersection                        :   перекресток
 lanes                               :   полос
 permit                              :   пропуск
 sharp                               :   строго
+sharp pain                          :   острая боль
 thicker                             :   толще
 thinner                             :   худее
 dear                                :   дорогая
@@ -608,6 +611,7 @@ one more                            :   еще одна
 pretty                              :   красивый
 pretty cool                         :   очень крутой
 won                                 :   выиграла
+The exist is to the right           :   Выход справа
 is to the west of the hotel         :   на западе от этого отеля
 how blue the sky is                 :   какое небо голубое
 in which direction                  :   в каком направлении
@@ -747,6 +751,7 @@ senses                              :   чувства
 attention                           :   внимание
 compare                             :   сравни
 humor                               :   юмор
+among us                            :   среди нас
 thoughts                            :   мысли
 it does not matter                  :   это не имеет значения
 matter                              :   вещество, дело
@@ -1457,7 +1462,10 @@ stadium                             :   стадион
 I don't mind.                       :   Я не против.
 i don't mind studying with you      :   я не против позаниматься с тобой
 from my hand to my elbow            :   от моей кисти до моего логтя
+elbow                               :   локоть
 tongue                              :   язык
+chest                               :   грудь
+het chest                           :   ее грудь
 chew on everything                  :   грызут все
 gave birth to twins                 :   родила двойню
 to keep breastfeeding               :   продолжать грудное вскармливание
@@ -1740,6 +1748,7 @@ sunglasses                          :   солнцезащитные очки
 showered                            :   принял душ
 Don't worry that's all right.       :   Не волнуйся, ничего страшного.
 Let's camp here.                    :   Давай разобьем палатки здесь.
+shoulder                            :   плечо
 You should hold my hand             :   Тебе следует держать мою руку.
 You shouldn't listen to loud music  :   Тебе не следует слушать громкую музыку.
 You can't give your ticket them     :   Нельзя давать им свой билет
@@ -2202,7 +2211,40 @@ You can't go in there.              :   Вам туда нельзя.
 I don't think so.                   :   Я не думаю так.
 He is by the T-shirt table.         :   Он возле стола с футболками.
 A woman waves to him.               :   Женщина машет ему.
+She waves at them.                  :   Она машет им.
 That should be enough time.         :   Должно быть достаточно времени.
 You must be good with kids..        :   Наверное ты хорошо ладишь с детьми.
 necessary                           :   необходимо
 we are hiring                       :   мы ищем
+I like to look fancy.               :   Мне нравится выглядеть элегантно.
+plenty                              :   достаточно
+plenty of juice                     :   достаточно сока
+I'm just hunging out with           :   Я тут провожу время c
+the pot of hot water                :   чайник с кипятком
+a pot                               :   чайник
+a hugh dog                          :   огромная собака
+asked him to go out                 :   пригласила на свидание
+late for the movie                  :   опоздание на фильм
+It's been a long time.              :   давно не виделись
+How have you been?                  :   Как у вас дела?
+animal                              :   животное
+groups animals right                :   группы по провам животных
+I hear the girl through the wall.   :   Я слышу девочку сквозь стены.
+from here                           :   отсюда
+wrists                              :   запястья
+His wrists                          :   Его запястья
+confused                            :   в замешательстве
+leaving                             :   уходя
+Whose soup are you eating?          :   Чей суп ты ешь?
+lets                                :   пускает
+He lets the man inside the building.:   Он запускает мужчину внутрь здания
+I'm giving up                       :   Я здаюсь
+Whale watching                      :   Наблюдение за китами
+Isn't this terrific                 :   Разве это не потрясающе
+aren't you paying attention         :   ты не обращаешь внимание
+to be patient                       :   быть терпеливым
+you don't care about this           :   тебе нет до этого дела
+giant whale                         :   огромный кит
+screams                             :   вскрикивает
+
+
