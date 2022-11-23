@@ -67,6 +67,7 @@ $('.my_btn').click(function () {
 });
 /*** part2 ***/
 $('.input_z').click(function(){
+    $(this).css('color', 'red');
     $(this).val('');
 
 })

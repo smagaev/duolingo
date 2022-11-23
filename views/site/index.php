@@ -64,16 +64,25 @@ $quantity = count($words);
 <?php for ($i = 0; $i < $quantity; $i++) { ?>
     <h4 id="<?= $i ?>" class="text-center"><? echo $words[$i]['word']; ?></h4>
     <div class="text-center">
-        <input id="t_<?= $i ?>" class="input_z text-center border-0"
-               style="text-decoration:underline; width:100%; padding:10px 0; outline: none" type="text" name="translate"
+        <input id="t_<?= $i ?>" class=" input_z text-center border-left-0 border-right-0 border-top-0 text-light"
+               style="  outline: none;
+                        font-size: 18px;
+                        border-bottom: 1px dashed #444;
+                        /*text-decoration: underline;*/
+                        /*text-decoration-color: #222*/
+                     "
+               type="text"
+               name="translate"
+               size="<?=mb_strlen($words[$i]['var1'])?>"
                value="<?= $words[$i]['var1'] ?>"/>
     </div>
     <br>
 <? } ?>
-
+<br>
     <div class="text-center">
         <?= \yii\helpers\Html::button( yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_check btn-primary disabled', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
     </div>
+
 
     <style>
         input:hover, input:focus, {
