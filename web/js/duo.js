@@ -15,10 +15,10 @@ $('.my_btn').click(function () {
                     .addClass('btn_sel');
                 time = new Date().getTime() - startTime;
 
-                if (typeof(times) == 'undefined') {
+                if (typeof (times) == 'undefined') {
                     times = "t_" + id_w + "=" + time;
                 } else {
-                    times = times+ "&t_" + id_w + "=" + time;
+                    times = times + "&t_" + id_w + "=" + time;
                 }
                 t1 = window.setTimeout(function () {
 
@@ -31,7 +31,7 @@ $('.my_btn').click(function () {
                 }, 300);
                 if (document.querySelectorAll('.btn_act').length === 2) {
                     let _link = "/index?quantity=" + $('.btn-next').data('quantity');
-                    let _href = "javascript:location.href ='" + _link +"&" + times + "'";
+                    let _href = "javascript:location.href ='" + _link + "&" + times + "'";
                     let button_next = $('.btn-next');
                     if (button_next.hasClass('d-none')) {
                         window.location = _href;
@@ -66,8 +66,36 @@ $('.my_btn').click(function () {
 
 });
 /*** part2 ***/
-$('.input_z').click(function(){
-    $(this).css('color', 'red');
+$('.input_z').click(function () {
     $(this).val('');
-
 })
+
+function compare_answer(a, b) {
+    a = a.trim();
+    b = b.trim();
+    if (a !== b) {
+        return "text-danger";
+    } else return "text-light";
+}
+
+function checkAnswer(checkObj) {
+    let _Obj = $(checkObj);
+    let right_answer = _Obj.text();
+    let your_answer = _Obj.siblings('.wrap-answer').children('.input_z').val();
+    return compare_answer(right_answer, your_answer);
+
+}
+
+
+$('.btn_check').click(function () {
+    let objs = $('.answer');
+    $.each(objs, function (index, elem) {
+        $(elem).removeClass('text-light').addClass(checkAnswer(elem));
+    });
+
+});
+
+
+
+
+

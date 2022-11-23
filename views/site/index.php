@@ -6,7 +6,7 @@ $this->title = yii::t('app', 'home_title');
 $this->registerMetaTag(['name' => 'description', 'content' => yii::t('app', 'home_description')]);
 $quantity = count($words);
 ?>
-    <!--    <div class="site-index">
+<!--    <div class="site-index">
         <br>
         <div class="body-content text-center">
             <? /* $n = 1;
@@ -59,39 +59,37 @@ $quantity = count($words);
     </div>-->
 
 <?php //var_dump($words); ?>
-    <h3 class="text-center text-info">Введите перевод:</h3>
-    <br>
+<h3 class="text-center text-info">Введите перевод:</h3>
+<br>
 <?php for ($i = 0; $i < $quantity; $i++) { ?>
-    <h4 id="<?= $i ?>" class="text-center"><? echo $words[$i]['word']; ?></h4>
-    <div class="text-center">
-        <input id="t_<?= $i ?>" class=" input_z text-center border-left-0 border-right-0 border-top-0 text-light"
-               style="  outline: none;
-                        font-size: 18px;
-                        border-bottom: 1px dashed #444;
-                        /*text-decoration: underline;*/
-                        /*text-decoration-color: #222*/
-                     "
-               type="text"
-               name="translate"
-               size="<?=mb_strlen($words[$i]['var1'])?>"
-               value="<?= $words[$i]['var1'] ?>"/>
+    <div class="block_<?= $i ?>">
+        <h4 id="<?= $i ?>" class="text-center" ><? echo $words[$i]['word']; ?></h4>
+        <div class="answer text-center text-light  font-weight-bold" style="font-size:16px">
+            <?= $words[$i]['var1'] ?>
+        </div>
+        <div class="text-center wrap-answer">
+            <input id="t_<?= $i ?>" class=" input_z text-left border-left-0 border-right-0 border-top-0 m-1"
+                   style="outline: none;font-size: 18px;" type="text" name="translate" size="<?= mb_strlen($words[$i]['var1']) ?>"
+                   value="<?= preg_replace('/\S/', '-', $words[$i]['var1']) ?>"/>
+        </div>
+
+        <br>
     </div>
-    <br>
 <? } ?>
 <br>
-    <div class="text-center">
-        <?= \yii\helpers\Html::button( yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_check btn-primary disabled', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
-    </div>
+<div class="text-center">
+    <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary disabled', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
+</div>
 
 
-    <style>
-        input:hover, input:focus, {
-            box-shadow: none;
-            outline: 0!important;
-            outline-offset:0;
-        }
-    </style>
-<?  $this->registerJsFile("@web/js/duo.js", ['depends' => [\yii\web\JqueryAsset::class]]); ?>
+<style>
+    input:hover, input:focus, {
+        box-shadow: none;
+        outline: 0 !important;
+        outline-offset: 0;
+    }
+</style>
+<? $this->registerJsFile("@web/js/duo.js", ['depends' => [\yii\web\JqueryAsset::class]]); ?>
 
 
 
