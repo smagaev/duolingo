@@ -1770,7 +1770,7 @@ somewhere                           :   куда-то
 She was going somewhere at two ...  :   Она шла куда-то в 2
 was posting                         :   выкладывала (постила)
 Anna was posting something online   :   Анна выкладывала что-то онлайн.
-curtain                             :   шторы
+curtains                            :   шторы
 grandson                            :   внук
 was painting                        :   красила
 hurryring                           :   торопиться

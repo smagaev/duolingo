@@ -182,7 +182,7 @@ class SiteController extends Controller
         $user_id = Yii::$app->getUser()->id;
 
         $session_id = MyFunctions::initSession($user_id);
-
+        $language = "?language=".Yii::$app->request->get('language');
         if (!$level = Yii::$app->request->get('level')) {
 
             $level = Yii::$app->cache->get('level_' . $session_id);
@@ -192,7 +192,7 @@ class SiteController extends Controller
 
         if (MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id)) {
 
-            Yii::$app->getResponse()->redirect(['/']);
+            Yii::$app->getResponse()->redirect(['/'. $language]);
         } else {
             Yii::$app->getResponse()->redirect(['/', 'err_db' => 'no_words']);
         }

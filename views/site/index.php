@@ -83,7 +83,7 @@ $quantity = count($words);
 <? } ?>
 <br>
 <div class="text-center">
-    <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary disabled', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
+    <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
     <?= \yii\helpers\Html::button(yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_next2 btn-success', 'style' => 'margin:0 auto; display:none', 'name' => 'check']); ?>
 </div>
 
