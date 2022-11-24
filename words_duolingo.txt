@@ -1248,8 +1248,8 @@ cuisine                             :   кухня
 spoon                               :   ложка
 teaspoon                            :   чайная ложка
 tablespoon                          :   столовая ложка
-watermelons                         :   арбуз
-melons                              :   дыня
+watermelon                          :   арбуз
+melon                               :   дыня
 seeds                               :   семена
 soil                                :   почва
 rocks                               :   камни

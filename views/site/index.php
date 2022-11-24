@@ -58,7 +58,12 @@ $quantity = count($words);
         </div>
     </div>-->
 
-
+<div class="row">
+    <div class="col"></div>
+    <div class="col-4"><?= yii::t('app', 'Progress') ?>: <span id="ready"><?= $count_ready ?></span>
+        of <?= $count_words_db ?></div>
+</div>
+<br>
 <h3 class="text-center text-info">Введите перевод:</h3>
 <br>
 <?php for ($i = 0; $i < $quantity; $i++) { ?>

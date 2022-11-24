@@ -102,13 +102,17 @@ $('.btn_next2').click(function () {
     let sendListWrong = '';
     let sendList = '';
     $.each($('.text-danger'), function (index, elem) {
-        sendListWrong = sendListWrong + "&" + $(elem).attr('id') + "=99999";
+        sendListWrong = sendListWrong + "&t_" + $(elem).attr('id') + "=99999";
     });
     $.each($('.text-light'), function (index, elem) {
-        sendListOk = sendListOk + "&" + $(elem).attr('id') + "=0";
+        sendListOk = sendListOk + "&t_" + $(elem).attr('id') + "=0";
     });
     sendList = sendListOk + sendListWrong;
-    console.log(sendList);
+    let url = new URL(window.location.href);
+    let language = url.searchParams.get('language');
+    language? language='&language=' + language : '';
+    let _href = "/index?quantity=undefined" + sendList + language;
+    window.location.href = _href;
 })
 
 
