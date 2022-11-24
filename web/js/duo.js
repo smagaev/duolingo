@@ -92,8 +92,24 @@ $('.btn_check').click(function () {
     $.each(objs, function (index, elem) {
         $(elem).removeClass('text-light').addClass(checkAnswer(elem));
     });
+    $('.btn_check').css('display', 'none');
+    $('.btn_next2').css('display', 'block');
 
 });
+
+$('.btn_next2').click(function () {
+    let sendListOk = '';
+    let sendListWrong = '';
+    let sendList = '';
+    $.each($('.text-danger'), function (index, elem) {
+        sendListWrong = sendListWrong + "&" + $(elem).attr('id') + "=99999";
+    });
+    $.each($('.text-light'), function (index, elem) {
+        sendListOk = sendListOk + "&" + $(elem).attr('id') + "=0";
+    });
+    sendList = sendListOk + sendListWrong;
+    console.log(sendList);
+})
 
 
 

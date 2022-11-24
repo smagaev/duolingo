@@ -58,17 +58,17 @@ $quantity = count($words);
         </div>
     </div>-->
 
-<?php //var_dump($words); ?>
+
 <h3 class="text-center text-info">Введите перевод:</h3>
 <br>
 <?php for ($i = 0; $i < $quantity; $i++) { ?>
     <div class="block_<?= $i ?>">
-        <h4 id="<?= $i ?>" class="text-center" ><? echo $words[$i]['word']; ?></h4>
-        <div class="answer text-center text-light  font-weight-bold" style="font-size:16px">
+        <h4 class="tr-word text-center" ><? echo $words[$i]['word']; ?></h4>
+        <div  id="<?= $words[$i]['id'] ?>" class="answer text-center text-light  font-weight-bold" style="font-size:16px">
             <?= $words[$i]['var1'] ?>
         </div>
         <div class="text-center wrap-answer">
-            <input id="t_<?= $i ?>" class=" input_z text-left border-left-0 border-right-0 border-top-0 m-1"
+            <input id="t_<?= $i ?>" class=" input_z text-center border-left-0 border-right-0 border-top-0 m-1"
                    style="outline: none;font-size: 18px;" type="text" name="translate" size="<?= mb_strlen($words[$i]['var1']) ?>"
                    value="<?= preg_replace('/\S/', '-', $words[$i]['var1']) ?>"/>
         </div>
@@ -79,6 +79,7 @@ $quantity = count($words);
 <br>
 <div class="text-center">
     <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary disabled', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
+    <?= \yii\helpers\Html::button(yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_next2 btn-success', 'style' => 'margin:0 auto; display:none', 'name' => 'check']); ?>
 </div>
 
 
