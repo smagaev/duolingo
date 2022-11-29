@@ -168,10 +168,18 @@ class SiteController extends Controller
                 }
             }
         }
-        $mixed_mode = Yii::$app->params['mixed_mode'];
-        $mode_of_studies =Yii::$app->params['mode_of_studies'];
-        if (isset($mixed_mode) && $mixed_mode == 1 ) {
-            $mode_of_studies = rand(0,1);
+        if (!isset($user_id)) {
+            $mixed_mode = Yii::$app->params['mixed_mode'];
+            $mode_of_studies = Yii::$app->params['mode_of_studies'];
+            if (isset($mixed_mode) && $mixed_mode == 1) {
+                $mode_of_studies = rand(0, 1);
+            }
+        } else{
+            $mixed_mode = Options::getOption($user_id, 'mixed_mode');
+            $mode_of_studies = Options::getOption($user_id, 'mode_of_studies');
+            if (isset($mixed_mode) && $mixed_mode == 1) {
+                $mode_of_studies = rand(0, 1);
+            }
         }
 
         return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level', 'show_btn_next', 'mode_of_studies'));
@@ -187,7 +195,7 @@ class SiteController extends Controller
         $user_id = Yii::$app->getUser()->id;
 
         $session_id = MyFunctions::initSession($user_id);
-        $language = "?language=".Yii::$app->request->get('language');
+        $language = "?language=" . Yii::$app->request->get('language');
         if (!$level = Yii::$app->request->get('level')) {
 
             $level = Yii::$app->cache->get('level_' . $session_id);
@@ -197,7 +205,7 @@ class SiteController extends Controller
 
         if (MyFunctions::initCacheWithExcludingWords($user_id, $level, $session_id)) {
 
-            Yii::$app->getResponse()->redirect(['/'. $language]);
+            Yii::$app->getResponse()->redirect(['/' . $language]);
         } else {
             Yii::$app->getResponse()->redirect(['/', 'err_db' => 'no_words']);
         }
@@ -320,7 +328,7 @@ class SiteController extends Controller
                 'sourceWords' => 0
             ]);
         }
-     //  var_dump($model); return;
+        //  var_dump($model); return;
 
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {
