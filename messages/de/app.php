@@ -15,6 +15,8 @@ return array(
     'This gallery is empty.' => 'Fotos sind nicht beigefügt.',
     'My Company' => 'Meine Firma',
     'Next' => 'Waiter',
+    'Check' => 'überprüfen',
+    'Enter translation:' => 'Übersetzung eingeben',
     'Progress' => 'Fortschritt',
     'Error empty db' => 'Die Datenbank enthält nicht genügend Wörter. Bitte fügen Sie Wörter zur Datenbank hinzu',
     'sourceWords' => "Lernen Sie standardmäßig eine Reihe von Wörtern",

@@ -15,6 +15,7 @@ return array(
     'This gallery is empty.' => 'Фотографии не присоединены.',
     'My Company' => 'Duo languages',
     'Next' => 'Next',
+    'Check' => 'Check',
     'Progress' => 'Progress',
     'Error empty db' => "Data Base hasn't enough words. Please, insert words!",
     'sourceWords' => "Learn a set of words by default",
