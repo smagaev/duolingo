@@ -15,4 +15,6 @@ return [
     'timer9' => 800,
     'sourceWords' => 0,
     'show_btn_next' => 0,
+    'mixed_mode' => 1,
+    'mode_of_studies' => 0
 ];

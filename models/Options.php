@@ -57,6 +57,8 @@ class Options extends \yii\db\ActiveRecord
             'timer9' => 'Timer9',
             'sourceWords' => Yii::t('app', 'sourceWords'),
             'show_btn_next' => Yii::t('app', 'showButtonNext'),
+            'mixed_mode' => Yii::t('app', 'Mixed mode'), /* 0 - no; 1 - mixed mode */
+            'mode_of_studies' => Yii::t('app', 'Mode of studies'), /* 0 - reading; 1 - input*/
         ];
     }
 

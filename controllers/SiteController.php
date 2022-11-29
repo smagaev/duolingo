@@ -168,8 +168,13 @@ class SiteController extends Controller
                 }
             }
         }
+        $mixed_mode = Yii::$app->params['mixed_mode'];
+        $mode_of_studies =Yii::$app->params['mode_of_studies'];
+        if (isset($mixed_mode) && $mixed_mode == 1 ) {
+            $mode_of_studies = rand(0,1);
+        }
 
-        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level', 'show_btn_next'));
+        return $this->render('index', compact('words', 'count_words_db', 'count_ready', 'level', 'show_btn_next', 'mode_of_studies'));
 
 
     }

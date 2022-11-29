@@ -7,6 +7,8 @@ $this->registerMetaTag(['name' => 'description', 'content' => yii::t('app', 'hom
 $quantity = count($words);
 ?>
 <div class="site-index">
+
+    <? if (!isset($mode_of_studies) or $mode_of_studies == 0){ ?>
     <br>
     <div class="body-content text-center">
         <? $n = 1;
@@ -58,39 +60,40 @@ $quantity = count($words);
         "><?= yii::t('app', 'Next'); ?></div>
     <div class="col-sm-4"></div>
 </div>
-</div>
+    </div>
+<? } else { ?>
 
-<div class="row">
-    <div class="col"></div>
-    <div class="col-4"><?= yii::t('app', 'Progress') ?>: <span id="ready"><?= $count_ready ?></span>
-        of <?= $count_words_db ?></div>
-</div>
-<br>
-<h3 class="text-center text-info"><?= yii::t('app','Enter translation:')?></h3>
-<br>
-<?php for ($i = 0; $i < $quantity; $i++) { ?>
-    <div class="block_<?= $i ?>">
-        <h4 class="tr-word text-center"><? echo $words[$i]['word']; ?></h4>
-        <div id="<?= $words[$i]['id'] ?>" class="answer text-center text-light  font-weight-bold"
-             style="font-size:16px">
-            <?= $words[$i]['var1'] ?>
-        </div>
-        <div class="text-center wrap-answer">
-            <input id="t_<?= $i ?>" class=" input_z text-center border-left-0 border-right-0 border-top-0 m-1"
-                   style="outline: none;font-size: 18px;" type="text" name="translate"
-                   size="<?= mb_strlen($words[$i]['var1']) ?>"
-                   value="<?= preg_replace('/\S/', '-', $words[$i]['var1']) ?>"/>
-        </div>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col-4"><?= yii::t('app', 'Progress') ?>: <span id="ready"><?= $count_ready ?></span>
+            of <?= $count_words_db ?></div>
+    </div>
+    <br>
+    <h3 class="text-center text-info"><?= yii::t('app', 'Enter translation:') ?></h3>
+    <br>
+    <?php for ($i = 0; $i < $quantity; $i++) { ?>
+        <div class="block_<?= $i ?>">
+            <h4 class="tr-word text-center"><? echo $words[$i]['word']; ?></h4>
+            <div id="<?= $words[$i]['id'] ?>" class="answer text-center text-light  font-weight-bold"
+                 style="font-size:16px">
+                <?= $words[$i]['var1'] ?>
+            </div>
+            <div class="text-center wrap-answer">
+                <input id="t_<?= $i ?>" class=" input_z text-center border-left-0 border-right-0 border-top-0 m-1"
+                       style="outline: none;font-size: 18px;" type="text" name="translate"
+                       size="<?= mb_strlen($words[$i]['var1']) ?>"
+                       value="<?= preg_replace('/\S/', '-', $words[$i]['var1']) ?>"/>
+            </div>
 
-        <br>
+            <br>
+        </div>
+    <? } ?>
+    <br>
+    <div class="text-center">
+        <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
+        <?= \yii\helpers\Html::button(yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_next2 btn-success', 'style' => 'margin:0 auto; display:none', 'name' => 'check']); ?>
     </div>
 <? } ?>
-<br>
-<div class="text-center">
-    <?= \yii\helpers\Html::button(yii::t('app', 'Check'), ['class' => 'btn btn-lg btn_check btn-primary', 'style' => 'margin:0 auto', 'name' => 'check']); ?>
-    <?= \yii\helpers\Html::button(yii::t('app', 'Next'), ['class' => 'btn btn-lg btn_next2 btn-success', 'style' => 'margin:0 auto; display:none', 'name' => 'check']); ?>
-</div>
-
 
 <style>
     input:hover, input:focus, {
