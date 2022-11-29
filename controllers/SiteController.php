@@ -315,9 +315,12 @@ class SiteController extends Controller
                 'timer8' => Yii::$app->params['timer8'],
                 'timer9' => Yii::$app->params['timer9'],
                 'show_btn_next' => Yii::$app->params['show_btn_next'],
+                'mixed_mode' => Yii::$app->params['mixed_mode'],
+                'mode_of_studies' => Yii::$app->params['mode_of_studies'],
                 'sourceWords' => 0
             ]);
         }
+     //  var_dump($model); return;
 
         if ($model->load(Yii::$app->request->post())) {
             if ($model->validate()) {

@@ -46,6 +46,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= $form->field($model, 'sourceWords')->checkbox([]) ?>
     <?= $form->field($model, 'show_btn_next')->checkbox([]) ?>
+    <?= $form->field($model, 'mixed_mode')->checkbox([]) ?>
+    <?= $form->field($model, 'mode_of_studies')->checkbox([]) ?>
 
     <div class="form-group form-vertical">
         <?= Html::submitButton(yii::t('app', 'btn_send'), ['class' => 'btn btn-primary btn-lg']) ?>
@@ -66,6 +68,8 @@ $t7 = YII::$app->params['timer7'];
 $t8 = YII::$app->params['timer8'];
 $t9 = YII::$app->params['timer9'];
 $show_btn_next = YII::$app->params['show_btn_next'];
+//$mixed_mode = YII::$app->params['mixed_mode'];
+//$mode_of_studies = YII::$app->params['mode_of_studies'];
 
 $this->registerJs("
 $('#default_value').click(function(){

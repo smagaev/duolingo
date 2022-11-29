@@ -43,7 +43,9 @@ return array (
     'level8' => '100 irregular verbs',
     'level9' => 'All irregular verbs',
     'All settings saved' => 'Все настройки сохранены',
-    'Something is wrong. Call to admin, please!' => 'Что то пошло не так. Обратитесь, пожалуйста, администратору'
+    'Something is wrong. Call to admin, please!' => 'Что то пошло не так. Обратитесь, пожалуйста, администратору',
+    'Mixed mode' => 'Смешанный режим изучения ( "ввод текста" и "click" )',
+    'Mode of studies' => 'Изучение только "click"',
 );
 
 ?>

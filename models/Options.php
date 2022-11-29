@@ -34,7 +34,7 @@ class Options extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['user_id', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'timer7', 'timer8', 'timer9', 'sourceWords', 'show_btn_next'], 'integer'],
+            [['user_id', 'timer1', 'timer2', 'timer3', 'timer4', 'timer5', 'timer6', 'timer7', 'timer8', 'timer9', 'sourceWords', 'show_btn_next', 'mixed_mode', 'mode_of_studies'], 'integer'],
         ];
     }
 

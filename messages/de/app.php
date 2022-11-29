@@ -43,7 +43,10 @@ return array(
     'level8' => '100 unregelmäßige Verben',
     'level9' => 'Alle unregelmäßigen Verben',
     'All settings saved' => 'Alle Einstellungen gespeichert!',
-    'Something is wrong. Message to admin, please!' => 'Something is wrong. Message to admin, please!'
+    'Something is wrong. Message to admin, please!' => 'Something is wrong. Message to admin, please!',
+    'Mixed mode' => 'Mischform  ( "Eingang" и "klicken" )',
+    'Mode of studies' => 'Mode "klicken"',
+    'Mode of studies' => 'Mode "klicken"',
 );
 
 ?>
