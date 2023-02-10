@@ -1063,7 +1063,7 @@ covered in mud                      :   покрыты грязью
 her date never arrived              :   ее кавалер так и не пришел
 are looking for a restaurant        :   ищут ресторан
 found out                           :   узнала
-salesperson                         :   продавщица
+salesperson                         :   продавец
 walk up                             :   подходит
 at the counter                      :   возле прилавка
 this is the way                     :   таким способом
@@ -1155,7 +1155,7 @@ holiday                             :   праздник
 celebrated                          :   отметил, отпраздновал
 abroad                              :   за рубежом
 ridden                              :   каталась
-skating                             :   танцевать
+skating                             :   катание на коньках
 both                                :   оба
 like skiting                        :   нравится кататься на коньках
 enjoy riding                        :   нравится кататься
@@ -1168,7 +1168,7 @@ routine                             :   распорядок дня
 to shop                             :   делать покупки
 go running                          :   ходим бегать
 arm                                 :   рука
-fast                                :   быстро
+fast                                :    быстро
 weaker                              :   слабее
 still                               :   все равно
 feet                                :   ступни
@@ -1983,6 +1983,7 @@ point at him                        :   укажи на него
 to collect                          :   собирать
 along the beach                     :   вдоль пляжа
 almost here                         :   почти здесь
+almost                              :   почти
 go away                             :   уходи
 I am not ready yet, so go away.     :   Я еще не готов, поэтому уходи!
 as soon as possible                 :   как можно скорее
@@ -2255,3 +2256,18 @@ dinosaur movie                      :   фильмы с динозаврами
 by watching                         :   посмотрев
 by studying                         :   изучая
 do the research                     :   искать информацию
+on their own                        :   самостоятльно
+She earns thrice as much as i do    :   Она зарабатывает в три раза больше меня
+think about darkness                :   подумать о мрачных и ужасных вещах
+darkness                            :   темнота
+went out                            :   гуляла
+to stay in bed                      :   лежать в кровати
+against the law                     :   противозаконна
+illegal                             :   нелегальна, противозаконна
+keep of the grass                   :   по траве не ходить
+I am getting off at the next station:   Я схожу на следующей станции
+I will find out who did it          :   Я выясню кто сделал это
+i will find out                     :   я выясню
+long story short                    :   короче
+turned out to be                    :   оказалась
+she turned out to be his wife       :   она оказалась его женой
