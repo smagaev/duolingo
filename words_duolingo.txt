@@ -60,7 +60,6 @@ lasted                              :    длилось
 is it true                          :    правда ли
 cries                               :    кричит
 each time                           :    каждый раз
-each time                           :    каждый раз
 diaper                              :    подгузник
 to poop                             :    какать
 to pee                              :    писать
@@ -2271,3 +2270,16 @@ i will find out                     :   я выясню
 long story short                    :   короче
 turned out to be                    :   оказалась
 she turned out to be his wife       :   она оказалась его женой
+she looked out the window           :   она смотрела в окно
+keep of the grass                   :   по газону не ходить
+This puts your health in danger.    :   Это ставит ваше здоровье в опасность
+depth                               :   глубина
+rich                                :   богатый
+It seems that hi is rich            :   Похоже что он богатый
+basket                              :   корзина
+kite                                :   воздушный змей
+Science is not perfect              :   Наука не совершенна.
+Is she happy? - Not quite           :   Она счастлива? Не вполне.
+Not quite                           :   Не вполне.
+I don't quite understand            :   Я не вполне понимаю.
+
