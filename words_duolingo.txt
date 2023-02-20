@@ -2278,8 +2278,31 @@ rich                                :   богатый
 It seems that hi is rich            :   Похоже что он богатый
 basket                              :   корзина
 kite                                :   воздушный змей
+knee                                :   колено
+knees                               :   колени
 Science is not perfect              :   Наука не совершенна.
 Is she happy? - Not quite           :   Она счастлива? Не вполне.
 Not quite                           :   Не вполне.
 I don't quite understand            :   Я не вполне понимаю.
-
+at ten at the latest                :   в 10 самое позднее
+as i grew older                     :   став старше
+grew up                             :   повзраслела
+She has grown up since last time    :   Она повзарслела с прошлого раза
+scientist                           :   ученый
+scientists                          :   ученые
+She did it with ease                :   Она делала это с легкостью
+They started eating                 :   Они начали есть
+This puts your health in danger     :   Это ставит важе здоровье в опасность.
+It is an excellent couple           :   Это отличная пара
+I respect the elderly people        :   Я уважаю старших
+Otherwise we will be alone          :   Иначе мы будем одни
+otherwise                           :   иначе
+hung out                            :   проводят время
+you can hung with cool people       :   ты можешь проводить время с классными людьми
+What's the total?                   :   Сколько с нас?
+preferences                         :   предпочтения
+I have no preferences               :   У меня нет предпочтений
+however                             :   тем не менее
+however much you want               :   сколько хочешь
+you eat however much you want       :   ты ешь сколько захочешь
+collar bones                        :   ключицы
