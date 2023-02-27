@@ -2315,6 +2315,6 @@ bears                               :   медведь
 golden eagle                        :   беркут
 Why do you care so much?            :   Почему ты переживаешь так сильно?
 It's easier to get a job            :   Легче получить работу
-you were only visiting              :   приедешь навестить
+you were only visiting              :   приедешь навестить ere
 
 
