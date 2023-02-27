@@ -2306,3 +2306,15 @@ however                             :   тем не менее
 however much you want               :   сколько хочешь
 you eat however much you want       :   ты ешь сколько захочешь
 collar bones                        :   ключицы
+Is your ear pierced?                :   Твое ухо проколото?
+We usually plants seeds in winter   :   Мы обычно сажаем семена в апреле
+customer service                    :   обслуживание клиентов
+mosquitoes                          :   комаров
+tiger                               :   тигр
+bears                               :   медведь
+golden eagle                        :   беркут
+Why do you care so much?            :   Почему ты переживаешь так сильно?
+It's easier to get a job            :   Легче получить работу
+you were only visiting              :   приедешь навестить
+
+
