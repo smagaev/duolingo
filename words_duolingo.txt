@@ -465,7 +465,8 @@ towels                              :   полотенца
 answering machine                   :   автоответчик
 washing machine                     :   стиральная машина
 even                                :   духовка
-spice vegetables dishes             :   пряные овощные блюда
+spicy vegetables dishes             :   пряные овощные блюда
+spicy                               :   пряный, острый
 knives                              :   ножи
 hook                                :   крючок
 set of instruments                  :   наборы инструментов
@@ -2316,5 +2317,7 @@ golden eagle                        :   беркут
 Why do you care so much?            :   Почему ты переживаешь так сильно?
 It's easier to get a job            :   Легче получить работу
 you were only visiting              :   приедешь навестить ere
-
-
+crossing                            :   перекресток
+Did they measure his weight.        :   Они измеряли его вес?
+meant                               :   означало
+I feel like seeing the city         :   Мне хочется видеть город
