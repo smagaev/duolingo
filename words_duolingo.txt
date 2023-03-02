@@ -520,6 +520,7 @@ shy                                 :   застенчивая
 safest                              :   самое безопасное
 kinder                              :   добрее
 cleaner                             :   более чистый
+cleaner house                       :   более чистый дом
 useful                              :   полезный
 to teach                            :   учить
 sharp                               :   tomorrow
@@ -648,6 +649,8 @@ chilly                              :   прохладно
 foggy                               :   облачно
 belongs                             :   принадлежит
 shook hands                         :   пожали руки
+constantly                          :   постоянно
+shake                               :   качать
 pretends                            :   притворяется, делает вид
 pulling                             :   тянет
 dropped                             :   уронили
@@ -858,7 +861,7 @@ impression                          :   впечатление
 celebrating                         :   празднуем
 disappointed                        :   разочарован
 afraid                              :   боюсь
-doubts                              :   сомневается
+doubt                               :   сомневаться
 worried                             :   обеспокоен
 wish                                :   желание
 fireworks                           :   фейерверк
@@ -2315,9 +2318,19 @@ tiger                               :   тигр
 bears                               :   медведь
 golden eagle                        :   беркут
 Why do you care so much?            :   Почему ты переживаешь так сильно?
-It's easier to get a job            :   Легче получить работу
-you were only visiting              :   приедешь навестить ere
+It's easier to get a job...         :   Легче получить работу...
+you were only visiting              :   приедешь навестить
 crossing                            :   перекресток
 Did they measure his weight.        :   Они измеряли его вес?
 meant                               :   означало
 I feel like seeing the city         :   Мне хочется видеть город
+inspired                            :   вдохновленный
+late at night                       :   поздно ночью
+helpful                             :   готовы помочь
+She admits acting unfairly.         :   Она признает, что поступает неправильно.
+He has already admitted being wrong!:   Он уже признал, что был неправ.
+Leave the city forever.             :   Покинь город навсегда.
+Come out, whoever you are!          :   Выходи, кто бы ты не был!
+Rome                                :   Рим
+
+
