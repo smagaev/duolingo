@@ -2339,7 +2339,7 @@ Leave the city forever.             :   Покинь город навсегда
 Come out, whoever you are!          :   Выходи, кто бы ты не был!
 Rome                                :   Рим
 don't be afraid                     :   не бойся
-Don't be arfaid of the new boss.    :   Не бойся нового босса.
+Don't be afraid of the new boss.    :   Не бойся нового босса.
 Smoking may cause high blood pressure :  Курение может быть причиной высокого кровяного давления.
 Drive the car however much you want :  Веди машину, сколько хочешь.
 however much you want               :  сколько хочешь
