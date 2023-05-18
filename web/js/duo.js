@@ -22,10 +22,13 @@ $('.my_btn').click(function () {
                 }
                 t1 = window.setTimeout(function () {
 
-                    $('.btn_sel').addClass('disabled')
+                    $('.btn_sel')
                         .removeClass('bg-success')
                         .removeClass('btn_sel')
                         .removeClass('btn_act')
+                        .removeClass('border-info')
+                        .addClass('border-secondary')
+                        .addClass('disabled')
                         .unbind();
 
                 }, 300);

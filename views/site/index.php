@@ -16,15 +16,15 @@ $quantity = count($words);
             $k = $i + 1;
             $id_rand = count($words);
             if ($level < 7) {
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
+                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-info" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->word . '</span></div>';
             } else {
-                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->meaning . '</span></div>';
+                $arr_eng[$i] = '<div id = ' . $n . ' class="btn btn-lg my_btn btn_act btn-default border-info" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span class="display" style="word-wrap:break-word">' . $words[$i]->meaning . '</span></div>';
             }
             $n++;
             if ($level < 7) {
-                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
+                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-info" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->var1 . '</span></div>';
             } else {
-                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-dark" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->form1 . '</span></div>';
+                $arr_tr[$i] = '<div id = ' . $n . '  class="btn btn-lg my_btn btn_act btn-default border-info" style="width:45%" data-i="' . $words[$i]->id . '" data-id="' . $k . '"><span style="word-wrap:break-word">' . $words[$i]->form1 . '</span></div>';
             }
             $n++;
         }
