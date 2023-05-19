@@ -3,6 +3,8 @@
 namespace app\controllers;
 
 use app\components\MyFunctions;
+use app\models\Rules;
+use app\models\rulesEnglish;
 use app\models\Verbs;
 use Yii;
 use yii\db\Expression;
@@ -429,5 +431,16 @@ class SiteController extends Controller
     function actionAbout()
     {
         return $this->render('about');
+    }
+
+    /**
+     * Display  English Rule
+     *
+     * @rule string example: http://duolingo/test?rule=the
+     */
+    public function actionTest(){
+        $rule = Yii::$app->request->get('rule');
+        $model = Rules::getRuleByName($rule);
+        echo $model->ruleText;
     }
 }
