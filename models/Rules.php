@@ -15,7 +15,7 @@ use yii\base\Model;
 class Rules extends Model
 {
     public $ruleName;
-    public $youtubeLink;
+    public $youtubeLinks;
     public $ruleImage;
     public $ruleText;
 
@@ -24,6 +24,22 @@ class Rules extends Model
         return [
             ['ruleName', required],
         ];
+    }
+
+    public function getYoutubeLinks(){
+        return $this->youtubeLink;
+    }
+
+    public function getRuleName(){
+        return $this->ruleName;
+    }
+
+    public function getRuleImage(){
+        return $this->ruleImage;
+    }
+
+    public function getRuleText(){
+        return $this->ruleText;
     }
 
     public static function getRuleByName($ruleName)
@@ -39,8 +55,9 @@ class Rules extends Model
         $ruleText = file_get_contents($path . $ruleName . ".php");
         preg_match_all('/Link:\s?\'?(\S*)[\'?]/i', $ruleText, $Links);
         preg_match_all('/<a.*?href=["\'](.*?)["\'].*?>/i', $ruleText, $Hrefs);
-        $model->youtubeLink = array_merge($Hrefs[1], $Links[1]);
-        $model->ruleText = preg_replace('/Link.*/i', '', $ruleText);
+        $model->youtubeLinks = array_merge($Hrefs[1], $Links[1]);
+        $model->ruleText = preg_replace('/Link:\s?\'?(\S*)[\'?]/i', '', $ruleText);
+        $model->ruleText = preg_replace('/<a.*?href=["\'](.*?)["\'].*?a>/i', '', $ruleText);
         return $model;
     }
 

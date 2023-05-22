@@ -436,11 +436,11 @@ class SiteController extends Controller
     /**
      * Display  English Rule
      *
-     * @rule string example: http://duolingo/test?rule=the
+     * @rule string example: http://duolingo/rule?rule=the
      */
-    public function actionTest(){
+    public function actionRule(){
         $rule = Yii::$app->request->get('rule');
         $model = Rules::getRuleByName($rule);
-
+        return $this->render ('rule', ['model' => $model]);
     }
 }
