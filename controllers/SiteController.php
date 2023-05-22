@@ -441,6 +441,6 @@ class SiteController extends Controller
     public function actionTest(){
         $rule = Yii::$app->request->get('rule');
         $model = Rules::getRuleByName($rule);
-        echo $model->ruleText;
+
     }
 }
