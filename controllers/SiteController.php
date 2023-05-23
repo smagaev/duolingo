@@ -443,4 +443,9 @@ class SiteController extends Controller
         $model = Rules::getRuleByName($rule);
         return $this->render ('rule', ['model' => $model]);
     }
+    public function actionRules(){
+        $namesRules = Rules::getNamesRules();
+        return $this->render ('rules', ['rules'=>$namesRules]);
+
+    }
 }

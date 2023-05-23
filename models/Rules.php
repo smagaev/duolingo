@@ -61,5 +61,22 @@ class Rules extends Model
         return $model;
     }
 
+    public static function getNamesRules(){
+        $found = array();
+        $i = 0;
+        $path = Yii::getAlias(dirname(__DIR__)) . "/web/englishRules/";
+        $dir = opendir( $path );
+        while( ($file = readdir($dir)) !== false ){
+               $file = explode( '.',$file);
+           if( $file [1] == "php"){
+               $found[$i] = $file[0];
+               $i++;
+           };
+        }
+        closedir($dir);
+        return $found;
+    }
+
+
 }
 
