@@ -509,6 +509,7 @@ round                               :   круглые
 musical                             :   музыкальный
 piece                               :   пьеса; кусок
 flat                                :   плоский; спущен
+flavor                              :   вкус
 simple                              :   просто
 strangest                           :   самый странный
 difficulties                        :   сложности
@@ -1201,6 +1202,7 @@ supplies                            :   товары
 dozen                               :   дюжин
 ex wife                             :   бывшая жена
 barely                              :   еле-еле
+bark                                :   лаять
 though                              :   хотя
 guess                               :   угадай
 someone                             :   кто-то
@@ -2109,6 +2111,10 @@ I am having fun                     :   Я веселюсь
 is probably no                      :   вероятнее всего нет
 It seems like                       :   кажется
 bunch                               :   куча
+novel                               :   роман
+have a bad effect on                :   плохо влияют
+made me feel                        :   заставляла мне чувствовать себя
+beverage menu                       :   барное меню
 social media team                   :   команда по соцсетям
 that's wy                           :   поэтому
 where only visiting for two days    :   приедешь навестить на два дня
