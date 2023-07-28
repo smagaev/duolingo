@@ -2359,3 +2359,16 @@ Don't be afraid of the new boss.    :   Не бойся нового босса.
 Smoking may cause high blood pressure :  Курение может быть причиной высокого кровяного давления.
 Drive the car however much you want :  Веди машину, сколько хочешь.
 however much you want               :  сколько хочешь
+honeymoon                           :  медовый месяц
+engaged                             :  обручен
+anniversary                         :  годовщина
+wedding anniversary                 :  годовщина свадьбы
+at the moment                       :  в настоящий момент
+to text her                         :  написайть ей
+vet                                 :  ветиринар
+horrible                            :  жуткий
+at her place                        :  у нее
+studied photography as well         :  тоже изучала фотографию
+find out                            :  узнать, выяснить
+had luck                            :  повезло
+British                             :  британец
