@@ -4,9 +4,9 @@ humid                               :    влажный
 sensitive                           :    чувствительный                            
 blind                               :    слепой
 to bathe                            :    купаться
-deaf                                :    мертвый                                   
+deaf                                :    мертвый
 on sick leave                       :    на больничном                                
-health insurance                    :    медицинская страховка                     
+health insurance                    :    медицинская страховка
 dolphin                             :    дельфин
 mole                                :    крот
 to ache                             :    болеть; ныть
@@ -916,7 +916,7 @@ don't be late                       :   не опаздывай
 surf                                :   заниматься серфингом
 bottle                              :   бутылка
 climbed                             :   залезли
-main                                :   главный
+main                                :   главный | основной
 romantic                            :   романтично
 enjoyed                             :   понравилось
 ending                              :   конец
@@ -1463,7 +1463,7 @@ wrinkles                            :   морщины
 eyebrow                             :   бровь
 waist                               :   талия
 jaw                                 :   челюсть
-scratched                           :   почесал
+scratched                           :   почесал | поцарапанный
 wound                               :   рана
 machine                             :   аппарат
 folder                              :   папка
@@ -1949,7 +1949,7 @@ speakers                            :   колонки
 brash                               :   расческа
 perfume                             :   духи
 more pleased                        :   довольнее
-pleased                             :   доволен
+pleased                             :   довольный | доволен
 I almost forgot the book.           :   Я почти забыл книгу
 resume                              :   резюме
 advanced level                      :   продвинутый уровень
