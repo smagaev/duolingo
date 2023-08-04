@@ -2393,3 +2393,13 @@ temperature                         :  температура
 Oops                                :  упс
 argue                               :  спорить
 the thing                           :  то что
+the thing i love about Spain        :  то что я люблю в Испании это ...
+in those days                       :  В те времена
+shake hands with the queen          :  пожимать руку королева
+so on                               :  так далее
+и так далее                         :  и так далее
+for just a second                   :  просто на секунду
+ask for coffee                      :  попроси кофе
+go in there                         :  зайти туда
+the average cost of                 :  средняя стоимость
+the think i dont like about Spain   :  то что мне не нравится в исании
