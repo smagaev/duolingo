@@ -2403,3 +2403,4 @@ ask for coffee                      :  попроси кофе
 go in there                         :  зайти туда
 the average cost of                 :  средняя стоимость
 the think i dont like about Spain   :  то что мне не нравится в исании
+i am not given back your clothes    :  я не верну твою одежду
