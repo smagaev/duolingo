@@ -558,7 +558,7 @@ getting order                       :   стареешь
 forgot                              :   забыла
 walks past                          :   проходит мимо
 witch someone                       :   с кем то
-not perfect                         :   не совершенна
+not perfect                         :   не совершенна; не идеальна
 perfect grade                       :   отличную оценку
 scooter                             :   скутер; мопед
 texting                             :   переписывалась
@@ -916,7 +916,7 @@ don't be late                       :   не опаздывай
 surf                                :   заниматься серфингом
 bottle                              :   бутылка
 climbed                             :   залезли
-main                                :   главный | основной
+main                                :   главный; основной
 romantic                            :   романтично
 enjoyed                             :   понравилось
 ending                              :   конец
@@ -1463,7 +1463,7 @@ wrinkles                            :   морщины
 eyebrow                             :   бровь
 waist                               :   талия
 jaw                                 :   челюсть
-scratched                           :   почесал | поцарапанный
+scratched                           :   почесал; поцарапанный
 wound                               :   рана
 machine                             :   аппарат
 folder                              :   папка
@@ -1949,7 +1949,7 @@ speakers                            :   колонки
 brash                               :   расческа
 perfume                             :   духи
 more pleased                        :   довольнее
-pleased                             :   довольный | доволен
+pleased                             :   довольный; доволен
 I almost forgot the book.           :   Я почти забыл книгу
 resume                              :   резюме
 advanced level                      :   продвинутый уровень
@@ -2397,10 +2397,87 @@ the thing i love about Spain        :  то что я люблю в Испани
 in those days                       :  В те времена
 shake hands with the queen          :  пожимать руку королева
 so on                               :  так далее
-и так далее                         :  и так далее
 for just a second                   :  просто на секунду
 ask for coffee                      :  попроси кофе
 go in there                         :  зайти туда
 the average cost of                 :  средняя стоимость
-the think i dont like about Spain   :  то что мне не нравится в исании
+the think i don't like about Spain  :  то что мне не нравится в исании
 i am not given back your clothes    :  я не верну твою одежду
+celebrity                           :  знаменитость
+retire                              :  уйти на пенсию
+out of                              :  из
+train                               :  тренироваться
+training                            :  обучение
+take exam                           :  сдавать экзамен
+next apartment                      :  соседняя квартира
+captain                             :  капитан
+article                             :  статья
+reporter                            :  репортер
+edit                                :  редактировать
+arrest                              :  арестовать
+graduation                          :  выпускной
+My car was stolen yesterday.        :  Моя машина была украдена вчера.
+I left my phone at her place.       :  Я забыл свой телефон у нее.
+check the box                       :  поставить галочку
+Why did you check the box here      :  Почему вы поставили галочку здесь.
+backache                            :  боль в спине
+earache                             :  боль в ушах
+get back                            :  вернуться
+aspirin                             :  аспирин
+instructions                        :  инструкция
+cut                                 :  порез
+sore                                :  болят
+to get better                       :  поправиться
+I just need to get better.          :  мне просто нужно поправиться
+flu                                 :  грипп
+tissues                             :  бумажные платочки
+up the road                         :  вверх по лестнице
+pharmacists                         :  фармацевты
+ouch                                :  ай
+ginger                              :  имбирь
+blood tests                         :  анализы крови
+as much as possible                 :  так сильно как возможно
+criminal                            :  преступник
+concert hall                        :  концертный зал
+patience                            :  терпение
+sheep                               :  овца
+closely                             :  внимательно; близко
+complicated                         :  сложно
+gently                              :  внимательно; нежно
+deeply                              :  глубоко
+shocked                             :  шокирован
+discover                            :  обнаруживать
+discovery                           :  открытие
+recent                              :  недавний
+recent event                        :  недавниее событие
+I was thinking of cooking in cafe   :  Я подумывала готовить в кафе
+The thing i like about Spain        :  То что мне нравится в Испании
+The thing i love most about Spain   :  То что я люблю больше всего в Испании
+On the subway in Russia             :  В метро в России
+In taxis                            :  В такси
+They shook hands                    :  Они пожали руки
+turn at a red light                 :  повернуть на красный свет
+frying pan                          :  сковорода
+What is this made from?             :  Из чего это делается?
+traditional                         :  традиционный
+pancakes                            :  блинчики
+this is called ...                  :  это называется ...
+Do you mind if                      :  Ты не против если
+is the best of all                  :  лучше всех остальных
+is the worst of all                 :  хуже всех остальных
+roll                                :  булочка
+bitter melon                        :  горький шоколад
+mixer                               :  миксер
+pumpkin pie                         :  тыквенный пирог
+pan                                 :  сковорода
+broccoli                            :  брокколи
+boil                                :  отварить
+lamb                                :  мясо ягненка
+juicier                             :  сочнее
+stew                                :  жаркое
+lettuce                             :  салат латука
+limes                               :  лаймы
+
+
+
+
