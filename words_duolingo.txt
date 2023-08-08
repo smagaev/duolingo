@@ -2477,7 +2477,51 @@ juicier                             :  сочнее
 stew                                :  жаркое
 lettuce                             :  салат латука
 limes                               :  лаймы
-
-
-
-
+i have had                          :  у меня было
+i only took one pills               :  я только приняла одну таблетку
+keep your feet warm                 :  держите ваши ноги в тепле
+follow her instructions             :  следуйте ее инструкции
+Will you please come                :  Прошу пойдем
+very true                           :  совершенно верно
+ma'am                               :  мэм
+public transportation               :  общественный транспорт
+pass                                :  проездной билет
+monthly                             :  месячный
+unattended                          :  без присмотра
+departure                           :  отправление
+braid                               :  коса
+maze                                :  лабиринт; путаница
+spin                                :  вращаться
+I wasn't paying attention for just  :  Я просто не обратил внимение
+just for a second                   :  всего на секунду
+damn                                :  проклятие
+I'm all clear for duty              :  Я готов к работе
+Anonymous tip came into dispatch    :  Анонимный отзыв пришел в рассылку
+prank                               :  розыгрыш
+armed                               :  вооруженный
+robbery                             :  ограбление
+stakeout                            :  засада
+bartender                           :  бармен
+masculine                           :  мужской
+He's got you under his spell        :  Он заколдовал тебя
+furnace                             :  печь; печка; топка
+zoom in                             :  увеличь
+The guards are in on it.            :  Охранники вовлечены в это.
+I must have ...                     :  Я должно быть ...
+Here you go.                        :  Ну вот.
+late afternoon                      :  поздний вечер
+You crooked bastards.               :  Кривые ублюдки.
+Who do you work for?                :  На кого вы работаете?
+What the hell?                      :  Какого черта?
+crew                                :  экипаж; команда
+claim                               :  требовать
+announcement                        :  объявление
+due                                 :  ожидается
+inspire                             :  вдохновлять
+What do you got                     :  Что у тебя?
+past                                :  прошлое
+accuse                              :  обвинять
+bilk                                :  обманывать
+charges                             :  обвинения
+heist                               :  ограбление
+Get the hell out of here.           :  Вали отсюда.
