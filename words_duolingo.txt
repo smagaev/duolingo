@@ -2525,3 +2525,12 @@ bilk                                :  обманывать
 charges                             :  обвинения
 heist                               :  ограбление
 Get the hell out of here.           :  Вали отсюда.
+It's no wonder!                     :  Не удивительно!
+Nope!                               :  Неа!
+Sorry to bother you                 :  Извините что беспокою
+I don't care!                       :  Мне всеравно!
+envy                                :  завидовать
+scold                               :  ругать; отчитывать
+it slipped my mind                  :  вылетело из головы
+Be that as it may                   :  Как бы там не было
+around the clock                    :  постоянно, 24 часа в сутки
