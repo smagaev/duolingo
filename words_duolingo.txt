@@ -737,7 +737,7 @@ at the time                         :   в то время
 type                                :   печатать
 named                               :   по имени
 we spent day taking                 :   мы разговаривали целыми днями
-difficult                           :   затруднено
+difficult                           :   сложно; затруднено
 impossible                          :   невозможно
 six cylinder engine                 :   шестицилиндровый двигатель
 replacements for wheels             :   замена колес
@@ -2534,3 +2534,15 @@ scold                               :  ругать; отчитывать
 it slipped my mind                  :  вылетело из головы
 Be that as it may                   :  Как бы там не было
 around the clock                    :  постоянно, 24 часа в сутки
+public transportation               :  общественный транспорт
+passes                              :  проездные билеты
+ticket machine                      :  автомат по продаже билетов
+ma'am                               :  мэм
+Um                                  :  Эм
+just now                            :  только что
+battle                              :  битва
+ancient                             :  древний
+good time                           :  подходящее время
+
+
+
