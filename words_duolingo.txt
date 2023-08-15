@@ -2553,9 +2553,11 @@ tourist information center
 over there                          :  вон там
 huh
 lovely
+branch                              :  ветка; филиал
 over here                           :  здесь
 foreigner                           :  иностранец
 opportunity                         :
 signature                           :  подпись
 feel sad                            :  грустить
 You may not understand              :  вы возможно не поймете
+come over for dinner                :  зайдет в гости на ужин
