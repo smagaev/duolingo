@@ -2561,3 +2561,9 @@ signature                           :  подпись
 feel sad                            :  грустить
 You may not understand              :  вы возможно не поймете
 come over for dinner                :  зайдет в гости на ужин
+The office may not be open tomorrow :  Офис, возможно, не будет закрыт завтра.
+scuba dive                          :  поплавать с аквалангом
+Texes                               :  техас
+caviar                              :  икра
+rodeo                               :  родео
+glacier                             :  ледник
