@@ -2549,14 +2549,14 @@ became selling                      :  начал продавать
 battle                              :  битва
 city hall                           :  мэрия
 kids have began to play             :  дети начали играть
-tourist information center
+tourist information center          :  туристическй информационный центр
 over there                          :  вон там
-huh
-lovely
+huh                                 :  хм
+lovely                              :  красивый; милый;
 branch                              :  ветка; филиал
 over here                           :  здесь
 foreigner                           :  иностранец
-opportunity                         :
+opportunity                         :  возможность
 signature                           :  подпись
 feel sad                            :  грустить
 You may not understand              :  вы возможно не поймете
@@ -2567,3 +2567,5 @@ Texes                               :  техас
 caviar                              :  икра
 rodeo                               :  родео
 glacier                             :  ледник
+That branch may close this summer.  :  Тот филиал, возможно, закроется этим летом.
+spam                                :  спам
