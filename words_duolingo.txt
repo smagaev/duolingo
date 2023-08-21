@@ -2555,7 +2555,7 @@ huh                                 :  хм
 lovely                              :  красивый; милый;
 branch                              :  ветка; филиал
 over here                           :  здесь
-foreigner                           :  иностранец
+foreigner                           :  git
 opportunity                         :  возможность
 signature                           :  подпись
 feel sad                            :  грустить
