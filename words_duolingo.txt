@@ -1199,7 +1199,7 @@ i bet                               :   спорим
 bеfore                              :   раньше
 wow                                 :   уx ты
 supplies                            :   товары
-dozen                               :   дюжин
+dozen                               :   дюжина
 ex wife                             :   бывшая жена
 barely                              :   еле-еле
 bark                                :   лаять
@@ -2569,3 +2569,56 @@ rodeo                               :  родео
 glacier                             :  ледник
 That branch may close this summer.  :  Тот филиал, возможно, закроется этим летом.
 spam                                :  спам
+Texac                               :  Техас
+pier                                :  пирс
+Alaska                              :  аляска
+polar                               :  полярный
+possibly                            :  возможно
+mop                                 :  швабра
+cruise                              :  круиз
+cupboard                            :  шкаф
+cactus                              :  кактус
+scuba dive                          :  плавать с аквалангом
+euros                               :  евро
+pairs of pants                      :  штанов
+stain                               :  пятно
+credit                              :  кредит
+on credit                           :  в кредит
+inexpensive                         :  недорогой
+afford                              :  позволить себе
+piece of furniture                  :  предмет мебели
+all of our meat                     :  все наше мясо
+cashier                             :  кассир
+checkout                            :  касса
+at the checkout                     :  на кассе
+angrily                             :  сердито
+remote control                      :  пульт управления
+electronics store                   :  магазин електроники
+bargains                            :  выгодные покупки
+wallpaper                           :  обои
+glue                                :  клей
+produce                             :  производить
+tablet                              :  планшет
+on my profile                       :  в мой профиль
+login                               :  имя пользователя
+We're just starting to cook         :  Мы как раз начинаем готовить
+plug                                :  включить в розетку
+plug in the TV                      :  включить в розетку телевизор
+just starting to cook               :  начинаем готовить
+didn't plug it in                   :  не включил его в розетку
+might                               :  возможно
+enjoy myself                        :  хорошо проводить время
+fishing rod                         :  удочка
+bug                                 :  жук
+jar                                 :  банка
+tent                                :  палатка
+to the wallpaper                    :  на обои
+CD                                  :  диск
+ruined                              :  испорчен
+He will have on his funny hat.      :  Он будет в своей забавной шляпе
+fires                               :  Плата за проезд
+bus fires                           :  Плата за проезд на автобусе
+outside the office                  :  Возле оффиса
+in nature                           :  на природе
+I enjoy myself                      :  Я хорошо провожу время
+she already had on her shoes        :  она уже была в своих туфлях
