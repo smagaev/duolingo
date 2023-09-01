@@ -2374,7 +2374,7 @@ find out                            :  узнать, выяснить
 had luck                            :  повезло
 British                             :  британец
 apply                               :  претендовать
-attend                              :  присутсвовать
+attend                              :  присутсвовать на; посещать
 invent                              :  изобретать
 complete                            :  оформлять
 elementary school                   :  начальная школа
@@ -2622,3 +2622,12 @@ outside the office                  :  Возле оффиса
 in nature                           :  на природе
 I enjoy myself                      :  Я хорошо провожу время
 she already had on her shoes        :  она уже была в своих туфлях
+lecture                             :  лекция
+laboratory                          :  лаборатория
+dinning hall                        :  столовая
+pick                                :  выбирать
+research                            :  исследование; научная работа
+dorm                                :  общежитие
+written essay                       :  письменное сочинение
+tuna                                :  тунец
+ingredient                          :  инградиент
