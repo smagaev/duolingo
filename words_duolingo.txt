@@ -2631,3 +2631,25 @@ dorm                                :  общежитие
 written essay                       :  письменное сочинение
 tuna                                :  тунец
 ingredient                          :  инградиент
+flavor                              :  вкус
+different from                      :  отличаться от
+take out                            :  выносить
+to date                             :  встречаться
+how's it going                      :  как дела
+timely                              :  своевренный
+left all the meat                   :  оставила все мясо
+dated the actor                     :  встречалась с актером
+keep quiet                          :  веди себя тихо
+The Smiths                          :  Семья Смитов
+half her dessert                    :  половину дессерта
+outgoing                            :  общительный
+chapter                             :  глава
+similar                             :  похожий
+underline                           :  подчеркнуть
+confusing                           :  непонятный
+put the blanket over the cat        :  накрой одеялом кота
+make friends with                   :  стать другом с
+beside me                           :  рядом со мной
+he is doing yoga for the first time :  он занимается йогой первый раз
+yoga                                :  йога
+I found out about her by reading ...:  Я узнал о ней читая ...
