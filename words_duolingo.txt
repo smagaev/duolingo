@@ -944,7 +944,7 @@ cereal                              :   хлопья
 bowl of cereal                      :   тарелка хлопьев
 have juice for dinner               :   выпить сок на ужин
 vegetarian                          :   вегетарианец
-honey                               :   мед
+honey                               :   мед; дорогой
 healthy                             :   полезен
 tomato                              :   помидор
 potato                              :   картошка
@@ -2653,3 +2653,38 @@ beside me                           :  рядом со мной
 he is doing yoga for the first time :  он занимается йогой первый раз
 yoga                                :  йога
 I found out about her by reading ...:  Я узнал о ней читая ...
+housework                           :  работа по дому
+dust                                :  пыль
+makes me                            :  заставляет меня
+dislike                             :  ненравится
+clean up                            :  прибираться
+neat                                :  акуратный; в чистоте
+mop the floor                       :  мыть пол
+wacuum the floor                    :  пылесосить пол
+spilled                             :  пролитый
+pot                                 :  кастрюля
+I am applying for                   :  я подаю заявку
+most of my life                     :  большую часть моей жизни
+assignment                          :  задание
+weird                               :  странный
+engineering                         :  инженерия
+icy                                 :  обледенелый
+thunder                             :  гром
+figure                              :  цифра
+agenda                              :  повестка
+a couple of questions               :  пара
+hopefully                           :  я надеюсь
+neater                              :  акуратнее
+don't make me clean up the shower   :  не заставляй меня убирать душ
+do laundry                          :  стирать
+doing the dishes                    :  мыть посуду
+to do things                        :  делать что то
+get together                        :  собираться вместе
+He's a coworker of mine             :  Он мой коллега
+Ben with curly hair?                :  Бен с кудрявыми волосами?
+bald                                :  лысый
+hang out                            :  проводить время вместе
+give up                             :  бросить, отказаться
+It's a shame                        :  жалко
+I love to give him a hug            :  Мне нравится его обнимать
+charger                             :  зарядка
