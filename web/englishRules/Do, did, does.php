@@ -12,7 +12,7 @@
         <h2> Правила <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span> в английском языке
         </h2>
         <p></p>
-        <h3><span class="word-wrapper">DOES</span> или <span class="word-wrapper">DO</span>: правило грамотного выбора
+        <h3 class="text-center mb-4"><span class="word-wrapper">DOES</span> или <span class="word-wrapper">DO</span>: правило грамотного выбора
         </h3>
         <p> В английской речи глаголы <span class="word-wrapper">do</span> и <span class="word-wrapper">does</span>
             встречаются буквально на каждом шагу. Давайте посмотрим, когда употребляются <span
@@ -75,7 +75,7 @@
             идет о <span class="word-wrapper">he</span>/<span class="word-wrapper">she</span>/<span
                     class="word-wrapper">it</span> <span class="word-wrapper">(3</span> лицо единственного числа),
             используется <span class="word-wrapper">does</span>. Как это происходит, мы сейчас посмотрим. </p>
-        <h3> Вопрос с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
+        <h3 class="text-center mb-4"> Вопрос с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
         <p> При образовании вопросительного
                 предложения мы ставим <span class="word-wrapper">do</span> или <span
                     class="word-wrapper">does</span> на первое место в предложении: </p>
@@ -99,7 +99,7 @@
                         class="word-wrapper">Margaret</span> <span class="word-wrapper">live</span> <span
                         class="word-wrapper">in</span> the <span class="word-wrapper">city</span>? (Маргарет живет в
                 городе?) </em></p>
-        <h3> Специальный вопрос с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
+        <h3 class="text-center mb-4"> Специальный вопрос с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
         <p> В вопросах, которые начинаются со слов <span class="word-wrapper">what</span>, <span class="word-wrapper">where</span>,
             <span class="word-wrapper">when</span>, <span class="word-wrapper">why</span> и т. п. (такой вопрос называют
             специальным), в <span class="word-wrapper">Present</span> <span class="word-wrapper">Simple</span> также
@@ -132,7 +132,7 @@
         <p> В данном случае <span class="word-wrapper">does</span> ничем не отличается от любого другого глагола
             действия — <span class="word-wrapper">eat</span>, <span class="word-wrapper">dance</span>, <span
                     class="word-wrapper">play</span> и т. д. </p>
-        <h3> Отрицание с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
+        <h3 class="text-center mb-4"> Отрицание с <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span></h3>
         <p> При образовании отрицания
             мы добавляем к <span class="word-wrapper">do</span>/<span class="word-wrapper">does</span> отрицательную
             частицу <span class="word-wrapper">not</span>: </p>
@@ -165,7 +165,7 @@
         <p><em> <span class="word-wrapper">Jack</span> <span class="word-wrapper">doesn’t</span> <span
                         class="word-wrapper">like</span> <span class="word-wrapper">cucumbers</span>. <br> Джек не любит
                 огурцы. </em></p>
-        <h3> Глагол <span class="word-wrapper">did</span>. Когда ставится, что означает, и зачем он нужен в предложении
+        <h3 class="text-center mb-4"> Глагол <span class="word-wrapper">did</span>. Когда ставится, что означает, и зачем он нужен в предложении
         </h3>
         <p><span class="word-wrapper">Do</span> — неправильный глагол. Как у любого неправильного глагола, у него есть
             три формы, которые нужно знать наизусть: </p>
@@ -195,7 +195,7 @@
         <p><em> <span class="word-wrapper">Did</span> <span class="word-wrapper">your</span> <span class="word-wrapper">friend</span>
                 <span class="word-wrapper">call</span> <span class="word-wrapper">you</span>? <br> Твой друг звонил
                 тебе? </em></p>
-        <h3> Можно ли в одном предложении дважды использовать <span class="word-wrapper">do</span>? </h3>
+        <h3 class="text-center mb-4"> Можно ли в одном предложении дважды использовать <span class="word-wrapper">do</span>? </h3>
         <p> В одном предложении глагол <span class="word-wrapper">do</span> может встречаться два раза — и в качестве
             смыслового глагола в значении «делать», и в качестве вспомогательного (в вопросах и отрицаниях группы времен
             <span class="word-wrapper">Simple).</span></p>
@@ -220,7 +220,7 @@
         <p> К предложениям такого типа относится и часто употребляемый вопрос: </p>
         <p><em> <span class="word-wrapper">What</span> <span class="word-wrapper">do</span> <span class="word-wrapper">you</span>
                 <span class="word-wrapper">do</span>? <br> Чем ты занимаешься? / Кем ты работаешь? </em></p>
-        <h3> Почему с одним и тем же словом иногда может употребляться <span class="word-wrapper">do</span>, а иногда —
+        <h3 class="text-center mb-4"> Почему с одним и тем же словом иногда может употребляться <span class="word-wrapper">do</span>, а иногда —
             <span class="word-wrapper">does</span>? </h3>
         <p> Интересна ситуация с коллективными (собирательными) существительными. Коллективные существительные
             номинально имеют форму единственного числа, но подразумевают группу людей. Например: <span
@@ -258,7 +258,7 @@
                         class="word-wrapper">very</span> <span class="word-wrapper">well</span>. </em> (<span
                     class="word-wrapper">Am</span>. <span class="word-wrapper">Eng.)</span> <br> <em> Фирма
                 преуспевает. </em></p>
-        <h3><span class="word-wrapper">Do</span> в значении «не так ли» </h3>
+        <h3 class="text-center mb-4"><span class="word-wrapper">Do</span> в значении «не так ли» </h3>
         <p> Глаголы <span class="word-wrapper">do</span>/<span class="word-wrapper">did</span>/<span
                     class="word-wrapper">does</span>, когда употребляются в вопросах с «хвостиком»,
             переводятся как «не так ли». </p>
@@ -298,7 +298,7 @@
         <p> В данном случае мы образовали «хвостик» с помощью положительной формы <span class="word-wrapper">did</span>,
             так как основное предложение имеет отрицательный смысл благодаря слову-маркеру <span class="word-wrapper">never</span>
             — никогда. </p>
-        <h3><span class="word-wrapper">Do</span> как заменитель глагола действия </h3>
+        <h3 class="text-center mb-4"><span class="word-wrapper">Do</span> как заменитель глагола действия </h3>
         <p> В некоторых случаях <span class="word-wrapper">do</span> появляется, казалось бы, совсем непонятно почему.
             Посмотрим на такой мини-диалог: </p>
         <p><em> — <span class="word-wrapper">I</span> <span class="word-wrapper">eat</span> <span class="word-wrapper">porridge</span>
@@ -315,7 +315,7 @@
         <p> Перевести в данном значении <span class="word-wrapper">do</span> мы можем по-разному: «Правда?», «Неужели?»,
             «Серьезно?» «В самом деле?» — в зависимости от интонации и контекста. Но никак не «Ты делаешь?» или
             что-нибудь подобное. </p>
-        <h3> Когда <span class="word-wrapper">do</span>, <span class="word-wrapper">did</span>, <span
+        <h3 class="text-center mb-4"> Когда <span class="word-wrapper">do</span>, <span class="word-wrapper">did</span>, <span
                     class="word-wrapper">does</span> употребляются для усиления значения </h3>
         <p><span class="word-wrapper">Do</span> (<span class="word-wrapper">did</span>/<span
                     class="word-wrapper">does</span>) в качестве вспомогательного глагола может появляться не только в
@@ -332,7 +332,7 @@
                         class="word-wrapper">night</span>! <span class="word-wrapper">Ask</span> <span
                         class="word-wrapper">him</span>! <br> Я на самом деле видел твоего брата накануне вечером!
                 Спроси его! </em></p>
-        <h3> Распространенные ошибки с <span class="word-wrapper">do</span></h3>
+        <h3 class="text-center mb-4"> Распространенные ошибки с <span class="word-wrapper">do</span></h3>
         <p> Люди часто путают значения некоторых вопросов с <span class="word-wrapper">do</span> и попадают из-за этого
             в смешные ситуации. Например: </p>
         <p><em> <span class="word-wrapper">What</span> <span class="word-wrapper">do</span> <span class="word-wrapper">you</span>
@@ -353,7 +353,7 @@
                     class="word-wrapper">you</span> <span class="word-wrapper">do?»</span> на самом деле и не вопрос
             вовсе, а всего лишь вежливое приветствие, услышав которое, ни в коем случае не нужно рассказывать о своих
             делах — с вами поздоровались, ответьте тем же! </p>
-        <h3> Выражения с <span class="word-wrapper">do</span>, которые переводятся без «делать» </h3>
+        <h3 class="text-center mb-4"> Выражения с <span class="word-wrapper">do</span>, которые переводятся без «делать» </h3>
         <p> Существует целый ряд выражений с <span class="word-wrapper">do</span> (или <span
                     class="word-wrapper">does</span>, или <span class="word-wrapper">did),</span> где <span
                     class="word-wrapper">do</span> является смысловым глаголом, и тем не менее не переводится как
