@@ -1198,7 +1198,7 @@ hey                                 :   слушай
 i bet                               :   спорим
 bеfore                              :   раньше
 wow                                 :   уx ты
-supplies                            :   товары; материаллы
+supplies                            :   товары
 dozen                               :   дюжина
 ex wife                             :   бывшая жена
 barely                              :   еле-еле
@@ -1402,7 +1402,7 @@ announcement                        :   объявление
 house party                         :   домашняя вечеринка
 come over                           :   прийти в гости
 mansion                             :   особняк
-that's so mean                      :   это так грубо
+that's so men                       :   это так грубо
 hole                                :   дыра
 drums                               :   барабаны
 concentrate                         :   сосредоточиться
@@ -1847,7 +1847,7 @@ garage sale                         :   гаражная распродажа
 Sorry, these toys hers now.         :   Прости, эти игрушки ее сейчас.
 guitar case                         :   чехол для гитары
 violin case                         :   чехол для скрипки
-comb                                :   гребень; расчесать
+comb                                :   гребень
 earrings                            :   сережки
 Who will pay water bill?            :   Кто оплатит счет за воду?
 We won't be friends anymore.        :   Мы больше не будем друзьями.
@@ -2653,67 +2653,3 @@ beside me                           :  рядом со мной
 he is doing yoga for the first time :  он занимается йогой первый раз
 yoga                                :  йога
 I found out about her by reading ...:  Я узнал о ней читая ...
-housework                           :  работа по дому
-dust                                :  пыль
-makes me                            :  заставляет меня
-dislike                             :  ненравится
-clean up                            :  прибираться
-neat                                :  аккуратный; в чистоте
-mop the floor                       :  мыть пол
-wacuum the floor                    :  пылесосить пол
-spilled                             :  пролитый
-pot                                 :  кастрюля
-I am applying for                   :  я подаю заявку
-most of my life                     :  большую часть моей жизни
-assignment                          :  задание
-weird                               :  странный
-engineering                         :  инженерия
-icy                                 :  обледенелый
-thunder                             :  гром
-figure                              :  цифра
-agenda                              :  повестка
-a couple of questions               :  пара
-hopefully                           :  я надеюсь
-neater                              :  аккуратнее
-don't make me clean up the shower   :  не заставляй меня убирать душ
-do laundry                          :  стирать
-doing the dishes                    :  мыть посуду
-to do things                        :  делать что то
-get together                        :  собираться вместе
-He's a coworker of mine             :  Он мой коллега
-Ben with curly hair?                :  Бен с кудрявыми волосами?
-bald                                :  лысый
-hang out                            :  проводить время вместе
-give up                             :  бросить, отказаться
-It's a shame                        :  жалко
-I love to give him a hug            :  Мне нравится его обнимать
-charger                             :  зарядка
-an unusual charge                   :  необычное списание
-Hooray!                             :  Ура!
-exhausted                           :  очень устала, истощена
-sore throat                         :  болит горло
-clinic                              :  больница
-badly                               :  очень сильно
-bleed                               :  течет кровь
-My mom's taking care of her.        :  Моя мама заботится о ней.
-medicine bottles                    :  медецинские бутылки
-Are these your toys or your mom's?  :  Это твои игрушки или мамы?
-Are you still in contact with him?  :  Ты еще контактируеш с ним?
-That bag is lisa's.                 :  Это сумка Лизы.
-not really                          :  не совсем
-We always enjoy visits from them.   :  Мы всегда радуемся их визитам.
-issues                              :  проблемы
-none of my friends                  :  ни один из моих друзей
-none of                             :  не; ни один; никакие
-by accident                         :  случайно
-type                                :  тип; печатать; разновидность
-reply                               :  отвечать
-i don't completely agree            :  я не совсем согласен
-attachment                          :  приложение
-in general                          :  в основном
-I'm in a lot of pain.               :  Мне очень больно.
-is bleeding                         :  в крови
-come for visit                      :  придти в гости
-except that                         :  кроме этого
-post                                :  после; пост; выложу
-You were mean to me first!          :  Ты первая мне нагрубила.
