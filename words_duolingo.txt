@@ -2653,3 +2653,25 @@ beside me                           :  рядом со мной
 he is doing yoga for the first time :  он занимается йогой первый раз
 yoga                                :  йога
 I found out about her by reading ...:  Я узнал о ней читая ...
+That bag is lisa's.                 :  Это сумка Лизы.
+not really                          :  не совсем
+We always enjoy visits from them.   :  Мы всегда радуемся их визитам.
+issues                              :  проблемы
+none of my friends                  :  ни один из моих друзей
+none of                             :  не; ни один; никакие
+by accident                         :  случайно
+type                                :  тип; печатать; разновидность
+reply                               :  отвечать
+i don't completely agree            :  я не совсем согласен
+attachment                          :  приложение
+in general                          :  в основном
+I'm in a lot of pain.               :  Мне очень больно.
+is bleeding                         :  в крови
+come for visit                      :  придти в гости
+except that                         :  кроме этого
+post                                :  после; пост; выложу
+You were mean to me first!          :  Ты первая мне нагрубила.
+fee                                 :
+transportation                      :
+check in                            :
+gets in                             :
